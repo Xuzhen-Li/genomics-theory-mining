@@ -1568,3 +1568,455 @@ What we will not claim: that grape clones
   filled).
 ```
 
+---
+
+## Haldane cost of selection (mutation load / cost of substitution)
+
+```
+Theory: Haldane cost of selection (cost of substitution)
+Original paper (year): Haldane JBS. 1957. The cost of natural
+  selection. Journal of Genetics 55:511-524.
+  DOI 10.1007/BF02984069. IAS Journal of Genetics page locked:
+  https://www.ias.ac.in/article/fulltext/jgen/055/03/0511-0524
+  Summary: unless selection is very intense, the number of deaths
+  needed to substitute one gene for another is independent of the
+  intensity of selection and is often about 30 times the number of
+  organisms in a generation.
+  Distinct from filled Haldane 1922 (heterogametic hybrid sterility).
+  Distinct from dropped Kondrashov 1988 and filled Maynard Smith
+  1978 (costs of sex / males).
+One-sentence prediction: Substituting one allele for another by
+  selection requires a large number of selective deaths (or lost
+  fertility), so many loci cannot be substituted at once.
+Assumptions: a sexual (or equivalent) population substituting
+  alleles; generations of parents and offspring; the cost is
+  counted over the substitution, not over a cutting.
+Which fail here: this does not map onto grafted clones. A cultivar
+  panel is not a substituting sexual population. Cuttings skip
+  the substitution. Nursery selection on sports is not Haldane
+  cost. Dual domestication is human choice, not horotelic
+  substitution at thousands of loci.
+Modern data / statistic: none that tests Haldane 1957 in grape.
+  Wild-to-cultivar substitutions on Dong-class WGS, if scored,
+  are not the cost experiment.
+What would falsify it: not applicable as a grape test. The note
+  is filled as "does not map onto grafted clones" rather than as
+  an invented cost-of-selection experiment.
+What we will not claim: that Dong 2023 measured Haldane cost.
+  That this note replaces Haldane 1922 (different job). That a
+  grape mutation-load paper is locked (none was).
+```
+
+---
+
+## Inbreeding depression
+
+```
+Theory: Inbreeding depression
+Original paper (year): Darwin CR. 1876. The effects of cross
+  and self fertilisation in the vegetable kingdom. London: John
+  Murray. Book. viii + 482 pp. (Freeman F1249; darwin-online
+  bibliographic record locked). Crossed progeny exceeded selfed
+  progeny in height and fertility in the tabulated genera.
+  Charlesworth and Charlesworth reviews are not the source.
+One-sentence prediction: Offspring of self-fertilisation (or
+  close inbreeding) are less vigorous or less fertile than
+  offspring of a cross, when both are grown in the same garden.
+Assumptions: a self-versus-cross contrast in sexual plants;
+  fitness is scored on progeny, not on a chimeric shoot;
+  standing heterozygosity in a clone is not the experiment.
+Which fail here: grafted cultivars are not a self-vs-cross
+  trial. Standing heterozygosity in clones is not inbreeding
+  depression (that is why overdominance was not filled). Roach
+  2018 ancestral inbreeding in Chardonnay is a pedigree fact,
+  not a Darwin garden test. Nursery cuttings skip meiosis.
+Modern data / statistic: fitness or vigor of selfed versus
+  outcrossed seedlings after clone / IBD filters, not clone-
+  private heterozygosity.
+Caution dataset: Roach et al. 2018 PLoS Genet 14(11):e1007807
+  (DOI 10.1371/journal.pgen.1007807). Ancestral inbreeding in
+  Chardonnay. Use as CAUTION, not as a depression proof. Do
+  not invent a grape selfing-depression paper.
+What would falsify it: selfed / inbred seedlings are not less
+  fit than outcrossed seedlings after clone / IBD filters, OR
+  clone heterozygosity is treated as the Darwin test (it is
+  not).
+What we will not claim: that Roach 2018 measured inbreeding
+  depression. That standing clone heterozygosity is overdominance
+  (that door item stays dropped).
+```
+
+---
+
+## Infinitesimal / polygenic
+
+```
+Theory: Infinitesimal / polygenic inheritance
+Original paper (year): Fisher RA. 1918. The correlation
+  between relatives on the supposition of Mendelian
+  inheritance. Transactions of the Royal Society of Edinburgh
+  52:399-433. DOI 10.1017/S0080456800012163. Paper read 1918;
+  volume imprint on the Cambridge Core landing is 1919
+  (Earth and Environmental Science Transactions of The Royal
+  Society of Edinburgh 52(2):399-433). Lock the venue as the
+  1918 Transactions paper. Names variance and partitions it
+  among Mendelian causes.
+  Distinct from Fisher 1930 book (geometric model; book locked,
+  geometric page not locked this wave and not filled).
+One-sentence prediction: A continuously varying trait is the
+  sum of many Mendelian loci of small effect plus environment;
+  relatives correlate in proportion to shared Mendelian variance.
+Assumptions: many loci, each small; a sexual pedigree; the
+  trait is not one or a few large-effect substitutions;
+  clones and first-degree cuttings are not the relatives.
+Which fail here: berry color, hermaphroditism, and muscat /
+  flavor in grape are large-effect domestication loci (Dong
+  2023). A cultivar panel is not a Fisher pedigree. Clone IBD
+  fakes a polygenic correlation.
+Modern data / statistic: number and effect-size of loci for
+  a domestication trait after clone + IBD filters, versus an
+  infinitesimal (many small) expectation.
+Caution dataset: Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655). Color / sex / flavor peaks.
+  Use as the large-effect contrast, not as a published
+  infinitesimal test. Do not invent a grape GCTA paper.
+What would falsify it: a candidate domestication trait is
+  explained by one or a few large-effect loci (infinitesimal
+  dies for that trait). If many small loci remain after clone
+  + IBD filters, the single-gene claim dies.
+What we will not claim: that Dong 2023 estimated SNP
+  heritability. That this note is Fisher's 1930 geometric
+  model (not filled). That VviAGL11 is the sex-locus test
+  (SDR H1/H2 is).
+```
+
+---
+
+## Genetic assimilation
+
+```
+Theory: Genetic assimilation
+Original paper (year): Waddington CH. 1953. Genetic
+  assimilation of an acquired character. Evolution 7(2):118-126
+  (June 1953). JSTOR 2405747. JSTOR scan opened (author,
+  title, volume, issue, pages, year). Crossveinless, first a
+  heat-shock phenocopy, appeared without the shock after
+  selection. Waddington 1942 Nature 150:563 is the canalisation
+  note, not this experiment. Waddington 1952 Nature 169:278
+  is the preliminary account, not the full paper.
+One-sentence prediction: Selection on an environmentally
+  induced phenotype canalises development so the phenotype
+  appears in the ancestral environment without the inducing
+  shock.
+Assumptions: many sexual generations of selection on the
+  induced phenotype; the trait starts as a phenocopy; the
+  later constitutive state is genetic, not a lingering shock.
+Which fail here: this does not map onto grafted clones.
+  Cuttings skip the multi-generation sexual selection
+  Waddington used. A nursery sport is not a phenocopy that
+  was assimilated. Plastic berry / leaf traits without a
+  selection experiment are not assimilation.
+Modern data / statistic: none that tests Waddington 1953
+  in grape. A heat / drought phenocopy that becomes
+  constitutive after seedling selection would be the
+  dataset type; no such grape paper is locked.
+What would falsify it: not applicable as a grape clone
+  test. The note is filled as "does not map onto grafted
+  clones" rather than as an invented assimilation trial.
+What we will not claim: that a clone sport is genetic
+  assimilation. That Waddington 1942 is this paper. That
+  a grape heat-shock paper exists here.
+```
+
+---
+
+## C-value / junk DNA
+
+```
+Theory: C-value / junk DNA
+Original paper (year): Ohno S. 1972. So much "junk" DNA
+  in our genome. Brookhaven Symposia in Biology 23:366-370.
+  PMID 5065367. EuropePMC and PubMed esummary locked.
+  No article DOI on those pages. Distinct from filled
+  selfish DNA (Doolittle and Sapienza 1980; Orgel and Crick
+  1980): 1972 is failed-duplication debris and the C-value
+  paradox; 1980 is persistence by self-replication.
+  Distinct from filled Ohno 1970 gene-duplication book.
+One-sentence prediction: Genome size (C-value) is not
+  gene number; most DNA is non-coding debris from failed
+  duplications.
+Assumptions: gene number can be told from total DNA;
+  "junk" is not assumed to be functional from presence;
+  TEs may contribute debris but are not required for the
+  1972 claim.
+Which fail here: scoring only genes on a 12X panel hides
+  the repeat / TE fraction. Palaeo-hexaploidy (Jaillon
+  2007) adds ohnologs without explaining all DNA. Clone
+  hemizygous SVs change dose without changing C-value.
+Modern data / statistic: grape genome size versus
+  annotated gene number, and the TE / repeat fraction,
+  versus a gene-number explanation of C-value.
+Datasets: Jaillon et al. 2007 Nature 449:463-467
+  (DOI 10.1038/nature06148). Carrier et al. 2012 PLoS ONE
+  7(3):e32973 (TE insertions the largest scored class in
+  Pinot noir). Vondras 2019 (TE plus repeat SNPs).
+What would falsify it: Vitis genome size is explained by
+  gene number, not by junk / repeat / TE DNA.
+What we will not claim: that Ohno 1972 is the selfish-DNA
+  paper (different job). That every TE insertion is junk
+  (some copies are domesticated; that is the 1980 falsifier).
+  That Jaillon 2007 measured C-value across Vitis.
+```
+
+---
+
+## Concerted evolution
+
+```
+Theory: Concerted evolution
+Original paper (year): Zimmer EA, Martin SL, Beverley SM,
+  Kan YW, Wilson AC. 1980. Rapid duplication and loss of
+  genes coding for the alpha chains of hemoglobin. Proc
+  Natl Acad Sci USA 77(4):2158-2162.
+  DOI 10.1073/pnas.77.4.2158 PMID 6929543 PMC348671.
+  PMC page locked. The abstract says the alpha polypeptides
+  within each species have been evolving in concert.
+  Dover 1982 molecular drive is later and is not used.
+  Not a review.
+One-sentence prediction: Members of a repeated family stay
+  more similar within a species than to orthologs in other
+  species, by ongoing duplication, loss, or intergenic
+  exchange.
+Assumptions: a true repeated family (not palaeo-ohnologs
+  of a hexaploid); identity is not clone IBD; the comparison
+  is within-species paralogs versus between-species
+  orthologs.
+Which fail here: tandem NLR arrays are not rRNA or globin.
+  Palaeo-hexaploid ohnologs (Jaillon 2007) are a different
+  job (DDC / gene balance / fractionation). Clone IBD fakes
+  family identity. Birth-and-death is the alternative
+  (next note).
+Modern data / statistic: within-species identity of tandem
+  copies (rDNA or tandem NLR / disease genes) versus
+  identity to orthologs in other Vitis, after clone filter.
+Datasets: Jaillon et al. 2007 Nature 449:463-467 (genome
+  and ohnolog set; do not invent a grape rDNA paper).
+  Zhou et al. 2019 Nat Plants 5:965-979 (SVs; tandem
+  change without homogenization).
+What would falsify it: tandem copies are more like
+  orthologs in other Vitis than like paralogs in the same
+  genome (birth-and-death pattern), OR identity is only
+  clone IBD.
+What we will not claim: that Nei 1997 is this paper
+  (opposite job). That every NLR array is concerted. That
+  a grape rDNA homogenization paper is locked.
+```
+
+---
+
+## Birth-and-death gene family
+
+```
+Theory: Birth-and-death evolution of gene families
+Original paper (year): Nei M, Gu X, Sitnikova T. 1997.
+  Evolution by the birth-and-death process in multigene
+  families of the vertebrate immune system. Proc Natl Acad
+  Sci USA 94(15):7799-7806.
+  DOI 10.1073/pnas.94.15.7799 PMID 9223266 PMC33709.
+  PMC page locked. New genes arise by duplication; some
+  persist, others become pseudogenes or are deleted;
+  members need not be closer within species than between
+  species. The paper says the model was formally presented
+  by Nei and Hughes 1992 (workshop chapter; not opened).
+  Nei and Rooney 2005 Annu Rev Genet is a review (red line).
+  Distinct from filled concerted evolution (Zimmer 1980).
+One-sentence prediction: A family expands and contracts by
+  duplication and loss; some copies persist, others die;
+  within-species copies need not be homogenized.
+Assumptions: a multi-copy family with a phylogeny that can
+  reject homogenization; tandem arrays can be told from
+  ohnologs; pseudogenes are scored, not assumed absent.
+Which fail here: grape tandem NLRs are not MHC. Palaeo-
+  hexaploid ohnologs are DDC / gene-balance / fractionation
+  jobs, not birth-and-death of a tandem family. Clone SVs
+  change copy number without a family phylogeny.
+Modern data / statistic: phylogeny of a tandem Vitis
+  family (NLR or other disease-related) with pseudogenes,
+  testing within-species homogenization versus births and
+  deaths.
+Datasets: Jaillon et al. 2007 Nature 449:463-467 (ohnolog
+  versus tandem contrast). Zhou et al. 2019 Nat Plants
+  5:965-979 (SV copy-number change). Do not invent a grape
+  NLR phylogeny paper.
+What would falsify it: tandem copies form one homogenized
+  within-species clade with no births, deaths, or
+  pseudogenes (concerted pattern).
+What we will not claim: that Nei and Rooney 2005 is the
+  source (review). That every grape family expansion is
+  birth-and-death. That this note replaces DDC or gene
+  balance.
+```
+
+---
+
+## Metapopulation
+
+```
+Theory: Metapopulation (population of populations)
+Original paper (year): Levins R. 1969. Some demographic
+  and genetic consequences of environmental heterogeneity
+  for biological control. Bulletin of the Entomological
+  Society of America 15(3):237-240.
+  DOI 10.1093/besa/15.3.237. DOI / OpenAIRE listings
+  locked (author, year, venue, volume, pages). Occupancy
+  of patches is a colonization-extinction balance.
+  Distinct from filled Wright 1931 island model (no
+  distance; common migrant pool) and Kimura and Weiss
+  1964 stepping-stone (neighbor steps, not extinction).
+  Distinct from filled Wright 1943 IBD (continuous
+  distance).
+One-sentence prediction: A set of discrete habitat
+  patches persists as a population of populations when
+  colonization exceeds local extinction; occupancy is
+  not one panmictic Ne.
+Assumptions: discrete patches that can go extinct and
+  be recolonized; samples are patches, not clones or
+  cultivars; a vineyard block is not a Levins patch.
+Which fail here: a vineyard is not a patch. Humans and
+  nurseries recolonize without extinction. Cultivar
+  panels are pedigrees. Wild sylvestris along rivers
+  may be patches; feral escapes are not.
+Modern data / statistic: patch occupancy and turnover
+  (presence / absence, or recolonization after local
+  loss) among wild V. sylvestris patches after clone /
+  pedigree filters.
+Dataset: Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655). Wild sylvestris
+  subset. Use as geography / occupancy, not as a
+  published metapopulation analysis. Do not invent a
+  grape patch-turnover paper.
+What would falsify it: wild patches do not show a
+  colonization-extinction occupancy balance after
+  clone filter (stable occupancy, or one panmictic
+  cloud). A nonzero IBD slope is the Wright 1943
+  job, not this one.
+What we will not claim: that a vineyard block is a
+  Levins patch. That this note replaces island,
+  stepping-stone, or IBD (four different spatial
+  jobs).
+```
+
+---
+
+## Breakage-fusion-bridge
+
+```
+Theory: Breakage-fusion-bridge cycle
+Original paper (year): McClintock B. 1941. The
+  stability of broken ends of chromosomes in Zea
+  mays. Genetics 26(2):234-282.
+  DOI 10.1093/genetics/26.2.234 PMID 17247004
+  PMC1209127. PMC page locked. Broken ends remain
+  unstable in some tissues and produce further
+  rearrangement.
+  Distinct from filled McClintock 1950 (mutable
+  loci / Ac-Ds) and filled McClintock 1984 (genome
+  shock). Not a TE paper.
+One-sentence prediction: A broken chromosome end
+  fuses, forms a bridge at anaphase, and breaks
+  again, cycling rearrangements and losses until
+  the end heals.
+Assumptions: a broken end (not a TE insertion and
+  not a constitutive SNP clock); the cycle is
+  scored as rearrangements, not as SNPs; healing
+  can stop the cycle.
+Which fail here: scoring only SNPs hides BFB.
+  A hemizygous deletion can be one break without
+  a cycle. Chromothripsis-like events are a
+  related class, not automatically BFB. Distinct
+  from diplontic selection and chimera notes.
+Modern data / statistic: clone-private
+  rearrangements with inverted duplications,
+  bridges, or oscillating copy number versus a
+  single-break or chromothripsis-like class.
+Lead test bed (not a proof): Carbonell-Bejerano
+  et al. 2017 Plant Physiol 175:786-801
+  (DOI 10.1104/pp.17.00715). Tempranillo Blanco;
+  hemizygous deletion of 313 genes; chromothripsis-
+  like. Companion SVs: Zhou et al. 2019 Nat Plants
+  5:965-979. Clone SNP/SV clocks: Vondras 2019 /
+  Carrier 2012.
+What would falsify it: clone-private
+  rearrangements are not BFB-class (no fusion-
+  bridge cycle; single-break or chromothripsis-
+  like only), OR a method-fair census is SNP-
+  dominated with negligible rearrangements.
+What we will not claim: that Carbonell-Bejerano
+  2017 proved BFB (they report a catastrophic
+  unbalanced rearrangement). That McClintock
+  1950 or 1984 is this paper. That every color
+  sport is a bridge cycle.
+```
+
+---
+
+## Fractionation / diploidization after WGD
+
+```
+Theory: Fractionation / diploidization after WGD
+Original paper (year): Thomas BC, Pedersen B,
+  Freeling M. 2006. Following tetraploidy in an
+  Arabidopsis ancestor, genes were removed
+  preferentially from one homeolog leaving
+  clusters enriched in dose-sensitive genes.
+  Genome Research 16(7):934-946.
+  DOI 10.1101/gr.4708406 PMID 16760422
+  PMC1484460. Publisher abstract and PMC page
+  locked. One homeolog was preferentially
+  (about 1.6x) targeted for fractionation;
+  retained islands are connected / dose-sensitive
+  genes. Freeling and Thomas 2006 Genome Res
+  16:805-814 is a companion perspective, not
+  this data paper. Freeling 2009 Annu Rev Plant
+  Biol is a review (red line).
+  Distinct from filled Ohno / Birchler gene
+  balance (dosage after duplication), filled
+  Stebbins 1947 (polyploid type), and filled
+  DDC / Force 1999 (subfunction partition).
+One-sentence prediction: After whole-genome
+  duplication, most pairs reduce to one gene by
+  loss from one homeolog; loss is biased, and
+  dose-sensitive (connected) genes are retained
+  as pairs.
+Assumptions: homeologs of a WGD can be aligned;
+  tandem arrays are condensed, not counted as
+  ohnologs; Vitis palaeo-hexaploidy is old, not
+  a recent tetraploid.
+Which fail here: Vitis is palaeo-hexaploid, not
+  a recent Arabidopsis-style tetraploid (Jaillon
+  2007: three ancestral genomes; no recent WGD).
+  Hemizygous SVs in clones change dose without
+  WGD (Zhou 2019; Carbonell-Bejerano 2017).
+  Tandem NLRs are not homeologs.
+Modern data / statistic: biased gene loss from
+  one of the three palaeo-hexaploid ancestral
+  genomes, and retention of TF / signaling
+  ohnologs versus tandem NLRs.
+Dataset: Jaillon et al. 2007 Nature 449:463-467
+  (DOI 10.1038/nature06148). Three ancestral
+  genomes; no recent WGD. Companion: Zhou et al.
+  2019 Nat Plants 5:965-979 (SVs change dose
+  without WGD).
+What would falsify it: the three ancestral
+  genomes do not show biased homeolog loss, OR
+  TF / signaling ohnologs are not the retained
+  class versus tandem NLRs (gene-balance
+  companion, different job). Zhou 2019 SVs
+  change dose inside a clone without WGD.
+What we will not claim: that Jaillon 2007 is a
+  recent tetraploid. That this note replaces
+  gene balance, Stebbins polyploid type, or DDC.
+  That Freeling 2009 is the source (review).
+```
+
+---

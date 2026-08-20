@@ -10,7 +10,9 @@ description: >
   genetic draft, introgression, Haldane, stepping-stone,
   island model, clonal interference, allele surfing, genome shock,
   allopolyploidy, drift-barrier, gBGC, soft sweep, chimera,
-  reinforcement, two-fold cost of sex, or a revival paper that
+  reinforcement, two-fold cost of sex, Haldane cost, inbreeding depression, infinitesimal, genetic assimilation,
+  C-value, concerted evolution, birth-and-death, metapopulation,
+  breakage-fusion-bridge, fractionation, or a revival paper that
   is not a methods benchmark.
 ---
 
@@ -141,8 +143,18 @@ heterozygotes in clonal lineages).
 | Chimera / tunica-corpus | Satina, Blakeslee and Avery 1940 Am J Bot 27:895-905 | Layered meristem; periclinal chimera is stable and separable | Vitis is L1/L2, not three Datura layers | Franks 2002 Pinot Meunier L1/L2 split; Vondras / Roach / Carrier as genome-wide layer-census companions |
 | Reinforcement | Dobzhansky 1940 Am Nat 74:312-321 (paper; 1937 book is BDM) | Premating isolation completes in sympatry where hybrids are unfit | Nursery hybrid is not secondary contact | Premating isolation not stronger in sympatry, or inviability is one-locus (Dong 2023 Syl-W gene flow is CAUTION) |
 | Two-fold cost of sex | Maynard Smith 1978 The Evolution of Sex (book) | Asexual females replace sexuals via daughters | Grafted cuttings are not asexual females | Does not map onto grafted clones; do not invent a cost-of-males test |
+| Haldane cost of selection | Haldane 1957 J Genet 55:511-524 | Allelic substitution costs ~10-30 generation-equivalents of selective death | Grafted clones are not a substituting sexual population | Does not map onto grafted clones; do not invent a grape cost-of-selection paper |
+| Inbreeding depression | Darwin 1876 Cross and Self Fertilisation (book) | Selfed / inbred progeny are less vigorous than crossed progeny | Standing clone heterozygosity is not a self-vs-cross test | Roach 2018 ancestral inbreeding is CAUTION; selfed seedlings not less fit after clone filter |
+| Infinitesimal / polygenic | Fisher 1918 Trans R Soc Edinb 52:399-433 (volume imprint 1919) | A metric trait is many Mendelian loci of small effect | Color / sex / flavor are large-effect loci; clones are not a sexual pedigree | Dong 2023 color / sex / flavor peaks are few large-effect loci, not an infinitesimal trait |
+| Genetic assimilation | Waddington 1953 Evolution 7:118-126 | An induced phenotype becomes constitutive after selection | Cuttings skip the multi-generation sexual selection | Does not map onto grafted clones; do not invent a grape heat-shock assimilation paper |
+| C-value / junk DNA | Ohno 1972 Brookhaven Symp Biol 23:366-370 | Most DNA is failed-duplication debris, not gene number | Scoring only genes hides repeats / TE | Jaillon 2007 genome size explained by gene number, not junk / TE (Carrier 2012 TE class) |
+| Concerted evolution | Zimmer et al. 1980 PNAS 77:2158-2162 | Family members are more alike within species than to orthologs | Tandem NLRs are not rDNA; clones fake identity | Tandem copies more like other-Vitis orthologs than paralogs (birth-and-death alternative) |
+| Birth-and-death gene family | Nei, Gu and Sitnikova 1997 PNAS 94:7799-7806 | Duplicates persist or die; members need not homogenize | Tandem NLRs are not MHC; palaeo-ohnologs are not tandem | Tandem NLR / disease-gene copies form one homogenized clade, not births plus pseudogenes |
+| Metapopulation | Levins 1969 Bull Entomol Soc Am 15:237-240 | Occupancy is a colonization-extinction balance across patches | A vineyard is not a patch; cultivars are not demes | Dong 2023 wild patches: occupancy not a colonization-extinction balance after clone filter |
+| Breakage-fusion-bridge | McClintock 1941 Genetics 26:234-282 | Broken ends fuse, bridge, and re-break; rearrangements cycle | SNP-only census hides BFB; distinct from 1950 TE and 1984 shock | Carbonell-Bejerano 2017 rearrangements not BFB-class; clone SVs are SNP-like (Zhou 2019) |
+| Fractionation / diploidization | Thomas, Pedersen and Freeling 2006 Genome Res 16:934-946 | After WGD, one homeolog loses genes preferentially; connected genes stay | Vitis is palaeo-hexaploid, not recent tetraploid; SVs change dose without WGD | Jaillon 2007: no biased homeolog loss; TF / signaling not the retained class vs tandem NLRs |
 
-Thirty-eight filled notes (eight first wave, nine second wave, nine third wave, twelve fourth wave). Long form in `theories.md`. One theory per job.
+Forty-eight filled notes (eight first wave, nine second wave, nine third wave, twelve fourth wave, ten fifth wave). Long form in `theories.md`. One theory per job.
 
 Kondrashov 1988 (cost of males) is on the door list but was not filled: it does not map onto grafted clones.
 Muller 1942 was not locked on a publisher page and is not cited for BDM.
@@ -203,6 +215,16 @@ centromere / CenH3 paper is locked.
 - Reinforcement is premating isolation after secondary contact, not BDM inviability and not Dong 2023 gene flow.
 - The two-fold cost of sex does not map onto grafted clones. Hermaphroditism is the Baker test, not a cost of males.
 
+- Haldane 1957 cost does not map onto grafted clones as a substituting sexual population.
+- Darwin 1876 is a self-versus-cross progeny test; standing clone heterozygosity is not that test.
+- Fisher 1918 infinitesimal dies where Dong 2023 color / sex / flavor are few large-effect loci.
+- Waddington 1953 assimilation needs many sexual generations; cuttings skip them.
+- Ohno 1972 junk DNA is C-value versus gene number, not selfish-DNA persistence (1980).
+- Zimmer 1980 concerted evolution is within-species homogenization; Nei 1997 is the opposite job.
+- Levins 1969 is patch occupancy; a vineyard is not a patch (island / stepping-stone / IBD remain separate).
+- McClintock 1941 BFB is broken-end cycling, not 1950 TE and not 1984 shock.
+- Thomas, Pedersen and Freeling 2006 fractionation is biased homeolog loss after WGD, not Ohno dosage and not Stebbins polyploid type.
+
 ## Sources to open first (fetched)
 
 - Muller 1964: https://doi.org/10.1016/0027-5107(64)90047-8
@@ -257,6 +279,17 @@ centromere / CenH3 paper is locked.
 - Dobzhansky 1940: https://doi.org/10.1086/280899
 - Maynard Smith 1978 book: ISBN 052121887X (Cambridge University Press)
 
+- Haldane 1957: https://doi.org/10.1007/BF02984069 (IAS: https://www.ias.ac.in/article/fulltext/jgen/055/03/0511-0524)
+- Darwin 1876 book: https://darwin-online.org.uk/content/record?itemID=F1249
+- Fisher 1918: https://doi.org/10.1017/S0080456800012163
+- Waddington 1953: JSTOR 2405747 (Evolution 7:118-126)
+- Ohno 1972: PMID 5065367 (EuropePMC MED 5065367)
+- Zimmer et al. 1980: https://doi.org/10.1073/pnas.77.4.2158 (PMC348671)
+- Nei, Gu and Sitnikova 1997: https://doi.org/10.1073/pnas.94.15.7799 (PMC33709)
+- Levins 1969: https://doi.org/10.1093/besa/15.3.237
+- McClintock 1941: https://doi.org/10.1093/genetics/26.2.234 (PMC1209127)
+- Thomas, Pedersen and Freeling 2006: https://doi.org/10.1101/gr.4708406 (PMC1484460)
+
 ## Red lines
 
 - Do not cite a review as the source of the theory.
@@ -283,5 +316,14 @@ centromere / CenH3 paper is locked.
 - Do not invent a cost-of-males test in grafted clones. Two-fold cost does not map.
 - Do not cite McClintock 1984 as the 1950 TE note (different job).
 - Do not cite Stebbins 1940 or 1950 as the 1947 polyploid-type source.
+
+- Do not cite Wang and Bradburd 2014 as an IBE original (review).
+- Do not fill adaptive introgression as distinct from Anderson 1949.
+- Do not cite Nei and Rooney 2005 or Freeling 2009 as theory sources (reviews).
+- Do not cite Dover 1982 as the concerted-evolution original (Zimmer 1980 is).
+- Do not cite McClintock 1941 as the 1950 TE note or the 1984 shock note.
+- Do not invent a grape cost-of-selection, assimilation, rDNA, NLR-phylogeny, or patch-turnover paper.
+- Do not treat standing clone heterozygosity as Darwin 1876 inbreeding depression.
+- Do not write Fisher 1918 as the 1930 geometric model.
 
 Related: `plant-lit-review`, `vitis-popgen`, `grapevine-adna`, `vitis-pangenome`.
