@@ -19,7 +19,8 @@ description: >
   Endler clines, Crow load, Haldane cline, Slatkin 1973, Nagylaki, Key tension zone, Barton coupling,
   Kaplan hitchhiking, Braverman SFS, Berg-Coop, Rockman QTN, Rousset IBD, Excoffier AMOVA, Wade-McCauley, Whitlock FST, Slatkin two-locus cline,
   Barton-Bengtsson barrier, Barton hybrid-sink, Kimura 1955 drift, Nei GST, Slatkin 1981, Slatkin-Maruyama, Nei 1978, Kimura K80,
-  Tajima-Nei distance, Begun-Aquadro, Ohta 1972, Barton-de Cara, Rieseberg 2003, or a revival paper that
+  Tajima-Nei distance, Begun-Aquadro, Ohta 1972, Barton-de Cara, Rieseberg 2003, Nei-Li pi, Tajima 1983, Kimura-Ohta 1969, Charlesworth 1994 BGS, Hudson-Kaplan 1995,
+  Nordborg 1996, Wiehe-Stephan, Orr snowball, Turelli-Orr, Coyne-Orr 1989, or a revival paper that
   is not a methods benchmark.
 ---
 
@@ -214,8 +215,18 @@ heterozygotes in clonal lineages).
 | Ohta 1972 population-size rate | Ohta 1972 J Mol Evol 1:305-314 | Nearly-neutral substitutions with fluctuating selection fix faster in smaller populations (more uniform environments) | A cultivar panel is not Ne; dual domestication is not one size | Dong 2023: substitution / load rate not higher in the smaller-Ne class after clone filter (Ohta 1973 remains |Nes|<1 slightly deleterious) |
 | Barton-de Cara isolation coupling | Barton and de Cara 2009 Evolution 63:1171-1190 | Strong isolation evolves by coupling any incompatibilities (pre- or postzygotic), not only by a universal assortative-mating modifier | Nursery hybrid is not that contact; clones fake associations | Dong 2023 Syl-W gene flow is CAUTION, not a Barton-de Cara coupling (Dobzhansky 1940 remains reinforcement; Barton 1983 remains cline coupling) |
 | Rieseberg complementary-gene hybrid speciation | Rieseberg et al. 2003 Science 301:1211-1216 | Complementary gene action in hybrids recreates extreme parental-segment combinations that selection favors; hybridization facilitates ecological divergence | A nursery cross is not a homoploid hybrid species | Dong 2023: no complementary-gene hybrid species after clone filter (Anderson 1949 remains introgression) |
+| Nei-Li nucleotide diversity | Nei and Li 1979 PNAS 76:5269-5273 | Polymorphism at the nucleotide level is pi, the average pairwise nucleotide difference per site; net divergence subtracts within-population pi | Clones fake pairwise identity; a chip is not a sequence | Dong 2023 wilds: pi not a Nei-Li nucleotide-diversity estimate after clone + IBD filters (Nei 1972 remains allele-frequency D; Tajima 1989 remains D) |
+| Tajima 1983 nucleon genealogy | Tajima 1983 Genetics 105:437-460 | Average pairwise nucleotide differences have large stochastic variance; increasing sample size does not reduce that variance much | Clone / pedigree samples are not nucleons; cultivar relatedness fakes the variance | Dong 2023 wilds: pairwise-difference variance is not the 1983 stochastic variance after clone + IBD filters (Tajima 1989 remains D; Tajima-Nei 1984 remains distance) |
+| Kimura-Ohta time to fixation | Kimura and Ohta 1969 Genetics 61:763-771 | A rare neutral mutant takes about 4Ne generations to fixation, excluding the cases of loss | A cultivar panel is not Ne; clone age is not 4Ne generations | Clone / cultivar fixation time is not 4Ne after clone filter (Kimura 1968 remains the substitution-rate null; Kimura 1955 remains the drift diffusion) |
+| Charlesworth 1994 BGS on selected variants | Charlesworth 1994 Genet Res 63:213-227 | BGS multiplies Ne by the frequency of mutation-free gametes; slightly deleterious mutations fix faster and advantageous mutations fix slower | Chip is not a map; a cultivar panel is not Ne | Dong 2023 on a real Vitis map: weakly selected substitution rates not a Charlesworth-1994 BGS function after clone filter (Charlesworth 1993 remains neutral-diversity BGS) |
+| Hudson-Kaplan BGS with recombination | Hudson and Kaplan 1995 Genetics 141:1605-1617 | Expected nucleotide diversity at a neutral locus has an analytic form when deleterious mutation and recombination both act | Chip is not a map; clone IBD fakes a diversity trough | Dong 2023 on a real Vitis map: diversity not the Hudson-Kaplan BGS function after clone + IBD filters (Charlesworth 1993 remains the BGS lock; Kaplan 1989 remains coalescent hitchhiking) |
+| Nordborg-Charlesworth BGS map | Nordborg, Charlesworth and Charlesworth 1996 Genet Res 67:159-174 | BGS reduction of diversity holds for an arbitrary genetic map; weakly selected mutations pattern a chromosome more than strongly selected ones; tips less than the centre | Chip is not a map; a vineyard is not a Drosophila map | Dong 2023 on a real Vitis map: no Nordborg-map BGS patterning after clone + IBD filters (Hudson-Kaplan 1995 remains the recombination formula; Charlesworth 1993 remains the BGS lock) |
+| Wiehe-Stephan hitchhiking alpha v | Wiehe and Stephan 1993 Mol Biol Evol 10:842-854 | Steady-state recurrent hitchhiking is characterized by alpha v = 2Ns times the beneficial-mutation frequency; adequate unless recombination is very low | Chip is not a map; clone IBD fakes a trough | Dong 2023 on a real Vitis map: diversity not a Wiehe-Stephan alpha-v hitchhiking function after clone + IBD filters (Maynard Smith-Haigh remains local hitchhiking; Kaplan 1989 remains coalescent hitchhiking; Begun-Aquadro remains the recombination-diversity correlation) |
+| Orr snowball incompatibilities | Orr 1995 Genetics 139:1805-1813 | Complementary-gene incompatibilities accumulate faster than linearly with time; the probability of speciation increases at least as the square of time since separation | A nursery cross is not a diverging pair; clones fake complementary genes | Dong 2023: no snowball of complementary-gene incompatibilities after clone filter (Dobzhansky 1937 remains BDM; Orr 1998 remains exponential factors; Rieseberg 2003 remains hybrid speciation) |
+| Turelli-Orr dominance Haldane | Turelli and Orr 1995 Genetics 140:389-402 | Hybrid-fitness alleles are partially recessive, so the heterogametic sex suffers more (hemizygous X effects) | Grape is not XX/XY; sex is an SDR | Does not map onto Vitis SDR; do not invent a heterogametic-dominance test (Haldane 1922 remains the rule statement) |
+| Coyne-Orr time course of isolation | Coyne and Orr 1989 Evolution 43:362-381 | Mating discrimination and hybrid sterility / inviability increase gradually with time; in sympatry, prezygotic isolation appears well before postzygotic isolation | Nursery hybrid is not a Drosophila pair; grape is not XX/XY | Dong 2023 Syl-W gene flow is CAUTION, not a Coyne-Orr time-course (Dobzhansky 1940 remains reinforcement; Mayr 1942 remains BSC; Haldane 1922 remains the rule) |
 
-One hundred two filled notes (eight first wave, nine second wave, nine third wave, twelve fourth wave, ten fifth wave, ten sixth wave, nine seventh wave, eight eighth wave, nine ninth wave, eight tenth wave, ten eleventh wave). Long form in `theories.md`. One theory per job.
+One hundred twelve filled notes (eight first wave, nine second wave, nine third wave, twelve fourth wave, ten fifth wave, ten sixth wave, nine seventh wave, eight eighth wave, nine ninth wave, eight tenth wave, ten eleventh wave, ten twelfth wave). Long form in `theories.md`. One theory per job.
 
 Kondrashov 1988 (cost of males) is on the door list but was not filled: it does not map onto grafted clones.
 Muller 1942 was not locked on a publisher page and is not cited for BDM.
@@ -346,6 +357,17 @@ centromere / CenH3 paper is locked.
 - Barton and de Cara 2009 is coupling of any incompatibilities as a route to strong isolation, distinct from Dobzhansky 1940 reinforcement and Barton 1983 cline coupling. Barton 2000 is a review.
 - Rieseberg et al. 2003 is complementary-gene recreation of extreme parental-segment combinations in a hybrid species. Distinct from Anderson 1949 introgression. Rieseberg 1997 Annu Rev is a review. A nursery cross is not a homoploid hybrid species.
 
+- Nei and Li 1979 is nucleotide diversity pi, the mean pairwise nucleotide difference per site, with net divergence subtracting within-population pi. Nei 1972 remains allele-frequency D. Nei 1973 remains GST. Nei 1978 remains unbiased H/D. Tajima 1989 remains D. A chip is not a sequence. Clone IBS is not pi.
+- Tajima 1983 is the nucleon-genealogy theory that pairwise-difference estimates have large stochastic variance that extra samples do not shrink. Distinct from Tajima 1989 D and Tajima-Nei 1984 distance. A cultivar panel is not a nucleon sample. Tajima 1993 was not opened.
+- Kimura and Ohta 1969 is the 4Ne-generation mean time to fixation of a rare neutral, excluding loss. Distinct from Kimura 1968, Kimura 1955, and Ohta 1972 / 1973. A cultivar panel is not Ne. Clone age is not 4Ne. Kimura and Ohta 1971 Nature had no claim text.
+- Charlesworth 1994 is BGS on weakly selected linked variants: Ne multiplied by the frequency of mutation-free gametes; slightly deleterious fix faster; advantageous fix slower. Charlesworth 1993 remains neutral-diversity BGS. A chip is not a map.
+- Hudson and Kaplan 1995 is the analytic BGS expression for nucleotide diversity when deleterious mutation and recombination both act. Distinct from Charlesworth 1993 and from Kaplan 1989 hitchhiking. A chip is not a map.
+- Nordborg, Charlesworth and Charlesworth 1996 is BGS on an arbitrary map: weakly selected mutations pattern a chromosome more; tips less than the centre. Distinct from 1993 / 1994 / 1995. A chip is not a map.
+- Wiehe and Stephan 1993 is steady-state recurrent hitchhiking characterized by alpha v = 2Ns times beneficial-mutation frequency. Distinct from Maynard Smith and Haigh 1974, Kaplan 1989, and Begun-Aquadro 1992. Stephan 1992 remains unopened. A chip is not a map.
+- Orr 1995 is the snowball: complementary-gene incompatibilities accumulate faster than linearly; P(speciation) increases at least as t squared. Distinct from Dobzhansky 1937 BDM, Orr 1998 exponential, and Rieseberg 2003 hybrid speciation. A nursery cross is not a snowball test.
+- Turelli and Orr 1995 is the dominance theory of Haldane's rule (partially recessive hybrid-fitness alleles; hemizygous X). Distinct from Haldane 1922. Does not map onto Vitis SDR. Sex locus is Dong 2023 chromosome-2 SDR, never VviAGL11.
+- Coyne and Orr 1989 is the comparative time course: isolation increases with time; prezygotic isolation appears first in sympatry. Distinct from Dobzhansky 1940 reinforcement and Mayr 1942 BSC. Coyne and Orr 1997 is a revisit. Syl-W gene flow is CAUTION.
+
 ## Sources to open first (fetched)
 
 - Muller 1964: https://doi.org/10.1016/0027-5107(64)90047-8
@@ -470,6 +492,17 @@ centromere / CenH3 paper is locked.
 - Ohta 1972: https://doi.org/10.1007/BF01653959 (Springer HTML; EuropePMC MED 4681232 bibliographic)
 - Barton and de Cara 2009: https://doi.org/10.1111/j.1558-5646.2009.00622.x (EuropePMC MED 19154394)
 - Rieseberg et al. 2003: https://doi.org/10.1126/science.1086949 (EuropePMC MED 12907807)
+
+- Nei and Li 1979: https://doi.org/10.1073/pnas.76.10.5269 (PMC413122; EuropePMC MED 291943)
+- Tajima 1983: https://doi.org/10.1093/genetics/105.2.437 (PMC1202167; EuropePMC MED 6628982)
+- Kimura and Ohta 1969: https://doi.org/10.1093/genetics/61.3.763 (PMC1212239; EuropePMC MED 17248440)
+- Charlesworth 1994: https://doi.org/10.1017/s0016672300032365 (EuropePMC MED 8082838)
+- Hudson and Kaplan 1995: https://doi.org/10.1093/genetics/141.4.1605 (PMC1206891; EuropePMC MED 8601498)
+- Nordborg, Charlesworth and Charlesworth 1996: https://doi.org/10.1017/s0016672300033619 (EuropePMC MED 8801188)
+- Wiehe and Stephan 1993: https://doi.org/10.1093/oxfordjournals.molbev.a040046 (EuropePMC MED 8355603)
+- Orr 1995: https://doi.org/10.1093/genetics/139.4.1805 (PMC1206504; EuropePMC MED 7789779)
+- Turelli and Orr 1995: https://doi.org/10.1093/genetics/140.1.389 (PMC1206564; EuropePMC MED 7635302)
+- Coyne and Orr 1989: https://doi.org/10.1111/j.1558-5646.1989.tb04233.x (EuropePMC MED 28568554)
 
 ## Red lines
 
@@ -677,5 +710,48 @@ Malecot G. 1948 / 1969 isolation. Book; no lockable claim page. Wright 1943 rema
 - Do not write Rieseberg 2003 as Anderson 1949.
 - Do not write VviAGL11 as the sex locus (Dong 2023 chromosome-2 SDR).
 - Do not invent a grape GST, conditional-frequency, drift-cline, unbiased-distance, K80, Tajima-Nei-distance, recombination-diversity, nearly-neutral-precursor, isolation-coupling, or hybrid-speciation paper.
+
+Jukes TH, Cantor CR. 1969. Evolution of protein molecules. In Munro HN (ed.) Mammalian Protein Metabolism vol. III, pp. 21-132. Academic Press. Book chapter; no lockable claim page opened. Kimura 1980 remains the nucleotide-distance lock. DROP.
+Kimura M, Ohta T. 1971. Protein polymorphism as a phase of molecular evolution. Nature 229(5285):467-469. DOI 10.1038/229467a0 PMID 4925204. EuropePMC HTML opened this wave; no abstract / no claim text. DROP.
+Tajima F. 1993. Measurement of DNA polymorphism. Book chapter / later methods paper; no lockable claim page opened this wave. Tajima 1983 is the lock. DROP.
+Fay JC, Wyckoff GJ, Wu CI. 2001. Positive and negative selection on the human genome. Genetics 158(3):1227-1234. DOI 10.1093/genetics/158.3.1227 PMID 11454770. Search listing opened; empirical MK extension to genomic data, not a named theory original. MK 1991 remains. DROP.
+Fay JC, Wyckoff GJ, Wu CI. 2002. Testing the neutral theory of molecular evolution with genomic data from Drosophila. Nature 415(6875):1024-1026. DOI 10.1038/4151024a PMID 11875569. Search listing opened; empirical MK extension. MK 1991 remains. DROP.
+Stephan W, Wiehe THE, Lenz MW. 1992. The effect of strongly selected substitutions on neutral polymorphism: analytical results based on diffusion theory. Theor Popul Biol 41(2):237-254. DOI 10.1016/0040-5809(92)90045-U. Still no lockable abstract page this wave. DROP. Kaplan 1989 remains the coalescent-hitchhiking lock; Wiehe and Stephan 1993 is the lock for alpha v.
+Gillespie JH. 1991. The Causes of Molecular Evolution. Oxford University Press. Book. Skip.
+Gillespie JH. 1994. Substitution processes in molecular evolution. III. Deleterious alleles. Genetics 138(3):943-952. DOI 10.1093/genetics/138.3.943 PMID 7851786. Paper exists (house-of-cards / deleterious substitutions); not draft-adjacent. Gillespie 2000 remains the draft lock. DROP this wave.
+Orr HA. 2005. Dobzhansky-Muller / speciation review or later paper. Not opened. 1995 is the snowball lock. DROP.
+Coyne JA, Orr HA. 1997. Patterns of speciation in Drosophila revisited. Evolution 51:295-303. Revisit. 1989 is the lock. DROP.
+Grant V. 1981. Plant Speciation. Book. Skip.
+Arnold ML. 1997 / 2006. Hybridization books. Skip.
+Mallet J. 2007. Hybrid speciation. Nature 446:279-283. Review dump. Skip. Rieseberg 2003 remains the complementary-gene hybrid-speciation lock.
+Abbott R et al. 2013. Hybridization and speciation. J Evol Biol. Review. Skip.
+Soltis DE / Soltis PS. 2009 / 2015 polyploidy papers. Not opened as a distinct original this wave. Stebbins 1947 and Thomas-Freeling 2006 remain. DROP.
+Comai L. 2005. The advantages and disadvantages of being polyploid. Nat Rev Genet 6(11):836-846. DOI 10.1038/nrg1711 PMID 16304599. Tagged Review. DROP.
+Otto SP, Whitton J. 2000. Polyploid incidence and evolution. Annu Rev Genet. Review. Skip.
+Wright S. 1938. Size of population and breeding structure in relation to evolution. Science 87:430-431. Short letter; no lockable claim page opened. Wright 1931 remains island / Ne math. DROP.
+Crow JF, Kimura M. 1970. An Introduction to Population Genetics Theory. Book. Skip.
+
+- Do not cite Jukes and Cantor 1969 as the nucleotide-distance source (book chapter not opened; Kimura 1980 remains).
+- Do not cite Kimura and Ohta 1971 Nature as the polymorphism-phase source (no claim text).
+- Do not cite Tajima 1993 as the nucleon-genealogy source (not opened; 1983 is the lock).
+- Do not cite Fay, Wyckoff and Wu 2001 / 2002 as a named theory (empirical MK; MK 1991 remains).
+- Do not cite Stephan, Wiehe and Lenz 1992 as the hitchhiking source (page not opened; Kaplan 1989 remains).
+- Do not cite Gillespie 1991 / 1994 as the draft source (book / house-of-cards; Gillespie 2000 remains).
+- Do not cite Orr 2005 as the snowball source (not opened; 1995 is the lock).
+- Do not cite Coyne and Orr 1997 as the time-course source (revisit; 1989 is the lock).
+- Do not cite Grant 1981, Arnold 1997 / 2006, Mallet 2007, Abbott 2013, Comai 2005, Otto and Whitton 2000, or Crow and Kimura 1970 as theory originals (book or review).
+- Do not cite Wright 1938 as the effective-size source (letter; no claim text; Wright 1931 remains).
+- Do not write Nei and Li 1979 as Nei 1972 / 1973 / 1978 or as Tajima 1989.
+- Do not write Tajima 1983 as Tajima 1989 D or as Tajima-Nei 1984.
+- Do not write Kimura and Ohta 1969 as Kimura 1968 or as Ohta 1972 / 1973.
+- Do not write Charlesworth 1994 as Charlesworth 1993.
+- Do not write Hudson and Kaplan 1995 as Charlesworth 1993 or as Kaplan 1989 hitchhiking.
+- Do not write Nordborg 1996 as Charlesworth 1993 or as Hudson-Kaplan 1995.
+- Do not write Wiehe and Stephan 1993 as Maynard Smith and Haigh 1974 or as Begun-Aquadro 1992.
+- Do not write Orr 1995 as Dobzhansky 1937 or as Orr 1998 or as Rieseberg 2003.
+- Do not write Turelli and Orr 1995 as Haldane 1922.
+- Do not write Coyne and Orr 1989 as Dobzhansky 1940 or as Mayr 1942.
+- Do not write VviAGL11 as the sex locus (Dong 2023 chromosome-2 SDR).
+- Do not invent a grape nucleotide-diversity, nucleon-genealogy, 4Ne, BGS-on-selected, BGS-with-recombination, BGS-map, alpha-v hitchhiking, snowball-incompatibility, Haldane-dominance, or isolation-time-course paper.
 
 Related: `plant-lit-review`, `vitis-popgen`, `grapevine-adna`, `vitis-pangenome`.

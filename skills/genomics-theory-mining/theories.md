@@ -5515,3 +5515,805 @@ What we will not claim: that Anderson 1949 is this
 ```
 
 ---
+
+---
+
+## Nei-Li nucleotide diversity
+
+```
+Theory: Nei-Li nucleotide diversity (pi)
+Original paper (year): Nei M, Li WH. 1979. Mathematical model
+  for studying genetic variation in terms of restriction
+  endonucleases. Proc Natl Acad Sci USA 76(10):5269-5273
+  (15 October 1979; EuropePMC 01 Oct 1979).
+  DOI 10.1073/pnas.76.10.5269 PMID 291943 PMCID PMC413122.
+  EuropePMC HTML opened (https://europepmc.org/article/MED/291943):
+  Nei M, Li WH; 01 Oct 1979; PNAS 76(10):5269-5273; DOI; PMID;
+  PMC; abstract. A mathematical model for evolutionary change
+  of restriction sites in mitochondrial DNA; formulas for the
+  number of nucleotide substitutions between two populations
+  or species; a measure called nucleotide diversity is proposed
+  for polymorphism at the nucleotide level. Seed-lock PDF
+  (https://europepmc.org/articles/PMC413122?pdf=render):
+  Center for Demographic and Population Genetics, University
+  of Texas Health Science Center, Houston, Texas 77025;
+  communicated by Motoo Kimura, 1 August 1979. Nucleotide
+  diversity pi is the average number of nucleotide differences
+  per site between two randomly chosen DNA sequences
+  (pi = sum_i sum_j x_i x_j r_ij). When populations are
+  closely related, intrapopulational pi is subtracted:
+  net nucleotide differences delta = pi_XY - (pi_X + pi_Y)/2.
+  Distinct from filled Nei 1972 (allele-frequency distance D
+  from gene identity; not nucleotide pi). Distinct from filled
+  Nei 1973 (GST = DST/HT). Distinct from filled Nei 1978
+  (small-sample unbiased H and D). Distinct from filled
+  Tajima 1989 (D as pi versus theta_W; not the definition of
+  pi). Distinct from filled Watterson 1975 (theta from S).
+  Distinct from filled Kimura 1969 infinite-sites. Distinct
+  from filled Tajima and Nei 1984 (pairwise substitution
+  distance). Distinct from filled Kimura 1980 K80.
+One-sentence prediction: Polymorphism at the nucleotide level
+  is pi, the mean pairwise difference per site; net divergence
+  subtracts within-population pi.
+Assumptions: homologous nucleotide sequences, not chip
+  genotypes; sequences are not clone copies; dual
+  domestication is not one pairwise split; a cultivar name-
+  list is not a population; somatic clone age is not
+  evolutionary time.
+Which fail here: clones fake pairwise identity and therefore
+  fake pi. A nursery block is not a Nei-Li population. Dual
+  domestication is two origins. SNP chips are not restriction-
+  site sequences. Grafted clones skip the germline clock.
+Modern data / statistic: whether wild-sample pi after clone
+  + IBD filters is a Nei-Li average pairwise nucleotide
+  difference (and whether net delta subtracts within-group
+  pi), versus clone IBS or two origins.
+Dataset: Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655). Wild sylvestris subset
+  after clone + IBD filters. Use as the nucleotide-diversity
+  contrast, not as a published Nei-Li-1979 analysis. Do not
+  invent a grape nucleotide-diversity paper.
+What would falsify it: wild-sample pi is not a Nei-Li
+  pairwise-difference estimate after clone filter (clone
+  IBS, or two origins). Allele-frequency D remains Nei 1972.
+  GST remains Nei 1973. Unbiased H/D remains Nei 1978.
+  Tajima D remains 1989. Theta from S remains Watterson 1975.
+What we will not claim: that Nei 1972 / 1973 / 1978 is this
+  paper (already filled). That Tajima 1989 is this paper.
+  That Dong 2023 computed Nei-Li pi. That clone IBS is
+  nucleotide diversity.
+```
+
+---
+
+## Tajima 1983 nucleon genealogy
+
+```
+Theory: Tajima 1983 nucleon genealogy (variance of
+  pairwise nucleotide differences)
+Original paper (year): Tajima F. 1983. Evolutionary
+  relationship of DNA sequences in finite populations.
+  Genetics 105(2):437-460 (1 October 1983).
+  DOI 10.1093/genetics/105.2.437 PMID 6628982
+  PMCID PMC1202167. EuropePMC HTML opened
+  (https://europepmc.org/article/MED/6628982): Tajima F,
+  Center for Demographic and Population Genetics, The
+  University of Texas at Houston, Houston, Texas 77025;
+  01 Oct 1983; Genetics 105(2):437-460; DOI; PMID; PMC;
+  abstract. Received 11 February 1983; accepted 22 June
+  1983. A mathematical theory of the expected evolutionary
+  relationship among DNA sequences (nucleons) sampled,
+  assuming change is determined solely by mutation and
+  random genetic drift. The number of nucleotide differences
+  between randomly chosen nucleons, and heterozygosity or
+  nucleon diversity, have a large variance, and a large
+  part of that variance is stochastic. Increasing sample
+  size does not help reduce the variance significantly. A
+  small number of samples suffice to know the distribution
+  pattern of sample allele (nucleomorph) frequencies.
+  Distinct from filled Tajima 1989 (Tajima D as pi versus
+  theta_W; not this 1983 genealogy / variance theory).
+  Distinct from filled Tajima and Nei 1984 (unequal-rate
+  pairwise distance). Distinct from filled Nei and Li 1979
+  (this wave; defines pi; this paper is the sampling
+  variance / genealogy). Distinct from filled Kingman 1982
+  (n-coalescent; not nucleon pairwise-difference variance).
+  Distinct from filled Watterson 1975 (theta from S).
+  Distinct from filled Ewens 1972 (allele-count sampling
+  formula). Tajima 1993 was not opened as a lockable
+  paper; not the source.
+One-sentence prediction: Average pairwise nucleotide
+  differences have a large stochastic variance; adding
+  more sequences does not shrink that variance much.
+Assumptions: a random sample of homologous nucleons from
+  a finite sexual population; no migration, no
+  recombination between sequences; clones are not
+  nucleons; a cultivar panel is not that sample.
+Which fail here: clones and pedigrees are not a random
+  nucleon sample. Cultivar relatedness fakes the variance
+  of pairwise differences. Dual domestication is two
+  origins. Human transport is not the paper's isolation.
+  SNP chips are not nucleon sequences.
+Modern data / statistic: whether wild-sample pairwise-
+  difference variance after clone + IBD filters stays
+  large as n grows in the 1983 sense, versus clone IBS
+  or two origins.
+Dataset: Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655). Wild sylvestris subset
+  after clone + IBD filters. Use as the nucleon-variance
+  contrast, not as a published Tajima-1983 analysis. Do
+  not invent a grape nucleon-genealogy paper.
+What would falsify it: pairwise-difference variance is
+  not the 1983 stochastic variance after clone filter
+  (shrinks with n, or clone IBS, or two origins).
+  Tajima D remains the 1989 job. Pairwise distance
+  remains Tajima-Nei 1984. Pi as a measure remains
+  Nei-Li 1979. The n-coalescent remains Kingman 1982.
+What we will not claim: that Tajima 1989 is this paper
+  (already filled). That Tajima and Nei 1984 is this
+  paper. That Tajima 1993 is the source (not opened).
+  That Dong 2023 fitted the 1983 variance. That a
+  cultivar panel is a nucleon sample.
+```
+
+---
+
+## Kimura-Ohta time to fixation
+
+```
+Theory: Kimura-Ohta mean time to fixation (4Ne
+  generations for a rare neutral)
+Original paper (year): Kimura M, Ohta T. 1969. The
+  average number of generations until fixation of a
+  mutant gene in a finite population. Genetics
+  61(3):763-771 (March 1969; EuropePMC 01 Mar 1969).
+  DOI 10.1093/genetics/61.3.763 PMID 17248440
+  PMCID PMC1212239. EuropePMC HTML opened
+  (https://europepmc.org/article/MED/17248440): Kimura M,
+  Ohta T, National Institute of Genetics, Mishima, Japan;
+  01 Mar 1969; Genetics 61(3):763-771; DOI; PMID; PMC;
+  no abstract there. Seed-lock PDF
+  (https://europepmc.org/articles/PMC1212239?pdf=render):
+  Contribution No. 692; received 26 July 1968;
+  Genetics 61:763-771 March 1969. Diffusion solution
+  for the mean time to fixation excluding loss, and
+  separately the mean time to loss excluding fixation.
+  For a selectively neutral mutant, ti(p) = -4Ne
+  (1-p)/p * ln(1-p); at the limit p -> 0, ti(0) = 4Ne.
+  Summary: a single mutant gene, if selectively neutral,
+  takes about 4Ne generations until fixation in a
+  population of effective size Ne (cases of loss
+  excluded). Monte Carlo checks for neutrality and
+  genic selection. Distinct from filled Kimura 1968
+  (neutral substitution rate equals mutation rate; not
+  the 4Ne waiting time). Distinct from filled Kimura
+  1955 (forward drift diffusion / heterozygosity decay).
+  Distinct from filled Kimura 1969 infinite-sites.
+  Distinct from filled Ohta 1972 / 1973 (nearly-neutral
+  rate versus Ne; not time to fixation). Distinct from
+  filled Kimura and Crow 1964 infinite-alleles. Kimura
+  and Ohta 1971 Nature was opened on EuropePMC; no
+  abstract / no claim text; not used.
+One-sentence prediction: A rare neutral mutant takes
+  about 4Ne generations to fixation if the loss cases
+  are excluded.
+Assumptions: a finite sexual Wright-Fisher population
+  with a meaningful Ne; a cultivar panel is not that
+  Ne; clone age is not the fixation clock; dual
+  domestication is not one N; grafted cuttings skip
+  the substitution process.
+Which fail here: a cultivar collection is not Ne.
+  Grafted clones skip the 4Ne walk. Dual domestication
+  is two origins. Human choice is not the paper's
+  fixation. Clone-private SNPs are not substitutions
+  on their way to fixation.
+Modern data / statistic: whether a rare neutral
+  variant's sojourn / fixation time after clone + IBD
+  filters is about 4Ne generations, versus clone age
+  or two origins.
+Caution dataset: Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655). Wild versus cultivar
+  Ne contrast after clone + IBD filters. Vondras 2019
+  / Roach 2018 as clone-clock companions (somatic age
+  is not 4Ne). Use as the 4Ne-time contrast, not as a
+  published grape time-to-fixation analysis. Do not
+  invent a grape 4Ne paper.
+What would falsify it: fixation / sojourn time is not
+  about 4Ne after clone filter (clone age, or two
+  origins). Neutral substitution rate remains Kimura
+  1968. Drift diffusion remains Kimura 1955. Nearly-
+  neutral rate-versus-Ne remains Ohta 1972 / 1973.
+What we will not claim: that Kimura 1968 is this paper
+  (already filled). That Kimura 1955 is this paper.
+  That Ohta 1972 / 1973 is this paper. That Kimura and
+  Ohta 1971 is the source (no claim text). That Dong
+  2023 estimated a 4Ne sojourn. That clone age is 4Ne
+  generations.
+```
+
+---
+
+## Charlesworth 1994 BGS on selected variants
+
+```
+Theory: Charlesworth 1994 background selection on
+  weakly selected linked variants
+Original paper (year): Charlesworth B. 1994. The
+  effect of background selection against deleterious
+  mutations on weakly selected, linked variants.
+  Genet Res 63(3):213-227 (June 1994; EuropePMC
+  01 Jun 1994). DOI 10.1017/s0016672300032365
+  PMID 8082838. EuropePMC HTML opened
+  (https://europepmc.org/article/MED/8082838):
+  Charlesworth B, Department of Ecology and Evolution,
+  University of Chicago, IL 60637-1573; 01 Jun 1994;
+  Genetical Research 63(3):213-227; DOI; PMID;
+  abstract. Background selection on rates of evolution
+  and genetic diversity at weakly selected, completely
+  linked loci. Most effects are predicted by multiplying
+  effective size by the frequency of mutation-free
+  gametes. Diversity can be sharply reduced, so that
+  values at selected sites approach those for neutrals
+  under the same BGS regime. Rates of fixation of
+  slightly deleterious mutations increase; rates of
+  fixation of advantageous mutations decrease. Sex-
+  linked versus autosomal, and asexual / selfing,
+  comparisons. Distinct from filled Charlesworth,
+  Morgan and Charlesworth 1993 (BGS reduces linked
+  neutral diversity; not this weakly-selected
+  substitution-rate extension). Distinct from filled
+  Ohta 1973 (|Nes|<1 slightly deleterious; not BGS
+  multiplying Ne by f0). Distinct from filled Gillespie
+  2000 (genetic draft from recurrent sweeps). Distinct
+  from filled Hudson and Kaplan 1995 and Nordborg 1996
+  (this wave; recombination formulas).
+One-sentence prediction: Background selection multiplies
+  Ne by the frequency of mutation-free gametes; slightly
+  deleterious mutations then fix faster and advantageous
+  mutations fix slower.
+Assumptions: a sexual recombination map with linked
+  deleterious mutation; a chip skeleton is not that
+  map; a cultivar panel is not Ne; clone-private SNPs
+  are not substitutions.
+Which fail here: a SNP chip is not a Vitis map. A
+  cultivar collection is not Ne. Clone IBD fakes a
+  diversity trough and a substitution-rate shift.
+  Dual domestication is two origins. Grafted clones
+  skip the substitution process.
+Modern data / statistic: whether weakly selected
+  substitution / diversity rates after clone + IBD
+  filters follow a Charlesworth-1994 BGS function
+  (Ne scaled by mutation-free gametes) on a real
+  Vitis map, versus clone IBS or two origins.
+Dataset: Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655). Color / sex / flavor
+  peaks as the large-effect contrast. Use as the 1994
+  BGS-on-selected contrast, not as a published grape
+  1994-BGS analysis. Sex locus is chromosome-2 SDR,
+  never VviAGL11. Do not invent a grape BGS-on-
+  selected paper. No locked grape recombination-map
+  paper; the map is a requirement, as in the 1993
+  BGS note.
+What would falsify it: weakly selected rates are not
+  a 1994 BGS function after clone filter (flat, or
+  clone IBS, or two origins). Neutral-diversity BGS
+  remains Charlesworth 1993. Draft remains Gillespie
+  2000. |Nes|<1 remains Ohta 1973.
+What we will not claim: that Charlesworth 1993 is
+  this paper (already filled). That Hudson-Kaplan
+  1995 is this paper. That Dong 2023 fitted a 1994
+  BGS substitution-rate function. That VviAGL11 is
+  the sex locus. That a cultivar panel is Ne.
+```
+
+---
+
+## Hudson-Kaplan BGS with recombination
+
+```
+Theory: Hudson-Kaplan background selection with
+  recombination
+Original paper (year): Hudson RR, Kaplan NL. 1995.
+  Deleterious background selection with recombination.
+  Genetics 141(4):1605-1617 (1 December 1995).
+  DOI 10.1093/genetics/141.4.1605 PMID 8601498
+  PMCID PMC1206891. EuropePMC HTML opened
+  (https://europepmc.org/article/MED/8601498):
+  Hudson RR, Department of Ecology and Evolutionary
+  Biology, University of California, Irvine 92717,
+  USA; Kaplan NL; 01 Dec 1995; Genetics 141(4):1605-
+  1617; DOI; PMID; PMC; abstract. An analytic
+  expression for expected nucleotide diversity at a
+  neutral locus in a region with deleterious mutation
+  and recombination. Predictions for the entire third
+  chromosome of D. melanogaster: consistent with low
+  variation near the centromeres; low variation near
+  the tips is not predicted with then-available
+  deleterious-mutation and selection estimates, unless
+  selection coefficients are considerably smaller.
+  Distinct from filled Charlesworth, Morgan and
+  Charlesworth 1993 (BGS original; no/low-
+  recombination formulas, not this analytic-with-
+  recombination result). Distinct from filled
+  Charlesworth 1994 (this wave; weakly selected
+  substitution rates, not the recombination formula
+  for pi). Distinct from filled Kaplan, Hudson and
+  Langley 1989 (coalescent hitchhiking reduction of
+  polymorphic sites; not BGS). Distinct from filled
+  Nordborg 1996 (this wave; arbitrary-map extension).
+One-sentence prediction: Expected nucleotide diversity
+  at a neutral locus has an analytic BGS form when
+  deleterious mutation and recombination both act;
+  low-recombination (centromere-like) regions are
+  the strong prediction.
+Assumptions: a sexual recombination map with linked
+  deleterious mutation; a chip skeleton is not that
+  map; samples are not clones; a vineyard is not a
+  Drosophila third chromosome.
+Which fail here: clone IBD fakes a diversity trough
+  in low-recombination bins. A SNP chip is not a
+  Vitis map. Dual domestication is two origins.
+  Human transport is not Drosophila recombination.
+Modern data / statistic: whether wild-sample
+  nucleotide diversity after clone + IBD filters
+  follows the Hudson-Kaplan BGS function of local
+  recombination and deleterious mutation on a real
+  Vitis map, versus clone IBS or two origins.
+Dataset: Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655). Use as the BGS-
+  with-recombination contrast, not as a published
+  grape Hudson-Kaplan analysis. Do not invent a
+  grape BGS-with-recombination paper. No locked
+  grape recombination-map paper; the map is a
+  requirement, as in the 1993 BGS note.
+What would falsify it: diversity is not the Hudson-
+  Kaplan BGS function after clone filter (flat, or
+  clone IBS, or two origins). Neutral-diversity BGS
+  remains Charlesworth 1993. Coalescent hitchhiking
+  remains Kaplan 1989. Weakly-selected BGS remains
+  Charlesworth 1994.
+What we will not claim: that Charlesworth 1993 is
+  this paper (already filled). That Kaplan 1989 is
+  this paper. That Dong 2023 fitted a Hudson-Kaplan
+  BGS curve. That a chip skeleton is the map.
+```
+
+---
+
+## Nordborg-Charlesworth BGS map
+
+```
+Theory: Nordborg-Charlesworth background selection
+  on an arbitrary genetic map
+Original paper (year): Nordborg M, Charlesworth B,
+  Charlesworth D. 1996. The effect of recombination
+  on background selection. Genet Res 67(2):159-174
+  (April 1996; EuropePMC 01 Apr 1996).
+  DOI 10.1017/s0016672300033619 PMID 8801188.
+  EuropePMC HTML opened
+  (https://europepmc.org/article/MED/8801188):
+  Nordborg M, Charlesworth B, Charlesworth D,
+  Department of Ecology and Evolution, University of
+  Chicago, IL 60637-1573, USA; 01 Apr 1996;
+  Genetical Research 67(2):159-174; DOI; PMID;
+  abstract. An approximate equation for the effect
+  on variability at a neutral locus of background
+  selection from a set of partly linked deleterious
+  mutations. Random mating, multiplicative fitnesses,
+  and large enough N that selected loci are in
+  mutation-selection equilibrium. Valid for an
+  arbitrary genetic map and an arbitrary distribution
+  of selection coefficients. Monte Carlo: the formula
+  performs well for small N under a wide range of
+  conditions, and even with epistasis among selected
+  loci; failure only with very weak selection and
+  tight linkage. Weakly selected mutations are more
+  likely than strongly selected mutations to produce
+  regional patterning of variability along a
+  chromosome in response to local recombination.
+  Loci at the extreme tip experience a smaller BGS
+  effect than loci closer to the centre. Considerable
+  overall reduction is possible in organisms with
+  few chromosomes and short maps (Drosophila); large
+  overall effects are less likely in high-
+  recombination species (mammals), though local
+  reductions might be detectable. Distinct from
+  filled Charlesworth 1993 (BGS original). Distinct
+  from filled Charlesworth 1994 (weakly selected
+  substitution rates). Distinct from filled Hudson
+  and Kaplan 1995 (this wave; analytic pi with
+  recombination, not the arbitrary-map / tip-versus-
+  centre patterning). Distinct from filled Begun and
+  Aquadro 1992 (recombination-diversity correlation
+  attributed to hitchhiking).
+One-sentence prediction: BGS reduction of diversity
+  holds for an arbitrary map; weakly selected
+  mutations pattern a chromosome more than strongly
+  selected ones, and tips are less affected than the
+  centre.
+Assumptions: a sexual recombination map; selected
+  loci at mutation-selection equilibrium; a chip
+  skeleton is not that map; a vineyard is not a
+  Drosophila or mammal map; samples are not clones.
+Which fail here: clone IBD fakes regional diversity
+  patterning. A SNP chip is not a Vitis map. Dual
+  domestication is two origins. Human transport is
+  not the paper's recombination.
+Modern data / statistic: whether wild-sample
+  diversity after clone + IBD filters shows
+  Nordborg-map BGS patterning (weak-selection
+  regional slope; tip less than centre) on a real
+  Vitis map, versus clone IBS or two origins.
+Dataset: Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655). Use as the
+  arbitrary-map BGS contrast, not as a published
+  grape Nordborg-BGS analysis. Do not invent a
+  grape BGS-map paper. No locked grape
+  recombination-map paper; the map is a
+  requirement, as in the 1993 BGS note.
+What would falsify it: diversity is not a Nordborg-
+  map BGS pattern after clone filter (flat, or
+  clone IBS, or two origins). Charlesworth 1993
+  remains the BGS lock. Hudson-Kaplan 1995 remains
+  the recombination-formula job. Begun-Aquadro
+  remains the hitchhiking correlation.
+What we will not claim: that Charlesworth 1993 is
+  this paper (already filled). That Hudson-Kaplan
+  1995 is this paper. That Dong 2023 fitted a
+  Nordborg-map BGS pattern. That a chip skeleton
+  is the map.
+```
+
+---
+
+## Wiehe-Stephan hitchhiking alpha v
+
+```
+Theory: Wiehe-Stephan hitchhiking alpha v
+  (steady-state recurrent sweeps)
+Original paper (year): Wiehe TH, Stephan W. 1993.
+  Analysis of a genetic hitchhiking model, and its
+  application to DNA polymorphism data from
+  Drosophila melanogaster. Mol Biol Evol 10(4):842-
+  854 (1 July 1993).
+  DOI 10.1093/oxfordjournals.molbev.a040046
+  PMID 8355603. EuropePMC HTML opened
+  (https://europepmc.org/article/MED/8355603):
+  Wiehe TH, Department of Zoology, University of
+  Maryland, College Park 20742; Stephan W; 01 Jul
+  1993; Molecular Biology and Evolution 10(4):842-
+  854; DOI; PMID; abstract. Begun and Aquadro
+  showed that nucleotide variation correlates with
+  recombination among 20 D. melanogaster gene
+  regions; the suggested cause is hitchhiking from
+  fixation of strongly selected mutants. The
+  hitchhiking process is a series of two-step
+  events: a strongly selected substitution wipes
+  out linked variation, then a recovery period
+  rebuilds polymorphism by neutral mutation and
+  drift. The characteristic parameter of the
+  steady-state model is alpha v, the product of
+  selection intensity (alpha = 2Ns) and the
+  frequency of beneficial mutations v. The steady-
+  state model describes the process adequately
+  unless the recombination rate is very low.
+  From 17 D. melanogaster loci in intermediate-to-
+  high recombination, alpha v is likely greater
+  than 1.3 x 10^{-8}. Distinct from filled Maynard
+  Smith and Haigh 1974 (local diversity collapse
+  around one sweep). Distinct from filled Kaplan,
+  Hudson and Langley 1989 (coalescent reduction of
+  polymorphic sites). Distinct from filled Begun
+  and Aquadro 1992 (the recombination-diversity
+  correlation this paper models). Distinct from
+  filled Gillespie 2000 (genetic draft). Distinct
+  from filled Braverman et al. 1995 (hitchhiking
+  SFS). Stephan, Wiehe and Lenz 1992 was not
+  opened; not the source.
+One-sentence prediction: Steady-state recurrent
+  hitchhiking is characterized by alpha v = 2Ns
+  times the beneficial-mutation frequency, and that
+  description holds unless recombination is very
+  low.
+Assumptions: a sexual recombination map with
+  recurrent strongly selected substitutions; a chip
+  skeleton is not that map; samples are not clones;
+  a vineyard is not a Drosophila map.
+Which fail here: clone IBD fakes a diversity trough.
+  A SNP chip is not a Vitis map. Dong 2023 color /
+  sex / flavor are few large-effect loci, not a
+  genome-wide alpha-v process. Human transport is
+  not Drosophila recombination.
+Modern data / statistic: whether wild-sample
+  diversity after clone + IBD filters is a Wiehe-
+  Stephan alpha-v hitchhiking function of
+  recombination on a real Vitis map, versus clone
+  IBS or two origins.
+Dataset: Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655). Color / sex /
+  flavor peaks as the large-effect contrast. Use
+  as the alpha-v hitchhiking contrast, not as a
+  published grape Wiehe-Stephan analysis. Sex
+  locus is chromosome-2 SDR, never VviAGL11. Do
+  not invent a grape alpha-v hitchhiking paper.
+  No locked grape recombination-map paper; the
+  map is a requirement, as in the BGS note.
+What would falsify it: diversity is not an alpha-v
+  hitchhiking function after clone filter (flat,
+  or clone IBS, or two origins). Local sweep
+  collapse remains Maynard Smith and Haigh 1974.
+  Coalescent hitchhiking remains Kaplan 1989. The
+  recombination-diversity correlation remains
+  Begun-Aquadro 1992. Draft remains Gillespie 2000.
+What we will not claim: that Maynard Smith and
+  Haigh 1974 is this paper (already filled). That
+  Kaplan 1989 is this paper. That Begun-Aquadro
+  1992 is this paper. That Stephan 1992 is the
+  source (page not opened). That Dong 2023 fitted
+  alpha v. That VviAGL11 is the sex locus.
+```
+
+---
+
+## Orr snowball incompatibilities
+
+```
+Theory: Orr snowball of complementary-gene
+  incompatibilities
+Original paper (year): Orr HA. 1995. The population
+  genetics of speciation: the evolution of hybrid
+  incompatibilities. Genetics 139(4):1805-1813
+  (1 April 1995). DOI 10.1093/genetics/139.4.1805
+  PMID 7789779 PMCID PMC1206504. EuropePMC HTML
+  opened (https://europepmc.org/article/MED/7789779):
+  Orr HA, Department of Biology, University of
+  Rochester, New York 14627, USA; 01 Apr 1995;
+  Genetics 139(4):1805-1813; DOI; PMID; PMC;
+  abstract. Speciation often results from the
+  accumulation of complementary genes: genes with
+  no deleterious effect within species that cause
+  inviability or sterility when brought together
+  with genes from another species. Model of
+  speciation as the accumulation of genic
+  incompatibilities between diverging populations.
+  The number of genic incompatibilities between
+  taxa increases much faster than linearly with
+  time; the probability of speciation increases at
+  least as fast as the square of the time since
+  separation. As Muller realized, all hybrid
+  incompatibilities must initially be asymmetric.
+  At loci that have diverged, evolutionarily
+  derived alleles cause hybrid problems far more
+  often than ancestral alleles. It is easier to
+  evolve complex hybrid incompatibilities requiring
+  three or more loci than simple pairwise
+  incompatibilities. Distinct from filled
+  Dobzhansky 1937 (BDM as the two-locus book
+  claim; not the t-squared snowball). Distinct from
+  filled Orr 1998 (exponential factors on an
+  adaptive walk; not incompatibility accumulation).
+  Distinct from filled Rieseberg et al. 2003
+  (complementary-gene recreation of a hybrid
+  species; not the snowball math). Distinct from
+  filled Barton and de Cara 2009 (coupling of
+  incompatibilities). Distinct from filled
+  Dobzhansky 1940 reinforcement. Muller 1942 was
+  not locked and is not cited. Orr 2005 was not
+  opened.
+One-sentence prediction: Complementary-gene
+  incompatibilities accumulate faster than
+  linearly with time, so the chance of speciation
+  increases at least as the square of time since
+  separation.
+Assumptions: two sexual populations diverge and
+  accumulate complementary genes; a nursery cross
+  is not that pair; cultivar x cultivar is not a
+  species cross; clones are not complementary
+  genes; dual domestication is not one split.
+Which fail here: nursery hybrids are not a
+  snowball test. Dual domestication is two
+  origins, not t-squared isolation. Clone IBD
+  fakes shared complementary segments. Dong 2023
+  Syl-W gene flow is CAUTION, not an Orr-1995
+  snowball.
+Modern data / statistic: whether wild-cultivar or
+  interspecific isolation after clone + IBD
+  filters shows a faster-than-linear accumulation
+  of complementary-gene incompatibilities, versus
+  a single locus or two origins.
+Dataset: Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655). Syl-W gene flow;
+  vinifera x riparia / rupestris / amurensis as
+  the interspecific contrast already used on the
+  BDM note. Use as the snowball contrast, not as
+  a published grape snowball analysis. Do not
+  invent a grape snowball-incompatibility paper.
+What would falsify it: isolation is not a
+  snowball of complementary genes after clone
+  filter (one locus, or two origins). BDM remains
+  Dobzhansky 1937. Exponential factors remain Orr
+  1998. Hybrid speciation remains Rieseberg 2003.
+What we will not claim: that Dobzhansky 1937 is
+  this paper (already filled). That Orr 1998 is
+  this paper. That Rieseberg 2003 is this paper.
+  That Muller 1942 is the source (not locked).
+  That Dong 2023 demonstrated a snowball. That a
+  nursery cross is a complementary-gene pair.
+```
+
+---
+
+## Turelli-Orr dominance Haldane
+
+```
+Theory: Turelli-Orr dominance theory of Haldane's
+  rule
+Original paper (year): Turelli M, Orr HA. 1995.
+  The dominance theory of Haldane's rule.
+  Genetics 140(1):389-402 (1 May 1995).
+  DOI 10.1093/genetics/140.1.389 PMID 7635302
+  PMCID PMC1206564. EuropePMC HTML opened
+  (https://europepmc.org/article/MED/7635302):
+  Turelli M, Section of Evolution and Ecology,
+  University of California, Davis 95616, USA;
+  Orr HA; 01 May 1995; Genetics 140(1):389-402;
+  DOI; PMID; PMC; abstract. If species hybrids of
+  one sex only are inviable or sterile, that sex
+  is much more likely to be heterogametic (XY)
+  than homogametic (XX). Most or all of the
+  phenomena associated with Haldane's rule can be
+  explained if alleles that decrease hybrid
+  fitness are partially recessive. The XY sex
+  suffers more than the XX because X-linked
+  alleles causing postzygotic isolation tend to
+  have greater cumulative effects when hemizygous
+  than when heterozygous, even though the XX sex
+  carries twice as many such alleles. The same
+  hypothesis can account for the large-X effect.
+  Consistent with the temporal lag between
+  heterogametic and homogametic isolation, the
+  frequency of exceptions, unbalanced hybrid
+  females remaining fertile while F1 hybrid males
+  are sterile, and the absence of Haldane's rule
+  for hybrid inviability in mammals. Distinct from
+  filled Haldane 1922 (states the rule; not the
+  dominance theory). Distinct from filled
+  Charlesworth 1978 (Y degeneration by ratchet /
+  no recombination). Distinct from filled Orr 1995
+  (this wave; snowball of complementary genes).
+  Distinct from filled Coyne and Orr 1989 (this
+  wave; comparative time course). Distinct from
+  filled Dobzhansky 1937 BDM.
+One-sentence prediction: Hybrid-fitness alleles
+  are partially recessive, so the heterogametic
+  sex suffers more because hemizygous X effects
+  exceed heterozygous XX effects.
+Assumptions: an XX/XY (or ZW) sex-chromosome
+  system in which one hybrid sex is hemizygous
+  for X-linked incompatibilities; grape is not
+  that system; a nursery hybrid is not an F1
+  species cross.
+Which fail here: grape is not XX/XY. Sex is a
+  young SDR, not a hemizygous X. Haldane 1922
+  already does not map onto Vitis SDR. A nursery
+  hybrid is not a Drosophila F1. Do not invent a
+  heterogametic-dominance test.
+Modern data / statistic: does not map onto the
+  Vitis sex-determination region. No grape
+  heterogametic-sterility / dominance test is
+  defined.
+Dataset: Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655). Sex locus is
+  chromosome-2 SDR, never VviAGL11. Use only as
+  the does-not-map contrast already used on the
+  Haldane 1922 note. Do not invent a grape
+  Haldane-dominance paper.
+What would falsify it: not applicable as a Vitis
+  mapping; the theory requires heterogamety.
+  Haldane 1922 remains the rule statement. Y
+  degeneration remains Charlesworth 1978. The
+  snowball remains Orr 1995.
+What we will not claim: that Haldane 1922 is this
+  paper (already filled). That Charlesworth 1978
+  is this paper. That Dong 2023 tested dominance
+  of hybrid-fitness alleles. That VviAGL11 is the
+  sex locus. That grape has a heterogametic
+  hybrid sex.
+```
+
+---
+
+## Coyne-Orr time course of isolation
+
+```
+Theory: Coyne-Orr time course of reproductive
+  isolation
+Original paper (year): Coyne JA, Orr HA. 1989.
+  Patterns of speciation in Drosophila. Evolution
+  43(2):362-381 (1 March 1989).
+  DOI 10.1111/j.1558-5646.1989.tb04233.x
+  PMID 28568554. EuropePMC HTML opened
+  (https://europepmc.org/article/MED/28568554):
+  Coyne JA, Orr HA, Department of Ecology and
+  Evolution, The University of Chicago, 1103 East
+  57th Street, Chicago, IL 60637; 01 Mar 1989;
+  Evolution 43(2):362-381; DOI; PMID; abstract.
+  Literature data on 119 pairs of closely related
+  Drosophila species with known genetic distances,
+  mating discrimination, hybrid sterility and
+  inviability, and geographic ranges. Because
+  genetic distance correlates with divergence
+  time, the set is a cross-section of taxa at
+  different stages of speciation. Mating
+  discrimination and the sterility or inviability
+  of hybrids increase gradually with time. Hybrid
+  sterility and inviability evolve at similar
+  rates. Among allopatric species, mating
+  discrimination and postzygotic isolation evolve
+  at comparable rates, but among sympatric
+  species strong mating discrimination appears
+  well before severe sterility or inviability.
+  That suggests prezygotic isolation may be
+  reinforced when allopatric taxa become
+  sympatric. Recently diverged taxa usually
+  produce sterile or inviable male but not female
+  hybrids, with a large temporal gap before
+  female isolation, which explains the
+  preponderance of male-limited hybrid problems
+  (Haldane's rule). Distinct from filled
+  Dobzhansky 1940 (reinforcement as the process;
+  this paper is the comparative time-course /
+  sympatry pattern). Distinct from filled Mayr
+  1942 (biological species concept). Distinct
+  from filled Haldane 1922 (states the rule).
+  Distinct from filled Turelli and Orr 1995
+  (this wave; dominance theory). Distinct from
+  filled Orr 1995 (this wave; snowball math).
+  Distinct from filled Barton and de Cara 2009
+  (coupling). Coyne and Orr 1997 is a revisit;
+  1989 is the lock.
+One-sentence prediction: Mating discrimination
+  and hybrid sterility / inviability increase
+  gradually with time; in sympatry, prezygotic
+  isolation appears well before postzygotic
+  isolation.
+Assumptions: a set of sexual species pairs with
+  a genetic-distance clock and a geography of
+  sympatry versus allopatry; a nursery hybrid is
+  not a Drosophila pair; dual domestication is
+  not that clock; grape is not XX/XY.
+Which fail here: nursery crosses are not
+  Drosophila species pairs. Dual domestication
+  is two origins, not a genetic-distance clock.
+  Syl-W gene flow is CAUTION, not a Coyne-Orr
+  sympatry cell. Grape is not XX/XY, so the
+  male-limited gap does not map onto the SDR.
+Modern data / statistic: whether wild-cultivar
+  or interspecific isolation after clone + IBD
+  filters increases with divergence time and
+  shows stronger premating isolation in sympatry
+  than in allopatry, versus two origins or a
+  single-locus barrier.
+Dataset: Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655). Syl-W gene
+  flow as CAUTION, not a Coyne-Orr time-course.
+  Sex locus is chromosome-2 SDR, never VviAGL11.
+  Use as the time-course contrast, not as a
+  published grape Coyne-Orr analysis. Do not
+  invent a grape isolation-time-course paper.
+What would falsify it: isolation is not a time-
+  and sympatry-dependent Coyne-Orr pattern after
+  clone filter (flat, or two origins, or one
+  locus). Reinforcement remains Dobzhansky 1940.
+  BSC remains Mayr 1942. Haldane 1922 remains
+  the rule. Dominance remains Turelli-Orr 1995.
+What we will not claim: that Dobzhansky 1940 is
+  this paper (already filled). That Mayr 1942 is
+  this paper. That Coyne and Orr 1997 is the
+  source (revisit). That Dong 2023 fitted a
+  Coyne-Orr time course. That VviAGL11 is the
+  sex locus. That a nursery hybrid is a
+  Drosophila pair.
+```
+
+---
