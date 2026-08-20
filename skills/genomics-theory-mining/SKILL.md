@@ -18,7 +18,8 @@ description: >
   Orr adaptation, Y degeneration, Mayr BSC, HKA, Lewontin-Krakauer, Fay-Wu, Fu-Li, Slatkin gene flow, tension zone,
   Endler clines, Crow load, Haldane cline, Slatkin 1973, Nagylaki, Key tension zone, Barton coupling,
   Kaplan hitchhiking, Braverman SFS, Berg-Coop, Rockman QTN, Rousset IBD, Excoffier AMOVA, Wade-McCauley, Whitlock FST, Slatkin two-locus cline,
-  Barton-Bengtsson barrier, Barton hybrid-sink, Kimura 1955 drift, or a revival paper that
+  Barton-Bengtsson barrier, Barton hybrid-sink, Kimura 1955 drift, Nei GST, Slatkin 1981, Slatkin-Maruyama, Nei 1978, Kimura K80,
+  Tajima-Nei distance, Begun-Aquadro, Ohta 1972, Barton-de Cara, Rieseberg 2003, or a revival paper that
   is not a methods benchmark.
 ---
 
@@ -203,8 +204,18 @@ heterozygotes in clonal lineages).
 | Barton-Bengtsson gene-flow barrier | Barton and Bengtsson 1986 Heredity 56:357-376 | A genome-wide barrier at linked neutrals requires substantially unfit hybrids and so many selected genes that most markers are closely linked to a selected locus | A nursery hybrid is not that contact | Dong 2023 Syl-W gene flow is CAUTION, not a Barton-Bengtsson genome-wide barrier (Barton 1979 remains dynamics; Barton 1983 remains coupling) |
 | Barton hybrid-sink barrier | Barton 1986 Heredity 57:415-426 | Barrier strength combines a physical barrier, a hybrid-sink density reduction, and linkage | Vineyard density is not hybrid unfitness | Dong 2023: no hybrid-sink density barrier after clone filter (1979 remains dynamics; 1983 remains coupling; Barton-Bengtsson 1986 remains the genome-wide selected barrier) |
 | Kimura stochastic drift | Kimura 1955 PNAS 41:144-150 | Complete time-dependent diffusion solution for random genetic drift; heterozygosity decays as e^{-t/2N}; the distribution approaches Wright-Fisher steady decay | Clones are not a Wright-Fisher sample; a cultivar panel is not N | Clone / cultivar heterozygosity is not a Kimura-1955 drift trajectory after clone filter (Kimura 1968 remains the substitution-rate null; Kingman 1982 remains the coalescent) |
+| Nei GST | Nei 1973 PNAS 70:3321-3323 | GST = DST/HT is the between-group share of total gene diversity | Clones fake identity; dual domestication is not one hierarchy | Dong 2023 wilds: no Nei GST partition after clone + IBD filters (Nei 1972 remains distance; Weir-Cockerham 1984 remains moment FST) |
+| Slatkin conditional-frequency gene flow | Slatkin 1981 Genetics 99:323-335 | Allele frequency given occupancy estimates gene flow and is nearly independent of selection and mutation | Clone-private SNPs are not occupancy alleles | Dong 2023 wilds: conditional frequencies not an Nm estimate after clone filter (Slatkin 1985 remains private-allele log Nm) |
+| Slatkin-Maruyama drift in a cline | Slatkin and Maruyama 1975 Genetics 81:209-222 | Drift makes a selection-maintained cline less steep than the deterministic prediction | Clones fake cline slope; a vineyard is not a colony | Dong 2023: no drift-flattened cline after clone + IBD filters (Slatkin 1975 two-locus remains LD; Slatkin 1973 remains characteristic length) |
+| Nei unbiased distance | Nei 1978 Genetics 89:583-590 | Small-sample heterozygosity and distance are biased; unbiased formulae exist, and few individuals suffice if many loci and H is low | Clones fake identity; a cultivar panel is not a small sexual sample | Dong 2023 wilds: unbiased D not a single-split clock after clone + IBD filters (Nei 1972 remains the distance definition) |
+| Kimura two-parameter distance | Kimura 1980 J Mol Evol 16:111-120 | Distance K from transition fraction P and transversion fraction Q; synonymous rate exceeds amino-acid-altering | Clone somatic clock is not T; chips are not sequences | Clone / cultivar K80 distance is not a Kimura-1980 clock after clone filter (Zuckerkandl-Pauling remains the clock job) |
+| Tajima-Nei distance | Tajima and Nei 1984 Mol Biol Evol 1:269-285 | Nucleotide distance allows unequal substitution rates among pairs; usable when delta <= 1 | Clone IBS is not a homologous pair; a chip is not a sequence | After clone filter, Tajima-Nei delta is not a substitution clock (Tajima 1989 remains D; Kimura 1980 remains K80) |
+| Begun-Aquadro recombination-diversity | Begun and Aquadro 1992 Nature 356:519-520 | Nucleotide diversity rises with recombination; divergence does not, so hitchhiking not mutation-rate variation | Chip is not a map; clone IBD fakes a diversity trough | Dong 2023 on a real Vitis map: diversity not a recombination function after clone + IBD filters (Maynard Smith-Haigh remains hitchhiking; Kaplan 1989 remains coalescent hitchhiking; Charlesworth 1993 remains BGS) |
+| Ohta 1972 population-size rate | Ohta 1972 J Mol Evol 1:305-314 | Nearly-neutral substitutions with fluctuating selection fix faster in smaller populations (more uniform environments) | A cultivar panel is not Ne; dual domestication is not one size | Dong 2023: substitution / load rate not higher in the smaller-Ne class after clone filter (Ohta 1973 remains |Nes|<1 slightly deleterious) |
+| Barton-de Cara isolation coupling | Barton and de Cara 2009 Evolution 63:1171-1190 | Strong isolation evolves by coupling any incompatibilities (pre- or postzygotic), not only by a universal assortative-mating modifier | Nursery hybrid is not that contact; clones fake associations | Dong 2023 Syl-W gene flow is CAUTION, not a Barton-de Cara coupling (Dobzhansky 1940 remains reinforcement; Barton 1983 remains cline coupling) |
+| Rieseberg complementary-gene hybrid speciation | Rieseberg et al. 2003 Science 301:1211-1216 | Complementary gene action in hybrids recreates extreme parental-segment combinations that selection favors; hybridization facilitates ecological divergence | A nursery cross is not a homoploid hybrid species | Dong 2023: no complementary-gene hybrid species after clone filter (Anderson 1949 remains introgression) |
 
-Ninety-two filled notes (eight first wave, nine second wave, nine third wave, twelve fourth wave, ten fifth wave, ten sixth wave, nine seventh wave, eight eighth wave, nine ninth wave, eight tenth wave). Long form in `theories.md`. One theory per job.
+One hundred two filled notes (eight first wave, nine second wave, nine third wave, twelve fourth wave, ten fifth wave, ten sixth wave, nine seventh wave, eight eighth wave, nine ninth wave, eight tenth wave, ten eleventh wave). Long form in `theories.md`. One theory per job.
 
 Kondrashov 1988 (cost of males) is on the door list but was not filled: it does not map onto grafted clones.
 Muller 1942 was not locked on a publisher page and is not cited for BDM.
@@ -324,6 +335,17 @@ centromere / CenH3 paper is locked.
 - Barton 1986 hybrid-sink paper combines physical barrier, hybrid-sink density, and linkage. Distinct from Barton-Bengtsson 1986. Vineyard density is not hybrid unfitness.
 - Kimura 1955 is the complete time-dependent diffusion solution for panmictic random drift; H decays as e^{-t/2N}. Distinct from Kimura 1968, Kimura-Weiss 1964, Kimura-Crow 1964, Kimura 1969, Kingman 1982. Clone age is not Wright-Fisher t.
 
+- Nei 1973 is GST = DST/HT, the between-group share of total gene diversity. Nei 1972 remains genetic distance. Weir-Cockerham 1984 remains the moment estimator. Excoffier 1992 remains AMOVA. Wright 1951 still has no claim text.
+- Slatkin 1981 is conditional average frequency given occupancy as a gene-flow estimate nearly independent of selection and mutation. Slatkin 1985 remains private-allele log Nm. Slatkin 1993 remains pairwise M.
+- Slatkin and Maruyama 1975 is drift flattening a selection-maintained cline. Distinct from Slatkin 1975 two-locus LD and Slatkin 1973 characteristic length. Sex locus is Dong 2023 chromosome-2 SDR, never VviAGL11.
+- Nei 1978 is the small-sample unbiased estimator of heterozygosity and D. Distinct from Nei 1972 (definition) and Nei 1973 (GST).
+- Kimura 1980 is K80 / K2P distance from transition fraction P and transversion fraction Q. Distinct from Kimura 1968, Kimura 1955, Kimura 1969, and Zuckerkandl-Pauling. Clone age is not T. Jukes and Cantor 1969 was not opened.
+- Tajima and Nei 1984 is unequal-rate nucleotide distance delta (usable when delta <= 1). Distinct from Tajima 1989 D and from Kimura 1980 K80.
+- Begun and Aquadro 1992 is the genome-wide recombination-diversity correlation with no matching divergence correlation. Distinct from Maynard Smith and Haigh 1974, Kaplan 1989, and Charlesworth 1993 BGS. A chip is not a map.
+- Ohta 1972 is nearly-neutral substitutions with fluctuating selection fixing faster in smaller, more uniform populations. Distinct from Ohta 1973 |Nes|<1. Ohta 1992 remains a review. A cultivar panel is not Ne.
+- Barton and de Cara 2009 is coupling of any incompatibilities as a route to strong isolation, distinct from Dobzhansky 1940 reinforcement and Barton 1983 cline coupling. Barton 2000 is a review.
+- Rieseberg et al. 2003 is complementary-gene recreation of extreme parental-segment combinations in a hybrid species. Distinct from Anderson 1949 introgression. Rieseberg 1997 Annu Rev is a review. A nursery cross is not a homoploid hybrid species.
+
 ## Sources to open first (fetched)
 
 - Muller 1964: https://doi.org/10.1016/0027-5107(64)90047-8
@@ -437,6 +459,17 @@ centromere / CenH3 paper is locked.
 - Barton and Bengtsson 1986: https://doi.org/10.1038/hdy.1986.135 (EuropePMC MED 3804765; Nature PDF https://www.nature.com/articles/hdy1986135.pdf)
 - Barton 1986 hybrid-sink: https://doi.org/10.1038/hdy.1986.142 (EuropePMC MED 3804768; Nature PDF https://www.nature.com/articles/hdy1986142.pdf)
 - Kimura 1955: https://doi.org/10.1073/pnas.41.3.144 (PMC528040; EuropePMC MED 16589632; PDF https://europepmc.org/articles/PMC528040?pdf=render)
+
+- Nei 1973: https://doi.org/10.1073/pnas.70.12.3321 (PMC427228; EuropePMC MED 4519626)
+- Slatkin 1981: https://doi.org/10.1093/genetics/99.2.323 (PMC1214504; EuropePMC MED 17249120)
+- Slatkin and Maruyama 1975: https://doi.org/10.1093/genetics/81.1.209 (PMC1213384; EuropePMC MED 1205126)
+- Nei 1978: https://doi.org/10.1093/genetics/89.3.583 (PMC1213855; EuropePMC MED 17248844)
+- Kimura 1980: https://doi.org/10.1007/bf01731581 (EuropePMC MED 7463489)
+- Tajima and Nei 1984: https://doi.org/10.1093/oxfordjournals.molbev.a040317 (EuropePMC MED 6599968)
+- Begun and Aquadro 1992: https://doi.org/10.1038/356519a0 (EuropePMC MED 1560824)
+- Ohta 1972: https://doi.org/10.1007/BF01653959 (Springer HTML; EuropePMC MED 4681232 bibliographic)
+- Barton and de Cara 2009: https://doi.org/10.1111/j.1558-5646.2009.00622.x (EuropePMC MED 19154394)
+- Rieseberg et al. 2003: https://doi.org/10.1126/science.1086949 (EuropePMC MED 12907807)
 
 ## Red lines
 
@@ -611,5 +644,38 @@ Wright S. 1951 / 1965 F-statistics. Still no claim text. 1931 remains island mat
 - Do not write Kimura 1955 as Kimura 1968 or as Kingman 1982 or as Kimura-Weiss 1964.
 - Do not write VviAGL11 as the sex locus (Dong 2023 chromosome-2 SDR).
 - Do not invent a grape IBD, AMOVA, metapopulation-FST, two-locus-cline, hybrid-barrier, or drift-trajectory paper.
+
+Fisher RA. 1937. The wave of advance of advantageous genes. Ann Eugen 7(4):355-369. DOI 10.1111/j.1469-1809.1937.tb02153.x. Wiley HTML still a historical-archive disclaimer (no scientific abstract). DROP without a quoted wave-of-advance claim from an opened page.
+Kolmogorov AN, Petrovsky IG, Piscounov NS. 1937. KPP travelling-wave equation. Russian original not opened. DROP.
+Stephan W, Wiehe THE, Lenz MW. 1992. The effect of strongly selected substitutions on neutral polymorphism: analytical results based on diffusion theory. Theor Popul Biol 41(2):237-254. DOI 10.1016/0040-5809(92)90045-U. ScienceDirect HTML Cloudflare-blocked this wave; no EuropePMC abstract page opened. DROP. Kaplan 1989 remains the coalescent-hitchhiking lock.
+Barton NH. 2000. Genetic hitchhiking. Philos Trans R Soc Lond B 355:1553-1562. DOI 10.1098/rstb.2000.0716 PMID 11127900. Tagged Review. DROP. Maynard Smith and Haigh 1974 remains the hitchhiking lock.
+Jukes TH, Cantor CR. 1969. Evolution of protein molecules. In Munro HN (ed.) Mammalian Protein Metabolism vol. III, pp. 21-132. Academic Press. Book chapter; no lockable claim page opened. Kimura 1980 is the nucleotide-distance lock. DROP.
+Wright S. 1951 / 1949. The genetical structure of populations. Ann Eugen 15:323-354. DOI 10.1111/j.1469-1809.1949.tb02451.x PMID 24540312. Wiley HTML still a historical-archive disclaimer; no scientific claim text. 1931 remains island math; 1943 remains IBD; 1984 remains the estimator. DROP.
+Sabeti PC et al. 2002. Detecting recent positive selection in the human genome from haplotype structure. Nature 419:832-837. DOI 10.1038/nature01140 PMID 12397357. Method (EHH / long-range haplotype scan). Skip. Maynard Smith and Haigh 1974 remains hitchhiking.
+Andolfatto P. 2005. Adaptive evolution of non-coding DNA in Drosophila. Nature 437:1149-1152. DOI 10.1038/nature04107. Nature HTML opened (author, 2005, Nature 437:1149-1152, DOI, abstract: MK extension to non-coding DNA). DROP as a named theory: empirical result using filled MK 1991, not a new original. MK remains the lock.
+Rieseberg LH. 1997. Hybrid origins of plant species. Annu Rev Ecol Syst 28:359-389. Review. Skip. 2003 is the lock.
+Malecot G. 1948 / 1969 isolation. Book; no lockable claim page. Wright 1943 remains IBD.
+
+- Do not cite Fisher 1937 as the wave-of-advance source (claim text still not opened).
+- Do not cite Kolmogorov / KPP 1937 as the source (not opened).
+- Do not cite Stephan, Wiehe and Lenz 1992 as the hitchhiking source (page not opened; Kaplan 1989 is the lock).
+- Do not cite Barton 2000 as a hitchhiking original (review; Maynard Smith and Haigh 1974 is the lock).
+- Do not cite Jukes and Cantor 1969 as the nucleotide-distance source (book chapter not opened; Kimura 1980 is the lock).
+- Do not cite Wright 1951 / 1965 as the F-statistics source (no claim text; 1931 / 1943 / 1984 remain).
+- Do not cite Sabeti 2002 as a named theory (method; skip).
+- Do not cite Andolfatto 2005 as a named theory original (empirical MK extension; MK 1991 remains).
+- Do not cite Rieseberg 1997 Annu Rev as the hybrid-speciation source (review; 2003 is the lock).
+- Do not write Nei 1973 GST as Nei 1972 distance or as Weir-Cockerham 1984.
+- Do not write Slatkin 1981 as Slatkin 1985 private alleles or as Slatkin 1993 pairwise M.
+- Do not write Slatkin and Maruyama 1975 as Slatkin 1975 two-locus or as Slatkin 1973 characteristic length.
+- Do not write Nei 1978 as Nei 1972.
+- Do not write Kimura 1980 as Kimura 1968 or as Zuckerkandl-Pauling.
+- Do not write Tajima and Nei 1984 as Tajima 1989 D or as Kimura 1980.
+- Do not write Begun and Aquadro 1992 as Maynard Smith and Haigh 1974 or as Charlesworth 1993 BGS.
+- Do not write Ohta 1972 as Ohta 1973.
+- Do not write Barton and de Cara 2009 as Dobzhansky 1940 or as Barton 1983.
+- Do not write Rieseberg 2003 as Anderson 1949.
+- Do not write VviAGL11 as the sex locus (Dong 2023 chromosome-2 SDR).
+- Do not invent a grape GST, conditional-frequency, drift-cline, unbiased-distance, K80, Tajima-Nei-distance, recombination-diversity, nearly-neutral-precursor, isolation-coupling, or hybrid-speciation paper.
 
 Related: `plant-lit-review`, `vitis-popgen`, `grapevine-adna`, `vitis-pangenome`.

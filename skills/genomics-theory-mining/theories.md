@@ -4779,3 +4779,739 @@ What we will not claim: that Kimura 1968 is this paper
 ```
 
 ---
+
+---
+
+## Nei GST
+
+```
+Theory: Nei GST (gene-diversity partition)
+Original paper (year): Nei M. 1973. Analysis of gene diversity
+  in subdivided populations. Proc Natl Acad Sci USA
+  70(12):3321-3323 (December 1973; communicated 6 August 1973).
+  DOI 10.1073/pnas.70.12.3321 PMID 4519626 PMCID PMC427228.
+  EuropePMC HTML opened (https://europepmc.org/article/MED/4519626):
+  Nei M; 01 Dec 1973; PNAS 70(12):3321-3323; DOI; PMID; PMC;
+  abstract. Gene diversity (heterozygosity) of a subdivided
+  population partitions into within- and between-subpopulation
+  components; absolute and relative measures of gene
+  differentiation among subpopulations are proposed; applicable
+  without regard to allele number, mutation / selection /
+  migration mix, or reproductive method. Seed-lock PDF
+  (https://europepmc.org/articles/PMC427228?pdf=render):
+  Center for Demographic and Population Genetics, University of
+  Texas at Houston; communicated by Sewall Wright, 6 August
+  1973. Gene diversity H (probability two random genes differ)
+  of a subdivided population partitions as HT = HS + DST.
+  GST = DST/HT is the relative coefficient of gene
+  differentiation (equivalent to a weighted-average FST with
+  two alleles; works with any number of alleles, any mating
+  system, and any mix of mutation, selection, and migration).
+  Dm = s DST/(s-1) is the absolute between-subpopulation
+  diversity excluding self-comparisons; RST = Dm/HS. The
+  partition extends to further hierarchy (HT = HC + DCS +
+  DST). Distinct from filled Nei 1972 (genetic distance D from
+  gene identity under isolation; not the GST partition).
+  Distinct from filled Weir and Cockerham 1984 (moment FST
+  estimator). Distinct from filled Wright 1931 (island formula)
+  and filled Wright 1943 (continuous IBD). Distinct from filled
+  Excoffier, Smouse and Quattro 1992 (AMOVA / phi from
+  haplotype distances). Wright 1951 / 1965 F-statistics still
+  have no claim text; not the source.
+One-sentence prediction: Differentiation is the between-group
+  share of total gene diversity (GST = DST/HT), not a
+  distance and not Wright's island FST as data.
+Assumptions: subpopulations are sexual demes, not clones or
+  cultivars; gene identity is not clone IBS; a vineyard is
+  not a subpopulation; dual domestication is not one
+  hierarchy; chips are not forced-biallelic loci.
+Which fail here: clones fake gene identity. A nursery block
+  is not a Nei subpopulation. Dual domestication is two
+  origins. Human transport mixes patches. SNP chips are
+  biallelic.
+Modern data / statistic: whether wild-patch GST is a Nei
+  HT = HS + DST partition after clone + IBD filters, versus
+  clone IBS or two domestication centres.
+Dataset: Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655). Wild sylvestris subset after
+  clone + IBD filters. Use as the GST contrast, not as a
+  published Nei-1973 analysis. Do not invent a grape GST
+  paper.
+What would falsify it: wild-patch diversity is not a Nei
+  GST partition after clone filter (clone IBS, or two
+  origins). Distance under isolation remains the Nei 1972
+  job; moment FST remains Weir-Cockerham 1984; island FST
+  remains Wright 1931; AMOVA remains Excoffier 1992.
+What we will not claim: that Nei 1972 is this paper (already
+  filled). That Weir and Cockerham 1984 is this paper. That
+  Wright 1951 / 1965 is the source. That Dong 2023 computed
+  GST. That a cultivar name is a subpopulation.
+```
+
+---
+
+## Slatkin conditional-frequency gene flow
+
+```
+Theory: Slatkin conditional average frequency (gene-flow
+  estimator)
+Original paper (year): Slatkin M. 1981. Estimating levels of
+  gene flow in natural populations. Genetics 99(2):323-335
+  (1 October 1981). DOI 10.1093/genetics/99.2.323
+  PMID 17249120 PMCID PMC1214504. EuropePMC HTML opened
+  (https://europepmc.org/article/MED/17249120): Slatkin M,
+  Department of Zoology, NJ-15, University of Washington,
+  Seattle, Washington 98195; 01 Oct 1981; Genetics
+  99(2):323-335; DOI; PMID; PMC; abstract. Simulation of
+  selection, mutation, and drift in a geographically
+  subdivided population (infinite-alleles mutation; both
+  advantageous and deleterious mutants). The average
+  frequency of an allele conditioned on the number of local
+  populations it appears in (the conditional average
+  frequency) is approximately independent of selection
+  intensity and mutation rate, but depends strongly on the
+  overall level of gene flow. That justifies using the
+  conditional average frequency as a rough estimate of
+  gene flow. Data from 16 species: large differences among
+  taxa; some species apparently high gene flow, salamanders
+  low. Distinct from filled Slatkin 1985 (private-allele
+  frequency as log Nm; the later lock). Distinct from
+  filled Slatkin 1993 (pairwise M from FST). Distinct from
+  filled Slatkin 1973 / 1975 two-locus (clines). Distinct
+  from filled Slatkin and Maruyama 1975 (this wave; drift
+  flattening a cline). Distinct from filled Wright 1931
+  (island FST = f(Nem) as theory, not this occupancy
+  estimator). Slatkin 1987 Science remains a review.
+One-sentence prediction: Allele frequency given occupancy
+  (how many demes carry the allele) estimates gene flow
+  and is nearly independent of selection and mutation.
+Assumptions: local populations are sexual demes, not
+  clones; occupancy is not a cultivar name-list; private
+  or rare alleles are not clone-private SNPs; dual
+  domestication is not one subdivided species.
+Which fail here: clones fake occupancy and private alleles.
+  A nursery block is not a deme. Human transport is not
+  the paper's gene flow. Dual domestication is two origins.
+  SNP chips are biallelic, not infinite-alleles.
+Modern data / statistic: whether wild-patch conditional
+  average frequencies estimate Nm after clone + IBD
+  filters, versus clone-private SNPs or two origins.
+Dataset: Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655). Wild sylvestris subset
+  after clone + IBD filters. Use as the occupancy contrast,
+  not as a published Slatkin-1981 analysis. Do not invent
+  a grape conditional-frequency paper.
+What would falsify it: conditional frequencies do not
+  estimate gene flow after clone filter (clone-private
+  SNPs, or two origins). Private-allele log Nm remains
+  the 1985 job; pairwise M remains 1993; island FST
+  remains Wright 1931.
+What we will not claim: that Slatkin 1985 is this paper
+  (already filled). That Slatkin 1993 is this paper. That
+  Slatkin 1987 is the source (review). That Dong 2023
+  estimated conditional-frequency Nm. That a cultivar
+  private SNP is an occupancy allele.
+```
+
+---
+
+## Slatkin-Maruyama drift in a cline
+
+```
+Theory: Slatkin-Maruyama genetic drift in a cline
+Original paper (year): Slatkin M, Maruyama T. 1975. Genetic
+  drift in a cline. Genetics 81(1):209-222 (1 September
+  1975). DOI 10.1093/genetics/81.1.209 PMID 1205126
+  PMCID PMC1213384. EuropePMC HTML opened
+  (https://europepmc.org/article/MED/1205126): Slatkin M,
+  Department of Biophysics and Theoretical Biology, The
+  University of Chicago, 920 East 58th Street, Chicago,
+  Illinois 60637; Maruyama T, National Institute of
+  Genetics, Yata 1,111, Misima, Sizuoka-ken 411, Japan;
+  01 Sep 1975; Genetics 81(1):209-222; DOI; PMID; PMC;
+  abstract. Received 26 November 1974; revisions requested
+  12 May 1975. A model of genetic drift in a cline
+  maintained by spatially varying natural selection and
+  local dispersal. Approximation valid for weak selection
+  and small migration rates. Numerical iteration: the
+  cline is less steep than the deterministic prediction,
+  but for weak selection the correlation between random
+  fluctuations in neighboring colonies is approximately
+  the same as in migration-and-drift models without
+  selection. Distinct from filled Slatkin 1975 two-locus
+  (linkage and LD when r is of order s; not drift
+  flattening a single cline). Distinct from filled Slatkin
+  1973 (characteristic length). Distinct from filled
+  Haldane 1948 / Nagylaki 1975 (deterministic cline
+  existence / slope). Distinct from filled Kimura 1955
+  (panmictic drift diffusion; not a spatial cline).
+  Distinct from filled Kimura and Weiss 1964 stepping-
+  stone.
+One-sentence prediction: Drift flattens a selection-
+  maintained cline relative to the deterministic slope;
+  neighbor-colony correlations still look like migration-
+  and-drift without selection when selection is weak.
+Assumptions: a chain of sexual colonies with local
+  dispersal and spatially varying selection; a vineyard
+  is not a colony; clone IBS is not a flattened cline;
+  dual domestication is not one environmental gradient;
+  human transport is not local dispersal.
+Which fail here: clone IBD fakes a flat frequency map.
+  Dong 2023 color / sex / flavor are few large-effect
+  loci, not a weak-selection cline. Human transport is
+  not Slatkin-Maruyama local dispersal. A nursery block
+  is not a colony.
+Modern data / statistic: whether a candidate cline after
+  clone + IBD filters is shallower than the deterministic
+  slope in the way Slatkin and Maruyama predict, versus
+  two origins or clone IBS.
+Dataset: Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655). Color / sex / flavor
+  peaks as the large-effect contrast. Use as the drift-
+  in-a-cline contrast, not as a published grape drift-
+  cline paper. Sex locus is chromosome-2 SDR, never
+  VviAGL11. Do not invent a grape drift-cline paper.
+What would falsify it: the candidate cline is not
+  drift-flattened after clone filter (deterministic
+  slope, or two origins, or clone IBS). Two-locus LD
+  remains the other 1975 job. Characteristic length
+  remains Slatkin 1973.
+What we will not claim: that Slatkin 1975 two-locus is
+  this paper (already filled). That Slatkin 1973 is this
+  paper. That Kimura 1955 is this paper. That Dong 2023
+  fitted a drift-flattened cline. That VviAGL11 is the
+  sex locus (it is seedlessness; sex is Dong 2023 chr-2
+  SDR).
+```
+
+---
+
+## Nei unbiased distance
+
+```
+Theory: Nei 1978 unbiased heterozygosity and genetic
+  distance
+Original paper (year): Nei M. 1978. Estimation of average
+  heterozygosity and genetic distance from a small number
+  of individuals. Genetics 89(3):583-590 (1 July 1978).
+  DOI 10.1093/genetics/89.3.583 PMID 17248844
+  PMCID PMC1213855. EuropePMC HTML opened
+  (https://europepmc.org/article/MED/17248844): Nei M,
+  Center for Demographic and Population Genetics,
+  University of Texas at Houston, Texas 77025; 01 Jul
+  1978; Genetics 89(3):583-590; DOI; PMID; PMC; abstract.
+  Received 1 November 1977; revisions requested 13
+  February 1978. Systematic biases in sample
+  heterozygosity and sample genetic distances are
+  evaluated; formulae for unbiased estimates of average
+  heterozygosity and genetic distance are developed. The
+  number of individuals needed for average heterozygosity
+  can be very small if a large number of loci are studied
+  and average heterozygosity is low. The number needed
+  for genetic distance can also be very small if the
+  distance is large and average heterozygosity of the two
+  species compared is low. Distinct from filled Nei 1972
+  (defines D from gene identity under isolation; this
+  paper is the small-sample unbiased estimator). Distinct
+  from filled Nei 1973 GST (diversity partition, not
+  distance). Distinct from filled Weir and Cockerham 1984
+  (moment FST, not Nei D).
+One-sentence prediction: Sample heterozygosity and Nei
+  distance are downward-biased in small samples; the 1978
+  unbiased formulae recover H and D, and few individuals
+  suffice when many loci are scored and H is low.
+Assumptions: a sexual sample of individuals, not clone
+  copies; loci are independent; a cultivar panel is not
+  that sample; dual domestication is not one pairwise
+  split; chips are not a large number of independent
+  electrophoretic loci.
+Which fail here: clones fake identity and heterozygosity.
+  Dual domestication is two origins, not one D. A nursery
+  name-list is not a small sexual sample. Human transport
+  mixes the pairwise comparison.
+Modern data / statistic: whether wild / cultivar unbiased
+  Nei D after clone + IBD filters is a single-split
+  clock, versus two domestication centres or clone IBS.
+Dataset: Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655). Wild sylvestris subset
+  after clone + IBD filters. Use as the unbiased-D
+  contrast, not as a published Nei-1978 analysis. Do not
+  invent a grape unbiased-distance paper.
+What would falsify it: unbiased D is not a single-split
+  clock after clone filter (two origins, or clone IBS).
+  The 1972 definition remains the distance job. GST
+  remains the 1973 job.
+What we will not claim: that Nei 1972 is this paper
+  (already filled). That Nei 1973 is this paper. That
+  Dong 2023 computed unbiased Nei D. That a cultivar
+  name is a species in the 1978 pairwise comparison.
+```
+
+---
+
+## Kimura two-parameter distance
+
+```
+Theory: Kimura 1980 two-parameter nucleotide distance
+  (K80 / K2P)
+Original paper (year): Kimura M. 1980. A simple method
+  for estimating evolutionary rates of base substitutions
+  through comparative studies of nucleotide sequences.
+  J Mol Evol 16(2):111-120 (1 December 1980 on EuropePMC;
+  DOI issue date). DOI 10.1007/bf01731581 PMID 7463489.
+  EuropePMC HTML opened
+  (https://europepmc.org/article/MED/7463489): Kimura M;
+  01 Dec 1980; Journal of Molecular Evolution
+  16(2):111-120; DOI; PMID; abstract. Pairwise nucleotide
+  differences are type I (transition: both purines or both
+  pyrimidines) or type II (transversion: purine versus
+  pyrimidine). With P and Q the fractions of sites of
+  type I and type II, evolutionary distance per site is
+  K = -(1/2) ln [(1-2P-Q) square root of 1-2Q]. Rate per
+  year is k = K/(2T). Third-position synonymous component
+  is K'S = -(1/2) ln (1-2P-Q). Globin examples: synonymous
+  substitutions occur at much higher rates than amino-
+  acid-altering substitutions. Distinct from filled
+  Kimura 1968 (neutral substitution rate as a molecular
+  null; not this transition / transversion distance).
+  Distinct from filled Kimura 1955 (forward drift
+  diffusion). Distinct from filled Kimura 1969 infinite-
+  sites. Distinct from filled Zuckerkandl and Pauling
+  1962 / 1965 (clock as linear divergence; not the K80
+  formula). Distinct from filled Tajima and Nei 1984
+  (this wave; unequal rates among nucleotide pairs).
+  Jukes and Cantor 1969 was not opened as a lockable
+  claim page (book chapter); not the source.
+One-sentence prediction: Pairwise sequence distance is
+  Kimura's K from transition fraction P and transversion
+  fraction Q; synonymous K exceeds amino-acid-altering K.
+Assumptions: homologous nucleotide sequences, not chip
+  genotypes; T is germline divergence time, not clone
+  age; a cultivar pair is not two species; dual
+  domestication is not one T.
+Which fail here: grafted clones skip the germline T in
+  k = K/(2T). A cultivar collection is not two diverged
+  sequences. Clone IBS fakes P and Q. Dual domestication
+  is human choice, not a K80 clock.
+Modern data / statistic: whether wild / cultivar sequence
+  pairs after clone + IBD filters give a Kimura-1980 K
+  (transitions versus transversions; synonymous faster
+  than replacement) versus clone copies or two origins.
+Caution dataset: Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655). Wild sylvestris after
+  clone + IBD filters. Vondras 2019 / Roach 2018 as
+  clone-clock companions (somatic age is not T). Use as
+  the K80 contrast, not as a published grape K80
+  analysis. Do not invent a grape K80 paper.
+What would falsify it: pairwise K is not a Kimura-1980
+  clock after clone filter (clone copies, or two origins).
+  Neutral substitution rate remains Kimura 1968. The
+  linear clock remains Zuckerkandl-Pauling. Unequal-rate
+  distance remains Tajima-Nei 1984.
+What we will not claim: that Kimura 1968 is this paper
+  (already filled). That Kimura 1955 is this paper. That
+  Jukes and Cantor 1969 is the source (chapter not
+  opened). That Dong 2023 fitted K80. That clone age is
+  T.
+```
+
+---
+
+## Tajima-Nei distance
+
+```
+Theory: Tajima-Nei 1984 nucleotide distance (unequal
+  substitution rates)
+Original paper (year): Tajima F, Nei M. 1984. Estimation
+  of evolutionary distance between nucleotide sequences.
+  Mol Biol Evol 1(3):269-285 (1 April 1984).
+  DOI 10.1093/oxfordjournals.molbev.a040317 PMID 6599968.
+  EuropePMC HTML opened
+  (https://europepmc.org/article/MED/6599968): Tajima F,
+  Nei M, Center for Demographic and Population Genetics,
+  University of Texas, Houston 77225; 01 Apr 1984;
+  Molecular Biology and Evolution 1(3):269-285; DOI;
+  PMID; abstract. A formula for the average number of
+  nucleotide substitutions per site (delta) between two
+  homologous DNA sequences that allows unequal rates of
+  substitution among different nucleotide pairs (equal-
+  input model). Simulations: a reasonably good estimate
+  for a wide range of substitution patterns as long as
+  delta is equal to or smaller than 1. Inapplicable cases
+  are rarer than for other then-recent methods (insulin
+  genes). A companion method estimates nucleotide changes
+  due to deletion and insertion; globin genes: the number
+  of changes per site increases with evolutionary time
+  but the pattern is quite irregular. Distinct from
+  filled Tajima 1989 (Tajima D as pi versus theta_W; not
+  a pairwise distance). Distinct from filled Kimura 1980
+  (this wave; transition / transversion K80, not unequal-
+  rate delta). Distinct from filled Nei 1972 / 1978
+  (allele-frequency distance, not nucleotide delta).
+  Distinct from filled Zuckerkandl and Pauling 1962 /
+  1965. Jukes and Cantor 1969 was not opened.
+One-sentence prediction: Pairwise nucleotide distance is
+  Tajima-Nei delta when substitution rates among
+  nucleotide pairs are unequal and delta is at most 1.
+Assumptions: homologous DNA sequences, not chip
+  genotypes; clone IBS is not a homologous pair; dual
+  domestication is not one delta; somatic clone age is
+  not evolutionary time.
+Which fail here: grafted clones are not diverged
+  homologous sequences. A cultivar panel is not two
+  species. Clone IBS fakes delta. Dual domestication is
+  two origins.
+Modern data / statistic: whether wild / cultivar sequence
+  pairs after clone + IBD filters give a Tajima-Nei
+  delta (unequal-rate; delta <= 1) versus clone copies
+  or two origins.
+Caution dataset: Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655). Wild sylvestris after
+  clone + IBD filters. Vondras 2019 / Roach 2018 as
+  clone-clock companions. Use as the Tajima-Nei-distance
+  contrast, not as a published grape delta analysis. Do
+  not invent a grape Tajima-Nei-distance paper.
+What would falsify it: pairwise delta is not a Tajima-
+  Nei substitution clock after clone filter (clone
+  copies, or two origins). Tajima D remains the 1989
+  job. K80 remains Kimura 1980. Allele-frequency D
+  remains Nei 1972 / 1978.
+What we will not claim: that Tajima 1989 is this paper
+  (already filled). That Kimura 1980 is this paper. That
+  Jukes and Cantor 1969 is the source. That Dong 2023
+  fitted Tajima-Nei delta. That clone age is
+  evolutionary time.
+```
+
+---
+
+## Begun-Aquadro recombination-diversity
+
+```
+Theory: Begun-Aquadro recombination-diversity correlation
+Original paper (year): Begun DJ, Aquadro CF. 1992. Levels
+  of naturally occurring DNA polymorphism correlate with
+  recombination rates in D. melanogaster. Nature
+  356(6369):519-520 (9 April 1992; EuropePMC 01 Apr
+  1992). DOI 10.1038/356519a0 PMID 1560824. EuropePMC
+  HTML opened (https://europepmc.org/article/MED/1560824):
+  Begun DJ, Aquadro CF, Section of Genetics and
+  Development, Cornell University, Ithaca, New York
+  14853-2703; 01 Apr 1992; Nature 356(6369):519-520;
+  DOI; PMID; abstract. Two low-recombination regions in
+  D. melanogaster have normal divergence but greatly
+  reduced nucleotide diversity, apparently from fixation
+  of advantageous mutations and hitchhiking. For 20 gene
+  regions across the genome, nucleotide diversity in
+  natural D. melanogaster is positively correlated with
+  the regional recombination rate. This is not mutation-
+  rate or constraint variation: recombination is not
+  correlated with sequence divergence between D.
+  melanogaster and D. simulans. The correlation may
+  result from genetic hitchhiking associated with
+  fixation of advantageous mutants; hitchhiking thus
+  seems to occur over a large fraction of the Drosophila
+  genome and may be a major constraint on variation.
+  Distinct from filled Maynard Smith and Haigh 1974
+  (local diversity collapse around a sweep; not the
+  genome-wide recombination-diversity correlation).
+  Distinct from filled Kaplan, Hudson and Langley 1989
+  (coalescent reduction of polymorphic sites). Distinct
+  from filled Charlesworth, Morgan and Charlesworth 1993
+  (background selection; BGS can also predict a
+  recombination-diversity slope). Distinct from filled
+  Braverman et al. 1995 (hitchhiking SFS). Distinct from
+  filled Hill and Robertson 1966. Stephan, Wiehe and
+  Lenz 1992 was not opened; not the source.
+One-sentence prediction: Nucleotide diversity rises with
+  regional recombination; interspecific divergence does
+  not, so the slope is hitchhiking (or linked selection),
+  not mutation-rate variation.
+Assumptions: a sexual recombination map, not a chip
+  skeleton; samples are not clones; dual domestication
+  is not one Drosophila-style map; a vineyard is not a
+  natural population.
+Which fail here: clone IBD fakes a diversity trough in
+  low-recombination bins. A SNP chip is not a Vitis map.
+  Dong 2023 color / sex / flavor are few large-effect
+  loci, not a genome-wide hitchhiking constraint. Human
+  transport is not Drosophila recombination.
+Modern data / statistic: whether wild-sample nucleotide
+  diversity after clone + IBD filters rises with
+  recombination on a real Vitis map while divergence
+  does not, versus clone IBS or two origins.
+Dataset: Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655). Color / sex / flavor
+  peaks as the large-effect contrast. Use as the
+  recombination-diversity contrast, not as a published
+  grape Begun-Aquadro analysis. Sex locus is chromosome-2
+  SDR, never VviAGL11. Do not invent a grape
+  recombination-diversity paper. No locked grape
+  recombination-map paper; the map is a requirement, as
+  in the BGS note.
+What would falsify it: diversity is not a recombination
+  function after clone filter (flat, or clone IBS, or
+  two origins). Local sweep collapse remains Maynard
+  Smith and Haigh 1974. Coalescent hitchhiking remains
+  Kaplan 1989. BGS remains Charlesworth 1993.
+What we will not claim: that Maynard Smith and Haigh
+  1974 is this paper (already filled). That Kaplan 1989
+  is this paper. That Charlesworth 1993 is this paper.
+  That Stephan 1992 is the source (page not opened).
+  That Dong 2023 fitted a recombination-diversity slope.
+  That VviAGL11 is the sex locus.
+```
+
+---
+
+## Ohta 1972 population-size rate
+
+```
+Theory: Ohta 1972 population size and rate of evolution
+  (nearly-neutral precursor; fluctuating selection)
+Original paper (year): Ohta T. 1972. Population size and
+  rate of evolution. J Mol Evol 1:305-314 (December
+  1972). DOI 10.1007/BF01653959 PMID 4681232.
+  Springer HTML opened
+  (https://link.springer.com/article/10.1007/BF01653959):
+  Tomoko Ohta, National Institute of Genetics, 411,
+  Mishima, Sizuoka-Ken, Japan; Contribution No. 871;
+  received 7 February 1972; revised 17 June 1972; issue
+  date December 1972; Journal of Molecular Evolution
+  volume 1 pages 305-314; DOI; Summary. EuropePMC HTML
+  opened (https://europepmc.org/article/MED/4681232):
+  Ohta T; lists 01 Jan 1972 and 1(3):305-314; DOI; PMID;
+  no abstract there (catalog date / issue quirk). Much
+  substitution of nearly neutral mutations whose
+  selection intensity varies from time to time or from
+  region to region. Variance among selection coefficients
+  of new mutants decreases when the environment becomes
+  uniform, so the probability a mutant is advantageous to
+  the species as a whole increases in a more uniform
+  environment. Therefore the rate of gene substitution
+  increases in smaller populations, which are likely to
+  be distributed over less varied environments. Adequacy
+  discussed against many amino-acid substitutions during
+  species formation, rapid phenotypic evolution in small
+  populations, and many extinctions and expansions.
+  Distinct from filled Ohta 1973 Nature (slightly
+  deleterious substitutions when |Nes| < 1; not this
+  1972 fluctuating-selection / environmental-uniformity
+  argument). Distinct from filled Kimura 1968 (strictly
+  neutral rate equals mutation rate; no Ne dependence).
+  Distinct from filled Lynch 2011 drift-barrier (mu
+  evolution, not substitution rate of nearly neutrals).
+  Ohta 1992 Annu Rev remains a review.
+One-sentence prediction: Nearly-neutral substitutions
+  with temporally or spatially fluctuating selection
+  fix faster in smaller populations, because those
+  populations occupy more uniform environments.
+Assumptions: a sexual species with a meaningful Ne;
+  a cultivar panel is not that Ne; dual domestication
+  is not one population-size class; clone-private SNPs
+  are not substitutions.
+Which fail here: a cultivar collection is not Ne.
+  Dual domestication is two origins, not a small-Ne
+  acceleration. Grafted clones skip the substitution
+  process. Human choice is not fluctuating selection.
+Modern data / statistic: whether substitution / load
+  rate after clone + IBD filters is higher in the
+  smaller-Ne class (wild versus cultivar, or small
+  versus large wild patches) in the 1972 sense,
+  versus two origins or clone copies.
+Dataset: Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655). Wild versus cultivar
+  Ne contrast after clone + IBD filters. Use as the
+  1972 rate-versus-Ne contrast, not as a published
+  Ohta-1972 analysis. Do not invent a grape nearly-
+  neutral-precursor paper.
+What would falsify it: substitution / load rate is not
+  higher in the smaller-Ne class after clone filter
+  (flat, or two origins). Slightly deleterious |Nes|<1
+  remains Ohta 1973. Neutral rate remains Kimura 1968.
+What we will not claim: that Ohta 1973 is this paper
+  (already filled). That Ohta 1992 is the source
+  (review). That Kimura 1968 is this paper. That Dong
+  2023 fitted a 1972 rate-versus-Ne slope. That a
+  cultivar panel is Ne.
+```
+
+---
+
+## Barton-de Cara isolation coupling
+
+```
+Theory: Barton-de Cara coupling of incompatibilities
+  (strong isolation without a universal modifier)
+Original paper (year): Barton NH, de Cara MA. 2009. The
+  evolution of strong reproductive isolation. Evolution
+  63(5):1171-1190 (14 January 2009; May 2009 issue).
+  DOI 10.1111/j.1558-5646.2009.00622.x PMID 19154394.
+  EuropePMC HTML opened
+  (https://europepmc.org/article/MED/19154394): Barton NH,
+  Institute of Science and Technology, Am Campus 1,
+  Klosterneuburg A-3400, Austria; de Cara MA; 14 Jan
+  2009; Evolution 63(5):1171-1190; DOI; PMID; abstract.
+  Felsenstein distinguished two ways selection can
+  directly strengthen isolation: a modifier of prezygotic
+  isolation favored everywhere (classical reinforcement
+  as stronger assortative mating), versus selection for
+  association between different incompatibilities despite
+  recombination. This paper generalizes the "two-allele"
+  model to any number of incompatibilities, including
+  assortment and hybrid inviability. Strong isolation can
+  evolve by coupling any kind of incompatibility, pre- or
+  postzygotic, and that process may be quite different
+  from the usual view of reinforcement. Single-locus
+  incompatibilities couple because associations increase
+  the variance in compatibility, which increases mean
+  fitness if epistasis is positive. Multiple
+  incompatibilities maintained by epistasis couple the
+  same way. A single-locus incompatibility can couple
+  with loci that reduce haploid-hybrid viability because
+  that reduces harmful recombination. Approximations for
+  tight linkage and strong assortment; assortment alleles
+  can invade through associations with other isolation
+  components. Distinct from filled Dobzhansky 1940
+  (reinforcement as premating isolation completing in
+  sympatry; not this coupling-of-incompatibilities
+  math). Distinct from filled Barton 1983 (coupling
+  theta = s/r among selected clines; not assortment /
+  inviability associations). Distinct from filled Barton
+  1979 (tension-zone dynamics). Distinct from filled
+  Barton-Bengtsson 1986 (genome-wide barrier at linked
+  neutrals). Distinct from filled Barton 1986 hybrid-
+  sink. Barton 2000 Philos Trans is a review; not used.
+  Barton and Hewitt 1985 remains a review.
+One-sentence prediction: Strong isolation can build by
+  coupling any pre- or postzygotic incompatibilities;
+  that is not the same process as a universal
+  assortative-mating modifier.
+Assumptions: two sexual populations meet with several
+  incompatibilities; a cultivar panel is not that
+  meeting; clone IBD is not an association; a nursery
+  hybrid is not secondary contact; dual domestication
+  is not one hybrid zone.
+Which fail here: nursery crosses are not secondary
+  contact. Clone IBD fakes associations among loci.
+  Dong 2023 color / sex / flavor are few large-effect
+  loci, not a coupled incompatibility set. Syl-W gene
+  flow is CAUTION, not a Barton-de Cara coupling
+  estimate.
+Modern data / statistic: whether wild-cultivar contact
+  after clone + IBD filters shows coupling of
+  incompatibilities (associations among assortment /
+  inviability loci raising isolation), versus
+  independent introgression of a few loci or a single
+  reinforcement modifier.
+Dataset: Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655). Syl-W gene flow;
+  color / sex / flavor peaks. Use as the coupling
+  contrast, not as a published grape isolation-
+  coupling analysis. Sex locus is chromosome-2 SDR,
+  never VviAGL11. Do not invent a grape hybrid-
+  isolation-coupling paper.
+What would falsify it: contact is not a coupled-
+  incompatibility barrier after clone filter (few
+  independent loci, or diffuse gene flow).
+  Reinforcement remains Dobzhansky 1940. Cline
+  coupling remains Barton 1983. Genome-wide linked-
+  neutral barrier remains Barton-Bengtsson 1986.
+What we will not claim: that Dobzhansky 1940 is this
+  paper (already filled). That Barton 1983 is this
+  paper. That Barton 1979 / 1986 papers are this
+  paper. That Barton 2000 is the source (review).
+  That Dong 2023 estimated coupling of
+  incompatibilities. That a nursery hybrid is a
+  coupled barrier.
+```
+
+---
+
+## Rieseberg complementary-gene hybrid speciation
+
+```
+Theory: Rieseberg complementary-gene hybrid speciation
+  (transgressive parental-segment combinations)
+Original paper (year): Rieseberg LH, Raymond O,
+  Rosenthal DM, Lai Z, Livingstone K, Nakazato T,
+  Durphy JL, Schwarzbach AE, Donovan LA, Lexer C.
+  2003. Major ecological transitions in wild
+  sunflowers facilitated by hybridization. Science
+  301(5637):1211-1216 (7 August 2003 on EuropePMC;
+  29 August 2003 issue). DOI 10.1126/science.1086949
+  PMID 12907807. EuropePMC HTML opened
+  (https://europepmc.org/article/MED/12907807):
+  Rieseberg LH, Department of Biology, Indiana
+  University, Bloomington, IN 47405, USA; Raymond O;
+  Rosenthal DM; Lai Z; Livingstone K; Nakazato T;
+  Durphy JL; Schwarzbach AE; Donovan LA; Lexer C;
+  07 Aug 2003; Science 301(5637):1211-1216; DOI;
+  PMID; abstract. Hybridization is frequent but its
+  role in adaptation is poorly understood. In
+  sunflowers, species in the most extreme habitats
+  are ancient hybrids; new gene combinations are
+  speculated to have contributed to ecological
+  divergence. Phenotypic and genomic comparison of
+  ancient and synthetic hybrids: most trait
+  differences in ancient hybrids could be recreated
+  by complementary gene action in synthetic hybrids
+  and were favored by selection. The same
+  combinations of parental chromosomal segments
+  required to generate extreme phenotypes in
+  synthetic hybrids also occurred in ancient hybrids.
+  Thus hybridization facilitated ecological
+  divergence in sunflowers. Distinct from filled
+  Anderson 1949 (introgressive hybridization as
+  geographically clinal backcross tracts; not
+  complementary-gene recreation of a hybrid species).
+  Distinct from filled Barton 1979 / 1983 / 1986
+  (tension-zone dynamics / cline coupling / hybrid
+  sink; not transgressive hybrid speciation).
+  Distinct from filled Dobzhansky 1940 reinforcement.
+  Distinct from filled Barton and de Cara 2009 (this
+  wave; coupling of incompatibilities). Rieseberg
+  1997 Annu Rev Ecol Syst is a review; not the
+  source. Abbott commentary / reviews not used.
+One-sentence prediction: Complementary gene action in
+  hybrids recreates extreme parental-segment
+  combinations that selection favors, so
+  hybridization can produce an ecologically
+  divergent hybrid species.
+Assumptions: two sexual parents produce a
+  recombinant hybrid lineage that occupies a new
+  habitat; a nursery cross is not that lineage; dual
+  domestication is not sunflower transgression;
+  clones are not complementary-gene combinations.
+Which fail here: nursery hybrids are not homoploid
+  hybrid species. Dual domestication is two origins,
+  not complementary-gene transgression. Clone IBD
+  fakes shared chromosomal segments. Dong 2023
+  Syl-W gene flow is CAUTION, not a Rieseberg
+  hybrid-species test.
+Modern data / statistic: whether wild-cultivar or
+  wild-wild contact after clone + IBD filters
+  produces a complementary-gene hybrid lineage
+  (extreme traits from parental-segment combinations
+  also seen in synthetic recombinants), versus
+  clinal introgression or two origins.
+Dataset: Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655). Syl-W gene flow.
+  Use as the hybrid-speciation contrast, not as a
+  published grape hybrid-speciation analysis. Do
+  not invent a grape hybrid-speciation paper.
+What would falsify it: contact is not a
+  complementary-gene hybrid species after clone
+  filter (clinal introgression, or two origins).
+  Introgression remains Anderson 1949. Isolation
+  coupling remains Barton-de Cara 2009.
+  Reinforcement remains Dobzhansky 1940.
+What we will not claim: that Anderson 1949 is this
+  paper (already filled). That Rieseberg 1997 is
+  the source (review). That Barton 1979 / 1983 /
+  1986 is this paper. That Dong 2023 demonstrated
+  hybrid speciation. That a nursery cross is a
+  sunflower-style hybrid species.
+```
+
+---
