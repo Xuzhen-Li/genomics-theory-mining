@@ -7989,3 +7989,965 @@ What we will not claim: that Ohno 1972
 ```
 
 ---
+
+---
+
+## Kimura-Ohta 1971 polymorphism phase
+
+```
+Theory: Kimura-Ohta protein polymorphism
+  as a phase of molecular evolution
+Original paper (year): Kimura M, Ohta T. 1971.
+  Protein polymorphism as a phase of
+  molecular evolution. Nature 229(5285):467-
+  469 (12 February 1971; EuropePMC 01 Feb
+  1971). DOI 10.1038/229467a0 PMID 4925204.
+  Nature HTML opened
+  (https://www.nature.com/articles/229467a0):
+  MOTOO KIMURA and TOMOKO OHTA, National
+  Institute of Genetics, Mishima, Shizuoka-
+  ken; received 29 October 1970; issue date
+  12 February 1971; Nature 229:467-469; DOI;
+  abstract. It is proposed that random
+  genetic drift of neutral mutations in
+  finite populations can account for
+  observed protein polymorphisms. EuropePMC
+  MED 4925204 still has no abstract; the
+  lock is the Nature page (author, year,
+  venue, DOI, and the one-sentence claim).
+  Distinct from filled Kimura 1968 (the
+  substitution-rate null; not standing
+  polymorphism as a transient phase).
+  Distinct from filled Kimura and Ohta 1969
+  (mean time to fixation about 4Ne; not
+  polymorphism as the visible phase).
+  Distinct from filled Kimura 1962 (fixation
+  probability u). Distinct from filled
+  Kimura 1955 (drift diffusion). Distinct
+  from filled Kimura 1969 infinite-sites
+  and filled Kimura and Crow 1964 infinite-
+  alleles. Distinct from filled Ohta 1972 /
+  1973 nearly-neutral rate. Distinct from
+  filled Lewontin-Krakauer 1973 (FST
+  heterogeneity test, not the phase claim).
+One-sentence prediction: Standing protein
+  polymorphism is a transient phase of
+  molecular evolution produced by random
+  drift of neutral mutations in a finite
+  population.
+Assumptions: a sexual finite population
+  with a meaningful Ne; a cultivar panel
+  is not that Ne; clone IBD is not shared
+  neutral alleles; chips are not allozymes.
+Which fail here: a cultivar collection is
+  not Ne. Clone IBD (Roach 2018 / Dong
+  2023) fakes shared alleles. Dual
+  domestication is two origins. Grafted
+  clones skip the sexual polymorphism
+  clock. Human choice is not drift.
+Modern data / statistic: whether wild
+  Vitis standing polymorphism after clone
+  + IBD filters is a Kimura-Ohta 1971
+  neutral phase (drift of neutral
+  mutations), versus two origins or
+  clone IBD.
+Dataset: Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655). Wild
+  sylvestris after clone + IBD filters.
+  Use as the polymorphism-phase contrast,
+  not as a published grape 1971 analysis.
+  Do not invent a grape allozyme-phase
+  paper.
+What would falsify it: standing
+  polymorphism is not a 1971 neutral
+  phase after clone filter (two origins,
+  or clone IBD). Rate remains Kimura
+  1968. Time to fixation remains Kimura-
+  Ohta 1969. Nearly-neutral rate remains
+  Ohta 1973.
+What we will not claim: that Kimura 1968
+  is this paper (already filled). That
+  Kimura and Ohta 1969 is this paper.
+  That Dong 2023 fitted a 1971 phase
+  model. That VviAGL11 is the sex locus.
+```
+
+---
+
+## Lande 1975 mutation-maintained VA
+
+```
+Theory: Lande 1975 mutation maintenance
+  of polygenic variance under stabilizing
+  selection
+Original paper (year): Lande R. 1975. The
+  maintenance of genetic variability by
+  mutation in a polygenic character with
+  linked loci. Genet Res 26(3):221-235
+  (December 1975; Cambridge HTML opened
+  as Volume 26 Issue 3 December 1975).
+  DOI 10.1017/S0016672300016037
+  PMID 1225762. Cambridge Core HTML
+  opened
+  (https://www.cambridge.org/core/journals/genetics-research/article/maintenance-of-genetic-variability-by-mutation-in-a-polygenic-character-with-linked-loci/D12E61BA54B9B4BE2480C13E15757432):
+  Russell Lande; Genetics Research 26(3):
+  221-235; DOI; Summary. A character under
+  stabilizing selection is determined by n
+  linked mutable loci with additive
+  effects and many possible allelic
+  effects at each locus. Genetic variance
+  is independent of the linkage map if
+  linkage is not very tight. A detailed
+  model: some aspects of the genetic
+  system are moulded by stabilizing
+  selection, others are selectively
+  neutral. With Drosophila, maize, and
+  mouse data, large amounts of genetic
+  variation can be maintained by mutation
+  in polygenic characters even when
+  stabilizing selection is strong.
+  Compared with heterotic models with
+  linked loci. EuropePMC MED 1225762 has
+  no abstract; the lock is the Cambridge
+  Summary. Distinct from filled Lande
+  1979 (G-matrix / multivariate breeder's
+  equation; not mutation-maintained VA
+  versus the map). Distinct from filled
+  Turelli 1984 (House-of-Cards polygenic
+  mutation-selection; not the 1975 map-
+  independence claim). Distinct from
+  filled Lynch and Hill 1986 (neutral
+  quantitative VG near 2NVm to 4NVm).
+  Distinct from filled Fisher 1918
+  infinitesimal. Distinct from filled
+  Houle 1992 CVA. Lande 1976 Evolution
+  still has no abstract (EuropePMC
+  reopened this wave). Lande 1980 is a
+  separate lock this wave.
+One-sentence prediction: Mutation can
+  maintain large polygenic VA under
+  strong stabilizing selection, and that
+  VA is independent of the linkage map
+  if linkage is not very tight.
+Assumptions: many additive mutable loci
+  under stabilizing selection; color /
+  sex / flavor are not that polygene
+  set; clones are not a sexual pedigree.
+Which fail here: Dong 2023 color / sex /
+  flavor are few large-effect loci, not
+  Drosophila-bristle polygenes. Grafted
+  clones skip the mutation-selection
+  walk. A cultivar panel is not the
+  paper's Drosophila / maize / mouse
+  sample. Dual domestication is two
+  origins.
+Modern data / statistic: whether Vitis
+  quantitative VA after clone filters is
+  a Lande-1975 mutation-maintained
+  function (large VA even under strong
+  stabilizing selection; independent of
+  the map if linkage is not tight),
+  versus few large-effect loci.
+Dataset: Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655). Color /
+  sex / flavor as the few-locus contrast
+  after clone + IBD filters. Use as the
+  mutation-maintained-VA contrast, not
+  as a published grape 1975 analysis.
+  Do not invent a grape bristle-VA
+  paper.
+What would falsify it: trait VA is not
+  a Lande-1975 mutation-maintained
+  function after clone filter (few
+  large-effect loci, or two origins).
+  G-matrix remains Lande 1979. House-of-
+  Cards remains Turelli 1984. Neutral
+  VG remains Lynch-Hill 1986.
+What we will not claim: that Lande 1979
+  is this paper (already filled). That
+  Lande 1976 is the source (still no
+  claim text). That Turelli 1984 is this
+  paper. That Dong 2023 estimated
+  mutation-maintained VA. That VviAGL11
+  is the sex locus.
+```
+
+---
+
+## Lande 1980 pleiotropic covariance
+
+```
+Theory: Lande 1980 genetic covariance
+  maintained by pleiotropic mutations
+Original paper (year): Lande R. 1980.
+  The genetic covariance between
+  characters maintained by pleiotropic
+  mutations. Genetics 94(1):203-215
+  (1 January 1980).
+  DOI 10.1093/genetics/94.1.203
+  PMID 17248993 PMCID PMC1214134.
+  EuropePMC HTML opened
+  (https://europepmc.org/article/MED/17248993)
+  and PMC HTML opened
+  (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1214134/):
+  Lande R, Laboratory of Genetics,
+  University of Wisconsin, Madison;
+  01 Jan 1980; Genetics 94(1):203-215;
+  DOI; PMID; PMC; abstract. A statistical
+  genetic model of a multivariate
+  phenotype: covariation of pleiotropic
+  mutations with additive effects under
+  phenotypic selection, linkage, and the
+  mating system. Equilibrium formulas
+  for large, randomly mating populations:
+  when selection on polygenic variation
+  is much smaller than twice the harmonic
+  mean recombination rate between loci
+  with interacting fitnesses, linkage
+  disequilibrium is negligible and
+  pleiotropy is the main cause of
+  genetic correlations between
+  characters. Approximate dynamics of
+  those genetic covariances. Patterns
+  discussed with polygenic-mutation,
+  chromosomal-organization, and
+  morphological-integration data.
+  Distinct from filled Lande 1979 (G
+  beta / multivariate response; not the
+  pleiotropy-versus-LD cause of
+  correlations). Distinct from filled
+  Lande 1975 this wave (mutation-
+  maintained single-character VA; not
+  between-character covariance).
+  Distinct from filled Turelli 1984
+  House-of-Cards. Distinct from filled
+  Fisher 1918 infinitesimal. Distinct
+  from filled Houle 1992 CVA. Lande
+  1976 still has no claim text.
+One-sentence prediction: When polygenic
+  selection is much weaker than twice
+  the harmonic-mean recombination rate,
+  genetic correlations come from
+  pleiotropy, not from linkage
+  disequilibrium.
+Assumptions: a large randomly mating
+  sexual population with many additive
+  pleiotropic loci; color / sex / flavor
+  are not that multivariate polygene
+  set; clones are not a sexual G.
+Which fail here: Dong 2023 color / sex /
+  flavor are few large-effect loci, not
+  a Lande-1980 pleiotropic G. Grafted
+  clones skip the sexual covariance
+  walk. Dual domestication is two
+  origins. A nursery block is not a
+  randomly mating population.
+Modern data / statistic: whether Vitis
+  trait correlations after clone filters
+  are a Lande-1980 pleiotropic G
+  (pleiotropy, not LD, when selection
+  is much smaller than 2 times harmonic-
+  mean r), versus few large-effect loci.
+Dataset: Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655). Color /
+  sex / flavor as the few-locus contrast
+  after clone + IBD filters. Use as the
+  pleiotropic-covariance contrast, not
+  as a published grape 1980 analysis.
+  Do not invent a grape G-matrix-
+  pleiotropy paper.
+What would falsify it: trait
+  correlations are not a Lande-1980
+  pleiotropic G after clone filter (LD,
+  or few large-effect loci, or two
+  origins). G beta remains Lande 1979.
+  Mutation-maintained VA remains Lande
+  1975. House-of-Cards remains Turelli
+  1984.
+What we will not claim: that Lande 1979
+  is this paper (already filled). That
+  Lande 1976 is the source (still no
+  claim text). That Lande 1975 is this
+  paper. That Dong 2023 estimated a
+  pleiotropic G. That VviAGL11 is the
+  sex locus.
+```
+
+---
+
+## Gavrilets 1997 Dobzhansky-ridge barrier
+
+```
+Theory: Gavrilets 1997 Dobzhansky-type
+  epistatic barrier in a hybrid zone
+Original paper (year): Gavrilets S. 1997.
+  Hybrid zones with Dobzhansky-type
+  epistatic selection. Evolution 51(4):
+  1027-1035 (1 August 1997).
+  DOI 10.1111/j.1558-5646.1997.tb03949.x
+  PMID 28565489. EuropePMC HTML opened
+  (https://europepmc.org/article/MED/28565489):
+  Gavrilets S, Departments of Ecology
+  and Evolutionary Biology and
+  Mathematics, University of Tennessee,
+  Knoxville, Tennessee 37996-1300;
+  01 Aug 1997; Evolution 51(4):1027-1035;
+  DOI; PMID; abstract. Dobzhansky's
+  epistatic-selection model: viable
+  genotypes form clusters, so a
+  population can walk from one state to
+  a reproductively isolated state along
+  a ridge of well-fit genotypes without
+  crossing a deep adaptive valley.
+  Gavrilets (1997a) and Gavrilets and
+  Gravner (1997) argue that such ridges
+  are a general property of
+  multidimensional adaptive landscapes.
+  Rigorous analysis plus simulations:
+  clines in selected and neutral alleles
+  maintained by migration versus
+  Dobzhansky-type epistatic selection on
+  two diallelic loci. Dobzhansky-type
+  epistatic selection can build a very
+  strong barrier to neutral gene flow.
+  Cline properties that indicate
+  Dobzhansky-type selection. Distinct
+  from filled Gavrilets 2000 (parapatric
+  waiting time; not the two-locus ridge
+  barrier). Distinct from filled
+  Dobzhansky 1937 BDM book. Distinct
+  from filled Dobzhansky 1940
+  reinforcement. Distinct from filled
+  Barton 1979 hybrid-zone dynamics,
+  filled Barton 1983 coupling, and
+  filled Barton and Bengtsson 1986
+  genome-wide barrier. Distinct from
+  filled Orr 1995 snowball and filled
+  Orr-Turelli 2001 wait. Distinct from
+  filled Kondrashov 2003 structured DMI.
+  Gavrilets 1997 TREE is a review (not
+  used). Gavrilets 1999 Am Nat still not
+  opened. Gavrilets 2004 is a book.
+One-sentence prediction: Dobzhansky-type
+  epistatic selection on two diallelic
+  loci can build a very strong barrier
+  to neutral gene flow along a ridge of
+  well-fit genotypes.
+Assumptions: two sexual populations
+  exchanging migrants across a two-locus
+  epistatic ridge; dual domestication is
+  not that walk; a nursery hybrid is not
+  that cline.
+Which fail here: dual domestication is
+  two origins, not a ridge walk. Dong
+  2023 Syl-W gene flow is CAUTION, not
+  a 1997 two-locus barrier. Human
+  transport is not the paper's
+  migration-selection balance. Nursery
+  hybrids are not that cline.
+Modern data / statistic: whether wild-
+  cultivar or interspecific isolation
+  after clone + IBD filters is a
+  Gavrilets-1997 ridge barrier (very
+  strong block to neutral flow on a
+  two-locus epistatic ridge), versus
+  two origins or one locus.
+Dataset: Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655). Syl-W
+  gene flow as CAUTION, not a 1997
+  ridge-barrier series. Use as the
+  Dobzhansky-ridge contrast, not as a
+  published grape 1997 analysis. Do not
+  invent a grape ridge-cline paper.
+What would falsify it: isolation is not
+  a 1997 ridge barrier after clone
+  filter (flat, or two origins, or one
+  locus). Parapatric wait remains
+  Gavrilets 2000. Hybrid-zone dynamics
+  remain Barton 1979. BDM remains
+  Dobzhansky 1937. Snowball remains
+  Orr 1995.
+What we will not claim: that Gavrilets
+  2000 is this paper (already filled).
+  That Gavrilets 1997 TREE is the source
+  (review). That Gavrilets 1999 is the
+  source (not opened). That Barton 1979
+  is this paper. That Dong 2023 mapped
+  a two-locus ridge. That dual
+  domestication is Dobzhansky-ridge
+  speciation.
+```
+
+---
+
+## Lynch-O'Hely-Walsh-Force 2001 P(establishment)
+
+```
+Theory: Lynch-O'Hely-Walsh-Force
+  probability of permanent establishment
+  of a newly arisen duplicate
+Original paper (year): Lynch M, O'Hely M,
+  Walsh B, Force A. 2001. The probability
+  of preservation of a newly arisen gene
+  duplicate. Genetics 159(4):1789-1804
+  (1 December 2001).
+  DOI 10.1093/genetics/159.4.1789
+  PMID 11779815 PMCID PMC1461922.
+  EuropePMC HTML opened
+  (https://europepmc.org/article/MED/11779815):
+  Lynch M, Department of Biology, Indiana
+  University, Bloomington, Indiana 47405,
+  USA; O'Hely M; Walsh B; Force A;
+  01 Dec 2001; Genetics 159(4):1789-1804;
+  DOI; PMID; PMC; abstract. Gene
+  duplication, often with map change, is
+  common and ongoing. Influence of gene
+  structure, mutation rates, linkage, and
+  population size N on the joint fate of
+  a newly arisen duplicate and its
+  ancestral locus. Unless there is active
+  selection against duplicate genes, the
+  probability of permanent establishment
+  is usually no less than 1/(4N) (half
+  the neutral expectation), and it can
+  be orders of magnitude greater if
+  neofunctionalizing mutations are
+  common. Probability of a map change
+  (reassignment of a key ancestral
+  function to a new chromosomal location)
+  is also generally >1/(4N) for unlinked
+  duplicates, so recurrent duplication
+  plus alternative silencing can generate
+  microchromosomal rearrangements that
+  isolate species. Relative to
+  subfunctionalization, neofunctionalization
+  becomes progressively more important as
+  population size increases, but even in
+  large populations P(neofunctionalization)
+  scales only with the square of the
+  selective advantage. Tight linkage
+  raises P(subfunctionalization) and
+  lowers P(neofunctionalization).
+  Distinct from filled Force 1999 (DDC
+  complementary-degeneration mechanism;
+  not the 1/(4N) establishment bound).
+  Distinct from filled Lynch and Force
+  2000 Genetics (P of subfunctionalization
+  versus Ne about 10^5; not the joint
+  new-duplicate / ancestral-locus walk).
+  Distinct from filled Lynch and Force
+  2000 Am Nat (DLS hybrid incompatibility;
+  not P of establishment). Distinct from
+  filled Lynch and Conery 2000 (genomic
+  birth and few-Myr silencing). Distinct
+  from filled Walsh 1995 (rho-S neo
+  versus null). Distinct from filled
+  Walsh 2003 this wave (three-fate
+  verbal models). Distinct from filled
+  Ohno 1970 gene balance.
+One-sentence prediction: A newly arisen
+  duplicate is usually established with
+  probability at least 1/(4N) unless
+  selection actively removes it; neo
+  gains on sub as N grows, but P(neo)
+  scales only with s squared.
+Assumptions: a sexual population with a
+  meaningful N and a newly arisen
+  duplicate; a cultivar panel is not
+  that N; palaeo-hexaploid ohnologs are
+  not a newly arisen pair.
+Which fail here: a cultivar collection
+  is not N. Vitis ohnologs (Jaillon
+  2007) are old palaeo-hexaploid pairs,
+  not a newly arisen duplicate walking
+  to 1/(4N). Grafted clones skip the
+  establishment walk. Dual domestication
+  is two origins. Tandem NLR arrays are
+  not the paper's unlinked map-change
+  pair.
+Modern data / statistic: whether palaeo-
+  hexaploid ohnolog retention after
+  clone filters is a 2001 1/(4N)
+  establishment (neo rising with N;
+  P(neo) scaling as s squared), versus
+  gene balance or two origins.
+Dataset: Jaillon et al. 2007 Nature
+  449:463-467 (DOI 10.1038/nature06148).
+  Three ancestral genomes; no recent
+  WGD. Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655) as the
+  wild-versus-cultivar N contrast after
+  clone + IBD filters. Use as the
+  establishment-probability contrast,
+  not as a published grape 2001
+  analysis. Do not invent a grape
+  1/(4N)-duplicate paper.
+What would falsify it: ohnolog
+  retention is not a 2001 1/(4N)
+  function after clone filter (gene
+  balance, or two origins). DDC remains
+  Force 1999. P(subfunctionalization)
+  remains Lynch-Force 2000 Genetics.
+  DLS remains Lynch-Force 2000 Am Nat.
+  Birth-and-silencing remains Lynch-
+  Conery 2000.
+What we will not claim: that Force 1999
+  is this paper (already filled). That
+  Lynch and Force 2000 Genetics is this
+  paper. That Walsh 1995 is this paper.
+  That Jaillon 2007 estimated 1/(4N).
+  That VviAGL11 is the sex locus.
+```
+
+---
+
+## Walsh 2003 three-fate models
+
+```
+Theory: Walsh 2003 population-genetic
+  models of the three fates of a
+  duplicate
+Original paper (year): Walsh B. 2003.
+  Population-genetic models of the fates
+  of duplicate genes. Genetica 118(2-3):
+  279-294 (1 July 2003).
+  DOI 10.1023/a:1024194802441
+  PMID 12868616. EuropePMC HTML opened
+  (https://europepmc.org/article/MED/12868616):
+  Walsh B, Departments of Ecology and
+  Evolutionary Biology, Molecular and
+  Cellular Biology, and Plant Sciences,
+  University of Arizona, Tucson, AZ
+  85721, USA; 01 Jul 2003; Genetica
+  118(2-3):279-294; DOI; PMID; abstract.
+  The ultimate fate of a duplicated gene
+  is that it is either silenced through
+  inactivating mutations or both copies
+  are maintained by selection. The
+  latter fate can occur via
+  neofunctionalization (one copy
+  acquires a new function) or
+  subfunctionalization (the original
+  function is partitioned across both
+  copies). The relative probabilities of
+  these three fates involve often very
+  subtle iterations of population size,
+  mutation rate, and selection. All
+  three fates are critical to the
+  expansion and diversification of gene
+  families. Distinct from filled Walsh
+  1995 (the rho-S neo-versus-null
+  probability for a recent duplicate;
+  not the three-fate iteration).
+  Distinct from filled Force 1999 DDC.
+  Distinct from filled Lynch and Force
+  2000 Genetics P(subfunctionalization).
+  Distinct from filled Lynch, O'Hely,
+  Walsh and Force 2001 this wave
+  (1/(4N) establishment bound). Distinct
+  from filled Lynch and Conery 2000
+  (genomic rate). Distinct from filled
+  Hughes 1994 gene sharing. Distinct
+  from filled Ohno 1970 gene balance.
+  Innan and Kondrashov 2010 and Zhang
+  2003 were not used (reviews).
+One-sentence prediction: A duplicate is
+  silenced, or both copies are kept by
+  neofunctionalization or by
+  subfunctionalization; those three
+  probabilities iterate population size,
+  mutation rate, and selection.
+Assumptions: a sexual population with a
+  meaningful Ne walking a recent
+  duplicate through three fates;
+  palaeo-hexaploid ohnologs are not that
+  walk; a cultivar panel is not Ne.
+Which fail here: Vitis ohnologs are old
+  palaeo-hexaploid pairs, not a recent
+  three-fate walk. A cultivar collection
+  is not Ne. Grafted clones skip the
+  fate iteration. Dual domestication is
+  two origins. Clone SVs are not a new
+  function.
+Modern data / statistic: whether recent
+  Vitis duplicates after clone filters
+  follow a Walsh-2003 three-fate
+  partition (silence versus neo versus
+  sub, iterating Ne, mutation, and
+  selection), versus old ohnologs or
+  two origins.
+Dataset: Jaillon et al. 2007 Nature
+  449:463-467 (DOI 10.1038/nature06148).
+  Three ancestral genomes; no recent
+  WGD. Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655) as the
+  wild-versus-cultivar Ne contrast after
+  clone + IBD filters. Use as the three-
+  fate contrast, not as a published
+  grape Walsh-2003 analysis. Do not
+  invent a grape three-fate paper.
+What would falsify it: duplicate fate
+  is not a Walsh-2003 three-fate
+  partition after clone filter (old
+  ohnologs, or two origins). Rho-S neo
+  versus null remains Walsh 1995. DDC
+  remains Force 1999. P(establishment)
+  remains Lynch-O'Hely-Walsh-Force
+  2001.
+What we will not claim: that Walsh 1995
+  is this paper (already filled). That
+  Force 1999 is this paper. That Jaillon
+  2007 partitioned three fates. That a
+  clone SV is a new function. That
+  VviAGL11 is the sex locus.
+```
+
+---
+
+## Lynch-Conery 2003 genome complexity
+
+```
+Theory: Lynch-Conery 2003 passive origin
+  of eukaryotic genome complexity after
+  long-term Ne reduction
+Original paper (year): Lynch M, Conery
+  JS. 2003. The origins of genome
+  complexity. Science 302(5649):1401-
+  1404 (21 November 2003; EuropePMC
+  01 Nov 2003).
+  DOI 10.1126/science.1089370
+  PMID 14631042. EuropePMC HTML opened
+  (https://europepmc.org/article/MED/14631042):
+  Lynch M, Department of Biology,
+  Indiana University, Bloomington, IN
+  47405, USA; Conery JS; 01 Nov 2003;
+  Science 302(5649):1401-1404; DOI;
+  PMID; abstract. Complete genomes show
+  notable increases in complexity from
+  prokaryotes to multicellular
+  eukaryotes: gradual increases in gene
+  number from retained duplicates, and
+  more abrupt increases in spliceosomal
+  introns and mobile genetic elements.
+  Many of these modifications emerged
+  passively in response to the long-term
+  population-size reductions that
+  accompanied increases in organism
+  size. Much eukaryotic-genome
+  restructuring was initiated by
+  nonadaptive processes, which then
+  provided novel substrates for the
+  secondary evolution of phenotypic
+  complexity by natural selection. The
+  enormous long-term effective
+  population sizes of prokaryotes may
+  impose a substantial barrier to the
+  evolution of complex genomes and
+  morphologies. Distinct from filled
+  Lynch and Conery 2000 (duplicate
+  birth about 0.01 per gene per million
+  years and few-Myr silencing; not the
+  Ne / body-size complexity argument).
+  Distinct from filled Ohno 1970 gene
+  balance. Distinct from filled Ohno
+  1972 junk / C-value. Distinct from
+  filled Cavalier-Smith 1978
+  nucleoskeletal C-value. Distinct from
+  filled Doolittle-Sapienza / Orgel-
+  Crick 1980 selfish DNA. Distinct from
+  filled Lynch 2011 drift-barrier on
+  mutation rate. Distinct from filled
+  Force 1999 DDC.
+One-sentence prediction: Eukaryotic
+  genome complexity (duplicate
+  retention, spliceosomal introns,
+  mobile elements) arose passively
+  after long-term Ne reduction that
+  accompanied larger body size.
+Assumptions: a comparative Ne / body-
+  size series from prokaryotes to
+  multicellular eukaryotes; a palaeo-
+  hexaploid gene set is not that
+  series; clone SVs are not new
+  introns or new mobile elements.
+Which fail here: Vitis is palaeo-
+  hexaploid (Jaillon 2007), not a
+  prokaryote-to-metazoan Ne walk.
+  Clone SVs (Zhou 2019 / Carbonell-
+  Bejerano 2017) change dose without
+  a new intron or a new TE birth.
+  A cultivar panel is not long-term
+  Ne. Dual domestication is two
+  origins. Tandem NLR arrays are not
+  the paper's complexity class.
+Modern data / statistic: whether Vitis
+  genome complexity after clone filters
+  is a Lynch-Conery 2003 passive
+  function of long-term Ne (duplicate
+  retention, introns, mobile elements
+  after Ne reduction), versus gene
+  balance or junk / TE debris.
+Dataset: Jaillon et al. 2007 Nature
+  449:463-467 (DOI 10.1038/nature06148).
+  Three ancestral genomes; no recent
+  WGD. Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655) as the
+  wild-versus-cultivar Ne contrast after
+  clone + IBD filters. Carrier 2012 /
+  Vondras 2019 as TE companions (TE is
+  not scored here as the 2003
+  complexity claim). Use as the
+  complexity-versus-Ne contrast, not
+  as a published grape 2003 analysis.
+  Do not invent a grape genome-
+  complexity paper.
+What would falsify it: Vitis genome
+  complexity is not a 2003 passive-Ne
+  function after clone filter (gene
+  balance, or junk / TE debris, or two
+  origins). Birth-and-silencing remains
+  Lynch-Conery 2000. Junk / C-value
+  remains Ohno 1972. Selfish DNA
+  remains Doolittle-Sapienza / Orgel-
+  Crick 1980. Drift-barrier remains
+  Lynch 2011.
+What we will not claim: that Lynch and
+  Conery 2000 is this paper (already
+  filled). That Ohno 1970 is this
+  paper. That Jaillon 2007 estimated
+  long-term Ne. That a clone SV is a
+  new intron. That VviAGL11 is the sex
+  locus.
+```
+
+---
+
+## He-Zhang 2005 subneofunctionalization
+
+```
+Theory: He-Zhang 2005
+  subneofunctionalization (rapid sub
+  plus prolonged neo)
+Original paper (year): He X, Zhang J.
+  2005. Rapid subfunctionalization
+  accompanied by prolonged and
+  substantial neofunctionalization in
+  duplicate gene evolution. Genetics
+  169(2):1157-1164 (16 January 2005;
+  issue February 2005).
+  DOI 10.1534/genetics.104.037051
+  PMID 15654095 PMCID PMC1449125.
+  EuropePMC HTML opened
+  (https://europepmc.org/article/MED/15654095):
+  He X, Department of Ecology and
+  Evolutionary Biology, University of
+  Michigan, Ann Arbor, Michigan 48109,
+  USA; Zhang J; 16 Jan 2005; Genetics
+  169(2):1157-1164; DOI; PMID; PMC;
+  abstract. Duplicate genes that are
+  stably preserved usually have
+  divergent functions. The
+  neofunctionalization hypothesis: one
+  daughter retains the ancestral
+  function, the other acquires new
+  functions. The subfunctionalization
+  hypothesis: degenerate mutations
+  reduce joint activity to that of the
+  single ancestral gene. Neither NF nor
+  SF alone adequately explains genome-
+  wide yeast protein-interaction and
+  human gene-expression patterns for
+  duplicate genes. The analysis reveals
+  rapid SF accompanied by prolonged and
+  substantial NF in a large proportion
+  of duplicate genes: subneofunctionalization
+  (SNF). Enormous numbers of new
+  functions have originated via gene
+  duplication. Distinct from filled
+  Force 1999 (DDC complementary
+  degeneration; not the SNF sequence).
+  Distinct from filled Walsh 1995 (neo
+  versus null probability). Distinct
+  from filled Walsh 2003 this wave
+  (three-fate iteration). Distinct from
+  filled Hughes 1994 (gene sharing /
+  MDN). Distinct from filled Lynch and
+  Force 2000 Genetics (P versus Ne).
+  Distinct from filled Ohno 1970 gene
+  balance. Zhang 2003 TREE is a review
+  (not used).
+One-sentence prediction: Duplicate-gene
+  functional divergence is rapid
+  subfunctionalization accompanied by
+  prolonged and substantial
+  neofunctionalization, not neo or sub
+  alone.
+Assumptions: a genome-wide yeast /
+  human duplicate cohort in which
+  interaction and expression patterns
+  can be scored; palaeo-hexaploid
+  ohnologs are not that cohort; clone
+  SVs are not new functions.
+Which fail here: Vitis ohnologs are
+  old palaeo-hexaploid pairs, not a
+  yeast / human duplicate cohort
+  walking SNF. Clone SVs change dose
+  without a new function. Tandem NLR
+  arrays are not SNF. Dual
+  domestication is two origins. Do not
+  invent a grape interaction /
+  expression SNF census.
+Modern data / statistic: whether
+  palaeo-hexaploid ohnolog pairs after
+  clone filters are a He-Zhang SNF
+  series (rapid sub then prolonged
+  neo), versus DDC or gene balance.
+Dataset: Jaillon et al. 2007 Nature
+  449:463-467 (DOI 10.1038/nature06148).
+  Three ancestral genomes; no recent
+  WGD. Use as the SNF contrast, not as
+  a published grape He-Zhang analysis.
+  Do not invent a grape
+  subneofunctionalization paper.
+What would falsify it: ohnolog pairs
+  are not a He-Zhang SNF series after
+  clone filter (DDC alone, or gene
+  balance, or two origins). DDC remains
+  Force 1999. Gene sharing remains
+  Hughes 1994. Neo-versus-null remains
+  Walsh 1995.
+What we will not claim: that Force 1999
+  is this paper (already filled). That
+  Walsh 1995 is this paper. That Zhang
+  2003 is the source (review). That
+  Jaillon 2007 scored SNF. That a clone
+  SV is a new function. That VviAGL11
+  is the sex locus.
+```
+
+---
+
+## Kondrashov 2002 purifying both paralogs
+
+```
+Theory: Kondrashov-Rogozin-Wolf-Koonin
+  2002 purifying selection on both
+  recent paralogs (dosage from the
+  start)
+Original paper (year): Kondrashov FA,
+  Rogozin IB, Wolf YI, Koonin EV. 2002.
+  Selection in the evolution of gene
+  duplications. Genome Biol 3(2):
+  RESEARCH0008 (14 January 2002).
+  DOI 10.1186/gb-2002-3-2-research0008
+  PMID 11864370 PMCID PMC65685.
+  EuropePMC HTML opened
+  (https://europepmc.org/article/MED/11864370):
+  Kondrashov FA, National Center for
+  Biotechnology Information, National
+  Institutes of Health, Bethesda, MD
+  20894, USA; Rogozin IB; Wolf YI;
+  Koonin EV; 14 Jan 2002; Genome
+  Biology 3(2):RESEARCH0008; DOI; PMID;
+  PMC; abstract. Background: theoretical
+  studies often assume a duplication is
+  selectively neutral and that one copy
+  is then freed from purifying
+  selection. Results from 26 bacterial,
+  six archaeal, and seven eukaryotic
+  genomes: Kn/Ks in most paralogous
+  pairs is much less than 1, and
+  paralogs typically evolve at similar
+  rates without significant asymmetry,
+  so both copies stay under purifying
+  selection. That selection is
+  substantially weaker than purifying
+  selection on unduplicated orthologs
+  diverged to the same extent. Most
+  recently duplicated genes appear
+  involved in environmental response
+  (many membrane and secreted
+  proteins). Conclusions: recently
+  duplicated paralogs evolve faster
+  than similarly diverged orthologs but
+  do not experience a phase of neutral
+  evolution. Hypothesis: gene
+  duplications that persist are
+  beneficial from the time of their
+  origin, due primarily to a protein
+  dosage effect in response to variable
+  environmental conditions; new
+  functions arise later, once
+  divergence is higher. Tagged Research
+  (not Review). Distinct from filled
+  Kondrashov 1995 (dangerous-range VSD
+  load; not paralog Kn/Ks). Distinct
+  from filled Kondrashov 2003
+  (structured linear-versus-quadratic
+  DMI). Distinct from dropped
+  Kondrashov 1988. Distinct from filled
+  Hughes 1994 (gene sharing / MDN; not
+  the both-copies-purifying / dosage
+  claim). Distinct from filled Force
+  1999 DDC. Distinct from filled Walsh
+  1995 neo versus null. Distinct from
+  filled Ohno 1970 gene balance.
+  Distinct from filled Lynch and Conery
+  2000 (silencing clock). Innan and
+  Kondrashov 2010 is a review (not
+  used).
+One-sentence prediction: Both copies of
+  a recent duplicate stay under
+  purifying selection (Kn/Ks much less
+  than 1; similar rates), weaker than
+  equally diverged orthologs; persistent
+  duplicates are beneficial from the
+  start via dosage.
+Assumptions: recent paralog pairs that
+  can be compared with equally diverged
+  orthologs; palaeo-hexaploid ohnologs
+  are not that recent cohort; clone SVs
+  are not dosage births.
+Which fail here: Vitis ohnologs are old
+  palaeo-hexaploid pairs, not a recent
+  bacterial / archaeal / eukaryotic
+  paralog pair. Clone SVs change dose
+  without a new gene birth. Tandem NLR
+  arrays are not the paper's
+  environmental-response class. Dual
+  domestication is two origins. Do not
+  invent a grape Kn/Ks-paralog census.
+Modern data / statistic: whether palaeo-
+  hexaploid ohnolog pairs after clone
+  filters are a Kondrashov-2002 both-
+  copies-purifying / dosage series
+  (Kn/Ks much less than 1; no neutral
+  phase), versus MDN or gene balance.
+Dataset: Jaillon et al. 2007 Nature
+  449:463-467 (DOI 10.1038/nature06148).
+  Three ancestral genomes; no recent
+  WGD. Use as the both-copies-purifying
+  contrast, not as a published grape
+  2002 analysis. Do not invent a grape
+  paralog-Kn/Ks paper.
+What would falsify it: ohnolog pairs
+  are not a 2002 both-copies-purifying
+  / dosage series after clone filter
+  (neutral phase, or gene balance, or
+  two origins). Gene sharing remains
+  Hughes 1994. DDC remains Force 1999.
+  Dangerous-range VSD remains
+  Kondrashov 1995. Structured DMI
+  remains Kondrashov 2003.
+What we will not claim: that Kondrashov
+  1995 is this paper (already filled).
+  That Kondrashov 2003 is this paper.
+  That Kondrashov 1988 is this paper
+  (already dropped). That Hughes 1994
+  is this paper. That Jaillon 2007
+  estimated paralog Kn/Ks. That a clone
+  SV is a dosage birth. That VviAGL11
+  is the sex locus.
+```
+
+---

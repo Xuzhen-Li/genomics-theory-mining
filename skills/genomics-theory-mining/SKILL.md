@@ -22,7 +22,8 @@ description: >
   Tajima-Nei distance, Begun-Aquadro, Ohta 1972, Barton-de Cara, Rieseberg 2003, Nei-Li pi, Tajima 1983, Kimura-Ohta 1969, Charlesworth 1994 BGS, Hudson-Kaplan 1995,
   Nordborg 1996, Wiehe-Stephan, Orr snowball, Turelli-Orr, Coyne-Orr 1989, Kimura 1962, Turelli 1984, Lynch-Hill, Houle CVA, Orr-Turelli 2001,
   Kondrashov 1995, Masterson 1994, Barton-Turelli 1991, Gavrilets 2000, Lynch-Conery 2000, Lynch-Force 2000, Walsh 1995, Hughes 1994, Husband 2000,
-  Kondrashov 2003, Cavalier-Smith 1978, or a revival paper that
+  Kondrashov 2003, Cavalier-Smith 1978, Kimura-Ohta 1971, Lande 1975, Lande 1980, Gavrilets 1997, Lynch 2001,
+  Walsh 2003, Lynch-Conery 2003, He-Zhang 2005, Kondrashov 2002, or a revival paper that
   is not a methods benchmark.
 ---
 
@@ -244,8 +245,17 @@ heterozygotes in clonal lineages).
 | Husband 2000 minority-cytotype fitness | Husband BC 2000 Proc Biol Sci 267:217-223 | Relative fitness of tetraploids is frequency-dependent (about 0.4 when rare, 0.7 at 50 percent, 1.15 when 67 percent); the first experimental test of minority-cytotype exclusion | Vitis is palaeo-hexaploid, not a mixed 2x / 4x population; grafted clones skip cytotype mating | Jaillon 2007 is the Vitis hexaploidy contrast, not a Husband 2x / 4x fitness series (Stebbins 1947 remains types; Masterson 1994 remains stomatal census) |
 | Kondrashov 2003 structured DMI | Kondrashov 2003 Evolution 57:151-153 | In a spatially structured population, DMIs accumulate linearly if an allele is incompatible at only one locus, and eventually quadratically if it can join multiple pairwise incompatibilities | Dual domestication is not a structured walk; a nursery hybrid is not that accumulation | Dong 2023 Syl-W is CAUTION, not a Kondrashov-2003 linear-versus-quadratic DMI (Orr 1995 remains t-squared; Kondrashov 1995 remains VSD) |
 | Cavalier-Smith 1978 nucleoskeletal C-value | Cavalier-Smith 1978 J Cell Sci 34:247-278 | Haploid DNA content varies about 40,000-fold independently of gene number; bulk DNA (S-DNA) sets nuclear volume, and r- versus K-selection on cell size sets C-value | A palaeo-hexaploid gene set is not a nucleoskeletal C-value series; clone SVs change dose without changing C-value | Jaillon 2007 is the Vitis hexaploidy contrast, not a Cavalier-Smith nucleoskeletal census (Ohno 1972 remains junk / C-value; Masterson 1994 remains stomata) |
+| Kimura-Ohta 1971 polymorphism phase | Kimura and Ohta 1971 Nature 229:467-469 | Observed protein polymorphism is a transient phase of molecular evolution: random drift of neutral mutations in a finite population accounts for standing allozyme variation | A cultivar panel is not a finite sexual Ne; clone IBD fakes shared alleles | Dong 2023 wilds: standing polymorphism is not a Kimura-Ohta 1971 neutral phase after clone + IBD filters (Kimura 1968 remains the rate null; Kimura-Ohta 1969 remains 4Ne time) |
+| Lande 1975 mutation-maintained VA | Lande 1975 Genet Res 26:221-235 | Polygenic VA under stabilizing selection is independent of the linkage map if linkage is not very tight, and mutation can maintain large VA even when stabilizing selection is strong | Color / sex / flavor are few large-effect loci, not Drosophila bristle polygenes | Dong 2023 color / sex / flavor: not a Lande-1975 mutation-maintained VA (Lande 1979 remains G beta; Turelli 1984 remains House-of-Cards) |
+| Lande 1980 pleiotropic covariance | Lande 1980 Genetics 94:203-215 | When selection on polygenic variation is much smaller than twice the harmonic-mean recombination rate, linkage disequilibrium is negligible and pleiotropy is the main cause of genetic correlations | Color / sex / flavor are few large-effect loci; clones are not a sexual G | Dong 2023 traits: not a Lande-1980 pleiotropic G after clone filter (Lande 1979 remains G beta; Lande 1975 remains mutation-maintained VA) |
+| Gavrilets 1997 Dobzhansky-ridge barrier | Gavrilets 1997 Evolution 51:1027-1035 | Dobzhansky-type epistatic selection on two diallelic loci can build a very strong barrier to neutral gene flow along a ridge of well-fit genotypes, without crossing a deep valley | Dual domestication is not a two-locus ridge walk; a nursery hybrid is not that cline | Dong 2023 Syl-W is CAUTION, not a Gavrilets-1997 ridge barrier (Gavrilets 2000 remains parapatric wait; Barton 1979 remains hybrid-zone dynamics) |
+| Lynch-O'Hely-Walsh-Force 2001 P(establishment) | Lynch, O'Hely, Walsh and Force 2001 Genetics 159:1789-1804 | Unless selection actively removes duplicates, P(permanent establishment) is usually at least 1/(4N); neo becomes more important than sub as N grows, but P(neo) scales only with s squared | A cultivar panel is not N; palaeo-hexaploid ohnologs are not a newly arisen pair | Jaillon 2007 ohnologs: not a 2001 1/(4N) establishment after clone filter (Force 1999 remains DDC; Lynch-Force 2000 Genetics remains P(subfunctionalization)) |
+| Walsh 2003 three-fate models | Walsh B 2003 Genetica 118:279-294 | A duplicate is silenced, or both copies are kept by neofunctionalization or by subfunctionalization; the three probabilities iterate population size, mutation rate, and selection | Palaeo-hexaploid ohnologs are not a recent three-fate walk; a cultivar panel is not Ne | Jaillon 2007 ohnologs: not a Walsh-2003 three-fate partition after clone filter (Walsh 1995 remains the rho-S neo-versus-null lock) |
+| Lynch-Conery 2003 genome complexity | Lynch and Conery 2003 Science 302:1401-1404 | Much eukaryotic genome complexity (duplicate retention, spliceosomal introns, mobile elements) arose passively after long-term Ne reduction that accompanied larger body size | A palaeo-hexaploid gene set is not a prokaryote-to-metazoan Ne series; clone SVs are not new introns | Jaillon 2007 / Dong 2023: not a Lynch-Conery 2003 passive-complexity function of Ne after clone filter (Lynch-Conery 2000 remains the few-Myr silencing clock) |
+| He-Zhang 2005 subneofunctionalization | He and Zhang 2005 Genetics 169:1157-1164 | Neither neo nor sub alone fits genome-wide yeast-interaction and human-expression patterns; rapid subfunctionalization is accompanied by prolonged neofunctionalization (SNF) | Palaeo-hexaploid ohnologs are not a yeast / human duplicate cohort; clone SVs are not new functions | Jaillon 2007 ohnologs: not a He-Zhang SNF series after clone filter (Force 1999 remains DDC; Walsh 1995 remains neo-versus-null) |
+| Kondrashov 2002 purifying both paralogs | Kondrashov, Rogozin, Wolf and Koonin 2002 Genome Biol 3:RESEARCH0008 | Recently duplicated paralogs have Kn/Ks << 1 and evolve at similar rates: both copies stay under purifying selection, weaker than equally diverged orthologs; persistent duplicates are beneficial from the start via dosage | Palaeo-hexaploid ohnologs are not a recent bacterial / archaeal / eukaryotic paralog pair; clone SVs are not dosage births | Jaillon 2007 ohnologs: not a Kondrashov-2002 both-copies-purifying / dosage lock after clone filter (Hughes 1994 remains gene sharing; Kondrashov 1995 remains VSD) |
 
-One hundred twenty-nine filled notes (eight first wave, nine second wave, nine third wave, twelve fourth wave, ten fifth wave, ten sixth wave, nine seventh wave, eight eighth wave, nine ninth wave, eight tenth wave, ten eleventh wave, ten twelfth wave, nine thirteenth wave, eight fourteenth wave). Long form in `theories.md`. One theory per job.
+One hundred thirty-eight filled notes (eight first wave, nine second wave, nine third wave, twelve fourth wave, ten fifth wave, ten sixth wave, nine seventh wave, eight eighth wave, nine ninth wave, eight tenth wave, ten eleventh wave, ten twelfth wave, nine thirteenth wave, eight fourteenth wave, nine fifteenth wave). Long form in `theories.md`. One theory per job.
 
 Kondrashov 1988 (cost of males) is on the door list but was not filled: it does not map onto grafted clones.
 Muller 1942 was not locked on a publisher page and is not cited for BDM.
@@ -407,6 +417,17 @@ centromere / CenH3 paper is locked.
 - Cavalier-Smith 1978 is nucleoskeletal S-DNA: C-value tracks nuclear / cell volume under r / K selection, not gene number. Distinct from Ohno 1972 junk / C-value and Masterson 1994 stomata. EuropePMC Review tag is a catalog quirk; 1978 is the named original. Cavalier-Smith 2005 was not opened.
 - Sex locus is Dong 2023 chromosome-2 SDR, never VviAGL11.
 
+- Kimura and Ohta 1971 is polymorphism as a transient phase of molecular evolution (neutral drift in a finite population). Distinct from Kimura 1968 (the rate) and Kimura-Ohta 1969 (4Ne time). A cultivar panel is not Ne. Clone IBD fakes shared alleles.
+- Lande 1975 is mutation-maintained polygenic VA under stabilizing selection; VA is independent of the linkage map if linkage is not very tight. Distinct from Lande 1979 G-matrix. Color / sex / flavor are few large-effect loci. Lande 1976 still has no claim text.
+- Lande 1980 is pleiotropic covariance: when polygenic selection is much weaker than twice the harmonic-mean recombination rate, correlations come from pleiotropy, not LD. Distinct from Lande 1979 and from Lande 1975.
+- Gavrilets 1997 Evolution is a two-locus Dobzhansky-ridge barrier to neutral gene flow. Distinct from Gavrilets 2000 parapatric wait and from Barton 1979. The 1997 TREE paper is a review. Syl-W gene flow is CAUTION.
+- Lynch, O'Hely, Walsh and Force 2001 is P(establishment) usually at least 1/(4N); neo gains on sub as N grows, but P(neo) scales as s squared. Distinct from Force 1999 DDC and Lynch-Force 2000 Genetics.
+- Walsh 2003 is the three-fate iteration (silence / neo / sub) of Ne, mutation, and selection. Distinct from Walsh 1995 rho-S. Palaeo-hexaploid ohnologs are not a recent three-fate walk.
+- Lynch and Conery 2003 is passive eukaryotic genome complexity after long-term Ne reduction. Distinct from Lynch-Conery 2000 few-Myr silencing. A palaeo-hexaploid gene set is not a prokaryote-to-metazoan Ne series.
+- He and Zhang 2005 is subneofunctionalization: rapid sub then prolonged neo. Distinct from Force 1999 and Walsh 1995. Zhang 2003 is a review.
+- Kondrashov, Rogozin, Wolf and Koonin 2002 is purifying selection on both recent paralogs (Kn/Ks much less than 1) and a dosage-from-the-start hypothesis. Distinct from Kondrashov 1995 VSD, Kondrashov 2003 structured DMI, and Hughes 1994. Tagged Research, not Review.
+- Sex locus is Dong 2023 chromosome-2 SDR, never VviAGL11.
+
 ## Sources to open first (fetched)
 
 - Muller 1964: https://doi.org/10.1016/0027-5107(64)90047-8
@@ -561,6 +582,16 @@ centromere / CenH3 paper is locked.
 - Husband 2000: https://doi.org/10.1098/rspb.2000.0990 (PMC1690524; EuropePMC MED 10714875)
 - Kondrashov 2003: https://doi.org/10.1111/j.0014-3820.2003.tb00223.x (EuropePMC MED 12643575)
 - Cavalier-Smith 1978: https://doi.org/10.1242/jcs.34.1.247 (EuropePMC MED 372199)
+
+- Kimura and Ohta 1971: https://doi.org/10.1038/229467a0 (Nature HTML; EuropePMC MED 4925204 has no abstract)
+- Lande 1975: https://doi.org/10.1017/S0016672300016037 (Cambridge Core Summary; EuropePMC MED 1225762 has no abstract)
+- Lande 1980: https://doi.org/10.1093/genetics/94.1.203 (PMC1214134; EuropePMC MED 17248993)
+- Gavrilets 1997 Evolution: https://doi.org/10.1111/j.1558-5646.1997.tb03949.x (EuropePMC MED 28565489)
+- Lynch, O'Hely, Walsh and Force 2001: https://doi.org/10.1093/genetics/159.4.1789 (PMC1461922; EuropePMC MED 11779815)
+- Walsh 2003: https://doi.org/10.1023/a:1024194802441 (EuropePMC MED 12868616)
+- Lynch and Conery 2003: https://doi.org/10.1126/science.1089370 (EuropePMC MED 14631042)
+- He and Zhang 2005: https://doi.org/10.1534/genetics.104.037051 (PMC1449125; EuropePMC MED 15654095)
+- Kondrashov, Rogozin, Wolf and Koonin 2002: https://doi.org/10.1186/gb-2002-3-2-research0008 (PMC65685; EuropePMC MED 11864370)
 
 ## Red lines
 
@@ -921,5 +952,62 @@ Cavalier-Smith T. 2005. Economy, speed and size matter: evolutionary forces driv
 - Do not write Cavalier-Smith 1978 as Ohno 1972 or as Masterson 1994.
 - Do not write VviAGL11 as the sex locus (Dong 2023 chromosome-2 SDR).
 - Do not invent a grape gene-duplication-rate, subfunction-probability, DLS, neofunctionalization, gene-sharing, minority-cytotype, structured-DMI, or nucleoskeletal paper.
+
+Lande R. 1976. Natural selection and random genetic drift in phenotypic evolution. Evolution 30(2):314-334. DOI 10.1111/j.1558-5646.1976.tb00911.x PMID 28563044. EuropePMC HTML reopened this wave; still no abstract / no claim text. 1975 is the mutation-VA lock. 1979 remains G-matrix. DROP this wave.
+Bulmer MG. 1971. The effect of selection on genetic variability. Am Nat 105(943):201-211. DOI 10.1086/282718. Still no EuropePMC claim page. DROP this wave.
+Wright S. 1951. The genetical structure of populations. Ann Eugen 15:323-354. DOI 10.1111/j.1469-1809.1949.tb02451.x PMID 24540312. PubMed / EuropePMC still no abstract. 1931 / 1943 / 1984 remain. DROP this wave.
+Wright S. 1965. The interpretation of population structure by F-statistics with special regard to systems of mating. Evolution 19(3):395-420. DOI 10.1111/j.1558-5646.1965.tb01731.x. Still no lockable claim page. DROP this wave.
+Coyne JA, Orr HA. 1997. "Patterns of speciation in Drosophila" revisited. Evolution 51(1):295-303. DOI 10.1111/j.1558-5646.1997.tb02412.x. EuropePMC reopened; still no abstract. 1989 is the lock. DROP.
+Gavrilets S. 1999. A dynamical theory of speciation on holey adaptive landscapes. Am Nat 154(1):1-22. DOI 10.1086/303217. Chicago still not opened. 1997 Evolution and 2000 remain. DROP this wave.
+Gavrilets S. 1997. Evolution and speciation on holey adaptive landscapes. Trends Ecol Evol 12:307-312. Review. The 1997 Evolution paper is the lock. Skip.
+Levin DA. 1975. Minority cytotype exclusion in local plant populations. Taxon 24:35-43. DOI 10.2307/1218997. Wiley HTML Cloudflare this wave; no EuropePMC claim page opened. Husband 2000 is the lock. DROP this wave.
+Levin DA. 1983. Polyploidy and novelty in flowering plants. Am Nat 122(1):1-25. DOI 10.1086/284115. Chicago HTML Cloudflare. DROP this wave.
+Husband BC. 2004. The role of triploid hybrids in the evolutionary dynamics of mixed-ploidy populations. Biol J Linn Soc 82:537-546. DOI 10.1111/j.1095-8312.2004.00339.x. OUP / Paperity Cloudflare; EuropePMC record has no abstract. 2000 is the lock. DROP this wave.
+Felber F. 1991. Establishment of a tetraploid cytotype in a diploid population. J Evol Biol 4:195-207. DOI 10.1046/j.1420-9101.1991.4020195.x. Wiley not opened. DROP.
+Ramsey J, Schemske DW. 1998. Pathways, mechanisms, and rates of polyploid formation in flowering plants. Annu Rev Ecol Syst 29:467-501. Review. Skip.
+Ramsey J, Schemske DW. 2002. Neopolyploidy in flowering plants. Annu Rev Ecol Syst 33:589-639. Review. Skip.
+Comai L. 2005. The advantages and disadvantages of being polyploid. Nat Rev Genet 6(11):836-846. Tagged Review. DROP.
+Otto SP, Whitton J. 2000. Polyploid incidence and evolution. Annu Rev Genet 34:401-437. Review. Skip.
+Soltis PS, Soltis DE. 2000. The role of genetic and genomic attributes in the success of polyploids. Proc Natl Acad Sci USA 97:7051-7057. DOI 10.1073/pnas.97.13.7051. Opens with "we review"; review dump. Stebbins 1947, Masterson 1994, and Husband 2000 remain. DROP.
+Adams KL, Wendel JF. 2005. Polyploidy and genome evolution in plants. Curr Opin Plant Biol 8(2):135-141. Tagged Review. DROP.
+Edger PP, Pires JC. 2009. Gene and genome duplications: the impact of dosage-sensitivity on the fate of nuclear genes. Chromosome Res 17(5):699-717. Tagged Review. Birchler 2007 remains. DROP.
+Mallet J. 2007. Hybrid speciation. Nature 446:279-283. Review dump. Rieseberg 2003 remains. DROP.
+Arnold ML. 1992 / 1997 hybridization papers / books. Not locked as a distinct original. Skip.
+Grant V. 1981. Plant Speciation. Book. Skip.
+Mayr E. 1954. Change of genetic environment and evolution. Pp. 157-180 in Huxley J, Hardy AC, Ford EB, eds. Evolution as a Process. Allen and Unwin, London. Ridley listing reopened this wave; chapter PDF still not opened. 1942 remains BSC. DROP this wave.
+Ohno S. 1970. Evolution by Gene Duplication. Already filled gene balance. Skip.
+Force A, Lynch M, Pickett FB, Amores A, Yan YL, Postlethwait J. 1999. Preservation of duplicate genes by complementary, degenerative mutations. Genetics 151:1531-1545. Already filled DDC. Skip.
+Innan H, Kondrashov F. 2010. The evolution of gene duplications: classifying and distinguishing between models. Nat Rev Genet 11:97-108. Review. Skip.
+Zhang J. 2003. Evolution by gene duplication: an update. Trends Ecol Evol 18:292-298. Review. Skip.
+Nei M, Rooney AP. 2005. Concerted and birth-and-death evolution of multigene families. Annu Rev Genet 39:121-152. Review. Skip.
+Hughes AL. 1999. Adaptive Evolution of Genes and Genomes. Book. 1994 is the lock. Skip.
+Cavalier-Smith T. 2005. Economy, speed and size matter: evolutionary forces driving nuclear genome miniaturization and expansion. Ann Bot 95:147-175. Skip as review / later synthesis. 1978 remains.
+Bennett MD, Leitch IJ. Plant DNA C-values reviews. Review. Skip.
+Wendel JF. 2000 / later genome-evolution reviews. Review. Skip.
+Freeling M. 2009. Bias in plant gene content following different sorts of duplication. Review. Skip.
+
+- Do not cite Lande 1976 as the phenotypic-drift source (still no claim text; 1975 is the mutation-VA lock; 1979 remains G-matrix).
+- Do not cite Bulmer 1971 / 1980 as the variance-disequilibrium source (page not opened).
+- Do not cite Wright 1951 or Wright 1965 as the F-statistics source (still no claim text; 1931 / 1943 / 1984 remain).
+- Do not cite Coyne and Orr 1997 as the time-course source (still no abstract; 1989 remains).
+- Do not cite Gavrilets 1997 TREE, Gavrilets 1999 Am Nat, or Gavrilets 2004 book as the ridge-barrier source (review / not opened / book; 1997 Evolution is the lock; 2000 remains parapatric wait).
+- Do not cite Levin 1975 as the opened minority-cytotype source (Wiley Cloudflare; Husband 2000 is the lock).
+- Do not cite Levin 1983 as the polyploid-novelty source (Chicago Cloudflare).
+- Do not cite Husband 2004 as the triploid-bridge source (page not opened; 2000 remains).
+- Do not cite Ramsey and Schemske 1998 / 2002, Comai 2005, Otto and Whitton 2000, Adams and Wendel 2005, Edger and Pires 2009, Soltis 1999 / 2000, Mallet 2007, Grant 1981, or Arnold 1992 / 1997 as theory originals (book or review).
+- Do not cite Innan and Kondrashov 2010, Zhang 2003, or Nei and Rooney 2005 as theory originals (reviews).
+- Do not cite Hughes 1999 as the gene-sharing source (book; 1994 is the lock).
+- Do not cite Mayr 1954 as the founder / genetic-revolution source (chapter PDF not opened; 1942 remains BSC).
+- Do not write Kimura and Ohta 1971 as Kimura 1968 or as Kimura and Ohta 1969.
+- Do not write Lande 1975 as Lande 1979 or as Turelli 1984.
+- Do not write Lande 1980 as Lande 1979 or as Lande 1975.
+- Do not write Gavrilets 1997 Evolution as Gavrilets 2000 or as Barton 1979 or as the 1997 TREE review.
+- Do not write Lynch, O'Hely, Walsh and Force 2001 as Force 1999 or as Lynch and Force 2000 Genetics.
+- Do not write Walsh 2003 as Walsh 1995 or as Force 1999.
+- Do not write Lynch and Conery 2003 as Lynch and Conery 2000 or as Ohno 1970.
+- Do not write He and Zhang 2005 as Force 1999 or as Walsh 1995 or as Zhang 2003.
+- Do not write Kondrashov 2002 as Kondrashov 1995 or as Kondrashov 2003 or as Hughes 1994.
+- Do not write VviAGL11 as the sex locus (Dong 2023 chromosome-2 SDR).
+- Do not invent a grape allozyme-phase, mutation-VA, pleiotropic-G, ridge-barrier, 1/(4N)-duplicate, three-fate, genome-complexity, SNF, or paralog-Kn/Ks paper.
 
 Related: `plant-lit-review`, `vitis-popgen`, `grapevine-adna`, `vitis-pangenome`.
