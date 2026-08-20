@@ -15,7 +15,8 @@ description: >
   breakage-fusion-bridge, fractionation, Ewens, shifting balance, Fisher geometric, mutation-selection balance,
   molecular drive, Holliday conversion, quasispecies, serial founder,
   Lande response, endosymbiosis, Vavilov, Price equation, Hamilton, Nei distance, Weir-Cockerham FST,
-  Orr adaptation, Y degeneration, Mayr BSC, HKA, or a revival paper that
+  Orr adaptation, Y degeneration, Mayr BSC, HKA, Lewontin-Krakauer, Fay-Wu, Fu-Li, Slatkin gene flow, tension zone,
+  Endler clines, Crow load, or a revival paper that
   is not a methods benchmark.
 ---
 
@@ -175,8 +176,16 @@ heterozygotes in clonal lineages).
 | Y-chromosome degeneration | Charlesworth 1978 PNAS 75:5618-5622 | A non-recombining Y ratchets load and becomes inert; X dosage rises | Vitis SDR is young, not an XX/XY Y | Dong 2023 chr-2 SDR: little Y-like degeneration / recombination still present after clone filter |
 | Biological species concept | Mayr 1942 Systematics and the Origin of Species (book) | Species are interbreeding populations isolated from other such groups | Cultivar x cultivar is not a species test; gene flow is caution | Dong 2023 Syl-W gene flow: sylvestris and vinifera are not isolated biological species |
 | HKA test | Hudson, Kreitman and Aguade 1987 Genetics 116:153-159 | High-divergence regions are high-polymorphism regions under neutrality | Clone IBD fakes polymorphism; chips are not loci | After clone + IBD filters, polymorphism does not scale with divergence (MK / Tajima remain other jobs) |
+| Lewontin-Krakauer FST outliers | Lewontin and Krakauer 1973 Genetics 74:175-195 | Heterogeneity of F among loci is evidence of selection | Clones fake F; chips are not loci | Dong 2023 wilds: F not heterogeneous among loci after clone + IBD filters |
+| Fay-Wu H | Fay and Wu 2000 Genetics 155:1405-1413 | Hitchhiking leaves an excess of derived high-frequency variants | Clone IBD fakes high-frequency derived alleles | Dong 2023 color / sex / flavor: no derived high-frequency excess after clone + IBD filters |
+| Fu-Li tests | Fu and Li 1993 Genetics 133:693-709 | External mutations deviate from theta under selection; internal less so | Clone-private SNPs are not external mutations | After clone + IBD filters, external vs internal counts do not reject neutrality (Tajima remains another job) |
+| Slatkin private-allele gene flow | Slatkin 1985 Evolution 39:53-65 | Log of private-allele frequency estimates log Nm | Cultivar private alleles are not migrants; clones fake private alleles | Dong 2023 wilds: private-allele Nm not a migration estimate after clone filter |
+| Slatkin IBD from pairwise M | Slatkin 1993 Evolution 47:264-279 | Pairwise M = (1/FST-1)/4 declines with distance under restricted dispersal | A vineyard is not a pair of demes; clones fake FST | Dong 2023 wilds: M not a distance function after clone filter (Wright 1943 remains the continuous-space job) |
+| Hybrid-zone dynamics | Barton 1979 Heredity 43:341-359 | A tension zone sits where dispersal balances selection against hybrids | Nursery hybrid is not a tension zone | Dong 2023 Syl-W gene flow is CAUTION, not a trapped cline (Anderson / reinforcement remain other jobs) |
+| Geographic variation / clines | Endler 1977 Geographic Variation, Speciation and Clines (book) | Steep clines and parapatric split can form despite continuous gene flow | Dual domestication; human transport | Dong 2023: no Endler cline / parapatric split after clone + IBD filters |
+| Mutational / genetic load | Crow 1958 Hum Biol 30:1-13 | Standing fitness is lowered by recurrent mutation (and by segregation / incompatibility) | Grafted clones are not a sexual load equilibrium | Wild coding load not a Crow mutational-load partition after clone filter |
 
-Sixty-seven filled notes (eight first wave, nine second wave, nine third wave, twelve fourth wave, ten fifth wave, ten sixth wave, nine seventh wave). Long form in `theories.md`. One theory per job.
+Seventy-five filled notes (eight first wave, nine second wave, nine third wave, twelve fourth wave, ten fifth wave, ten sixth wave, nine seventh wave, eight eighth wave). Long form in `theories.md`. One theory per job.
 
 Kondrashov 1988 (cost of males) is on the door list but was not filled: it does not map onto grafted clones.
 Muller 1942 was not locked on a publisher page and is not cited for BDM.
@@ -268,6 +277,15 @@ centromere / CenH3 paper is locked.
 - Mayr 1942 is the biological species book; Dobzhansky 1937 remains BDM and 1940 remains reinforcement. Founder effect (often 1954) was not opened.
 - HKA 1987 is polymorphism-divergence scaling; MK 1991 and Tajima 1989 remain other jobs. Hudson 1990 survey and Hudson 2002 ms were not used as sources.
 
+- Lewontin-Krakauer 1973 is F heterogeneity among loci as a selection test. Wright 1931 remains island math; Wright 1943 remains IBD; Weir-Cockerham 1984 remains the estimator. Beaumont and Nichols 1996 was not used.
+- Fay-Wu 2000 H is derived high-frequency excess. Maynard Smith and Haigh 1974 remains diversity collapse; Tajima 1989 remains pi versus theta_W; HKA 1987 remains polymorphism-divergence scaling.
+- Fu-Li 1993 is external versus internal mutations. Tajima 1989 remains the other one-sample job. Clone-private SNPs are not external mutations.
+- Slatkin 1985 is private-allele Nm. Slatkin 1987 Science is a review. Wright 1931 remains the island parameter.
+- Slatkin 1993 is pairwise M versus distance. Wright 1943 remains the continuous-space original. Serial founder remains Ramachandran 2005.
+- Barton 1979 is tension-zone dynamics. Barton and Hewitt 1985 is a review. Anderson 1949 remains introgression; Dobzhansky 1940 remains reinforcement; Mayr 1942 remains BSC.
+- Endler 1977 is clines / parapatric differentiation despite gene flow (book). Not Wright 1943 and not Barton 1979.
+- Crow 1958 is the mutational / segregation / incompatibility load partition. Haldane 1957 remains does-not-map (substitution cost). Haldane 1927 remains equilibrium q. Muller 1964 remains the ratchet. Muller 1950 body was not opened.
+
 ## Sources to open first (fetched)
 
 - Muller 1964: https://doi.org/10.1016/0027-5107(64)90047-8
@@ -354,6 +372,15 @@ centromere / CenH3 paper is locked.
 - Mayr 1942 book: https://books.google.com/books/about/Systematics_and_the_Origin_of_Species_fr.html?id=XxMgAQAAMAAJ
 - Hudson, Kreitman and Aguade 1987: https://doi.org/10.1093/genetics/116.1.153 (PMC1203113; EuropePMC MED 3110004)
 
+- Lewontin and Krakauer 1973: https://doi.org/10.1093/genetics/74.1.175 (PMC1212935; EuropePMC MED 4711903)
+- Fay and Wu 2000: https://doi.org/10.1093/genetics/155.3.1405 (PMC1461156; EuropePMC MED 10880498)
+- Fu and Li 1993: https://doi.org/10.1093/genetics/133.3.693 (PMC1205353; EuropePMC MED 8454210)
+- Slatkin 1985: https://doi.org/10.1111/j.1558-5646.1985.tb04079.x (EuropePMC MED 28563643)
+- Slatkin 1993: https://doi.org/10.1111/j.1558-5646.1993.tb01215.x (EuropePMC MED 28568097)
+- Barton 1979: https://doi.org/10.1038/hdy.1979.87 (Nature / Heredity HTML)
+- Endler 1977 book: https://press.princeton.edu/books/paperback/9780691081922/geographic-variation-speciation-and-clines
+- Crow 1958: EuropePMC REST EXT_ID 13513111; reprint PDF https://freethoughtblogs.com/pharyngula/files/2015/01/crow_selectioninman.pdf (1958 imprint on the reprint)
+
 ## Red lines
 
 - Do not cite a review as the source of the theory.
@@ -436,5 +463,33 @@ Mayr founder effect as a second named original was skipped: 1942 is the BSC lock
 - Do not write Weir-Cockerham 1984 as Wright 1931 island math.
 - Do not write Orr 1998 as Fisher 1930 geometric or Fisher 1918 infinitesimal.
 - Do not invent a grape Vavilov-centre, Price-equation, kin-selection, Nei-distance, FST-estimator, adaptive-walk, Y-degeneration, biological-species, or HKA paper.
+
+Heterosis / hybrid vigor is on the candidate list but was not filled: no single named original distinct from filled Darwin 1876 and dropped overdominance (Hull 1946 vs Dobzhansky 1950); Shull 1908 Journal of Heredity os-4:296-301 DOI 10.1093/jhered/os-4.1.296 bibliographic lock only (Oxford 406 / timeout; Zenodo / CSHL PDF not opened); 1914 coinage first printed later (often 1922 / Shull 1948 Genetics 33:439-446 clarification). Standing clone heterozygosity is not hybrid vigor.
+Soft vs hard selection (Wallace B. 1975. Evolution 29(3):465-473. DOI 10.1111/j.1558-5646.1975.tb00836.x PMID 28563194 / Christiansen FB. 1975. Am Nat 109:11-16. DOI 10.1086/282970 / Wallace 1968 Lewontin-volume chapter) is on the candidate list but was not filled: Wallace 1975 EuropePMC HTML opened this wave (author, Department of Genetics, Development, and Physiology, Cornell; 01 Sep 1975; Evolution 29(3):465-473; DOI; PMID) but carried no abstract or claim text; Christiansen 1975 Crossref JSON opened (Freddy Bugge Christiansen; The American Naturalist 109(965):11-16; 1975-01; DOI) with no abstract; 1968 chapter not opened. Do not fill without quoting the hard/soft claim from an opened page.
+Mayr founder effect / genetic revolution (Mayr E. 1954. Change of genetic environment and evolution. Pp. 157-180 in Huxley J, Hardy AC, Ford EB, eds. Evolution as a Process. Allen and Unwin, London) is on the candidate list but was not filled: Ridley classic-texts HTML opened (title, 1954, Huxley/Hardy/Ford, pp. 157-180) but the chapter PDF timed out; 1942 remains the BSC lock. Serial founder remains Ramachandran 2005.
+Charlesworth 1991 Science 251:1030-1033 was skipped: tagged review; 1978 PNAS is the filled Y-degeneration original.
+Slatkin M. 1987. Gene flow and the geographic structure of natural populations. Science 236(4803):787-792. DOI 10.1126/science.3576198 PMID 3576198. EuropePMC HTML opened (abstract is a review of direct and indirect gene-flow methods). DROP: review; 1985 is the lock.
+Wright S. 1951. The genetical structure of populations. Ann Eugen 15(4):323-354 (Wiley / Crossref also print January 1949, vol. 15 issue 1, same pages). DOI 10.1111/j.1469-1809.1949.tb02451.x PMID 24540312. EuropePMC HTML opened (author, 01 Mar 1951, 15(4):323-354, DOI, PMID) but no abstract or claim text. Wiley Cloudflare. DROP without a quoted FIS/FIT/FST claim. Wright 1965 Evolution 19:395-420 DOI 10.1111/j.1558-5646.1965.tb01731.x likewise not opened for claim text. 1931 remains island math; 1943 remains IBD; 1984 remains the estimator.
+Beaumont MA, Nichols RA. 1996. Evaluating loci for use in the genetic analysis of population structure. Proc R Soc Lond B 263:1619-1626. DROP: method, not a named theory; Lewontin-Krakauer 1973 is the lock.
+Hudson 1990 Oxford Surveys in Evolutionary Biology 7:1-44 was skipped: survey chapter; not a named original. Hudson 2002 ms remains a software method.
+Muller HJ. 1950. Our load of mutations. Am J Hum Genet 2(2):111-176. PMID 14771033 PMCID PMC1716299. PMC / EuropePMC HTML opened (title, June 1950, 2(2):111-176, PMID, PMC) but no abstract or body. DROP as source; Crow 1958 is the lock. Morton, Crow and Muller 1956 PNAS 42:855-863 DOI 10.1073/pnas.42.11.855 PMID 16589958 PMC528351 opened as bibliographic only; not used as the source.
+Stebbins 1950 Variation and Evolution in Plants was skipped: 1947 Adv Genet is already filled as allopolyploidy.
+Grant V. 1981. Plant Speciation. 2nd ed. Columbia University Press. Not opened; later synthesis. Not filled.
+Rieseberg hybrid speciation was not filled: Rieseberg 1997 Annu Rev Ecol Syst is a review; no named original locked. Abbott hybrid-speciation reviews were skipped.
+Barton and Hewitt 1985 Analysis of hybrid zones. Annu Rev Ecol Syst 16:113-148 is a review. 1979 is the lock.
+
+- Do not cite Slatkin 1987 Science as the gene-flow source (review; 1985 is).
+- Do not cite Slatkin 1981 as the private-allele source (qualitative precursor).
+- Do not cite Barton and Hewitt 1985 Annu Rev as the hybrid-zone source (review; 1979 is).
+- Do not cite Beaumont and Nichols 1996 as the FST-outlier source (method; 1973 is).
+- Do not cite Fu 1997 as the Fay-Wu or Fu-Li source.
+- Do not cite Muller 1950 as the genetic-load source (landing only; no body). Do not cite Morton, Crow and Muller 1956 as this paper.
+- Do not write Crow 1958 as Haldane 1957 cost or Haldane 1927 equilibrium q or Muller 1964 ratchet.
+- Do not write Slatkin 1993 as Wright 1943 IBD, or as Slatkin 1985 private alleles.
+- Do not write Endler 1977 as Wright 1943 or as Barton 1979.
+- Do not write Fay-Wu 2000 as Maynard Smith and Haigh 1974 or as Tajima 1989.
+- Do not write Fu-Li 1993 as Tajima 1989.
+- Do not write Lewontin-Krakauer 1973 as Wright 1931 / 1943 or as Weir-Cockerham 1984.
+- Do not invent a grape FST-outlier, Fay-Wu, Fu-Li, private-allele, pairwise-M, hybrid-zone, cline, or genetic-load paper.
 
 Related: `plant-lit-review`, `vitis-popgen`, `grapevine-adna`, `vitis-pangenome`.

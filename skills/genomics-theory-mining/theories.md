@@ -3120,3 +3120,510 @@ What we will not claim: that McDonald and Kreitman 1991
 ```
 
 ---
+
+---
+
+## Lewontin-Krakauer FST outliers
+
+```
+Theory: Lewontin-Krakauer test (F heterogeneity among loci)
+Original paper (year): Lewontin RC, Krakauer J. 1973. Distribution
+  of gene frequency as a test of the theory of the selective
+  neutrality of polymorphisms. Genetics 74(1):175-195 (1 May 1973).
+  DOI 10.1093/genetics/74.1.175 PMID 4711903 PMCID PMC1212935.
+  EuropePMC HTML opened (Lewontin RC, Krakauer J; 01 May 1973;
+  Genetics 74(1):175-195; DOI; PMID; PMC; abstract). PMC HTML
+  opened (Department of Theoretical Biology / Department of
+  Biology, University of Chicago; received 14 February 1972;
+  revision requested 16 January 1973). Breeding structure should
+  affect all loci the same way; significant heterogeneity among
+  loci in apparent inbreeding coefficients
+  F = s(p)^2 / p(1-p) is evidence for selection. Human polymorphic
+  genes showed highly significant heterogeneity in F worldwide;
+  temporal variation in Dacus oleae did not. Distinct from filled
+  Wright 1931 island (FST as a function of Nem, no locus test).
+  Distinct from filled Wright 1943 IBD and filled Weir and
+  Cockerham 1984 (the moment estimator, not a heterogeneity
+  test). Distinct from filled Kimura 1968 (the neutral null).
+  Beaumont and Nichols 1996 is a later method; not used.
+One-sentence prediction: Loci that share a breeding structure
+  share F; a locus whose F is an outlier relative to the others
+  is a candidate for selection.
+Assumptions: samples are demes, not clones or cultivars; F is
+  not clone IBS; chips are not forced-biallelic loci; dual
+  domestication is not one breeding structure; a vineyard is
+  not a deme.
+Which fail here: grafted cultivars are not demes. Clone IBD
+  fakes F. SNP chips are biallelic. Dual domestication and
+  human transport violate a single shared breeding structure.
+  A wine-region PCA is not a Lewontin-Krakauer table.
+Modern data / statistic: heterogeneity of locus F (or FST)
+  among wild V. sylvestris patches after clone + IBD filters,
+  versus a single shared breeding-structure null.
+Dataset: Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655). Wild sylvestris subset after
+  clone + IBD filters. Use as structure, not as a published
+  Lewontin-Krakauer analysis. Do not invent a grape FST-outlier
+  paper.
+What would falsify it: F among wild-patch loci is not
+  heterogeneous after clone + IBD filters (the selection
+  reading dies). Treating clone IBS as F is not the test.
+  Island / IBD / WC-estimator jobs remain other notes.
+What we will not claim: that Wright 1931 or 1943 is this
+  paper. That Weir-Cockerham 1984 is this paper. That
+  Beaumont and Nichols 1996 is the source. That Dong 2023
+  ran a Lewontin-Krakauer test. That a cultivar PCA is an
+  F-outlier table.
+```
+
+---
+
+## Fay-Wu H
+
+```
+Theory: Fay-Wu H (derived high-frequency hitchhiking)
+Original paper (year): Fay JC, Wu CI. 2000. Hitchhiking under
+  positive Darwinian selection. Genetics 155(3):1405-1413
+  (1 July 2000). DOI 10.1093/genetics/155.3.1405 PMID 10880498
+  PMCID PMC1461156. EuropePMC HTML opened (Fay JC, Committee
+  on Genetics, University of Chicago; Wu CI; 01 Jul 2000;
+  Genetics 155(3):1405-1413; DOI; PMID; PMC; abstract). PMC
+  HTML opened (same authors, venue, abstract). If recombination
+  is present but rare, linked variation hitchhikes to low or
+  high frequency; an excess of derived variants at high
+  frequency is a unique hitchhiking pattern (derived =
+  nonancestral state from an outgroup). Statistic H measures
+  excess of high compared with intermediate frequency variants.
+  Distinct from filled Maynard Smith and Haigh 1974 (linked
+  diversity collapses around a sweep; no derived-frequency
+  statistic). Distinct from filled Tajima 1989 (pi versus
+  theta_W in one sample; no outgroup). Distinct from filled
+  HKA 1987 (polymorphism-divergence scaling) and filled
+  McDonald and Kreitman 1991 (Dn/Ds versus Pn/Ps). Fu 1997
+  Genetics 147:915-925 is a later neutrality battery; not
+  used as the source.
+One-sentence prediction: A recent hitchhiking event leaves
+  an excess of derived high-frequency variants at linked
+  sites (negative H); neutrality and BGS do not produce that
+  excess.
+Assumptions: a random sample of sequences plus an outgroup;
+  derived state is not clone IBS; polymorphism is not
+  clone-private SNPs; a cultivar panel is not that sample;
+  chips are not forced-biallelic loci.
+Which fail here: a cultivar panel is not a random sample.
+  Clone IBD fakes high-frequency derived alleles. Pedigree
+  repeats are not new mutations. Dual domestication is human
+  choice, not a sweep generation. SNP chips are biallelic.
+Modern data / statistic: Fay-Wu H at candidate domestication
+  loci on Dong-class WGS after clone + IBD filters, versus
+  the high-frequency-derived null. Tajima and HKA remain
+  other jobs.
+Caution dataset: Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655). Color / sex / flavor peaks.
+  Use as the hitchhiking contrast, not as a published Fay-Wu
+  analysis. Do not invent a grape Fay-Wu paper.
+What would falsify it: no excess of derived high-frequency
+  variants after clone + IBD filters (H does not reject).
+  Treating clone IBS as derived high frequency is not the
+  test. Diversity collapse without an outgroup is the 1974
+  hitchhiking job; one-sample Tajima D is the 1989 job.
+What we will not claim: that Maynard Smith and Haigh 1974
+  is this paper (already filled). That Tajima 1989 or HKA
+  1987 is this paper. That Fu 1997 is the source. That
+  Dong 2023 computed H. That a nursery sport is a hitchhiking
+  haplotype.
+```
+
+---
+
+## Fu-Li tests
+
+```
+Theory: Fu-Li tests (external versus internal mutations)
+Original paper (year): Fu YX, Li WH. 1993. Statistical tests
+  of neutrality of mutations. Genetics 133(3):693-709
+  (1 March 1993). DOI 10.1093/genetics/133.3.693 PMID 8454210
+  PMCID PMC1205353. EuropePMC HTML opened (Fu YX, Center for
+  Demographic and Population Genetics, University of Texas,
+  Houston; Li WH; 01 Mar 1993; Genetics 133(3):693-709; DOI;
+  PMID; PMC; abstract). Mutations in a sample genealogy are
+  external (on external branches) or internal (on internal
+  branches). Under neutrality the expected number of external
+  mutations equals theta = 4 Ne mu, independent of sample
+  size; external counts deviate under selection while internal
+  counts are less affected. Several tests of the all-mutations-
+  neutral hypothesis follow from those properties and from
+  two common theta estimates. Distinct from filled Tajima 1989
+  (pi versus theta_W; no external/internal split). Distinct
+  from filled Watterson 1975 (S as a theta estimator) and
+  filled Kimura 1969 infinite-sites. Distinct from filled
+  HKA 1987 and filled Fay and Wu 2000 H (this wave; derived
+  high-frequency excess, not external-branch counts).
+One-sentence prediction: Selection (or a non-neutral
+  demography that mimics it) shows up first as a deviation
+  of external mutations from theta; internal mutations stay
+  closer to the neutral expectation.
+Assumptions: a random sample of DNA sequences from one
+  population; the genealogy is Kingman-like, not a clone
+  pedigree; external mutations are not clone-private SNPs;
+  chips are not forced-biallelic loci.
+Which fail here: a cultivar panel is not a random sample.
+  Clone IBD fakes external mutations. Cuttings skip the
+  sexual genealogy. Dual domestication is not one population.
+  SNP chips are biallelic.
+Modern data / statistic: Fu-Li D / F (or an external-versus-
+  internal analogue) on Dong-class WGS after clone + IBD
+  filters, versus the neutral theta expectation. Tajima and
+  Fay-Wu remain other jobs.
+Dataset: Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655). Wild versus cultivar /
+  other Vitis after clone + IBD filters. Use as a Fu-Li-
+  style test, not as a published grape Fu-Li paper. Do not
+  invent a grape Fu-Li paper.
+What would falsify it: external versus internal counts do
+  not reject neutrality after clone + IBD filters, OR
+  clone-private SNPs are treated as external mutations
+  (they are not). One-sample Tajima D is the 1989 job;
+  derived high-frequency excess is the Fay-Wu job.
+What we will not claim: that Tajima 1989 is this paper
+  (already filled). That Fay and Wu 2000 is this paper.
+  That Watterson 1975 is this paper. That Dong 2023 ran
+  Fu-Li tests. That a chimera layer is an external branch.
+```
+
+---
+
+## Slatkin private-allele gene flow
+
+```
+Theory: Slatkin private-allele estimator of gene flow
+Original paper (year): Slatkin M. 1985. Rare alleles as
+  indicators of gene flow. Evolution 39(1):53-65
+  (1 January 1985). DOI 10.1111/j.1558-5646.1985.tb04079.x
+  PMID 28563643. EuropePMC HTML opened (Slatkin M,
+  Department of Zoology, NJ-15, University of Washington,
+  Seattle; 01 Jan 1985; Evolution 39(1):53-65; DOI; PMID;
+  abstract). Log of the average number of migrants exchanged
+  between local populations, Nm, is approximately linearly
+  related to the log of the average frequency of private
+  alleles, p(1); the relation is relatively insensitive to
+  other parameters except Nm and the number of individuals
+  sampled. Applied to 16 species, estimated Nm ranged from
+  much greater than 1 to less than 0.1, confirming the
+  qualitative analysis of Slatkin 1981. Distinct from filled
+  Wright 1931 island (FST = f(Nem) as the parameter, not a
+  private-allele estimator). Distinct from filled Wright
+  1943 IBD and filled Kimura and Weiss 1964 stepping-stone.
+  Distinct from filled Weir and Cockerham 1984 (moment FST).
+  Slatkin 1987 Science 236:787-792 (PMID 3576198) is a
+  review of direct and indirect gene-flow methods; red line;
+  not the source. Slatkin 1981 is the qualitative precursor,
+  not used as the source (same Muller-1964 / Felsenstein-1974
+  split).
+One-sentence prediction: The rarer the private alleles in
+  a set of local samples, the larger Nm; private alleles
+  that are common imply little gene flow.
+Assumptions: samples are local sexual populations, not
+  clones or cultivars; a private allele is not a clone-
+  private SNP or a nursery sport; sample size is scored
+  (the paper's correction); a vineyard block is not a
+  local population.
+Which fail here: grafted cultivars are not demes. Clone
+  IBD fakes private alleles. Humans and nurseries move
+  vines farther than local migration. Dual domestication
+  is not one subdivided species with a single Nm.
+Modern data / statistic: private-allele frequency among
+  wild V. sylvestris patches after clone + IBD filters,
+  converted to Nm, versus an island / IBD / stepping-stone
+  reading.
+Dataset: Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655). Wild sylvestris subset
+  after clone + IBD filters. Use as structure, not as a
+  published private-allele analysis. Do not invent a grape
+  gene-flow paper.
+What would falsify it: private-allele Nm among wild patches
+  is not a migration estimate after clone filter (clone-
+  private SNPs treated as private alleles are not the test).
+  FST independent of distance is the Wright 1931 job;
+  continuous IBD slope is the Wright 1943 job.
+What we will not claim: that Slatkin 1987 is the source
+  (review). That Slatkin 1981 is this paper. That Wright
+  1931 or Weir-Cockerham 1984 is this paper. That Dong
+  2023 estimated Nm from private alleles. That a cultivar
+  private SNP is a migrant.
+```
+
+---
+
+## Slatkin IBD from pairwise M
+
+```
+Theory: Slatkin isolation by distance from pairwise M
+Original paper (year): Slatkin M. 1993. Isolation by
+  distance in equilibrium and non-equilibrium populations.
+  Evolution 47(1):264-279 (1 February 1993).
+  DOI 10.1111/j.1558-5646.1993.tb01215.x PMID 28568097.
+  EuropePMC HTML opened (Slatkin M, Department of
+  Integrative Biology, University of California, Berkeley;
+  01 Feb 1993; Evolution 47(1):264-279; DOI; PMID;
+  abstract). For allele-frequency data a useful pairwise
+  gene-flow measure is M = (1/FST - 1)/4, the estimated
+  island-model Nm at equilibrium; for sequences, replace
+  FST by NST. Analytic theory gives a simple relationship
+  between M and geographic distance in both equilibrium and
+  non-equilibrium populations, approximately independent of
+  mutation rate when that rate is small. Simulations show
+  IBD can be detected with reasonable samples and that some
+  non-equilibrium patterns can be distinguished. Applied to
+  gull and pocket-gopher allozymes. Distinct from filled
+  Wright 1943 IBD (continuous isolation by distance as the
+  process; no pairwise-M diagnostic). 1993 is the FST-based
+  estimator of that pattern, the same split as filled Weir-
+  Cockerham 1984 versus filled Wright 1931 island math.
+  Distinct from filled Kimura and Weiss 1964 stepping-stone
+  and from filled Slatkin 1985 private alleles (this wave;
+  a different gene-flow estimator). Distinct from filled
+  serial founder (Ramachandran et al. 2005).
+One-sentence prediction: Pairwise M declines with geographic
+  distance under restricted dispersal, in both equilibrium
+  and some non-equilibrium histories; a flat M-distance
+  plot is not that pattern.
+Assumptions: pairs are demes, not clones or cultivars; FST
+  is not clone IBS; a vineyard is not a pair of demes;
+  dual domestication is not one expanding range; mutation
+  is small relative to migration.
+Which fail here: grafted cultivars are not demes. Clone
+  IBD fakes FST and therefore M. Humans and rivers move
+  vines farther than restricted dispersal. Dual
+  domestication is two origins, not one IBD surface.
+Modern data / statistic: pairwise M among wild
+  V. sylvestris patches after clone + IBD filters, versus
+  geographic distance (IBD: decline; island: flat).
+Dataset: Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655). Wild sylvestris subset
+  after clone + IBD filters. Use as geography, not as a
+  published Slatkin-M analysis. Do not invent a grape
+  isolation-by-distance estimator paper.
+What would falsify it: M among wild patches is not a
+  function of distance after clone filter (the restricted-
+  dispersal reading dies). Treating clone IBS as FST is
+  not the test. Wright 1943 remains the continuous-space
+  original; this note is the pairwise-M diagnostic.
+What we will not claim: that Wright 1943 is this paper
+  (already filled). That Slatkin 1985 is this paper.
+  That Ramachandran 2005 is this paper. That Dong 2023
+  reported pairwise M. That a wine-region PCA is an
+  M-distance plot.
+```
+
+---
+
+## Hybrid-zone dynamics
+
+```
+Theory: Hybrid-zone dynamics (tension zone)
+Original paper (year): Barton NH. 1979. The dynamics of
+  hybrid zones. Heredity 43(3):341-359 (1 December 1979).
+  DOI 10.1038/hdy.1979.87. Nature / Heredity HTML opened
+  (N. H. Barton, School of Biological Sciences, University
+  of East Anglia, Norwich NR4 7TJ; received 14 March 1979;
+  issue date 01 December 1979; DOI; summary). Hybrid zones
+  maintained by a balance between dispersal and selection
+  against hybrids: a single-locus zone can move in response
+  to a selective imbalance between homozygotes and to
+  variation in density or dispersal; it can be trapped by
+  natural barriers, so an allele selected against when rare
+  cannot advance even if advantageous when common. The
+  continuous model approximates a stepping-stone cline that
+  contains several demes. Sampling drift is negligible
+  unless the zone includes few organisms and few loci;
+  barriers still trap zones, so they remain roughly where
+  they first formed. Distinct from filled Anderson 1949
+  introgression / hybrid swarm (backcross tracts are
+  geographically clinal). Distinct from filled Dobzhansky
+  1940 reinforcement (premating isolation completes in
+  sympatry). Distinct from filled Mayr 1942 BSC.
+  Barton and Hewitt 1985 Annu Rev Ecol Syst 16:113-148 is
+  a review; red line; not the source. Barton and Hewitt
+  1980 chapter (in press in the 1979 reference list) is
+  later; not used.
+One-sentence prediction: A tension zone sits where
+  dispersal into the zone is balanced by selection against
+  hybrids; it can shift with density or selection but is
+  trapped by barriers and is not a nursery cross.
+Assumptions: two sexual populations meet along a front;
+  hybrids are unfit relative to parentals; a cultivar x
+  cultivar cross is not a tension zone; gene flow without
+  a cline is not this model; clones are not hybridizing
+  demes.
+Which fail here: nursery hybrids are not secondary contact.
+  Dong 2023 Syl-W gene flow into CG3-CG6 is CAUTION that
+  isolation is incomplete, not a mapped tension zone.
+  Treating sylvestris and vinifera as two biological
+  species is the Mayr 1942 job. A vineyard is not a Barton
+  front.
+Modern data / statistic: whether a wild-cultivar contact
+  is a trapped cline (dispersal versus hybrid unfitness)
+  after clone + IBD filters, versus diffuse gene flow /
+  a single biological species.
+Dataset: Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655). Syl-W gene flow into
+  CG3-CG6 is CAUTION, not a Barton-zone demonstration.
+  Do not invent a grape hybrid-zone paper.
+What would falsify it: contact is not a trapped cline
+  (gene flow after clone + IBD filters with no hybrid-
+  unfitness barrier). Single-locus hybrid inviability is
+  the BDM job (already filled). Premating isolation in
+  sympatry is the reinforcement job (already filled).
+What we will not claim: that Barton and Hewitt 1985 is
+  the source (review). That Anderson 1949 is this paper.
+  That Dobzhansky 1940 is this paper. That Dong 2023
+  mapped a tension zone. That a nursery hybrid is a
+  hybrid zone.
+```
+
+---
+
+## Geographic variation / clines
+
+```
+Theory: Geographic variation / clines (parapatric
+  differentiation despite gene flow)
+Original paper (year): Endler JA. 1977. Geographic
+  Variation, Speciation, and Clines. Princeton: Princeton
+  University Press. Monographs in Population Biology 10.
+  262 pages. ISBN 9780691081922.
+  Princeton University Press HTML opened
+  (https://press.princeton.edu/books/paperback/9780691081922/geographic-variation-speciation-and-clines):
+  John A. Endler; published 21 September 1977; copyright
+  1978; 262 pages; ISBN 9780691081922; Monographs in
+  Population Biology. Same book standard as filled Mayr
+  1942 / Maynard Smith 1978 / Anderson 1949 / Klekowski
+  1988. Publisher blurb on that live page: earlier writers
+  thought intense geographic differentiation and speciation
+  required complete isolation; Endler shows geographic
+  differentiation and speciation may develop in spite of
+  continuous gene flow (steep clines; parapatric
+  speciation; hybrid zones; sexual isolation). Distinct
+  from filled Wright 1943 IBD (similarity declines with
+  continuous distance; not a speciation-despite-gene-flow
+  claim). Distinct from filled Barton 1979 (this wave;
+  tension-zone dynamics, not the cline / parapatric book).
+  Distinct from filled Mayr 1942 BSC and filled
+  Ramachandran et al. 2005 serial founder.
+One-sentence prediction: Steep clines, and a parapatric
+  split, can form along an environmental gradient even
+  when gene flow is continuous; complete isolation is not
+  required.
+Assumptions: sexual populations arranged in space, not
+  clones or cultivars; a vineyard is not a cline; dual
+  domestication is not one gradient; human transport is
+  not Endler gene flow.
+Which fail here: humans and nurseries move vines farther
+  than a continuous cline. Dong 2023 dual domestication
+  is two origins, not one parapatric split. Syl-W gene
+  flow is CAUTION that isolation is incomplete, not an
+  Endler cline. A wine-region PCA is not a cline.
+Modern data / statistic: whether wild sylvestris /
+  cultivar geography is a steep environmental cline
+  after clone + IBD filters, versus two domestication
+  centres or an equilibrium IBD slope with no split.
+Dataset: Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655). Dual-domestication
+  geography; Syl-W gene flow. Use as the two-origin /
+  gene-flow contrast, not as a published Endler-cline
+  analysis. Do not invent a grape cline paper.
+What would falsify it: grape geography is not a steep
+  cline or parapatric split after clone + IBD filters
+  (two domestication centres, or an IBD slope with no
+  environmental step). Wright 1943 remains the continuous
+  IBD original; Barton 1979 remains the tension-zone
+  original.
+What we will not claim: that Wright 1943 is this paper
+  (already filled). That Barton 1979 is this paper.
+  That Mayr 1942 is this paper. That Dong 2023 fitted
+  an Endler cline. That a cultivar name is a subspecies
+  on a cline.
+```
+
+---
+
+## Mutational / genetic load
+
+```
+Theory: Mutational / genetic load (Crow partition)
+Original paper (year): Crow JF. 1958. Some possibilities
+  for measuring selection intensities in man. Human
+  Biology 30(1):1-13 (February 1958). PMID 13513111.
+  EuropePMC REST JSON opened (CROW JF; Hum Biol 30(1):1-13;
+  1958 Feb; PMID 13513111; Journal Article). 1989 Wayne
+  State reprint PDF opened
+  (https://freethoughtblogs.com/pharyngula/files/2015/01/crow_selectioninman.pdf):
+  Human Biology, February 1958, Vol. 30, No. 1, pp. 1-13;
+  reprinted Human Biology 61(5/6):763-775 (1989); James F.
+  Crow, University of Wisconsin. Genetic load is the
+  proportion by which population fitness is decreased
+  relative to an optimum genotype. Three components:
+  mutational load (fitness lowered by recurrent harmful
+  mutants; at equilibrium Lm equals the mutation rate,
+  following Haldane 1937); segregation load (inferior
+  homozygotes from an unfixable superior heterozygote);
+  incompatibility load (parent-offspring serological
+  mismatch). Mutation load is sensitive to inbreeding;
+  segregation load is not. Distinct from filled Haldane
+  1957 cost of selection (generation-equivalents of
+  selective death per substitution; does-not-map).
+  Distinct from filled Haldane 1927 mutation-selection
+  balance (the equilibrium frequency q, not the load
+  partition). Distinct from filled Muller 1964 ratchet
+  (least-loaded class lost without recombination).
+  Muller 1950 Am J Hum Genet 2:111-176 (Our load of
+  mutations; PMID 14771033 PMC1716299) was opened as a
+  landing only (no abstract or body); not the source.
+  Morton, Crow and Muller 1956 PNAS 42:855-863 is the
+  consanguinity application named in 1958; no abstract
+  opened; not used as the source (same Muller-1964 /
+  Felsenstein-1974 split).
+One-sentence prediction: Standing mean fitness is lower
+  than the optimum by a mutational load of order equal
+  to the mutation rate, plus a segregation load if
+  heterozygotes are unfixable; inbreeding inflates the
+  mutational component.
+Assumptions: a sexual population at mutation-selection
+  (or segregation) equilibrium; fitness is scored on
+  that generation; grafted clones are not that
+  equilibrium; clone-private SNPs are not q; a vineyard
+  is not a Crow population.
+Which fail here: grafted cuttings skip the sexual
+  generation in which load is paid. Clone-private SNPs
+  are not the mutational-load sample. Standing clone
+  heterozygosity is not a segregation load. Roach 2018
+  ancestral inbreeding is CAUTION for the inbreeding
+  contrast (already used on Darwin 1876), not a Crow
+  load estimate. Haldane 1957 remains does-not-map.
+Modern data / statistic: whether wild coding load after
+  clone + IBD filters is a Crow mutational-load
+  partition (order of the mutation rate; inflated by
+  inbreeding), versus ratchet accumulation or a few
+  large-effect domestication loci.
+Dataset: Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655). Wild sylvestris subset
+  after clone + IBD filters. Use as a load contrast,
+  not as a published Crow-load analysis. Do not invent
+  a grape genetic-load paper. Roach 2018 ancestral
+  inbreeding is CAUTION only.
+What would falsify it: wild coding load is not a
+  mutational-load partition after clone filter (not
+  order of mu; not inflated by inbreeding). Treating
+  clone-private SNPs as q is not the test. Equilibrium
+  frequency of a deleterious allele is the Haldane 1927
+  job; substitution cost is the 1957 job; whole-genome
+  clone load is the Muller 1964 job.
+What we will not claim: that Muller 1950 is the source
+  (landing only; no body). That Morton, Crow and Muller
+  1956 is this paper. That Haldane 1957 or 1927 is this
+  paper. That Dong 2023 estimated a Crow load. That a
+  nursery sport is a segregation-load heterozygote.
+```
+
+---
