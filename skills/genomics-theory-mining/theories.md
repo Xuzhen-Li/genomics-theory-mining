@@ -2020,3 +2020,560 @@ What we will not claim: that Jaillon 2007 is a
 ```
 
 ---
+
+---
+
+## Ewens sampling formula
+
+```
+Theory: Ewens sampling formula
+Original paper (year): Ewens WJ. 1972. The sampling theory of
+  selectively neutral alleles. Theoretical Population Biology
+  3(1):87-112. DOI 10.1016/0040-5809(72)90035-4 PMID 4667078.
+  EuropePMC HTML landing opened (author, title, year, venue,
+  volume, issue, pages, DOI, PMID). ScienceDirect HTML timed
+  out this wave; lock from the EuropePMC page. The paper
+  begins a sampling theory of a sample of genes from a
+  selectively neutral locus, including a test that the
+  alleles are indeed selectively neutral. Karlin and McGregor
+  1972 Theor Popul Biol 3:113-116 is the same-issue addendum
+  (PMID 4667073), not the source.
+  Distinct from filled Kimura and Crow 1964 infinite-alleles
+  (each mutation is a new allele; IBS is IBD). 1972 is the
+  sampling distribution of allele-count configurations under
+  that model.
+  Distinct from filled Kingman 1982 coalescent.
+One-sentence prediction: Under selective neutrality and
+  infinite-alleles mutation, the configuration of allele
+  counts in a sample follows Ewens's sampling formula; the
+  number of types is a sufficient statistic for theta.
+Assumptions: a random sample of genes from one locus;
+  selective neutrality; infinite-alleles mutation; samples
+  are not clones or first-degree cuttings; chips are not
+  forced-biallelic.
+Which fail here: a cultivar panel is not a random haploid
+  sample. Clone IBD fakes allele identity. SNP chips are
+  biallelic. Pedigree repeats are not new alleles.
+Modern data / statistic: allele-count configuration (or
+  haplotype-count configuration) in wild V. sylvestris
+  after clone + IBD filters, versus the Ewens null.
+Dataset: Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655). Wild sylvestris subset.
+  Use as a configuration test after clone + IBD filters,
+  not as a published Ewens analysis. Do not invent a grape
+  Ewens-sampling paper.
+What would falsify it: the configuration is not Ewens after
+  clone + IBD filters, OR clone IBS is treated as the allele
+  sample (it is not).
+What we will not claim: that Kimura and Crow 1964 is this
+  paper (different job). That Dong 2023 fitted Ewens's
+  formula. That a cultivar PCA is a neutral sample.
+```
+
+---
+
+## Shifting balance
+
+```
+Theory: Shifting balance
+Original paper (year): Wright S. 1932. The roles of mutation,
+  inbreeding, crossbreeding and selection in evolution.
+  Proceedings of the Sixth International Congress of Genetics
+  (Ithaca, New York, 1932) 1:356-366. ESP facsimile PDF
+  opened (http://www.esp.org/books/6th-congress/facsimile/contents/6th-cong-p356-wright.pdf);
+  ESP TOC HTML opened (chapter page 356, S. Wright). Running
+  headers: "PROCEEDINGS OF THE SIXTH" / "INTERNATIONAL
+  CONGRESS OF GENETICS". Author line: Sewall Wright,
+  University of Chicago. Figure 2 (p. 358) is the adaptive
+  surface with peaks and "valleys". Figure 4F / text p. 363:
+  a large species subdivided into many small local races,
+  each breeding largely within itself but occasionally
+  crossbreeding; one race under a higher peak expands and
+  by crossbreeding pulls the whole species toward the new
+  position; subdivision is "the most effective mechanism
+  for trial and error in the field of gene combinations."
+  Distinct from filled Wright 1931 Genetics 16:97-159
+  (island-model math) and filled Wright 1943 IBD
+  (continuous distance). 1931 is cited in the 1932
+  literature list. The 1932 congress paper is the named
+  shifting-balance original (peak-shift via subdivided
+  trial-and-error), not the 1931 island formula.
+One-sentence prediction: A species subdivided into small
+  local races can shift from a lower adaptive peak to a
+  higher one by local nonadaptive wandering, then export
+  of the successful combination by intergroup selection
+  and crossbreeding.
+Assumptions: many small, partially isolated sexual races;
+  an adaptive surface with more than one peak; samples are
+  races, not clones or cultivars; a vineyard block is not
+  a Wright race.
+Which fail here: grafted cultivars are not local races.
+  Cuttings skip the inbreeding / crossbreeding trial.
+  Dual domestication is human choice, not intergroup
+  export of a peak. Wild sylvestris patches may be races;
+  feral escapes and nursery clones are not.
+Modern data / statistic: local nonadaptive differentiation
+  among wild patches, then export of a higher-fitness
+  combination, after clone / pedigree filters.
+Dataset: Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655). Wild sylvestris subset.
+  Use as geography / patch structure, not as a published
+  shifting-balance analysis. Do not invent a grape
+  peak-shift paper.
+What would falsify it: wild patches do not show local
+  nonadaptive peak-shift followed by intergroup export
+  after clone filter (one panmictic cloud, or a Wright
+  1943 IBD slope with no peak-shift). A vineyard PCA is
+  not the test.
+What we will not claim: that Wright 1931 is this paper
+  (island math, already filled). That a wine-region PCA
+  is a shifting-balance landscape. That this note
+  replaces island, stepping-stone, IBD, or metapopulation
+  (four different spatial jobs).
+```
+
+---
+
+## Fisher's geometric model
+
+```
+Theory: Fisher's geometric model of adaptation
+Original paper (year): Fisher RA. 1930. The Genetical
+  Theory of Natural Selection. Oxford: Clarendon Press.
+  Chapter II ("The Fundamental Theorem of Natural
+  Selection"), running headers pages 38-41 of the 1930
+  edition. Archive.org scan / djvu text opened
+  (identifier geneticaltheoryo00fishuoft; title page
+  "OXFORD AT THE CLARENDON PRESS 1930"). Geometric
+  claim locked on those pages, not only in the TOC:
+  a point A and an optimum O; superior adaptations lie
+  in a sphere through A centred at O; a displacement of
+  length r improves only if it falls inside the sphere;
+  as r tends to 0 the chance of improvement tends to
+  one-half; if r is as great as the diameter there is
+  no chance of improvement; in many dimensions the
+  chance of improvement falls rapidly while r is still
+  small compared with d; Fig. 3 plots probability of
+  improvement versus r sqrt(n)/d when n is large; the
+  microscope-adjustment analogy is on pp. 40-41.
+  Distinct from filled Fisher 1918 infinitesimal /
+  polygenic (many small Mendelian loci for a metric
+  trait). 1930 geometric is random mutations in an
+  n-dimensional phenotype space. Wave 5 had dropped
+  this item because the geometric page was not locked;
+  it is filled now.
+One-sentence prediction: A large random mutation almost
+  never improves a well-adapted phenotype; only changes
+  small compared with a standard magnitude d/sqrt(n)
+  have an appreciable chance of improvement.
+Assumptions: an n-dimensional phenotype with an optimum;
+  mutations are undirected displacements; the organism
+  is already somewhat adapted; a walk is sexual
+  generations, not cuttings.
+Which fail here: berry color, hermaphroditism, and
+  muscat / flavor in grape are large-effect
+  domestication substitutions (Dong 2023), not a
+  small-step geometric walk. A cultivar panel is not
+  Fisher's n-space. Clone sports are not random
+  mutations in phenotypic n-space.
+Modern data / statistic: effect-size of domestication
+  substitutions after clone + IBD filters, versus a
+  small-step (large-n) geometric expectation.
+Caution dataset: Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655). Color / sex / flavor
+  peaks. Use as the large-effect contrast, not as a
+  published geometric-model test. Do not invent a grape
+  FGM paper.
+What would falsify it: a candidate domestication trait
+  is explained by one or a few large-effect loci
+  (small-step geometric dies for that trait). If only
+  tiny-effect mutations remain after clone + IBD
+  filters, the large-effect claim dies.
+What we will not claim: that this note is Fisher 1918
+  (already filled). That Dong 2023 estimated n or
+  d/sqrt(n). That a nursery sport is a geometric
+  displacement.
+```
+
+---
+
+## Mutation-selection balance
+
+```
+Theory: Mutation-selection balance
+Original paper (year): Haldane JBS. 1927. A mathematical
+  theory of natural and artificial selection, Part V:
+  Selection and mutation. Mathematical Proceedings of
+  the Cambridge Philosophical Society 23(7):838-844
+  (July 1927). DOI 10.1017/S0305004100015644.
+  Cambridge Core HTML landing opened (author, title,
+  volume, issue, pages, year, DOI). New factors arise
+  by mutation; the paper treats initial survival of a
+  mutant and then the course when the factor is no
+  longer at risk of chance extinction. Distinct from
+  filled Haldane 1922 (heterogametic hybrid sterility)
+  and filled Haldane 1957 (cost of substitution).
+  Distinct from filled Mukai 1964 mutation accumulation
+  (a cage experiment, not the equilibrium). Crow load
+  papers were not used as the source.
+One-sentence prediction: A deleterious allele is held
+  in the population at an equilibrium set by mutation
+  input and selection against it, not by a substituting
+  sweep and not by a mutation-accumulation cage.
+Assumptions: a sexual population at equilibrium;
+  mutation and selection both act each generation;
+  clone-private SNPs are not the equilibrium frequency;
+  a cutting is not a generation of selection.
+Which fail here: grafted clones are not a sexual
+  mutation-selection equilibrium. Clone-private coding
+  variants are a somatic clock (Vondras / Roach /
+  Carrier), not q = mu/s. Nursery selection on sports
+  is not Haldane 1927. Dual domestication is human
+  choice, not equilibrium load.
+Modern data / statistic: frequency of deleterious
+  coding alleles in wild sylvestris after clone /
+  IBD filters, versus a mutation-selection equilibrium.
+  Clone-private load is the Mukai / ratchet job, not
+  this one.
+Dataset: Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655). Wild subset for
+  equilibrium load. Clone clocks remain Vondras 2019 /
+  Roach 2018 / Carrier 2012 (different job). Do not
+  invent a grape mutation-load equilibrium paper.
+What would falsify it: wild coding load is not at a
+  mutation-selection equilibrium after clone filter,
+  OR clone-private SNPs are treated as the 1927
+  equilibrium (they are not).
+What we will not claim: that this note is Haldane 1957
+  cost (already filled; does not map). That Mukai 1964
+  is this paper. That Vondras 2019 measured q = mu/s.
+```
+
+---
+
+## Molecular drive
+
+```
+Theory: Molecular drive
+Original paper (year): Dover G. 1982. Molecular drive:
+  a cohesive mode of species evolution. Nature
+  299(5879):111-117 (9 September 1982).
+  DOI 10.1038/299111a0 PMID 7110332.
+  Nature HTML landing and EuropePMC HTML opened
+  (author, title, year, venue, volume, issue, pages,
+  DOI, PMID, abstract). Fixation of mutations in a
+  family of genes or noncoding sequences may proceed
+  by molecular turnover (random or directional) rather
+  than by selection or drift; the concerted pattern of
+  fixation can establish novelty and species
+  discontinuities. Distinct from filled Zimmer et al.
+  1980 concerted evolution (within-species paralogs
+  more alike than orthologs). 1980 is the pattern;
+  1982 is the population-genetic process that can
+  drive that pattern through a genome and a
+  population. Distinct from filled Nei, Gu and
+  Sitnikova 1997 birth-and-death (copies need not
+  homogenize). Distinct from filled selfish DNA 1980.
+  Wave 5 red line forbade citing Dover 1982 as the
+  concerted original; this note fills drive as a
+  different job.
+One-sentence prediction: Turnover (unequal exchange,
+  conversion, transposition) cohesively replaces a
+  variant through a repeated family and through the
+  population, without requiring selection or drift
+  at that locus.
+Assumptions: a true repeated family (not palaeo-
+  ohnologs); cohesion is not clone IBD; the comparison
+  is population-level replacement, not only within-
+  genome identity.
+Which fail here: tandem NLR arrays are not rRNA.
+  Palaeo-hexaploid ohnologs (Jaillon 2007) are DDC /
+  gene-balance / fractionation jobs. Clone IBD fakes
+  family identity. Birth-and-death is the alternative
+  if copies do not homogenize.
+Modern data / statistic: within-species identity of
+  tandem copies plus population-level replacement of
+  one family variant, after clone filter, versus
+  orthologs in other Vitis.
+Datasets: Jaillon et al. 2007 Nature 449:463-467
+  (genome and ohnolog set; do not invent a grape rDNA
+  drive paper). Zhou et al. 2019 Nat Plants 5:965-979
+  (SVs; tandem change without cohesive replacement).
+What would falsify it: tandem copies are not
+  cohesively replacing in the population (Zimmer-only
+  within-genome identity without population drive, or
+  a birth-and-death phylogeny with pseudogenes), OR
+  identity is only clone IBD.
+What we will not claim: that Zimmer 1980 is this paper
+  (pattern, already filled). That Nei 1997 is this
+  paper (opposite job). That every NLR array is drive.
+```
+
+---
+
+## Gene conversion
+
+```
+Theory: Gene conversion (hybrid DNA / mismatch repair)
+Original paper (year): Holliday R. 1964. A mechanism
+  for gene conversion in fungi. Genetical Research
+  5(2):282-304 (July 1964).
+  DOI 10.1017/S0016672300001233.
+  Cambridge Core HTML landing opened (author Robin
+  Holliday, title, volume, issue, pages, year, DOI).
+  Homologous strands anneal; if the hybrid spans a
+  heterozygous site, mismatch repair converts one
+  allele to the other without requiring a replication
+  copy-choice. Distinct from filled Galtier,
+  Piganeau, Mouchiroud and Duret 2001 gBGC (GC-biased
+  conversion as a force on GC content and W-to-S).
+  1964 is the conversion mechanism; 2001 is the
+  GC-biased population consequence. Distinct from
+  filled Dover 1982 (drive as a family-level process)
+  and filled Zimmer 1980 (concerted pattern).
+  Whitehouse 1963 Nature 199:1034-1040 is a related
+  crossing-over scheme, not this paper.
+One-sentence prediction: A heteroduplex spanning a
+  heterozygous site is repaired to one parental
+  sequence, converting one allele to the other, often
+  with recombination of flanking markers.
+Assumptions: meiosis (or a mitotic analogue) with
+  hybrid DNA; conversion is scored as tracts, not as
+  a GC or W-to-S map; cuttings skip meiosis.
+Which fail here: grafted cuttings have no meiosis
+  between years. A chip skeleton is not a conversion
+  map (same map rule as BGS / HR / gBGC). Clone IBD
+  fakes identity. gBGC is a different job (bias, not
+  the mechanism).
+Modern data / statistic: conversion tracts (not just
+  W-to-S) after clone filter, versus a gBGC GC /
+  W-to-S map on a real Vitis recombination map.
+Datasets: Zhou et al. 2019 Nat Plants 5:965-979 (SVs;
+  do not invent a grape conversion-tract paper).
+  Dong et al. 2023 Science (DOI 10.1126/science.add8655)
+  only as a panel that still needs a real map. Do not
+  invent a grape recombination-map paper.
+What would falsify it: no conversion tracts after
+  clone filter, OR a W-to-S / GC pattern is treated
+  as this paper (that is Galtier 2001 gBGC).
+What we will not claim: that Galtier 2001 is this
+  paper (already filled as gBGC). That every
+  homogenized tandem array is Holliday conversion.
+  That a grape gene-conversion paper is locked.
+```
+
+---
+
+## Quasispecies
+
+```
+Theory: Quasispecies (molecular mutant cloud)
+Original paper (year): Eigen M. 1971. Selforganization
+  of matter and the evolution of biological
+  macromolecules. Naturwissenschaften 58:465-523
+  (October 1971). DOI 10.1007/BF00623322.
+  Springer HTML landing opened (author Manfred Eigen,
+  title, year, venue, volume, pages, DOI). Kinetics of
+  replication, mutation, and selection in molecular
+  populations. Eigen and Schuster 1977 / 1979
+  hypercycle papers name later developments; they are
+  not used as the source (same Muller-1964 /
+  Felsenstein-1974 split: 1971 is the math).
+One-sentence prediction: At a high enough mutation
+  rate, a replicating population is a cloud of mutants
+  around a master sequence, not a single wild-type
+  genotype.
+Assumptions: a molecular replicator (RNA virus /
+  prebiotic polymer) with mutation rate high enough
+  to populate a cloud; a grafted cultivar is not that
+  replicator; clone-private SNPs are not a quasispecies
+  distribution.
+Which fail here: this does not map onto grafted clones.
+  A cultivar panel is not an RNA mutant cloud.
+  Meristem mosaics and periclinal chimeras are layer
+  structure (Satina / Franks), not Eigen kinetics.
+  Somatic clocks (Vondras / Roach / Carrier) are not
+  a master-sequence distribution.
+Modern data / statistic: none that tests Eigen 1971
+  in grape. Do not invent a grape quasispecies paper.
+What would falsify it: not applicable as a grape
+  clone test. The note is filled as "does not map
+  onto grafted clones" rather than as an invented
+  RNA-cloud experiment.
+What we will not claim: that Vondras 2019 measured a
+  quasispecies. That a chimera is a mutant cloud.
+  That Eigen and Schuster 1977 is the source.
+```
+
+---
+
+## Serial founder
+
+```
+Theory: Serial founder effect
+Original paper (year): Ramachandran S, Deshpande O,
+  Roseman CC, Rosenberg NA, Feldman MW, Cavalli-Sforza
+  LL. 2005. Support from the relationship of genetic
+  and geographic distance in human populations for a
+  serial founder effect originating in Africa. Proc
+  Natl Acad Sci USA 102(44):15942-15947.
+  DOI 10.1073/pnas.0507611102 PMID 16243969
+  PMC1276087. EuropePMC HTML landing opened (authors,
+  title, year, venue, volume, issue, pages, DOI,
+  PMID, PMC, abstract). Heterozygosity is best
+  explained by expansion from one origin via successive
+  founder events; an equilibrium isolation-by-distance
+  reading of FST versus distance is not required.
+  Distinct from filled Wright 1943 IBD (equilibrium
+  isolation by distance). Distinct from filled Edmonds,
+  Lillie and Cavalli-Sforza 2004 allele surfing (front
+  mutations reach high frequency). Distinct from
+  filled Levins 1969 metapopulation (occupancy /
+  extinction). Isolation-by-colonization is not filled
+  as a second named original; this is the one lock.
+One-sentence prediction: Heterozygosity declines with
+  geographic distance from a single origin because
+  each colonization is a founder subsample of the last.
+Assumptions: one origin and a chain of founders;
+  samples are colonizing demes, not clones or
+  cultivars; dual domestication is not one origin.
+Which fail here: Dong 2023 dual domestication is two
+  origins, not one African-style serial founder.
+  Humans and nurseries move vines farther than one
+  step. A cultivar PCA is not a founder chain. Allele
+  surfing is a different job (front mutations, already
+  filled).
+Modern data / statistic: heterozygosity versus
+  distance from a candidate origin among wild
+  V. sylvestris after clone + IBD filters, versus a
+  single-origin serial-founder decline.
+Dataset: Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655). Dual-domestication
+  geography; wild sylvestris after clone + IBD
+  filters. Use as the two-origin contrast, not as a
+  published serial-founder analysis. Do not invent a
+  grape out-of-one-refuge paper.
+What would falsify it: diversity does not decline
+  from one origin after clone + IBD filters (two
+  domestication centres, or an equilibrium IBD slope
+  with no founder chain). Surfing of front mutations
+  is the Edmonds 2004 job, not this one.
+What we will not claim: that Dong 2023 fitted a
+  serial-founder model. That this note replaces IBD,
+  stepping-stone, island, surfing, or metapopulation.
+  That a wine-region PCA is a founder chain.
+```
+
+---
+
+## Multivariate response / breeder's equation
+
+```
+Theory: Multivariate selection response / breeder's
+  equation
+Original paper (year): Lande R. 1979. Quantitative
+  genetic analysis of multivariate evolution, applied
+  to brain:body size allometry. Evolution
+  33(1Part2):402-416 (1 March 1979).
+  DOI 10.1111/j.1558-5646.1979.tb04694.x
+  PMID 28568194. EuropePMC HTML landing opened
+  (author Russell Lande, title, year, venue, volume,
+  issue, pages, DOI, PMID). The mean multivariate
+  response is the genetic covariance matrix times the
+  selection gradient (G beta; equivalently G P^{-1} s).
+  Lush 1937 Animal Breeding Plans is the univariate
+  R = h^2 S original and was not opened; lock 1979 as
+  the named multivariate paper. Lande 1976 Evolution
+  30:314-334 (phenotypic evolution with drift) was
+  not used as the source. Distinct from filled Fisher
+  1918 infinitesimal (univariate metric trait as many
+  small Mendelian loci). Distinct from filled Fisher
+  1930 geometric (random mutations in n-space).
+One-sentence prediction: The change in the mean
+  phenotype equals the genetic covariance matrix
+  times the selection gradient; correlated traits
+  cannot be selected independently of G.
+Assumptions: additive genetic covariances estimated
+  from a sexual pedigree; many small-effect loci;
+  clones and first-degree cuttings are not the
+  relatives; a few large-effect substitutions are not
+  a G-matrix response.
+Which fail here: berry color, hermaphroditism, and
+  muscat / flavor are few large-effect loci (Dong
+  2023), not a G-matrix walk. A cultivar panel is not
+  a Lande pedigree. Clone IBD fakes a genetic
+  covariance.
+Modern data / statistic: whether a domestication
+  trait's response is G beta after clone + IBD
+  filters, versus one or a few large-effect loci.
+Caution dataset: Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655). Color / sex / flavor
+  peaks. Use as the large-effect contrast, not as a
+  published G-matrix estimate. Do not invent a grape
+  GCTA / G-matrix paper.
+What would falsify it: a candidate domestication
+  trait is explained by one or a few large-effect
+  loci (G-matrix / infinitesimal dies for that
+  trait). If many small loci remain after clone +
+  IBD filters, the single-gene claim dies.
+What we will not claim: that Lush 1937 is this paper
+  (univariate; not opened). That this note is Fisher
+  1918 or Fisher 1930 geometric (different jobs).
+  That Dong 2023 estimated G.
+```
+
+---
+
+## Endosymbiosis / organelle origin
+
+```
+Theory: Endosymbiosis / organelle origin
+Original paper (year): Sagan L. 1967. On the origin
+  of mitosing cells. Journal of Theoretical Biology
+  14(3):225-274 (March 1967; EuropePMC HTML prints
+  14(3):255-274; ScienceDirect listing is Volume 14
+  Issue 3 pp. 225-274 plus IN plates). Lock the venue
+  as the 1967 J Theor Biol paper.
+  DOI 10.1016/0022-5193(67)90079-3 PMID 11541392.
+  EuropePMC HTML landing opened (author Sagan L,
+  title, year, venue, DOI, PMID, abstract). By
+  hypothesis, mitochondria, photosynthetic plastids,
+  and (9+2) basal bodies were once free-living
+  prokaryotic cells. The author later published as
+  Lynn Margulis; the 1967 byline is Sagan. Distinct
+  from filled Lynch 1996 organelle ratchet (load in
+  non-recombining animal mt tRNA, not origin).
+  Distinct from filled selfish DNA 1980. Endosymbiotic
+  gene transfer is not filled: Timmis, Ayliffe, Huang
+  and Martin 2004 Nat Rev Genet is a review (red
+  line); a Martin original was not opened this wave.
+One-sentence prediction: Mitochondria and plastids
+  originated as free-living prokaryotes that became
+  organelles, not as autogenous partitions of a
+  eukaryotic nucleus.
+Assumptions: eukaryogenesis is a historical cell-
+  biology claim; a grape cultivar panel is not that
+  experiment; organelle mutation accumulation is a
+  different job (Lynch 1996 / Muller applied to
+  organelles).
+Which fail here: this does not map onto grafted
+  clones. Jaillon 2007 sequenced a land-plant genome
+  that has mitochondria and plastids; that is a
+  phylogenetic fact, not a test of 1967
+  eukaryogenesis. Clone-private organelle SNPs would
+  be the organelle-ratchet job, not this one.
+Modern data / statistic: none that tests Sagan 1967
+  in grape. Do not invent a grape organelle-origin
+  or EGT paper.
+What would falsify it: not applicable as a grape
+  clone test. The note is filled as "does not map
+  onto grafted clones" rather than as an invented
+  eukaryogenesis experiment.
+What we will not claim: that Jaillon 2007 tested
+  endosymbiosis. That Lynch 1996 is this paper
+  (organelle ratchet, already filled). That Timmis
+  2004 is the source (review). That a grape EGT
+  paper is locked.
+```
+
+---

@@ -12,7 +12,9 @@ description: >
   allopolyploidy, drift-barrier, gBGC, soft sweep, chimera,
   reinforcement, two-fold cost of sex, Haldane cost, inbreeding depression, infinitesimal, genetic assimilation,
   C-value, concerted evolution, birth-and-death, metapopulation,
-  breakage-fusion-bridge, fractionation, or a revival paper that
+  breakage-fusion-bridge, fractionation, Ewens, shifting balance, Fisher geometric, mutation-selection balance,
+  molecular drive, Holliday conversion, quasispecies, serial founder,
+  Lande response, endosymbiosis, or a revival paper that
   is not a methods benchmark.
 ---
 
@@ -153,8 +155,18 @@ heterozygotes in clonal lineages).
 | Metapopulation | Levins 1969 Bull Entomol Soc Am 15:237-240 | Occupancy is a colonization-extinction balance across patches | A vineyard is not a patch; cultivars are not demes | Dong 2023 wild patches: occupancy not a colonization-extinction balance after clone filter |
 | Breakage-fusion-bridge | McClintock 1941 Genetics 26:234-282 | Broken ends fuse, bridge, and re-break; rearrangements cycle | SNP-only census hides BFB; distinct from 1950 TE and 1984 shock | Carbonell-Bejerano 2017 rearrangements not BFB-class; clone SVs are SNP-like (Zhou 2019) |
 | Fractionation / diploidization | Thomas, Pedersen and Freeling 2006 Genome Res 16:934-946 | After WGD, one homeolog loses genes preferentially; connected genes stay | Vitis is palaeo-hexaploid, not recent tetraploid; SVs change dose without WGD | Jaillon 2007: no biased homeolog loss; TF / signaling not the retained class vs tandem NLRs |
+| Ewens sampling formula | Ewens 1972 Theor Popul Biol 3:87-112 | Neutral allele-count configurations follow the sampling formula | Clones fake allele identity; chips are biallelic | Dong 2023 wilds: configuration not Ewens after clone + IBD filters |
+| Shifting balance | Wright 1932 Proc 6th Int Congr Genet 1:356-366 | Subdivided races find higher peaks by drift then intergroup export | A vineyard is not a Wright race; cuttings skip the trial | Dong 2023 wild patches: no local nonadaptive peak-shift then export after clone filter |
+| Fisher's geometric model | Fisher 1930 Genetical Theory ch. II pp. 38-41 | Large random mutations almost never improve; small ones might | Color / sex / flavor are large-effect; clones are not a walk | Dong 2023 color / sex / flavor peaks are few large-effect loci, not a small-step walk |
+| Mutation-selection balance | Haldane 1927 Math Proc Camb Phil Soc 23:838-844 | A deleterious allele sits at a mutation-selection equilibrium | Grafted clones are not a sexual equilibrium; clone-private SNPs are not q | Wild coding load not at mutation-selection equilibrium after clone filter |
+| Molecular drive | Dover 1982 Nature 299:111-117 | Genomic turnover cohesively replaces a family in genome and population | Tandem NLRs are not rDNA; clones fake cohesion | Tandem copies not cohesively replacing in the population (Zimmer or birth-and-death instead) |
+| Gene conversion | Holliday 1964 Genet Res 5:282-304 | Hybrid-DNA mismatch repair converts one allele to the other | Cuttings skip meiosis; distinct from gBGC | No conversion tracts after clone filter; W-to-S bias is the gBGC job |
+| Quasispecies | Eigen 1971 Naturwissenschaften 58:465-523 | A mutant cloud is maintained around a master sequence | RNA virus / prebiotic kinetics, not a grafted clone | Does not map onto grafted clones; do not invent a grape quasispecies paper |
+| Serial founder | Ramachandran et al. 2005 PNAS 102:15942-15947 | Heterozygosity falls with distance from a single origin | Dual domestication; human transport | Dong 2023: diversity not a single-origin decline after clone + IBD filters |
+| Multivariate response / breeder's equation | Lande 1979 Evolution 33:402-416 | Mean change is G beta (covariance times selection gradient) | Clones are not a sexual pedigree; few large-effect loci | Dong 2023 color / sex / flavor: not a G-matrix response (few large-effect loci) |
+| Endosymbiosis / organelle origin | Sagan 1967 J Theor Biol 14:225-274 | Mitochondria and plastids were free-living prokaryotes | Eukaryogenesis is not a grape-clone experiment | Does not map onto grafted clones; do not invent a grape organelle-origin paper |
 
-Forty-eight filled notes (eight first wave, nine second wave, nine third wave, twelve fourth wave, ten fifth wave). Long form in `theories.md`. One theory per job.
+Fifty-eight filled notes (eight first wave, nine second wave, nine third wave, twelve fourth wave, ten fifth wave, ten sixth wave). Long form in `theories.md`. One theory per job.
 
 Kondrashov 1988 (cost of males) is on the door list but was not filled: it does not map onto grafted clones.
 Muller 1942 was not locked on a publisher page and is not cited for BDM.
@@ -225,6 +237,17 @@ centromere / CenH3 paper is locked.
 - McClintock 1941 BFB is broken-end cycling, not 1950 TE and not 1984 shock.
 - Thomas, Pedersen and Freeling 2006 fractionation is biased homeolog loss after WGD, not Ohno dosage and not Stebbins polyploid type.
 
+- Ewens 1972 is the sampling configuration under infinite-alleles; Kimura and Crow 1964 is the allele model (already filled). Clone IBS is not the sample.
+- Wright 1932 shifting balance is peak-shift by subdivided trial-and-error; Wright 1931 island and Wright 1943 IBD remain separate jobs. A vineyard is not a Wright race.
+- Fisher 1930 geometric is random mutations in n-space (pages 38-41); Fisher 1918 infinitesimal is already filled.
+- Haldane 1927 mutation-selection balance is equilibrium load; Haldane 1957 cost and Mukai 1964 MA are different jobs. Clone-private SNPs are not q = mu/s.
+- Dover 1982 molecular drive is cohesive replacement through genome and population; Zimmer 1980 concerted is the within-species pattern (already filled).
+- Holliday 1964 gene conversion is hybrid-DNA mismatch repair; Galtier 2001 gBGC is the GC-biased population force (already filled). Cuttings skip meiosis.
+- Eigen 1971 quasispecies does not map onto grafted clones. A chimera is not a mutant cloud.
+- Ramachandran 2005 serial founder is heterozygosity declining from one origin; dual domestication, IBD, and allele surfing are different jobs.
+- Lande 1979 is G beta; Dong 2023 color / sex / flavor are few large-effect loci, not a G-matrix response. Not Fisher 1918 and not Fisher 1930 geometric.
+- Sagan 1967 organelle origin does not map onto grafted clones. Lynch 1996 remains the organelle-ratchet note. Timmis 2004 is a review.
+
 ## Sources to open first (fetched)
 
 - Muller 1964: https://doi.org/10.1016/0027-5107(64)90047-8
@@ -290,6 +313,17 @@ centromere / CenH3 paper is locked.
 - McClintock 1941: https://doi.org/10.1093/genetics/26.2.234 (PMC1209127)
 - Thomas, Pedersen and Freeling 2006: https://doi.org/10.1101/gr.4708406 (PMC1484460)
 
+- Ewens 1972: https://doi.org/10.1016/0040-5809(72)90035-4 (EuropePMC MED 4667078)
+- Wright 1932: http://www.esp.org/books/6th-congress/facsimile/contents/6th-cong-p356-wright.pdf (TOC: http://www.esp.org/books/6th-congress/facsimile/index.html)
+- Fisher 1930 book, geometric pages 38-41: https://archive.org/details/geneticaltheoryo00fishuoft
+- Haldane 1927: https://doi.org/10.1017/S0305004100015644
+- Dover 1982: https://doi.org/10.1038/299111a0 (EuropePMC MED 7110332)
+- Holliday 1964: https://doi.org/10.1017/S0016672300001233
+- Eigen 1971: https://doi.org/10.1007/BF00623322
+- Ramachandran et al. 2005: https://doi.org/10.1073/pnas.0507611102 (PMC1276087; EuropePMC MED 16243969)
+- Lande 1979: https://doi.org/10.1111/j.1558-5646.1979.tb04694.x (EuropePMC MED 28568194)
+- Sagan 1967: https://doi.org/10.1016/0022-5193(67)90079-3 (EuropePMC MED 11541392)
+
 ## Red lines
 
 - Do not cite a review as the source of the theory.
@@ -325,5 +359,24 @@ centromere / CenH3 paper is locked.
 - Do not invent a grape cost-of-selection, assimilation, rDNA, NLR-phylogeny, or patch-turnover paper.
 - Do not treat standing clone heterozygosity as Darwin 1876 inbreeding depression.
 - Do not write Fisher 1918 as the 1930 geometric model.
+
+Heterosis / hybrid vigor is on the candidate list but was not filled: no single named original distinct from filled Darwin 1876 inbreeding depression and the already-dropped overdominance split (Hull 1946 vs Dobzhansky 1950); Shull 1908 / 1914 pages were not opened; standing clone heterozygosity is not hybrid vigor.
+Endosymbiotic gene transfer is on the candidate list but was not filled as a separate note: Timmis, Ayliffe, Huang and Martin 2004 Nat Rev Genet is a review; a Martin original was not opened; Sagan 1967 is organelle origin, not gene transfer.
+Isolation by colonization is on the candidate list but was not filled as a second named original: Ramachandran et al. 2005 is the one serial-founder lock.
+Soft vs hard selection (Wallace 1968 chapter / Wallace 1975 Evolution 29:465-473 / Christiansen 1975 Am Nat 109:11-16) is on the candidate list but was not filled: Wallace 1975 Evolution HTML was Cloudflare / timeout; Christiansen 1975 Am Nat HTML was not opened; the 1968 Lewontin-volume chapter was not opened.
+Outcrossing depression / Bateson is on the candidate list but was not filled: Bateson 1909 was already dropped for the two-locus incompatibility claim; no distinct outbreeding-depression original was opened.
+Phylogeography Avise is on the candidate list but was not filled: Avise et al. 1987 Annu Rev Ecol Syst is a review.
+Vavilov centers / domestication syndrome is on the candidate list but was not filled: ESP TOC lists N. I. Vavilov 1932 "The Process of Evolution on Cultivated Plants" at p. 331; that PDF was not opened; Hammer 1984 was not used.
+
+- Do not cite Dover 1982 as the concerted-evolution original (Zimmer 1980 is). This note is drive, a different job.
+- Do not cite Timmis et al. 2004 or Nei and Rooney 2005 or Freeling 2009 as theory sources (reviews).
+- Do not cite Eigen and Schuster 1977 as the quasispecies source (1971 is).
+- Do not cite Lush 1937 as opened (it was not); Lande 1979 is the locked multivariate paper.
+- Do not write Fisher 1930 geometric as Fisher 1918 infinitesimal.
+- Do not write Wright 1932 as Wright 1931 island or Wright 1943 IBD.
+- Do not write Holliday 1964 as Galtier 2001 gBGC.
+- Do not write Sagan 1967 as Lynch 1996 organelle ratchet, or as EGT.
+- Do not invent a grape Ewens, peak-shift, FGM, mutation-load-equilibrium, rDNA-drive, conversion-tract, quasispecies, serial-founder, G-matrix, or organelle-origin paper.
+- Do not fill heterosis, EGT, isolation-by-colonization as a second original, soft vs hard selection, outcrossing depression, Avise phylogeography, or Vavilov / domestication syndrome this wave.
 
 Related: `plant-lit-review`, `vitis-popgen`, `grapevine-adna`, `vitis-pangenome`.
