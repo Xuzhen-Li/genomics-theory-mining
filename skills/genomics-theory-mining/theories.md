@@ -982,3 +982,589 @@ What we will not claim: that grape interspecific
   a Y chromosome in the animal sense. That
   VviAGL11 is the sex gene.
 ```
+
+---
+
+## Stepping-stone model
+
+```
+Theory: Stepping-stone model
+Original paper (year): Kimura M, Weiss GH. 1964. The stepping stone
+  model of population structure and the decrease of genetic
+  correlation with distance. Genetics 49(4):561-576.
+  DOI 10.1093/genetics/49.4.561 PMID 17248204 PMC1210594.
+  (Kimura 1953 Annual Report of the National Institute of Genetics
+  Japan 3:62-63 is a one-page note; 1964 is the paper. Weiss and
+  Kimura 1965 J Appl Probab 2:129-149 is later math.)
+  Distinct from filled IBD: Wright 1943 is continuous isolation by
+  distance. Stepping-stone is discrete neighbor-only migration.
+One-sentence prediction: In a lattice of demes that exchange
+  migrants only with neighbors, genetic correlation declines with
+  the number of steps between demes (and with dimension).
+Assumptions: a lattice of demes; migration only to neighbors;
+  correlation is a function of steps, not Euclidean distance as
+  such; samples are demes, not clones or cultivars.
+Which fail here: a cultivar PCA is not a lattice. Humans and
+  rivers move vines farther than one step. Grafted clones are
+  not demes.
+Modern data / statistic: genetic correlation versus step-count
+  and versus Euclidean distance among wild V. sylvestris patches
+  after clone / pedigree filters.
+Dataset: Dong Y et al. 2023. Science. DOI 10.1126/science.add8655
+  PMID 36862793. 3525-accession WGS; use wild sylvestris only
+  after clone / pedigree filter.
+What would falsify it: correlation among wild patches is not
+  higher along neighbor-connected habitat (river / corridor)
+  than at equal Euclidean distance, or the decay is no steeper
+  than Wright 1943 continuous IBD.
+What we will not claim: that a wine-region PCA is a stepping-
+  stone lattice. That this note replaces Wright 1943 IBD
+  (different job: discrete neighbor steps vs continuous
+  distance).
+```
+
+---
+
+## Island model
+
+```
+Theory: Island model
+Original paper (year): Wright S. 1931. Evolution in Mendelian
+  populations. Genetics 16(2):97-159.
+  DOI 10.1093/genetics/16.2.97 PMID 17246615 PMC1201091.
+  Named: Wright 1943 Genetics 28:114-138 (already filled as IBD)
+  writes "we shall refer to it as the island model" and cites
+  1931 for the math. Lock 1931 as the source, the same way
+  Muller 1964 is the ratchet math and Felsenstein 1974 named it.
+  Distinct from filled IBD: island / continent-island has no
+  distance. Every deme draws migrants from the same pool.
+  FST ~ 1 / (1 + 4Nem). IBD is the distance-dependent
+  alternative Wright himself set against this model.
+One-sentence prediction: Among equal demes that exchange
+  migrants with a common pool (not with neighbors only),
+  differentiation is a function of Nem and does not increase
+  with geographic distance.
+Assumptions: equal demes; a common migrant pool (not neighbor-
+  only); no distance dependence of FST; samples are demes,
+  not pedigrees or cultivars.
+Which fail here: a vineyard is not an island. Nursery stock
+  and rivers violate the equal-m pool. Cultivar panels are
+  pedigrees, not demes.
+Modern data / statistic: FST among wild V. sylvestris patches
+  versus geographic distance after river / human transport
+  is controlled.
+Dataset: Dong et al. 2023 Science (DOI 10.1126/science.add8655).
+  Wild sylvestris subset after clone filter.
+What would falsify it: FST among wild patches is not
+  independent of distance after river / human transport is
+  controlled (nonzero IBD slope kills the island null; that
+  is Wright's own 1943 contrast).
+What we will not claim: that a vineyard block is an island
+  deme. That this note replaces Wright 1943 IBD (Wright
+  himself set the two models against each other).
+```
+
+---
+
+## Clonal interference
+
+```
+Theory: Clonal interference
+Original paper (year): Gerrish PJ, Lenski RE. 1998. The fate
+  of competing beneficial mutations in an asexual population.
+  Genetica 102:127-144 (often cited 102/103:127-144; Springer
+  landing is vol. 102). DOI 10.1023/A:1017067816551.
+  No PMID on the Springer page.
+  Not the original: Muller HJ. 1932. Some genetic aspects of
+  sex. Am Nat 66:118-138. Precursor for the advantage of
+  recombination / ratchet, already dropped as a ratchet
+  original. Gerrish and Lenski name "clonal interference"
+  and derive the fixation / substitution results.
+  Distinct from filled Hill-Robertson: HR is interference
+  among linked selected loci with recombination. CI is the
+  asexual case: competing beneficials cannot recombine onto
+  one haplotype, so the weaker is lost.
+One-sentence prediction: In a finite asexual population,
+  beneficial mutations that arise on different clones compete;
+  the weaker is driven out before fixation, so the substitution
+  rate saturates with N and U_b.
+Assumptions: finite N; asexual transmission; two (or more)
+  competing beneficials on different haplotypes; no
+  recombination that joins them.
+Which fail here: a grafted cultivar is asexual between
+  cuttings, but the "population" is a nursery of cuttings
+  from one founder, not an E. coli chemostat. Most scored
+  grape sports are single-locus (color, hair) on one clone,
+  not two competing beneficials in one finite N.
+Modern data / statistic: clone-private putatively beneficial
+  (or phenotype-changing) mutations across sister clones;
+  test for mutual exclusion of competitor classes.
+Datasets: Vondras et al. 2019 BMC Genomics 20:972; Roach
+  et al. 2018 PLoS Genet 14(11):e1007807; Carrier et al.
+  2012 PLoS ONE 7(3):e32973. Clone panels.
+What would falsify it: clone-private putatively beneficial
+  (or phenotype-changing) mutations do not show mutual
+  exclusion across sister clones (both persist; no lost
+  competitor class). A single-sport color loss (not two
+  competing sports) is not CI.
+What we will not claim: that a color sport is clonal
+  interference. That this note replaces Hill-Robertson
+  (different job: asexual competing beneficials vs linked
+  selected loci with recombination).
+```
+
+---
+
+## Allele surfing / range expansion
+
+```
+Theory: Allele surfing / range expansion
+Original paper (year): Edmonds CA, Lillie AS, Cavalli-Sforza
+  LL. 2004. Mutations arising in the wave front of an
+  expanding population. Proc Natl Acad Sci USA 101(4):975-979.
+  DOI 10.1073/pnas.0308064100 PMID 14732681 PMC327127.
+  Named "surfing": Klopfstein S, Currat M, Excoffier L. 2006.
+  The fate of mutations surfing on the wave of a range
+  expansion. Mol Biol Evol 23(3):482-490.
+  DOI 10.1093/molbev/msj057 PMID 16280540. Later name, not
+  the source. Lande is not this claim (quantitative genetics
+  / founder effect, not wave-front surfing).
+One-sentence prediction: A mutation that arises (or is
+  sampled) at the front of a range expansion can reach a
+  much higher frequency and wider spatial range than the
+  same mutation in a stationary population, by repeated
+  founder events.
+Assumptions: a single expanding front; the mutation is
+  sampled at the wave front; geography is the expansion,
+  not human transport or dual domestication.
+Which fail here: domestication is not a single expanding
+  front. Dual domestication (Dong 2023 table vs wine) and
+  human transport break the wave. Cultivar relatedness
+  fakes a front-to-core cline.
+Modern data / statistic: frequency of alleles at a putative
+  expansion edge of wild or early-cultivated Vitis versus
+  core frequencies, after clone + IBD filters, versus
+  matched non-expansion alleles.
+Dataset: Dong et al. 2023 Science (DOI 10.1126/science.add8655).
+What would falsify it: high-frequency alleles at the
+  putative expansion edge of wild or early-cultivated
+  Vitis are not in excess of core frequencies after clone
+  + IBD filters, or the excess is no larger than matched
+  non-expansion alleles (surfing null dies; selection /
+  pedigree remains).
+What we will not claim: that a cultivar relatedness cline
+  is surfing. That Klopfstein 2006 is the source (it named
+  the phenomenon).
+```
+
+---
+
+## Genome shock
+
+```
+Theory: Genome shock
+Original paper (year): McClintock B. 1984. The significance
+  of responses of the genome to challenge. Science
+  226(4676):792-801. DOI 10.1126/science.15739260
+  PMID 15739260. Nobel lecture 8 December 1983, Karolinska
+  Institutet; the Science paper is the published text. She
+  writes "shocks" / "responses of the genome to challenge."
+  "Genome shock" is the later name for that claim. Not a
+  PNAS paper.
+  Distinct from filled McClintock 1950: 1950 is the origin
+  and behavior of mutable loci (Ac/Ds). 1984 is the claim
+  that unprepared stress restructures the genome (TE
+  mobilization, rearrangements) as a response.
+One-sentence prediction: A challenge the genome is
+  unprepared for (breakage, hybridization, tissue-culture
+  shock) mobilizes elements and restructures chromosomes;
+  programmed shocks (heat shock, SOS) do not.
+Assumptions: an unprepared challenge (not a constitutive
+  clock); the response is TE mobilization / rearrangement,
+  not a SNP clock; programmed shocks are a different class.
+Which fail here: a constitutive somatic TE clock is not a
+  shock response. Grafting and nursery propagation are
+  chronic, not a single challenge. Scoring only SNPs hides
+  the TE / SV class.
+Modern data / statistic: clone-private TE insertions and
+  SVs clustered on shock-associated nodes (hybridization,
+  culture, color-sport events) versus a constitutive
+  per-year somatic clock.
+Datasets: Carrier et al. 2012 PLoS ONE 7(3):e32973;
+  Vondras et al. 2019 BMC Genomics 20:972. SVs: Zhou et al.
+  2019 Nat Plants 5:965-979.
+What would falsify it: clone-private TE insertions (and
+  SVs: Zhou 2019) are not clustered on shock-associated
+  nodes versus a constitutive per-year somatic clock. A
+  method-fair census that is SNP-dominated would also kill
+  the 1984 claim as a grape mechanism (same census as the
+  1950 TE note, different job: timing vs presence).
+What we will not claim: that McClintock 1950 is the genome-
+  shock paper (different job: mutable alleles). That a
+  constitutive clone TE clock is a shock response.
+```
+
+---
+
+## Allopolyploidy / secondary polyploidy
+
+```
+Theory: Allopolyploidy / secondary polyploidy
+Original paper (year): Stebbins GL. 1947. Types of
+  polyploids: their classification and significance.
+  Advances in Genetics 1:403-429.
+  DOI 10.1016/S0065-2660(08)60490-3 (also
+  10.1016/s0065-2660(08)60490-3). No PMID (book-series
+  chapter). ScienceDirect landing 406; title / year /
+  venue / pages / DOI locked from citing publisher pages
+  and the DOI string itself (same standard as Klekowski
+  1988 / Ohno 1970).
+  Not used as the source: Stebbins 1940 Am Nat 74:54-66
+  DOI 10.1086/280872 (significance of polyploidy; earlier,
+  not the auto / allo / segmental classification).
+  Stebbins 1950 Variation and Evolution in Plants (book,
+  later synthesis).
+  Distinct from filled gene balance / Ohno: Ohno 1970 and
+  Birchler 2007 are dosage after duplication. Stebbins
+  1947 is the classification of polyploid types (auto,
+  allo, segmental allo) and the role of secondary /
+  palaeo-polyploidy.
+One-sentence prediction: Allopolyploids combine
+  differentiated genomes; segmental allopolyploids pair
+  as if auto at some segments; secondary polyploids
+  (palaeo-polyploids) diploidize and hide the event in
+  chromosome number.
+Assumptions: polyploid type (auto / allo / segmental)
+  can be scored from pairing or subgenome differentiation;
+  secondary / palaeo-polyploids are distinguished from
+  recent allo events; tandem arrays are not homoeologs.
+Which fail here: Vitis is palaeo-hexaploid, not a recent
+  allopolyploid. Hemizygous SVs in clones change dose
+  without a new WGD. Tandem NLR arrays are not homoeologs.
+Modern data / statistic: recovery of differentiated
+  homoeologous subgenomes versus three palaeo-hexaploid
+  ancestral genomes; retention of TF / signaling ohnologs
+  versus tandem NLRs.
+Dataset: Jaillon O et al. 2007. Nature 449:463-467.
+  DOI 10.1038/nature06148 PMID 17721507. Three ancestral
+  genomes; no recent WGD. Companion: Zhou et al. 2019
+  Nat Plants 5:965-979 (SVs change dose inside a clone
+  without WGD).
+What would falsify it: the three ancestral genomes are
+  not recovered as two (or more) differentiated
+  homoeologous subgenomes of a recent allo event, or TF
+  / signaling ohnologs are not the retained class versus
+  tandem NLRs (gene-balance companion, different job).
+  Zhou 2019 SVs change dose inside a clone without WGD.
+What we will not claim: that Jaillon 2007 is a recent
+  allopolyploid. That this note replaces gene balance /
+  Ohno (different job: polyploid type vs dosage after
+  duplication). That Stebbins 1940 or 1950 is the source.
+```
+
+---
+
+## Drift-barrier hypothesis
+
+```
+Theory: Drift-barrier hypothesis
+Original paper (year): Lynch M. 2011. The lower bound to
+  the evolution of mutation rates. Genome Biol Evol
+  3:1107-1118. DOI 10.1093/gbe/evr066 PMID 21821597
+  PMC3194889. Original research (theory + comparison to
+  published rates). Not a review.
+  Not the source: Lynch 2010 Trends Genet 26:345-352 is
+  a review (red line). Sung W, Ackerman MS, Miller SF,
+  Doak TG, Lynch M. 2012. Drift-barrier hypothesis and
+  mutation-rate evolution. PNAS 109(45):18488-18492.
+  DOI 10.1073/pnas.1216223109 PMID 23077252 PMC3494944
+  is the empirical named-title follow-up; cite as the
+  test, not the source.
+  Distinct from filled nearly-neutral: Ohta 1973 is
+  fixation of slightly deleterious alleles when |Nes| ~ 1.
+  Drift-barrier is evolution of the mutation rate itself
+  (proofreading / repair) to a floor set by 1/Ne.
+One-sentence prediction: Selection pushes the mutation
+  rate down until further antimutator advantages fall
+  below the power of drift, so per-site mu scales
+  negatively with Ne (and with coding target size).
+Assumptions: a meaningful Ne; the trait is the mutation
+  rate (proofreading / repair), not the load of slightly
+  deleterious alleles; mu is germline / sexual, not
+  somatic clone mu.
+Which fail here: a cultivar collection is not one Ne.
+  Somatic clone mu is not the germline / sexual mu the
+  theory is about. Dual domestication splits Ne.
+Modern data / statistic: per-generation per-site
+  mutation rate (not load; load is Ohta) in wild versus
+  cultivated lineages after clones are filtered.
+Dataset: Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655). Wild vs cultivar Ne
+  contrast after clone filter. No locked grape wild-vs-
+  cultivar mu paper; Vondras 2019 / Roach 2018 are
+  clone-somatic clocks, usable only as a sister somatic-
+  mu dataset, not as the species-level test. Do not
+  invent a grape mutation-rate paper.
+What would falsify it: per-generation per-site mutation
+  rate (not load) is not higher in the smaller-Ne
+  cultivated lineages after clones are filtered.
+What we will not claim: that Lynch 2010 is the source
+  (review). That Vondras / Roach measured species-level
+  mu. That load (Ohta) is the drift-barrier test.
+```
+
+---
+
+## GC-biased gene conversion
+
+```
+Theory: GC-biased gene conversion
+Original paper (year): Galtier N, Piganeau G, Mouchiroud
+  D, Duret L. 2001. GC-content evolution in mammalian
+  genomes: the biased gene conversion hypothesis.
+  Genetics 159(2):907-911.
+  DOI 10.1093/genetics/159.2.907 PMID 11693127
+  PMC1461818. Short letter; it is the paper that names
+  the hypothesis. Wave 2 dropped gBGC for lack of a
+  single original; this is that lock.
+  Not the source: Eyre-Walker A. 1993. Recombination and
+  mammalian genome evolution. Proc R Soc Lond B
+  252:237-243 (precursor: recombination and GC, not the
+  named BGC hypothesis). Eyre-Walker 1999 Genetics
+  152:675-683 (selection on silent GC). Marais 2003
+  Trends Genet 19:330-338 (review).
+One-sentence prediction: Meiotic gene conversion is
+  biased toward G/C, so GC (and the W-to-S fixation
+  rate) rises where recombination is high, mimicking
+  directional selection for GC.
+Assumptions: meiotic gene conversion; a known
+  recombination map; the GC / W-to-S pattern is sexual
+  / meiotic, not methylation-driven C-to-T.
+Which fail here: gBGC is a meiotic transmission bias.
+  Grafted clones have no meiosis between cuttings. A
+  chip skeleton is not a recombination map (same map
+  requirement as BGS / Hill-Robertson). Vitis GC is
+  also driven by methylation-associated C-to-T
+  (Vondras 2019).
+Modern data / statistic: GC and W-to-S fixation bias
+  in recombination-rate bins on a real Vitis map,
+  after clone + IBD filters and after gene-density
+  and mutability (CpG / methylation) control.
+Dataset: Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655) as the WGS panel on
+  a real Vitis recombination map. Do not invent a
+  grape recombination-map paper; the map is a
+  requirement, as in the BGS note.
+What would falsify it: GC and the W-to-S fixation
+  bias are not higher in high-recombination bins once
+  gene density and mutability (CpG / methylation)
+  are controlled.
+What we will not claim: that a chip GC track is gBGC.
+  That Eyre-Walker 1993 or Marais 2003 is the named
+  source. That clone methylation C-to-T is conversion.
+```
+
+---
+
+## Soft sweep
+
+```
+Theory: Soft sweep
+Original paper (year): Hermisson J, Pennings PS. 2005.
+  Soft sweeps: molecular population genetics of
+  adaptation from standing genetic variation.
+  Genetics 169(4):2335-2352.
+  DOI 10.1534/genetics.104.036947 PMID 15716498
+  PMC1449620.
+  Distinct from filled hitchhiking: Maynard Smith and
+  Haigh 1974 is the hard-sweep / new-mutation hitchhike.
+  Soft sweep is multiple copies (standing variation or
+  recurrent mutation) contributing to the substitution,
+  so linked diversity is only partly erased.
+One-sentence prediction: Adaptation from standing
+  variation (or from recurrent new mutation) produces
+  a soft sweep: more than one ancestral haplotype of
+  the selected allele survives, and the hitchhiking
+  dip is shallower than a hard sweep of equal s.
+Assumptions: more than one copy of the selected allele
+  (standing or recurrent); a sexual sample; linked
+  diversity is not clone-IBD or first-degree pedigree.
+Which fail here: cultivar relatedness and first-degree
+  pedigrees produce long shared haplotypes that look
+  like a hard sweep (Dong 2023 caution, same as
+  hitchhiking). Ascertainment of "the" domestication
+  allele on a 12X / cultivar panel hides extra
+  haplotypes. Clones are not a random sexual sample.
+Modern data / statistic: haplotype count and residual
+  linked diversity at domestication peaks (color /
+  sex / flavor) after clone + IBD filters.
+Caution dataset: Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655). Color / sex / flavor
+  peaks. Standing hermaphrodite haplotypes H1/H2
+  already in some sylvestris (Dong 2023 SDR) are the
+  ascertainment / standing-variation test, not
+  VviAGL11.
+What would falsify it: if a candidate domestication
+  haplotype is a single star phylogeny (hard), the
+  soft-sweep claim dies for that locus. If several
+  independent haplotypes carry the selected allele
+  at residual linked diversity, the hard-sweep
+  (Maynard Smith-Haigh) claim dies.
+What we will not claim: that Dong 2023 demonstrated
+  a soft sweep. That VviAGL11 is the sex-locus test
+  (SDR H1/H2 is). That this note replaces hitchhiking
+  (hard vs soft are different jobs).
+```
+
+---
+
+## Chimera / tunica-corpus meristem layers
+
+```
+Theory: Chimera / tunica-corpus meristem layers
+Original paper (year): Satina S, Blakeslee AF, Avery
+  AG. 1940. Demonstration of the three germ layers
+  in the shoot apex of Datura by means of induced
+  polyploidy in periclinal chimeras. Am J Bot
+  27(10):895-905.
+  DOI 10.1002/j.1537-2197.1940.tb13952.x
+  JSTOR 2436558. No PMID. Wiley landing Cloudflare-
+  blocked; CSHL repository page opened.
+  Modern grape lock (allowed by the brief): Franks T,
+  Botta R, Thomas MR, Franks J. 2002. Chimerism in
+  grapevines: implications for cultivar identity,
+  ancestry and genetic improvement. Theor Appl Genet
+  104:192-199. DOI 10.1007/s001220100683
+  PMID 12582686 (PMID from citing PubMed pages).
+  Pinot Meunier: three VVS2 alleles; L1 vs L2 split
+  by somatic embryogenesis yield two genotypes /
+  phenotypes.
+One-sentence prediction: The shoot apex is a layered
+  meristem (tunica-corpus). A mutation in one layer
+  can stabilize as a periclinal chimera; the layers
+  have independent genotypes and can be separated.
+Assumptions: a layered meristem whose layers keep
+  independent genotypes; a periclinal chimera is
+  stable and separable; layer count is scored, not
+  assumed from a mixed-leaf SSR.
+Which fail here: Datura has three germ layers. Vitis
+  SAM is two-layered (L1 / L2). Diplontic selection
+  (Klekowski 1988, already filled) can purge a layer.
+  Leaf-DNA "triallelic" SSRs are not proof of three
+  layers. Recessives in L1 hide from L2 (gametes).
+Modern data / statistic: genotypes of layer-split
+  regenerants of a chimeric cultivar, and layer-
+  restriction of clone-private mutations after a
+  method-fair L1 vs L2 census.
+Lead test: Franks et al. 2002 Theor Appl Genet
+  104:192-199 (Pinot Meunier L1/L2 split). Genome-
+  wide companions: Vondras 2019 / Roach 2018 /
+  Carrier 2012.
+What would falsify it: if layer-split regenerants of
+  a chimeric cultivar are genetically identical, or
+  if clone-private mutations are not layer-restricted
+  after a method-fair L1 vs L2 census, the periclinal-
+  chimera claim dies for that cultivar. Do not treat
+  a mixed-leaf SSR profile as the theory.
+What we will not claim: that Vitis has three Datura
+  layers. That a triallelic leaf SSR proves three
+  layers. That this note replaces diplontic selection
+  (Klekowski is meristem competition; this is layer
+  structure).
+```
+
+---
+
+## Reinforcement
+
+```
+Theory: Reinforcement of reproductive isolation
+Original paper (year): Dobzhansky T. 1940. Speciation
+  as a stage in evolutionary divergence. The American
+  Naturalist 74(753):312-321. DOI 10.1086/280899.
+  Isolating mechanisms develop along geographic
+  boundaries after adaptive complexes have formed,
+  because hybridization is maladaptive.
+  (Dobzhansky 1937 book is the BDM source, already
+  filled. This 1940 paper is the reinforcement
+  argument, not that book. Wave 2 dropped a 1936
+  year; the journal page is 1 July 1940, pages
+  312-321.)
+One-sentence prediction: Where hybrids are unfit,
+  selection completes premating isolation in
+  sympatry more than in allopatry.
+Assumptions: secondary contact with some gene flow;
+  hybrids less fit than parentals; the trait under
+  test is premating isolation, not a one-locus
+  incompatibility.
+Which fail here: a nursery hybrid is not secondary
+  contact. Cultivar relatedness fakes isolation.
+  Humans move both species. BDM (already filled)
+  is hybrid inviability genetics, not reinforcement.
+Modern data / statistic: premating isolation
+  (flowering time, pollen success, mate choice) in
+  sympatric versus allopatric vinifera x riparia /
+  rupestris / amurensis or sylvestris contacts.
+Caution dataset (not a proof of Dobzhansky 1940):
+  Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655) reports Syl-W gene
+  flow into cultivated groups. Gene flow is the
+  opposite of completed reinforcement; use as
+  CAUTION, not as a reinforcement map. Do not invent
+  a grape hybrid / prezygotic-isolation paper.
+What would falsify it: premating isolation is not
+  stronger in sympatry than in allopatry, OR hybrid
+  inviability maps to a single locus with no
+  premating increment.
+What we will not claim: that Dong 2023 proved
+  reinforcement. That this note replaces BDM
+  (Dobzhansky 1937 book). That a grape
+  powdery-mildew NLR paper exists here.
+```
+
+---
+
+## Two-fold cost of sex
+
+```
+Theory: Two-fold cost of sex (cost of males)
+Original paper (year): Maynard Smith J. 1978. The
+  Evolution of Sex. Cambridge University Press.
+  242 pp. ISBN 052121887X. Book. Sexual females
+  invest about half their offspring in sons; an
+  asexual female that makes only daughters doubles
+  in frequency when rare if all else is equal.
+  (Kondrashov 1988 is a different, already-dropped
+  cost-of-males / deterministic-mutation paper.
+  Do not substitute it here.)
+One-sentence prediction: An asexual mutant that
+  produces only daughters replaces a dioecious
+  sexual population in a few tens of generations
+  unless a short-term benefit of sex counters the
+  two-fold cost.
+Assumptions: separate sexes and an equal sex
+  ratio; the asexual is a female that skips sons;
+  all-else-equal fecundity and survival; the
+  comparison is sexual versus asexual reproduction,
+  not cutting versus seed.
+Which fail here: this does not map onto grafted
+  clones. A grafted vine is a cutting of an
+  existing genotype, not an asexual female
+  replacing sexuals via daughters. Cultivated
+  grape is mostly hermaphrodite, not dioecious
+  with a cost of sons. Nursery propagation is not
+  Maynard Smith's experiment.
+Modern data / statistic: none that tests the
+  two-fold cost in grape. Clone versus seedling
+  yield is not a cost-of-males contrast.
+What would falsify it: not applicable as a grape
+  test. The note is filled as "does not map onto
+  grafted clones" rather than as an invented
+  asexual-female invasion.
+What we will not claim: that grape clones
+  demonstrate the two-fold cost. That Kondrashov
+  1988 is this paper. That hermaphroditism is a
+  test of the cost of males (that is Baker, already
+  filled).
+```
+

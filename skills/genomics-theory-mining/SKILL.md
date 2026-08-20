@@ -5,7 +5,12 @@ description: >
   against modern data. Use when the user wants old-theory mining,
   forgotten models, Muller ratchet, background selection, Meselson,
   BDM, DDC, Baker, isolation by distance, gene balance, nearly-neutral,
-  hitchhiking, Hill-Robertson, Ohno WGD, or a revival paper that
+  hitchhiking, Hill-Robertson, Ohno WGD, Kingman coalescent,
+  infinite-alleles, molecular clock, McDonald-Kreitman, Tajima D,
+  genetic draft, introgression, Haldane, stepping-stone,
+  island model, clonal interference, allele surfing, genome shock,
+  allopolyploidy, drift-barrier, gBGC, soft sweep, chimera,
+  reinforcement, two-fold cost of sex, or a revival paper that
   is not a methods benchmark.
 ---
 
@@ -13,7 +18,7 @@ description: >
 
 The paper is the old math plus a new test, not a review with extra adjectives.
 Find the original, list the assumptions, then say which modern data can break them.
-Filled notes live in `theories.md` (seventeen notes: eight first wave, nine second wave). One theory per job.
+Filled notes live in `theories.md` (thirty-eight notes: eight first wave, nine second wave, nine third wave, twelve fourth wave). One theory per job.
 
 ## When to use
 
@@ -115,12 +120,56 @@ heterozygotes in clonal lineages).
 | Baker's law | Baker 1955 Evolution 9:347-349 | Self-compatible colonists establish after long-distance dispersal | A vineyard is not an island; some sylvestris already carry H haplotypes | Wild sylvestris hermaphrodite at the same rate as cultivars, or sex-locus sweep vanishes after IBD filter |
 | Isolation by distance | Wright 1943 Genetics 28:114-138 | Similarity declines with geographic distance | Rivers and humans move vines | IBD slope is zero in wild sylvestris after river / human transport |
 | Diplontic selection | Klekowski 1988 Mutation, Developmental Selection, and Plant Evolution (book) | Meristem cell-lineage competition purges somatic load | Recessives and chimeras evade the filter | Clone-private coding mutations not depleted vs intergenic after mutational-opportunity correction |
+| Coalescent | Kingman 1982 Stoch Proc Appl 13:235-248 | Sample genealogies are binary n-coalescent trees | Clones and pedigrees are not a random haploid sample | Clone / pedigree samples still look Kingman after relatedness is scored |
+| Infinite-alleles | Kimura and Crow 1964 Genetics 49:725-738 | Each mutation is a new allele; IBS is IBD | Chips are biallelic and recurrent; clones fake IBS | IBS on Vitis chips / WGS behaves as infinite-alleles after clone filter |
+| Molecular clock | Zuckerkandl and Pauling 1962 Horizons ch. p.189; 1965 Evolving Genes and Proteins 97-166 | Divergence accumulates linearly on a germline clock | Somatic clone clock != sexual clock | Clone clock equals wild sylvestris / germline clock on matched sites (Vondras / Roach vs Dong wilds) |
+| McDonald-Kreitman | McDonald and Kreitman 1991 Nature 351:652-654 | Dn/Ds equals Pn/Ps under neutrality | Clone-private SNPs are not substitutions | After clone filter, grape MK does not reject neutrality at domestication loci |
+| Tajima D | Tajima 1989 Genetics 123:585-595 | pi equals theta_W under neutrality | Cultivar relatedness fakes negative D | Strongly negative D in cultivar panels vanishes after clone + IBD filter |
+| Mutation accumulation | Mukai 1964 Genetics 50:1-19; Lovell 2017 plant comparator | Sheltered genomes accumulate deleterious load | Diplontic selection and chimeras are not a Mukai cage | Clone-private load not deleterious-enriched after diplontic / chimera correction |
+| Genetic draft | Gillespie 2000 Genetics 155:909-919 | Recurrent sweeps add drift-like noise at linked sites | Chip skeleton is not a map; clone IBD fakes draft | Linked diversity explained by recombination / BGS, not recurrent sweeps |
+| Introgression / hybrid swarm | Anderson 1949 Introgressive Hybridization (book) | Backcross tracts are geographically clinal | Cultivar relatedness fakes tracts | Putative tracts vanish after IBD / clone filters or are not clinal (Dong 2023 Syl-W into CG3-CG6 is CAUTION) |
+| Haldane's rule | Haldane 1922 J Genet 12:101-109 | The rare / sterile hybrid sex is the heterogametic sex | Grape is not XX/XY; sex is an SDR | Does not map onto Vitis SDR; do not invent a heterogametic sterility test |
+| Stepping-stone | Kimura and Weiss 1964 Genetics 49:561-576 | Correlation declines with steps, not Euclidean distance | Cultivar PCA; human / river jumps | Dong 2023 wilds: neighbor-corridor correlation not higher than Euclidean |
+| Island model | Wright 1931 Genetics 16:97-159 (1943 named it) | FST = f(Nem); no distance decay | Vineyard is not an island | Dong 2023 wilds: FST not independent of distance |
+| Clonal interference | Gerrish and Lenski 1998 Genetica 102:127-144 | Competing asexual beneficials exclude the weaker | Nursery cuttings are not a chemostat | Vondras 2019 / Roach 2018 / Carrier 2012: clone-private sports not mutually exclusive |
+| Allele surfing | Edmonds, Lillie and Cavalli-Sforza 2004 PNAS 101:975-979 | Front mutations reach high frequency by founder repeats | Dual domestication; human transport | Dong 2023: edge alleles not in excess of core after clone + IBD filters |
+| Genome shock | McClintock 1984 Science 226:792-801 | Unprepared challenge restructures the genome | Constitutive somatic TE clock is not a shock | Carrier 2012 / Vondras 2019: TE / SV not clustered on shock nodes vs per-year clock |
+| Allopolyploidy / secondary polyploidy | Stebbins 1947 Adv Genet 1:403-429 | Allo / segmental allo / palaeo-polyploid types leave distinct pairing and retention | Vitis is palaeo-hexaploid, not recent allo | Jaillon 2007: three ancestral genomes, not a recent allo pair; Zhou 2019 SVs change dose without WGD |
+| Drift-barrier | Lynch 2011 Genome Biol Evol 3:1107-1118 | Per-site mu falls until antimutators are lost to drift | Cultivar panel is not Ne; somatic != germline mu | Dong 2023: cultivar mu (not load) not higher than wild after clone filter; no locked grape mu paper |
+| GC-biased gene conversion | Galtier, Piganeau, Mouchiroud and Duret 2001 Genetics 159:907-911 | GC and W-to-S rise where recombination is high | No meiosis in cuttings; chip is not a map | Dong 2023 on a real Vitis map: GC / W-to-S not higher in high-r bins after CpG control |
+| Soft sweep | Hermisson and Pennings 2005 Genetics 169:2335-2352 | Standing / recurrent copies leave multiple haplotypes and a shallow dip | Pedigree IBD fakes a hard sweep | Dong 2023 color / sex / flavor: single star phylogeny kills soft; H1/H2 standing sex haplotypes are the standing-variation test |
+| Chimera / tunica-corpus | Satina, Blakeslee and Avery 1940 Am J Bot 27:895-905 | Layered meristem; periclinal chimera is stable and separable | Vitis is L1/L2, not three Datura layers | Franks 2002 Pinot Meunier L1/L2 split; Vondras / Roach / Carrier as genome-wide layer-census companions |
+| Reinforcement | Dobzhansky 1940 Am Nat 74:312-321 (paper; 1937 book is BDM) | Premating isolation completes in sympatry where hybrids are unfit | Nursery hybrid is not secondary contact | Premating isolation not stronger in sympatry, or inviability is one-locus (Dong 2023 Syl-W gene flow is CAUTION) |
+| Two-fold cost of sex | Maynard Smith 1978 The Evolution of Sex (book) | Asexual females replace sexuals via daughters | Grafted cuttings are not asexual females | Does not map onto grafted clones; do not invent a cost-of-males test |
 
-Seventeen filled notes (eight first wave, nine second wave). Long form in `theories.md`. One theory per job.
+Thirty-eight filled notes (eight first wave, nine second wave, nine third wave, twelve fourth wave). Long form in `theories.md`. One theory per job.
 
 Kondrashov 1988 (cost of males) is on the door list but was not filled: it does not map onto grafted clones.
 Muller 1942 was not locked on a publisher page and is not cited for BDM.
 Flor 1971 is a review and was not used as a theory source.
+Flor 1955 Phytopathology / Flor 1956 Adv Genet were not opened on a publisher page this wave and are not cited.
+Haldane 1922 is filled as "does not map onto Vitis SDR"; grape is not XX/XY.
+
+Reinforcement (Dobzhansky 1940 Am Nat 74:312-321) is filled as a
+paper, distinct from the 1937 BDM book. Dong 2023 Syl-W gene flow
+is CAUTION, not a reinforcement map.
+Two-fold cost of sex (Maynard Smith 1978 book) is filled as "does
+not map onto grafted clones"; Kondrashov 1988 is not this paper.
+Overdominance / heterozygote advantage is on the door list but was
+not filled: term vs theory split (Hull 1946 Agron J vs Dobzhansky
+1950 Genetics); standing heterozygosity in clones is not a test of
+balancing selection; no locked grape inversion / overdominant QTL
+paper.
+Red Queen (Van Valen 1973 Evol Theory 1:1-30) is on the door list
+but was not filled: the original claim is a constant taxonomic
+extinction rate; the host-pathogen reading is later; no grape
+pathogen-coevolution paper is locked.
+Centromere drive (Henikoff 2001 Science review; Henikoff and Malik
+2002 Nature N&V) is on the door list but was not filled: named
+papers are a review and a one-page N&V; the claim requires female
+meiosis; grafted clones have no meiosis between cuttings; no grape
+centromere / CenH3 paper is locked.
+
 
 ## Plant / Vitis checks
 
@@ -134,6 +183,25 @@ Flor 1971 is a review and was not used as a theory source.
 - Wild sylvestris geography is the isolation-by-distance test; a cultivar PCA is not.
 - Hermaphroditism is the Baker test (Dong 2023 SDR on chromosome 2), not VviAGL11.
 - Diplontic selection in meristems is a caveat on the ratchet, not a replacement theory.
+- Kingman coalescent assumes a random sample from a large haploid population. Clones and pedigrees are not that sample.
+- Clone-private SNPs are not McDonald-Kreitman substitutions.
+- Strongly negative Tajima's D in a cultivar panel is relatedness until clones and IBD are removed.
+- The somatic clone clock is not the Zuckerkandl-Pauling germline clock.
+- Genetic draft is recurrent linked substitutions, not one hitchhiking event and not background selection.
+- Haldane's rule does not map onto the Vitis sex-determination region.
+
+- Stepping-stone is neighbor-only steps; a cultivar PCA is not a lattice.
+- The island model has no distance; a nonzero IBD slope in wild sylvestris kills it.
+- Clonal interference needs two competing beneficials in one finite N; a single sport is not CI.
+- Allele surfing needs a single expanding front; dual domestication and human transport break it.
+- Genome shock is an unprepared challenge, not a constitutive somatic TE clock.
+- Vitis is palaeo-hexaploid, not a recent allopolyploid; SVs change dose without WGD.
+- Drift-barrier is evolution of mu, not Ohta load; no locked grape wild-vs-cultivar mu paper.
+- gBGC is meiotic; a chip skeleton is not a recombination map (same map rule as BGS / HR).
+- Soft sweep is multiple surviving haplotypes; pedigree IBD fakes a hard sweep.
+- Vitis SAM is L1/L2, not three Datura layers; Franks 2002 Pinot Meunier is the grape test.
+- Reinforcement is premating isolation after secondary contact, not BDM inviability and not Dong 2023 gene flow.
+- The two-fold cost of sex does not map onto grafted clones. Hermaphroditism is the Baker test, not a cost of males.
 
 ## Sources to open first (fetched)
 
@@ -164,6 +232,30 @@ Flor 1971 is a review and was not used as a theory source.
 - Baker 1955: https://doi.org/10.1111/j.1558-5646.1955.tb01544.x (also 10.2307/2405656)
 - Wright 1943: https://doi.org/10.1093/genetics/28.2.114 (PMID 17247074 PMC1209196)
 - Klekowski 1988 book: https://doi.org/10.7312/klek92068
+- Kingman 1982: https://doi.org/10.1016/0304-4149(82)90011-4
+- Kimura and Crow 1964: https://doi.org/10.1093/genetics/49.4.725 (PMID 14156929 PMC1210609)
+- Zuckerkandl and Pauling 1965 chapter: https://doi.org/10.1016/B978-1-4832-2734-4.50017-6
+- McDonald and Kreitman 1991: https://doi.org/10.1038/351652a0 (PMID 1904993)
+- Tajima 1989: https://doi.org/10.1093/genetics/123.3.585 (PMID 2513255 PMC1203831)
+- Mukai 1964: https://doi.org/10.1093/genetics/50.1.1 (PMID 14191352 PMC1210633)
+- Gillespie 2000: https://doi.org/10.1093/genetics/155.2.909 (PMID 10835409 PMC1461093)
+- Haldane 1922: https://doi.org/10.1007/BF02983075 (IAS: https://www.ias.ac.in/article/fulltext/jgen/012/02/0101-0109)
+
+- Kimura and Weiss 1964: https://doi.org/10.1093/genetics/49.4.561
+- Wright 1931: https://doi.org/10.1093/genetics/16.2.97
+- Gerrish and Lenski 1998: https://doi.org/10.1023/A:1017067816551
+- Edmonds et al. 2004: https://doi.org/10.1073/pnas.0308064100
+- Klopfstein et al. 2006 (name only): https://doi.org/10.1093/molbev/msj057
+- McClintock 1984: https://doi.org/10.1126/science.15739260
+- Stebbins 1947: https://doi.org/10.1016/S0065-2660(08)60490-3
+- Lynch 2011: https://doi.org/10.1093/gbe/evr066
+- Sung et al. 2012 (test, not source): https://doi.org/10.1073/pnas.1216223109
+- Galtier et al. 2001: https://doi.org/10.1093/genetics/159.2.907
+- Hermisson and Pennings 2005: https://doi.org/10.1534/genetics.104.036947
+- Satina, Blakeslee and Avery 1940: https://doi.org/10.1002/j.1537-2197.1940.tb13952.x
+- Franks et al. 2002: https://doi.org/10.1007/s001220100683
+- Dobzhansky 1940: https://doi.org/10.1086/280899
+- Maynard Smith 1978 book: ISBN 052121887X (Cambridge University Press)
 
 ## Red lines
 
@@ -176,5 +268,20 @@ Flor 1971 is a review and was not used as a theory source.
 - Do not cite Mark Welch and Meselson 2000 as a 1960s original.
 - Do not invent a grape plastid popgen paper or a grape BDM map.
 - Do not write VviAGL11 as the sex gene (Dong 2023 SDR is chromosome 2).
+- Do not treat clone-private SNPs as McDonald-Kreitman substitutions.
+- Do not write a clone tree in years-since-planting as the molecular clock.
+- Do not invent a heterogametic sterility pattern for Vitis. Haldane does not map onto the SDR.
+- Do not cite Flor 1971. Flor 1955 / 1956 originals were not locked this wave.
+- Do not invent a grape powdery-mildew NLR paper.
+
+- Do not cite Lynch 2010 Trends Genet as the drift-barrier source (review).
+- Do not invent a grape mutation-rate paper or a grape recombination-map paper.
+- Do not write VviAGL11 as the soft-sweep sex-locus test (SDR H1/H2 is).
+- Do not treat a mixed-leaf SSR profile as tunica-corpus proof.
+- Do not fill overdominance, Red Queen, or centromere drive.
+- Do not invent a grape hybrid / prezygotic-isolation paper for reinforcement.
+- Do not invent a cost-of-males test in grafted clones. Two-fold cost does not map.
+- Do not cite McClintock 1984 as the 1950 TE note (different job).
+- Do not cite Stebbins 1940 or 1950 as the 1947 polyploid-type source.
 
 Related: `plant-lit-review`, `vitis-popgen`, `grapevine-adna`, `vitis-pangenome`.
