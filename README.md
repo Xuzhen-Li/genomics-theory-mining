@@ -6,6 +6,8 @@ clone of `plant-lit-review`.
 
 Skill: [`skills/genomics-theory-mining/SKILL.md`](skills/genomics-theory-mining/SKILL.md)
 Filled notes: [`skills/genomics-theory-mining/theories.md`](skills/genomics-theory-mining/theories.md)
+Seventeen filled theory notes (eight first wave, nine second wave).
+One theory per job. This is not a 50-theory catalog.
 
 ## Install
 
