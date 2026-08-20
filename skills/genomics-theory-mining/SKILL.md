@@ -21,7 +21,8 @@ description: >
   Barton-Bengtsson barrier, Barton hybrid-sink, Kimura 1955 drift, Nei GST, Slatkin 1981, Slatkin-Maruyama, Nei 1978, Kimura K80,
   Tajima-Nei distance, Begun-Aquadro, Ohta 1972, Barton-de Cara, Rieseberg 2003, Nei-Li pi, Tajima 1983, Kimura-Ohta 1969, Charlesworth 1994 BGS, Hudson-Kaplan 1995,
   Nordborg 1996, Wiehe-Stephan, Orr snowball, Turelli-Orr, Coyne-Orr 1989, Kimura 1962, Turelli 1984, Lynch-Hill, Houle CVA, Orr-Turelli 2001,
-  Kondrashov 1995, Masterson 1994, Barton-Turelli 1991, Gavrilets 2000, or a revival paper that
+  Kondrashov 1995, Masterson 1994, Barton-Turelli 1991, Gavrilets 2000, Lynch-Conery 2000, Lynch-Force 2000, Walsh 1995, Hughes 1994, Husband 2000,
+  Kondrashov 2003, Cavalier-Smith 1978, or a revival paper that
   is not a methods benchmark.
 ---
 
@@ -235,8 +236,16 @@ heterozygotes in clonal lineages).
 | Masterson 1994 stomatal polyploidy | Masterson 1994 Science 264:421-424 | Fossil guard-cell size implies primitive angiosperm n = 7-9 and that about 70 percent of angiosperms have polyploidy in their history | A palaeo-hexaploid gene set is not a stomatal C-value series; clones change dose without changing C-value | Jaillon 2007 is the Vitis hexaploidy contrast, not a Masterson stomatal census (Ohno 1972 remains C-value / junk; Stebbins 1947 remains polyploid types) |
 | Barton-Turelli 1991 weak indirect preference | Barton and Turelli 1991 Genetics 127:229-255 | Linkage-disequilibrium-induced selection on preference loci is too weak to dominate preference evolution | Grape is not a preference-trait sexual-selection system; sex is an SDR | Does not map onto Vitis SDR; do not invent a preference-LD test (Lande 1979 remains G beta; Turelli-Orr 1995 remains Haldane dominance) |
 | Gavrilets 2000 parapatric waiting time | Gavrilets 2000 Proc Biol Sci 267:2483-2492 | Waiting time to parapatric isolation can be short if few substitutions suffice; transition duration is much shorter than the wait; local adaptation shortens the wait | Dual domestication is not parapatric speciation; a nursery hybrid is not a resident-immigrant walk | Dong 2023 Syl-W is CAUTION, not a Gavrilets waiting time (Orr 1995 remains snowball; Coyne-Orr 1989 remains the comparative time course; 2004 book is not the source) |
+| Lynch-Conery 2000 duplicate fate | Lynch and Conery 2000 Science 290:1151-1155 | Duplicate genes arise at about 0.01 per gene per million years; most are silenced within a few million years; survivors then face strong purifying selection | Palaeo-hexaploid ohnologs are old, not a few-Myr birth cohort; clone SVs are not new gene births | Jaillon 2007 ohnologs: not a Lynch-Conery few-Myr silencing clock after clone filter (Force 1999 remains DDC; Ohno 1970 remains gene balance) |
+| Lynch-Force 2000 P(subfunctionalization) | Lynch and Force 2000 Genetics 154:459-473 | Probability of preservation by complementary degenerative mutations is appreciable if long-term Ne is on the order of 10^5 or smaller, and rises if there are more than two independently mutable subfunctions | A cultivar panel is not Ne about 10^5; palaeo-hexaploid ohnologs are not a recent duplicate pair | Jaillon 2007 ohnologs: not a Lynch-Force P(subfunctionalization) versus Ne after clone filter (Force 1999 remains the DDC mechanism) |
+| Lynch-Force 2000 DLS incompatibility | Lynch and Force 2000 Am Nat 156:590-605 | Divergent resolution of unlinked duplicates yields hybrid gametes that lack any functional copy, with no within-population fitness loss and no change of gene action in hybrids | Dual domestication is not two isolated resolutions; a nursery hybrid is not a DLS F2 | Dong 2023 Syl-W is CAUTION, not a DLS incompatibility (Dobzhansky 1937 remains BDM; Orr 1995 remains t-squared snowball) |
+| Walsh 1995 neo versus pseudo | Walsh JB 1995 Genetics 139:421-428 | A recent duplicate fixes a null (pseudogene) unless rho S >> 1, where S = 4 Ne s and rho is the advantageous-to-null mutation ratio; large Ne can flip the expected fate to new function | A cultivar panel is not Ne; palaeo-hexaploid ohnologs are not a recently duplicated locus | Jaillon 2007 ohnologs: not a Walsh neo-versus-pseudo fate after clone filter (Force 1999 remains DDC; Lynch-Conery 2000 remains the rate) |
+| Hughes 1994 gene-sharing / MDN | Hughes AL 1994 Proc Biol Sci 256:119-124 | Mutation-during-non-functionality is contradicted; a period of gene sharing ordinarily precedes specialization of daughter genes after duplication | Palaeo-hexaploid ohnologs are not a recent bifunctional split; clone SVs are not gene sharing | Jaillon 2007 ohnologs: not a Hughes gene-sharing specialization after clone filter (Force 1999 remains DDC; Ohno 1970 remains gene balance) |
+| Husband 2000 minority-cytotype fitness | Husband BC 2000 Proc Biol Sci 267:217-223 | Relative fitness of tetraploids is frequency-dependent (about 0.4 when rare, 0.7 at 50 percent, 1.15 when 67 percent); the first experimental test of minority-cytotype exclusion | Vitis is palaeo-hexaploid, not a mixed 2x / 4x population; grafted clones skip cytotype mating | Jaillon 2007 is the Vitis hexaploidy contrast, not a Husband 2x / 4x fitness series (Stebbins 1947 remains types; Masterson 1994 remains stomatal census) |
+| Kondrashov 2003 structured DMI | Kondrashov 2003 Evolution 57:151-153 | In a spatially structured population, DMIs accumulate linearly if an allele is incompatible at only one locus, and eventually quadratically if it can join multiple pairwise incompatibilities | Dual domestication is not a structured walk; a nursery hybrid is not that accumulation | Dong 2023 Syl-W is CAUTION, not a Kondrashov-2003 linear-versus-quadratic DMI (Orr 1995 remains t-squared; Kondrashov 1995 remains VSD) |
+| Cavalier-Smith 1978 nucleoskeletal C-value | Cavalier-Smith 1978 J Cell Sci 34:247-278 | Haploid DNA content varies about 40,000-fold independently of gene number; bulk DNA (S-DNA) sets nuclear volume, and r- versus K-selection on cell size sets C-value | A palaeo-hexaploid gene set is not a nucleoskeletal C-value series; clone SVs change dose without changing C-value | Jaillon 2007 is the Vitis hexaploidy contrast, not a Cavalier-Smith nucleoskeletal census (Ohno 1972 remains junk / C-value; Masterson 1994 remains stomata) |
 
-One hundred twenty-one filled notes (eight first wave, nine second wave, nine third wave, twelve fourth wave, ten fifth wave, ten sixth wave, nine seventh wave, eight eighth wave, nine ninth wave, eight tenth wave, ten eleventh wave, ten twelfth wave, nine thirteenth wave). Long form in `theories.md`. One theory per job.
+One hundred twenty-nine filled notes (eight first wave, nine second wave, nine third wave, twelve fourth wave, ten fifth wave, ten sixth wave, nine seventh wave, eight eighth wave, nine ninth wave, eight tenth wave, ten eleventh wave, ten twelfth wave, nine thirteenth wave, eight fourteenth wave). Long form in `theories.md`. One theory per job.
 
 Kondrashov 1988 (cost of males) is on the door list but was not filled: it does not map onto grafted clones.
 Muller 1942 was not locked on a publisher page and is not cited for BDM.
@@ -388,6 +397,16 @@ centromere / CenH3 paper is locked.
 - Barton and Turelli 1991 is that LD-induced selection on preference loci is too weak to dominate. Distinct from Lande 1979, Turelli 1984, and Turelli-Orr 1995. Does not map onto Vitis SDR. Sex locus is Dong 2023 chromosome-2 SDR, never VviAGL11.
 - Gavrilets 2000 is waiting time to parapatric isolation as a resident-immigrant walk; duration much shorter than the wait. Distinct from Orr 1995, Orr-Turelli 2001, and Coyne-Orr 1989. The 2004 book is not the source. Syl-W gene flow is CAUTION.
 
+- Lynch and Conery 2000 is the genomic duplicate birth rate (about 0.01 per gene per million years) and few-Myr silencing clock. Distinct from Force 1999 DDC and Ohno 1970 gene balance. Palaeo-hexaploid ohnologs are old, not that cohort. Clone SVs are not new gene births.
+- Lynch and Force 2000 Genetics is P(subfunctionalization) versus Ne (appreciable at Ne about 10^5; rises with more than two subfunctions). Distinct from Force 1999 (the DDC mechanism). A cultivar panel is not Ne about 10^5.
+- Lynch and Force 2000 Am Nat is divergent resolution: isolated populations silence opposite copies of an unlinked duplicate so hybrid gametes can lack any functional copy. Distinct from Dobzhansky 1937 BDM, Orr 1995 snowball, and Gavrilets 2000. Syl-W gene flow is CAUTION.
+- Walsh 1995 is neo versus pseudogene: high chance of a null unless rho S >> 1; large Ne can flip the fate. Distinct from Force 1999 and Lynch-Conery 2000. Palaeo-hexaploid ohnologs are not a recent duplicate.
+- Hughes 1994 is gene sharing versus MDN: specialization of a previously shared pair of functions, not random substitution in a non-functional copy. Distinct from Force 1999 and Ohno 1970. Hughes 1999 is a book.
+- Husband 2000 is the experimental minority-cytotype lock: tetraploid relative fitness about 0.4 when rare, 1.15 when 67 percent. Vitis is palaeo-hexaploid, not a mixed 2x / 4x population. Levin 1975 was not opened. Ramsey and Schemske 1998 / 2002 are reviews.
+- Kondrashov 2003 is structured DMI accumulation: linear if one interaction per allele, eventually quadratic if many pairwise incompatibilities. Distinct from Kondrashov 1995 VSD, Orr 1995 snowball, and Orr-Turelli 2001. Syl-W gene flow is CAUTION.
+- Cavalier-Smith 1978 is nucleoskeletal S-DNA: C-value tracks nuclear / cell volume under r / K selection, not gene number. Distinct from Ohno 1972 junk / C-value and Masterson 1994 stomata. EuropePMC Review tag is a catalog quirk; 1978 is the named original. Cavalier-Smith 2005 was not opened.
+- Sex locus is Dong 2023 chromosome-2 SDR, never VviAGL11.
+
 ## Sources to open first (fetched)
 
 - Muller 1964: https://doi.org/10.1016/0027-5107(64)90047-8
@@ -533,6 +552,15 @@ centromere / CenH3 paper is locked.
 - Masterson 1994: https://doi.org/10.1126/science.264.5157.421 (EuropePMC MED 17836906)
 - Barton and Turelli 1991: https://doi.org/10.1093/genetics/127.1.229 (PMC1204308; EuropePMC MED 2016044)
 - Gavrilets 2000: https://doi.org/10.1098/rspb.2000.1309 (PMC1690850; EuropePMC MED 11197123)
+
+- Lynch and Conery 2000: https://doi.org/10.1126/science.290.5494.1151 (EuropePMC MED 11073452)
+- Lynch and Force 2000 Genetics: https://doi.org/10.1093/genetics/154.1.459 (PMC1460895; EuropePMC MED 10629003)
+- Lynch and Force 2000 Am Nat: https://doi.org/10.1086/316992 (EuropePMC MED 29592543)
+- Walsh 1995: https://doi.org/10.1093/genetics/139.1.421 (PMC1206338; EuropePMC MED 7705642)
+- Hughes 1994: https://doi.org/10.1098/rspb.1994.0058 (EuropePMC MED 8029240)
+- Husband 2000: https://doi.org/10.1098/rspb.2000.0990 (PMC1690524; EuropePMC MED 10714875)
+- Kondrashov 2003: https://doi.org/10.1111/j.0014-3820.2003.tb00223.x (EuropePMC MED 12643575)
+- Cavalier-Smith 1978: https://doi.org/10.1242/jcs.34.1.247 (EuropePMC MED 372199)
 
 ## Red lines
 
@@ -836,5 +864,62 @@ Grant V. 1981. Plant Speciation. Book. Skip.
 - Do not write Gavrilets 2000 as Orr 1995 or as Coyne-Orr 1989 or as the 2004 book.
 - Do not write VviAGL11 as the sex locus (Dong 2023 chromosome-2 SDR).
 - Do not invent a grape fixation-probability, House-of-Cards, mutational-variance, evolvability, DMI-waiting-time, VSD-load, stomatal-polyploidy, preference-LD, or parapatric-speciation paper.
+
+Lande R. 1976. Natural selection and random genetic drift in phenotypic evolution. Evolution 30(2):314-334. DOI 10.1111/j.1558-5646.1976.tb00911.x PMID 28563044. EuropePMC HTML reopened this wave; still no abstract / no claim text. 1979 remains the G-matrix lock. DROP this wave.
+Lande R. 1980. The genetic covariance between characters maintained by pleiotropic mutations. Genetics 94(1):203-215. DOI 10.1093/genetics/94.1.203. Genetics / OUP Cloudflare; PMC ID not opened with claim text this wave. DROP this wave.
+Bulmer MG. 1971. The effect of selection on genetic variability. Am Nat 105(943):201-211. DOI 10.1086/282718. Still no EuropePMC claim page. DROP this wave.
+Kimura M, Ohta T. 1971. Protein polymorphism as a phase of molecular evolution. Nature 229(5285):467-469. DOI 10.1038/229467a0 PMID 4925204. Still no abstract / no claim text. DROP.
+Wright S. 1938. Size of population and breeding structure in relation to evolution. Science 87:430-431. Short letter. Wright 1931 remains. DROP.
+Coyne JA, Orr HA. 1997. "Patterns of speciation in Drosophila" revisited. Evolution 51(1):295-303. Revisit; 1989 is the lock. DROP.
+Gavrilets S. 1999. A dynamical theory of speciation on holey adaptive landscapes. Am Nat 154(1):1-22. DOI 10.1086/303217. Chicago still not opened. 2000 remains. DROP.
+Kondrashov AS. 1988. Deleterious mutations and the evolution of sexual reproduction. Nature 336:435-440. Already dropped. DROP.
+Levin DA. 1975. Minority cytotype exclusion in local plant populations. Taxon 24:35-43. DOI 10.2307/1218997. Wiley HTML timed out; no EuropePMC claim page opened. Husband 2000 is the lock. DROP this wave.
+Levin DA. 1983. Polyploidy and novelty in flowering plants. Am Nat 122(1):1-25. DOI 10.1086/284115. Chicago HTML timed out. DROP this wave.
+Husband BC. 2004. The role of triploid hybrids in the evolutionary dynamics of mixed-ploidy populations. Heredity or related 2004 paper. Not opened this wave. 2000 is the lock. DROP.
+Ramsey J, Schemske DW. 1998. Pathways, mechanisms, and rates of polyploid formation in flowering plants. Annu Rev Ecol Syst 29:467-501. Review. Skip.
+Ramsey J, Schemske DW. 2002. Neopolyploidy in flowering plants. Annu Rev Ecol Syst 33:589-639. Review. Skip.
+Comai L. 2005. The advantages and disadvantages of being polyploid. Nat Rev Genet 6(11):836-846. Tagged Review. DROP.
+Otto SP, Whitton J. 2000. Polyploid incidence and evolution. Annu Rev Genet 34:401-437. Review. Skip.
+Soltis DE / Soltis PS. 1999 / 2009 polyploidy papers. Review or not opened as a distinct original. Stebbins 1947, Masterson 1994, and Husband 2000 remain. DROP.
+Adams KL, Wendel JF. 2005. Polyploidy and genome evolution in plants. Curr Opin Plant Biol 8(2):135-141. Tagged Review. DROP.
+Edger PP, Pires JC. 2009. Gene and genome duplications: the impact of dosage-sensitivity on the fate of nuclear genes. Chromosome Res 17(5):699-717. Tagged Review. Birchler 2007 remains. DROP.
+Mallet J. 2007. Hybrid speciation. Nature 446:279-283. Review dump. Rieseberg 2003 remains. DROP.
+Arnold ML. 1992 / 1997 hybridization papers / books. Not locked as a distinct original. Skip.
+Grant V. 1981. Plant Speciation. Book. Skip.
+Stebbins GL. 1950. Variation and Evolution in Plants. Book. Skip.
+Ohno S. 1970. Evolution by Gene Duplication. Already filled gene balance. Skip.
+Force A, Lynch M, Pickett FB, Amores A, Yan YL, Postlethwait J. 1999. Preservation of duplicate genes by complementary, degenerative mutations. Genetics 151:1531-1545. Already filled DDC. Skip.
+Ohno S. 1972. So much "junk" DNA in our genome. Brookhaven Symp Biol 23:366-370. Already filled C-value / junk. Skip.
+Innan H, Kondrashov F. 2010. The evolution of gene duplications: classifying and distinguishing between models. Nat Rev Genet 11:97-108. Review. Skip.
+Zhang J. 2003. Evolution by gene duplication: an update. Trends Ecol Evol 18:292-298. Review. Skip.
+Nei M, Rooney AP. 2005. Concerted and birth-and-death evolution of multigene families. Annu Rev Genet 39:121-152. Review. Skip.
+Hughes AL. 1999. Adaptive Evolution of Genes and Genomes. Book. 1994 is the lock. Skip.
+Walsh B. 2003. Population-genetic models of the fates of duplicate genes. Genetica or related 2003 paper. Not opened. 1995 is the lock. DROP.
+Cavalier-Smith T. 2005. Economy, speed and size matter: evolutionary forces driving nuclear genome miniaturization and expansion. Ann Bot 95:147-175. Not opened as a distinct original. 1978 is the lock. DROP.
+
+- Do not cite Lande 1976 as the phenotypic-drift source (still no claim text; 1979 remains G-matrix).
+- Do not cite Lande 1980 as the pleiotropic-covariance source (page still not opened).
+- Do not cite Bulmer 1971 / 1980 as the variance-disequilibrium source (page not opened).
+- Do not cite Kimura and Ohta 1971 Nature as the polymorphism-phase source (still no claim text).
+- Do not cite Wright 1938 as the effective-size source (letter; Wright 1931 remains).
+- Do not cite Coyne and Orr 1997 as the time-course source (revisit; 1989 remains).
+- Do not cite Gavrilets 1997 TREE, Gavrilets 1999 Am Nat, or Gavrilets 2004 book as the parapatric-wait source (review / not opened / book; 2000 remains).
+- Do not cite Levin 1975 as the opened minority-cytotype source (Wiley timeout; Husband 2000 is the lock).
+- Do not cite Levin 1983 as the polyploid-novelty source (Chicago timeout).
+- Do not cite Ramsey and Schemske 1998 / 2002, Comai 2005, Otto and Whitton 2000, Adams and Wendel 2005, Edger and Pires 2009, Soltis 1999 / 2009, Mallet 2007, Grant 1981, or Arnold 1992 / 1997 as theory originals (book or review).
+- Do not cite Innan and Kondrashov 2010, Zhang 2003, or Nei and Rooney 2005 as theory originals (reviews).
+- Do not cite Hughes 1999 as the gene-sharing source (book; 1994 is the lock).
+- Do not cite Walsh 2003 as the neo-versus-pseudo source (not opened; 1995 is the lock).
+- Do not cite Cavalier-Smith 2005 as the nucleoskeletal source (not opened; 1978 is the lock).
+- Do not write Lynch and Conery 2000 as Force 1999 or as Ohno 1970.
+- Do not write Lynch and Force 2000 Genetics as Force 1999 or as Lynch and Conery 2000.
+- Do not write Lynch and Force 2000 Am Nat as Dobzhansky 1937 or as Orr 1995 or as Force 1999.
+- Do not write Walsh 1995 as Force 1999 or as Lynch and Conery 2000.
+- Do not write Hughes 1994 as Force 1999 or as Ohno 1970.
+- Do not write Husband 2000 as Levin 1975 or as Stebbins 1947 or as Jaillon 2007.
+- Do not write Kondrashov 2003 as Kondrashov 1995 or as Orr 1995 or as Kondrashov 1988.
+- Do not write Cavalier-Smith 1978 as Ohno 1972 or as Masterson 1994.
+- Do not write VviAGL11 as the sex locus (Dong 2023 chromosome-2 SDR).
+- Do not invent a grape gene-duplication-rate, subfunction-probability, DLS, neofunctionalization, gene-sharing, minority-cytotype, structured-DMI, or nucleoskeletal paper.
 
 Related: `plant-lit-review`, `vitis-popgen`, `grapevine-adna`, `vitis-pangenome`.

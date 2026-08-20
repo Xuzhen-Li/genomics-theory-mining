@@ -7154,3 +7154,838 @@ What we will not claim: that Orr 1995 is
 ```
 
 ---
+
+---
+
+## Lynch-Conery 2000 duplicate fate
+
+```
+Theory: Lynch-Conery gene-duplication fate (birth
+  rate and few-Myr silencing)
+Original paper (year): Lynch M, Conery JS. 2000.
+  The evolutionary fate and consequences of
+  duplicate genes. Science 290(5494):1151-1155
+  (10 November 2000; EuropePMC 01 Nov 2000).
+  DOI 10.1126/science.290.5494.1151 PMID 11073452.
+  EuropePMC HTML opened
+  (https://europepmc.org/article/MED/11073452):
+  Lynch M, Department of Biology, University of
+  Oregon, Eugene, OR 97403, USA; Conery JS;
+  01 Nov 2000; Science 290(5494):1151-1155; DOI;
+  PMID; abstract. Duplicate genes arise at a very
+  high rate, on average 0.01 per gene per million
+  years. Most duplicated genes experience a brief
+  period of relaxed selection early in their
+  history, with a moderate fraction evolving in
+  an effectively neutral manner during this
+  period. The vast majority of gene duplicates
+  are silenced within a few million years, with
+  the few survivors subsequently experiencing
+  strong purifying selection. Duplicate genes
+  may only rarely evolve new functions; stochastic
+  silencing may play a significant role in the
+  passive origin of new species. Distinct from
+  filled Force 1999 (DDC complementary
+  degeneration as the preservation mechanism;
+  not the genomic birth rate or the few-Myr
+  silencing clock). Distinct from filled Ohno
+  1970 / Birchler 2007 gene balance. Distinct
+  from filled Ohno 1972 C-value / junk. Distinct
+  from filled Lynch and Force 2000 Genetics
+  (this wave; P(subfunctionalization) versus
+  Ne). Distinct from filled Lynch and Force
+  2000 Am Nat (this wave; DLS incompatibility).
+  Distinct from filled Walsh 1995 (this wave;
+  neo-versus-pseudo probability, not the rate).
+  Innan and Kondrashov 2010 and Zhang 2003
+  were not used (reviews).
+One-sentence prediction: Gene duplicates arise
+  at about 0.01 per gene per million years and
+  most are silenced within a few million years;
+  the few survivors then face strong purifying
+  selection.
+Assumptions: a sexual population with a
+  meaningful molecular clock on recent
+  duplicates; palaeo-hexaploid ohnologs are
+  not that few-Myr cohort; clone SVs are not
+  new gene births; a cultivar panel is not
+  the genomic database sample.
+Which fail here: Vitis is palaeo-hexaploid
+  (Jaillon 2007), not a few-Myr duplicate
+  cohort. Clone SVs (Zhou 2019 /
+  Carbonell-Bejerano 2017) change dose
+  without a new gene birth. Tandem NLR
+  arrays are not the paper's birth-and-
+  silencing clock. Dual domestication is
+  two origins.
+Modern data / statistic: whether Vitis
+  duplicate-age classes after clone filters
+  match a Lynch-Conery 0.01-per-gene-per-
+  Myr birth and few-Myr silencing clock,
+  versus old ohnologs or clone SVs.
+Dataset: Jaillon et al. 2007 Nature
+  449:463-467 (DOI 10.1038/nature06148).
+  Three ancestral genomes; no recent WGD.
+  Zhou 2019 / Carbonell-Bejerano 2017 as
+  clone-dose companions (SV dose is not a
+  new gene birth). Use as the duplicate-
+  fate contrast, not as a published grape
+  2000 analysis. Do not invent a grape
+  gene-duplication-rate paper.
+What would falsify it: duplicate ages are
+  not a Lynch-Conery few-Myr silencing
+  clock after clone filter (old ohnologs,
+  or clone SVs). DDC remains Force 1999.
+  Gene balance remains Ohno 1970 /
+  Birchler 2007. P(subfunctionalization)
+  remains Lynch-Force 2000 Genetics.
+What we will not claim: that Force 1999
+  is this paper (already filled). That
+  Ohno 1970 is this paper. That Lynch
+  and Force 2000 Genetics or Am Nat is
+  this paper. That Jaillon 2007 estimated
+  0.01 per gene per Myr. That a clone SV
+  is a new gene birth.
+```
+
+---
+
+## Lynch-Force 2000 P(subfunctionalization)
+
+```
+Theory: Lynch-Force probability of duplicate
+  preservation by subfunctionalization
+Original paper (year): Lynch M, Force A. 2000.
+  The probability of duplicate gene preservation
+  by subfunctionalization. Genetics 154(1):459-
+  473 (1 January 2000).
+  DOI 10.1093/genetics/154.1.459 PMID 10629003
+  PMCID PMC1460895. EuropePMC HTML opened
+  (https://europepmc.org/article/MED/10629003):
+  Lynch M, Department of Biology, University of
+  Oregon, Eugene, Oregon 97403, USA; Force A;
+  01 Jan 2000; Genetics 154(1):459-473; DOI;
+  PMID; PMC; abstract. Classical expectation:
+  one copy is silenced, or rarely one copy
+  gains a beneficial new function. Genome-
+  duplication data show preservation far more
+  commonly and for far longer than that model
+  allows. Alternative: both copies experience
+  degenerative mutations that reduce their
+  joint activity to that of the single
+  ancestral gene (subfunctionalization). The
+  probability of preservation by complementary
+  mutations depends on gene structure, linkage,
+  mutation rates and effects, and population
+  size. Even if most mutations cause complete
+  loss-of-subfunction, that probability is
+  appreciable if long-term Ne is on the order
+  of 10^5 or smaller, especially with more
+  than two independently mutable subfunctions
+  per locus. A moderate incidence of partial
+  loss-of-function mutations greatly elevates
+  the probability. A common fate is partitioning
+  of ancestral tissue-specific expression.
+  Distinct from filled Force 1999 (the DDC
+  complementary-degeneration mechanism; not
+  the Ne / subfunction-number probability).
+  Distinct from filled Ohno 1970 / Birchler
+  2007 gene balance. Distinct from filled
+  Lynch and Conery 2000 (this wave; genomic
+  birth and few-Myr silencing, not P versus
+  Ne). Distinct from filled Walsh 1995 (this
+  wave; neo versus null, not complementary
+  subfunctions). Distinct from filled Hughes
+  1994 (this wave; gene sharing / MDN).
+One-sentence prediction: Preservation by
+  complementary degenerative mutations is
+  appreciable if long-term Ne is on the order
+  of 10^5 or smaller, and it rises when a
+  locus has more than two independently
+  mutable subfunctions.
+Assumptions: a sexual population with a
+  meaningful long-term Ne and independently
+  mutable subfunctions; a cultivar panel is
+  not Ne about 10^5; palaeo-hexaploid
+  ohnologs are not a recent duplicate pair.
+Which fail here: a cultivar collection is
+  not Ne. Vitis ohnologs (Jaillon 2007) are
+  old palaeo-hexaploid pairs, not a recent
+  duplicate. Grafted clones skip the sexual
+  complementary-mutation walk. Dual
+  domestication is two origins. Tandem NLR
+  arrays are not independently mutable
+  ancestral subfunctions.
+Modern data / statistic: whether palaeo-
+  hexaploid ohnolog retention after clone
+  filters is a Lynch-Force function of Ne
+  and subfunction number (P appreciable at
+  Ne about 10^5), versus gene balance or
+  two origins.
+Dataset: Jaillon et al. 2007 Nature
+  449:463-467 (DOI 10.1038/nature06148).
+  Three ancestral genomes; no recent WGD.
+  Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655) as the
+  wild-versus-cultivar Ne contrast after
+  clone + IBD filters. Use as the
+  P(subfunctionalization) contrast, not as
+  a published grape 2000-Genetics analysis.
+  Do not invent a grape subfunction-
+  probability paper.
+What would falsify it: ohnolog retention
+  is not a Lynch-Force P-versus-Ne function
+  after clone filter (gene balance, or two
+  origins). DDC mechanism remains Force
+  1999. Gene balance remains Ohno 1970 /
+  Birchler 2007. Birth-and-silencing rate
+  remains Lynch-Conery 2000.
+What we will not claim: that Force 1999
+  is this paper (already filled). That
+  Lynch and Conery 2000 is this paper.
+  That Ohno 1970 is this paper. That
+  Jaillon 2007 estimated P at Ne about
+  10^5. That VviAGL11 is the sex locus.
+```
+
+---
+
+## Lynch-Force 2000 DLS incompatibility
+
+```
+Theory: Lynch-Force divergent resolution
+  (duplicate-gene genomic incompatibility)
+Original paper (year): Lynch M, Force AG.
+  2000. The origin of interspecific genomic
+  incompatibility via gene duplication. Am
+  Nat 156(6):590-605 (1 December 2000).
+  DOI 10.1086/316992 PMID 29592543.
+  EuropePMC HTML opened
+  (https://europepmc.org/article/MED/29592543):
+  Lynch M; Force AG; 01 Dec 2000; The
+  American Naturalist 156(6):590-605; DOI;
+  PMID; abstract. Prevailing thoughts:
+  epistatic loss-of-function in hybrid
+  backgrounds, or chromosomal rearrangements
+  that mis-segregate. Unclear how hybrid-
+  breakdown genes arise without reducing
+  fitness within species, and many
+  speciations lack obvious rearrangements.
+  Duplicate genes, and genomic redundancies
+  more generally, are a substrate for
+  incompatibilities in isolated populations.
+  Divergent resolution: one population loses
+  function from one copy, the other loses
+  function from a second copy at a different
+  chromosomal location, so hybrid gametes
+  can lack any functional gene for that
+  pair. Incompatibility factors accumulate
+  with essentially no within-population
+  fitness loss, as in BDM, even though they
+  arise from degenerative mutations. Unlike
+  the usual BDM reading, no change in the
+  mode of gene action in hybrid backgrounds
+  is required. Plausibility: most genomes
+  harbor many gene duplicates whose turnover
+  is ongoing, and complex regulatory regions
+  facilitate divergent resolution in sister
+  taxa. Distinct from filled Dobzhansky 1937
+  BDM. Distinct from filled Orr 1995
+  t-squared snowball. Distinct from filled
+  Orr and Turelli 2001 waiting time.
+  Distinct from filled Gavrilets 2000
+  parapatric wait. Distinct from filled
+  Force 1999 DDC (preservation mechanism,
+  not hybrid incompatibility). Distinct
+  from filled Lynch and Force 2000 Genetics
+  (this wave; P of preservation, not DLS).
+  Distinct from filled Lynch and Conery
+  2000 (this wave; silencing rate, not the
+  interspecific map). Distinct from filled
+  Rieseberg 2003 hybrid speciation.
+  Distinct from filled Kondrashov 2003
+  (this wave; structured linear-versus-
+  quadratic DMI, not duplicate resolution).
+One-sentence prediction: Isolated
+  populations that silence different copies
+  of an unlinked duplicate produce hybrid
+  gametes that can lack any functional
+  copy, without a within-population fitness
+  cost and without a change of gene action
+  in hybrids.
+Assumptions: two isolated sexual
+  populations resolve unlinked duplicates
+  independently; dual domestication is not
+  that split; a nursery hybrid is not a
+  DLS F2; palaeo-hexaploid ohnologs are
+  not a recent unlinked pair being resolved
+  now.
+Which fail here: dual domestication is
+  two origins, not two isolated resolutions
+  of one duplication. Dong 2023 Syl-W gene
+  flow is CAUTION, not a DLS walk. Nursery
+  hybrids are not F2s that lack both
+  functional copies. Clone IBD fakes shared
+  complementary segments. Human transport
+  is not isolation.
+Modern data / statistic: whether wild-
+  cultivar or interspecific isolation after
+  clone + IBD filters is a Lynch-Force
+  divergent-resolution map (unlinked
+  duplicates silenced on opposite copies),
+  versus one locus or two origins.
+Dataset: Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655). Syl-W
+  gene flow as CAUTION, not a DLS
+  incompatibility. Jaillon et al. 2007
+  Nature 449:463-467 as the palaeo-
+  hexaploid ohnolog substrate, not a
+  published grape DLS map. Use as the
+  divergent-resolution contrast. Do not
+  invent a grape DLS paper.
+What would falsify it: isolation is not
+  a divergent-resolution map after clone
+  filter (one locus, or two origins). BDM
+  remains Dobzhansky 1937. Snowball
+  remains Orr 1995. Parapatric wait
+  remains Gavrilets 2000. DDC remains
+  Force 1999. Structured DMI remains
+  Kondrashov 2003.
+What we will not claim: that Force 1999
+  is this paper (already filled). That
+  Dobzhansky 1937 is this paper. That
+  Lynch and Force 2000 Genetics is this
+  paper. That Dong 2023 mapped DLS
+  loci. That dual domestication is
+  divergent resolution.
+```
+
+---
+
+## Walsh 1995 neo versus pseudo
+
+```
+Theory: Walsh 1995 neofunctionalization
+  versus pseudogene fate of a duplicate
+Original paper (year): Walsh JB. 1995. How
+  often do duplicated genes evolve new
+  functions? Genetics 139(1):421-428
+  (1 January 1995).
+  DOI 10.1093/genetics/139.1.421 PMID 7705642
+  PMCID PMC1206338. EuropePMC HTML opened
+  (https://europepmc.org/article/MED/7705642):
+  Walsh JB, Department of Ecology and
+  Evolutionary Biology, University of
+  Arizona, Tucson 85721; 01 Jan 1995;
+  Genetics 139(1):421-428; DOI; PMID; PMC;
+  abstract. A recently duplicated gene can
+  fix a null allele (pseudogene) or fix an
+  advantageous allele with a slightly
+  different function. Null alleles are
+  assumed neutral; linkage, unequal crossing
+  over, and gene conversion are ignored
+  (so the advantageous-first probability is
+  likely an underestimate). For additive
+  advantageous mutations with selection
+  coefficient s and advantageous-to-null
+  mutation ratio rho, the probability an
+  advantageous allele is fixed first is
+  ([1 - e^{-S}] / [rho S] + 1)^{-1}, where
+  S = 4 Ne s. The probability the duplicate
+  becomes a pseudogene is high unless
+  rho S >> 1. Even if advantageous mutations
+  are very rare relative to nulls, a
+  sufficiently large population can make
+  rho S >> 1, so new gene function is the
+  expected fate of most duplicated genes.
+  Distinct from filled Force 1999 (DDC
+  complementary degeneration, not neo
+  versus null). Distinct from filled Ohno
+  1970 gene balance / neofunctionalization
+  book. Distinct from filled Lynch and
+  Conery 2000 (this wave; genomic rate,
+  not the rho-S threshold). Distinct from
+  filled Lynch and Force 2000 Genetics
+  (this wave; P of subfunctionalization).
+  Distinct from filled Hughes 1994 (this
+  wave; gene sharing / MDN). Walsh 2003
+  was not opened.
+One-sentence prediction: A recent duplicate
+  becomes a pseudogene unless rho S >> 1;
+  large Ne can flip the expected fate to
+  new function even when advantageous
+  mutations are rare.
+Assumptions: a sexual population with a
+  meaningful Ne and a recently duplicated
+  locus; a cultivar panel is not that Ne;
+  palaeo-hexaploid ohnologs are not a
+  recent duplicate.
+Which fail here: a cultivar collection is
+  not Ne. Vitis ohnologs are old palaeo-
+  hexaploid pairs, not a recently
+  duplicated locus walking to neo or null.
+  Grafted clones skip the fixation walk.
+  Dual domestication is two origins.
+  Human choice is not the paper's s.
+Modern data / statistic: whether recent
+  Vitis duplicates after clone filters
+  follow a Walsh rho-S fate (pseudogene
+  unless rho S >> 1), versus old ohnologs
+  or two origins.
+Dataset: Jaillon et al. 2007 Nature
+  449:463-467 (DOI 10.1038/nature06148).
+  Three ancestral genomes; no recent WGD.
+  Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655) as the
+  wild-versus-cultivar Ne contrast after
+  clone + IBD filters. Use as the neo-
+  versus-pseudo contrast, not as a
+  published grape Walsh analysis. Do not
+  invent a grape neofunctionalization
+  paper.
+What would falsify it: duplicate fate is
+  not a Walsh rho-S threshold after clone
+  filter (old ohnologs, or two origins).
+  DDC remains Force 1999. Birth-and-
+  silencing rate remains Lynch-Conery
+  2000. P(subfunctionalization) remains
+  Lynch-Force 2000 Genetics.
+What we will not claim: that Force 1999
+  is this paper (already filled). That
+  Ohno 1970 is this paper. That Walsh
+  2003 is the source (not opened). That
+  Jaillon 2007 estimated rho S. That a
+  clone SV is a new function.
+```
+
+---
+
+## Hughes 1994 gene-sharing / MDN
+
+```
+Theory: Hughes 1994 gene sharing versus
+  mutation-during-non-functionality
+Original paper (year): Hughes AL. 1994.
+  The evolution of functionally novel
+  proteins after gene duplication. Proc
+  Biol Sci 256(1346):119-124 (23 May 1994;
+  EuropePMC 01 May 1994).
+  DOI 10.1098/rspb.1994.0058 PMID 8029240.
+  EuropePMC HTML opened
+  (https://europepmc.org/article/MED/8029240):
+  Hughes AL, Department of Biology,
+  Pennsylvania State University, University
+  Park 16802; 01 May 1994; Proceedings.
+  Biological Sciences 256(1346):119-124;
+  DOI; PMID; abstract. The mutation-during-
+  non-functionality (MDN) model holds that
+  after duplication one copy is redundant
+  and free to accumulate substitutions at
+  random until, by chance, some suit a new
+  function. Several lines contradict MDN:
+  (i) expressed duplicates in tetraploid
+  Xenopus laevis are under purifying
+  selection, not free to accumulate random
+  substitutions; (ii) functionally distinct
+  proteins in multi-gene families have
+  arisen by positive Darwinian selection,
+  not chance fixation of neutral variants;
+  (iii) gene sharing (one gene, two
+  functions) shows that duplication is not
+  a necessary prerequisite to a new protein
+  function. Proposed model: a period of
+  gene sharing ordinarily precedes the
+  evolution of functionally distinct
+  proteins; duplication then lets each
+  daughter specialize for one ancestral
+  function. If the ancestral gene is not
+  bifunctional, either one copy is silenced
+  or both remain under purifying selection.
+  Distinct from filled Force 1999 (DDC
+  complementary degeneration of
+  subfunctions; not the MDN critique or
+  the gene-sharing prelude). Distinct from
+  filled Ohno 1970 gene balance. Distinct
+  from filled Walsh 1995 (this wave; neo
+  versus null probability). Distinct from
+  filled Lynch and Conery 2000 (this wave;
+  genomic rate). Distinct from filled
+  birth-and-death (Nei family process;
+  Nei and Hughes 1992 chapter was not
+  opened). Hughes 1999 book was not used.
+One-sentence prediction: New protein
+  function after duplication ordinarily
+  comes from specialization of a previously
+  shared pair of functions, not from
+  random substitution in a non-functional
+  copy.
+Assumptions: a sexual population in which
+  ancestral bifunctionality can be scored;
+  palaeo-hexaploid ohnologs are not a
+  recent gene-sharing split; clone SVs are
+  not gene sharing.
+Which fail here: Vitis ohnologs are old
+  palaeo-hexaploid pairs, not a recent
+  bifunctional split. Clone SVs change
+  dose without a gene-sharing prelude.
+  Tandem NLR arrays are not Hughes
+  specialization. Dual domestication is
+  two origins. Do not invent a grape
+  gene-sharing census.
+Modern data / statistic: whether palaeo-
+  hexaploid ohnolog pairs after clone
+  filters are a Hughes gene-sharing
+  specialization (not MDN), versus DDC
+  or gene balance.
+Dataset: Jaillon et al. 2007 Nature
+  449:463-467 (DOI 10.1038/nature06148).
+  Three ancestral genomes; no recent WGD.
+  Use as the gene-sharing contrast, not
+  as a published grape Hughes analysis.
+  Do not invent a grape MDN or gene-
+  sharing paper.
+What would falsify it: ohnolog pairs are
+  not a Hughes gene-sharing
+  specialization after clone filter (MDN,
+  or gene balance, or two origins). DDC
+  remains Force 1999. Gene balance
+  remains Ohno 1970 / Birchler 2007.
+  Neo-versus-pseudo remains Walsh 1995.
+What we will not claim: that Force 1999
+  is this paper (already filled). That
+  Ohno 1970 is this paper. That Hughes
+  1999 is the source (book). That
+  Jaillon 2007 scored gene sharing.
+  That a clone SV is specialization.
+```
+
+---
+
+## Husband 2000 minority-cytotype fitness
+
+```
+Theory: Husband 2000 frequency-dependent
+  minority-cytotype fitness
+Original paper (year): Husband BC. 2000.
+  Constraints on polyploid evolution: a
+  test of the minority cytotype exclusion
+  principle. Proc Biol Sci 267(1440):217-
+  223 (7 February 2000; EuropePMC 01 Feb
+  2000). DOI 10.1098/rspb.2000.0990
+  PMID 10714875 PMCID PMC1690524.
+  EuropePMC HTML opened
+  (https://europepmc.org/article/MED/10714875):
+  Husband BC, Department of Botany,
+  University of Guelph, Ontario, Canada;
+  01 Feb 2000; Proceedings. Biological
+  Sciences 267(1440):217-223; DOI; PMID;
+  PMC; abstract. Polyploid evolution is
+  often treated as instant speciation, yet
+  establishment of rare tetraploids in a
+  diploid population may be constrained by
+  a frequency-dependent mating disadvantage
+  (minority cytotype exclusion). Experimental
+  Chamerion angustifolium populations with
+  different tetraploid / diploid proportions.
+  Fitness as total seed production over the
+  flowering season. Relative fitness of
+  tetraploids was frequency-dependent:
+  about 0.4 when rare, 0.7 at 50 percent,
+  and 1.15 when tetraploids were 67 percent
+  (the majority). The pattern comes from a
+  negative relationship between tetraploid
+  frequency and diploid seed set per fruit;
+  tetraploid seed set was independent of
+  cytotype frequency (higher assortative
+  mating, partly from non-random bee
+  visitation). First experimental test of
+  frequency-dependent fitness in diploid-
+  polyploid mixtures; argues for gradual
+  population processes, not only instant
+  speciation. Distinct from filled Stebbins
+  1947 (auto / allo / segmental types).
+  Distinct from filled Masterson 1994
+  (fossil-stomata census). Distinct from
+  filled Thomas, Pedersen and Freeling
+  2006 fractionation. Distinct from filled
+  Ohno 1970 / Birchler 2007 gene balance.
+  Distinct from filled Jaillon 2007 (Vitis
+  palaeo-hexaploid dataset, not the theory
+  original). Levin 1975 Taxon (the verbal
+  minority-cytotype model) was not opened
+  this wave (Wiley timeout). Ramsey and
+  Schemske 1998 / 2002 are reviews. Comai
+  2005, Otto and Whitton 2000, Adams and
+  Wendel 2005, and Edger and Pires 2009
+  are reviews. Husband 2004 was not opened.
+One-sentence prediction: Rare tetraploids
+  suffer a frequency-dependent mating
+  disadvantage (relative fitness about 0.4
+  when rare) that eases only as they become
+  common.
+Assumptions: a mixed sexual 2x / 4x
+  population with pollinator-mediated
+  mating; Vitis is not that mix; grafted
+  clones skip cytotype mating; palaeo-
+  hexaploidy is not a current 2x / 4x
+  trial.
+Which fail here: Vitis is palaeo-hexaploid
+  (Jaillon 2007; no recent WGD), not a
+  mixed 2x / 4x population. Grafted clones
+  skip pollinator-mediated cytotype mating.
+  Dual domestication is two origins. Do
+  not invent a grape cytotype-fitness
+  series.
+Modern data / statistic: whether any
+  Vitis ploidy mix after clone filters is
+  a Husband frequency-dependent fitness
+  series (tetraploid relative fitness
+  about 0.4 when rare), versus palaeo-
+  hexaploidy or two origins.
+Dataset: Jaillon et al. 2007 Nature
+  449:463-467 (DOI 10.1038/nature06148).
+  Three ancestral genomes; no recent WGD.
+  Use as the palaeo-polyploid contrast,
+  not as a published grape 2x / 4x
+  Husband test. Do not invent a grape
+  minority-cytotype paper.
+What would falsify it: Vitis history is
+  not a Husband minority-cytotype fitness
+  series after clone filter (no 2x / 4x
+  mix, or two origins). Stebbins 1947
+  remains types. Masterson 1994 remains
+  stomatal census. Fractionation remains
+  Thomas-Freeling 2006. Levin 1975 remains
+  unopened.
+What we will not claim: that Levin 1975
+  is the opened source (page not opened).
+  That Stebbins 1947 is this paper.
+  That Jaillon 2007 measured 2x / 4x
+  fitness. That Comai 2005 or Ramsey and
+  Schemske 1998 is the source (reviews).
+  That a clone SV is a new cytotype.
+```
+
+---
+
+## Kondrashov 2003 structured DMI
+
+```
+Theory: Kondrashov 2003 linear-versus-
+  quadratic DMI accumulation in a
+  spatially structured population
+Original paper (year): Kondrashov AS. 2003.
+  Accumulation of Dobzhansky-Muller
+  incompatibilities within a spatially
+  structured population. Evolution
+  57(1):151-153 (1 January 2003).
+  DOI 10.1111/j.0014-3820.2003.tb00223.x
+  PMID 12643575. EuropePMC HTML opened
+  (https://europepmc.org/article/MED/12643575):
+  Kondrashov AS, National Center for
+  Biotechnology Information, National
+  Institutes of Health, 45 Center Drive,
+  Bethesda, Maryland 20892-6510, USA;
+  01 Jan 2003; Evolution 57(1):151-153;
+  DOI; PMID; abstract. A simple
+  deterministic analysis: accumulation of
+  DMIs by a spatially structured
+  population depends strongly on how many
+  negative interactions an allele has. If
+  an allele can be incompatible with
+  alleles at only one locus,
+  incompatibilities accumulate linearly
+  with time. If an allele can participate
+  in multiple pairwise incompatibilities
+  with alleles at different loci, the
+  expected number of incompatibilities
+  eventually increases quadratically.
+  Distinct from filled Kondrashov 1995
+  (dangerous-range VSD load; not DMI
+  accumulation). Distinct from dropped
+  Kondrashov 1988 (cost of males).
+  Distinct from filled Orr 1995 (t-squared
+  snowball of complementary genes in
+  allopatry; not the structured linear-
+  versus-quadratic split). Distinct from
+  filled Orr and Turelli 2001 (waiting-
+  time distribution and small p).
+  Distinct from filled Gavrilets 2000
+  (parapatric resident-immigrant wait).
+  Distinct from filled Dobzhansky 1937
+  BDM. Distinct from filled Lynch and
+  Force 2000 Am Nat (this wave; DLS
+  duplicate resolution, not the
+  interaction-number split). Three-page
+  note; the lock is the linear-versus-
+  quadratic claim on the opened abstract.
+One-sentence prediction: In a spatially
+  structured population, DMIs accumulate
+  linearly if each allele is incompatible
+  at only one locus, and eventually
+  quadratically if an allele can join
+  multiple pairwise incompatibilities.
+Assumptions: a spatially structured
+  sexual population accumulating
+  incompatibilities; dual domestication
+  is not that walk; a nursery hybrid is
+  not the accumulation; clones are not
+  incompatible alleles.
+Which fail here: dual domestication is
+  two origins, not a structured DMI
+  walk. Dong 2023 Syl-W gene flow is
+  CAUTION, not a 2003 linear-versus-
+  quadratic series. Human transport is
+  not the paper's spatial structure.
+  Nursery hybrids are not that
+  accumulation.
+Modern data / statistic: whether wild-
+  cultivar or interspecific isolation
+  after clone + IBD filters is a
+  Kondrashov-2003 linear-versus-quadratic
+  accumulation (one interaction versus
+  many), versus two origins or one locus.
+Dataset: Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655). Syl-W
+  gene flow as CAUTION, not a 2003
+  structured DMI series. Use as the
+  linear-versus-quadratic contrast, not
+  as a published grape 2003 analysis.
+  Do not invent a grape structured-DMI
+  paper.
+What would falsify it: isolation is not
+  a 2003 linear-versus-quadratic
+  accumulation after clone filter (flat,
+  or two origins, or one locus).
+  Snowball remains Orr 1995. Waiting
+  time remains Orr-Turelli 2001.
+  Dangerous-range VSD remains
+  Kondrashov 1995. DLS remains Lynch-
+  Force 2000 Am Nat.
+What we will not claim: that Kondrashov
+  1995 is this paper (already filled).
+  That Orr 1995 is this paper. That
+  Kondrashov 1988 is this paper (already
+  dropped). That Dong 2023 fitted a
+  linear-versus-quadratic DMI. That dual
+  domestication is structured speciation.
+```
+
+---
+
+## Cavalier-Smith 1978 nucleoskeletal C-value
+
+```
+Theory: Cavalier-Smith 1978 nucleoskeletal
+  DNA (C-value set by nuclear volume)
+Original paper (year): Cavalier-Smith T.
+  1978. Nuclear volume control by
+  nucleoskeletal DNA, selection for cell
+  volume and cell growth rate, and the
+  solution of the DNA C-value paradox.
+  J Cell Sci 34:247-278 (1 December 1978).
+  DOI 10.1242/jcs.34.1.247 PMID 372199.
+  EuropePMC HTML opened
+  (https://europepmc.org/article/MED/372199):
+  Cavalier-Smith T; 01 Dec 1978; Journal
+  of Cell Science 34:247-278; DOI; PMID;
+  abstract. The 40,000-fold variation in
+  eukaryote haploid DNA content is
+  unrelated to organismic complexity or
+  to the numbers of protein-coding genes.
+  DNA content correlates with cell volume
+  and nuclear volume, and with cell-cycle
+  length and minimum generation time, in
+  protists, animals, and plants. Two
+  non-coding functions: (1) control of
+  cell volume by the number of replicon
+  origins, and (2) determination of
+  nuclear volume by the overall bulk of
+  the DNA. Cell growth rates depend on
+  cell volume and on nuclear-envelope
+  area available for RNA transport, which
+  depends on nuclear volume and therefore
+  on DNA content. Nuclear volume, and
+  therefore DNA content, must be adjusted
+  to cell volume for reasonable growth
+  rates. Diversity of C-values is a
+  varying balance of r-selection (small
+  cells, rapid growth, low C-value) and
+  K-selection (large cells, slow growth,
+  high C-value). Eukaryote DNA is genic
+  G-DNA versus nucleoskeletal S-DNA,
+  which exists for its role in setting
+  nuclear volume. EuropePMC tags the
+  record Review; the opened page is the
+  named nucleoskeletal original (G-DNA
+  versus S-DNA; r / K on C-value), not
+  a later review dump. Distinct from
+  filled Ohno 1972 (C-value is not gene
+  number; junk as failed-duplication
+  debris; not nucleoskeletal volume
+  control). Distinct from filled Ohno
+  1970 gene balance. Distinct from
+  filled Doolittle-Sapienza / Orgel-Crick
+  1980 selfish DNA. Distinct from filled
+  Masterson 1994 stomatal polyploidy.
+  Distinct from filled Stebbins 1947
+  types. Cavalier-Smith 2005 was not
+  opened. Bennett and Leitch 2011 is a
+  review.
+One-sentence prediction: Haploid DNA
+  content varies about 40,000-fold
+  independently of gene number because
+  bulk nucleoskeletal DNA sets nuclear
+  volume, and r- versus K-selection on
+  cell size sets C-value.
+Assumptions: nuclear volume tracks DNA
+  bulk, and cell size is under r / K
+  selection; a palaeo-hexaploid gene set
+  is not that nucleoskeletal series;
+  clone SVs change dose without changing
+  C-value.
+Which fail here: Vitis is palaeo-
+  hexaploid (Jaillon 2007), not a
+  Cavalier-Smith nucleoskeletal C-value
+  series. Clone SVs (Zhou 2019 /
+  Carbonell-Bejerano 2017) change dose
+  without a new C-value. Tandem NLR
+  arrays are not S-DNA. Scoring only
+  genes on a 12X panel hides the repeat
+  / TE fraction (that remains the Ohno
+  1972 job).
+Modern data / statistic: whether Vitis
+  genome size after clone filters is a
+  Cavalier-Smith nucleoskeletal function
+  of nuclear / cell volume (r / K on
+  C-value), versus gene-number C-value
+  or junk / TE debris.
+Dataset: Jaillon et al. 2007 Nature
+  449:463-467 (DOI 10.1038/nature06148).
+  Three ancestral genomes; no recent WGD.
+  Carrier 2012 / Vondras 2019 as TE /
+  repeat companions (TE is not scored
+  here as S-DNA). Use as the C-value
+  contrast, not as a published grape
+  nucleoskeletal analysis. Do not invent
+  a grape nuclear-volume paper.
+What would falsify it: Vitis genome size
+  is not a nucleoskeletal volume function
+  after clone filter (gene-number
+  C-value, or junk / TE debris). Ohno
+  1972 remains junk / C-value. Selfish
+  DNA remains Doolittle-Sapienza / Orgel-
+  Crick 1980. Masterson 1994 remains
+  stomatal polyploidy.
+What we will not claim: that Ohno 1972
+  is this paper (already filled). That
+  Ohno 1970 is this paper. That
+  Cavalier-Smith 2005 is the source
+  (not opened). That Jaillon 2007
+  measured nuclear volume. That a clone
+  SV is a new C-value. That the EuropePMC
+  Review tag makes this a later review
+  dump.
+```
+
+---
