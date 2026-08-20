@@ -3,7 +3,8 @@ name: genomics-theory-mining
 description: >
   Dig up a classic genomics or population-genetic theory and test it
   against modern data. Use when the user wants old-theory mining,
-  forgotten models, Muller ratchet, gene balance, nearly-neutral,
+  forgotten models, Muller ratchet, background selection, Meselson,
+  BDM, DDC, Baker, isolation by distance, gene balance, nearly-neutral,
   hitchhiking, Hill-Robertson, Ohno WGD, or a revival paper that
   is not a methods benchmark.
 ---
@@ -12,7 +13,7 @@ description: >
 
 The paper is the old math plus a new test, not a review with extra adjectives.
 Find the original, list the assumptions, then say which modern data can break them.
-Filled notes live in `theories.md`. One theory per job.
+Filled notes live in `theories.md` (seventeen notes: eight first wave, nine second wave). One theory per job.
 
 ## When to use
 
@@ -105,8 +106,21 @@ heterozygotes in clonal lineages).
 | Neutral theory (null) | Kimura 1968 Nature 217:624-626 | Most substitutions are drift of neutrals | Treating "neutral" as a conclusion | Clone-private coding SNPs are systematically adaptive, not a drift null |
 | Infinite-sites | Kimura 1969 Genetics 61:893-903; Watterson 1975 Theor Popul Biol 7:256-276 | Each mutation hits a new site; theta from S | Recurrent TE and gene conversion | Carrier 2012 / Vondras 2019: recurrent TE or same-site hits make pi != theta_W |
 | McClintock TE | McClintock 1950 PNAS 36:344-355 | Mobile loci generate new mutable alleles | Scoring only SNPs | Method-fair genome-wide census: TE insertions negligible vs SNPs (Carrier 2012 scored the opposite in Pinot) |
+| Background selection | Charlesworth, Morgan and Charlesworth 1993 Genetics 134:1289-1303 | Linked neutral diversity falls where deleterious mutation is purged | Chip skeleton is not a recombination map | Diversity not reduced in low-recombination bins on a real Vitis map after gene-density control |
+| Meselson effect | Mark Welch and Meselson 2000 Science 288:1211-1215 (test, not a 1960s original) | Alleles diverge without sex | Grape clones are heterozygous diploids with rare sex; Roach 2018 inbreeding cuts the other way | Haplotype divergence in old clones is not higher than sexual wilds after standing heterozygosity |
+| Organelle ratchet | Muller 1964 applied to organelles; Lynch 1996 Mol Biol Evol 13:209-220 (animal mt tRNA) | Non-recombining plastid / mt load ratchets | No locked grape plastid popgen paper | Plastid assemblies / haplotypes: organelle coding not excess-deleterious vs nuclear after mu correction |
+| BDM incompatibilities | Dobzhansky 1937 Genetics and the Origin of Species (book) | Hybrid inviability is two-locus (or more) | Cultivar x cultivar is not a species cross | Hybrid inviability in vinifera x riparia / rupestris / amurensis maps to a single locus |
+| DDC / subfunctionalization | Force et al. 1999 Genetics 151:1531-1545 | Ohnologs partition ancestral subfunctions | Retention is not partitioned expression | Jaillon 2007 ohnolog pairs do not show partitioned expression / function vs random retention |
+| Selfish DNA | Doolittle and Sapienza 1980 Nature 284:601-603; Orgel and Crick 1980 Nature 284:604-607 | TEs persist by self-replication | Some copies are domesticated | TE insertions systematically adaptive / domesticated, not mostly insertion-class load (Carrier 2012 / Vondras 2019) |
+| Baker's law | Baker 1955 Evolution 9:347-349 | Self-compatible colonists establish after long-distance dispersal | A vineyard is not an island; some sylvestris already carry H haplotypes | Wild sylvestris hermaphrodite at the same rate as cultivars, or sex-locus sweep vanishes after IBD filter |
+| Isolation by distance | Wright 1943 Genetics 28:114-138 | Similarity declines with geographic distance | Rivers and humans move vines | IBD slope is zero in wild sylvestris after river / human transport |
+| Diplontic selection | Klekowski 1988 Mutation, Developmental Selection, and Plant Evolution (book) | Meristem cell-lineage competition purges somatic load | Recessives and chimeras evade the filter | Clone-private coding mutations not depleted vs intergenic after mutational-opportunity correction |
+
+Seventeen filled notes (eight first wave, nine second wave). Long form in `theories.md`. One theory per job.
 
 Kondrashov 1988 (cost of males) is on the door list but was not filled: it does not map onto grafted clones.
+Muller 1942 was not locked on a publisher page and is not cited for BDM.
+Flor 1971 is a review and was not used as a theory source.
 
 ## Plant / Vitis checks
 
@@ -115,6 +129,11 @@ Kondrashov 1988 (cost of males) is on the door list but was not filled: it does 
 - Somatic mutation and germline mutation are different clocks. Say which one you measured.
 - Plastid / TE / graph coordinates are not interchangeable with a 12X SNP panel.
 - aDNA samples project onto a modern panel; they do not redefine the theory.
+- A real recombination map is required for background selection and Hill-Robertson. A chip skeleton is not that map.
+- Standing heterozygosity and ancestral inbreeding (Roach 2018) are not the Meselson effect.
+- Wild sylvestris geography is the isolation-by-distance test; a cultivar PCA is not.
+- Hermaphroditism is the Baker test (Dong 2023 SDR on chromosome 2), not VviAGL11.
+- Diplontic selection in meristems is a caveat on the ratchet, not a replacement theory.
 
 ## Sources to open first (fetched)
 
@@ -136,6 +155,15 @@ Kondrashov 1988 (cost of males) is on the door list but was not filled: it does 
 - Zhou 2019: https://doi.org/10.1038/s41477-019-0507-8
 - Jaillon 2007: https://doi.org/10.1038/nature06148
 - Lovell 2017: https://doi.org/10.1371/journal.pgen.1006550
+- Charlesworth, Morgan and Charlesworth 1993: https://doi.org/10.1093/genetics/134.4.1289 (PMID 8375663 PMC1205596)
+- Mark Welch and Meselson 2000: https://doi.org/10.1126/science.288.5469.1211 (PMID 10817991)
+- Lynch 1996: https://doi.org/10.1093/oxfordjournals.molbev.a025557 (PMID 8583893)
+- Force et al. 1999: https://doi.org/10.1093/genetics/151.4.1531 (PMID 10101175 PMC1460548)
+- Doolittle and Sapienza 1980: https://doi.org/10.1038/284601a0 (PMID 6245369)
+- Orgel and Crick 1980: https://doi.org/10.1038/284604a0 (PMID 7366731)
+- Baker 1955: https://doi.org/10.1111/j.1558-5646.1955.tb01544.x (also 10.2307/2405656)
+- Wright 1943: https://doi.org/10.1093/genetics/28.2.114 (PMID 17247074 PMC1209196)
+- Klekowski 1988 book: https://doi.org/10.7312/klek92068
 
 ## Red lines
 
@@ -145,5 +173,8 @@ Kondrashov 1988 (cost of males) is on the door list but was not filled: it does 
 - Do not turn this into a 50-theory catalog. One theory per job.
 - No unpublished genotypes or private site coordinates in the public note.
 - Label Pol-e x ratchet as a TESTABLE HUNCH, never as a grape result.
+- Do not cite Mark Welch and Meselson 2000 as a 1960s original.
+- Do not invent a grape plastid popgen paper or a grape BDM map.
+- Do not write VviAGL11 as the sex gene (Dong 2023 SDR is chromosome 2).
 
 Related: `plant-lit-review`, `vitis-popgen`, `grapevine-adna`, `vitis-pangenome`.

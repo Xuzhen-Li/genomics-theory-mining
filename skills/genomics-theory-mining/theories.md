@@ -286,3 +286,311 @@ What would falsify it: in a genome-wide, method-fair census, clone
 What we will not claim: that every berry-color sport is a TE
   (Carbonell-Bejerano 2017 is a rearrangement, not a TE proof).
 ```
+
+---
+
+## Background selection
+
+```
+Theory: Background selection
+Original paper (year): Charlesworth B, Morgan MT, Charlesworth D. 1993.
+  The effect of deleterious mutations on neutral molecular variation.
+  Genetics 134(4):1289-1303. DOI 10.1093/genetics/134.4.1289
+  PMID 8375663 PMC1205596.
+One-sentence prediction: Selection against recurrent deleterious alleles
+  reduces linked neutral diversity; the reduction is strongest with
+  little or no recombination (and in asexuals or selfers) and is an
+  exponential function of the deleterious mutation rate in that segment.
+Assumptions: a meaningful recombination map; mutation-selection
+  balance at many linked loci; the observed diversity is sexual /
+  meiotic, not clone-IBD.
+Which fail here: a SNP-chip skeleton is not a recombination map.
+  Grafted clones have no meiosis between cuttings. Gene density and
+  mutability covary with recombination and can fake a BGS dip.
+Modern data / statistic: nucleotide diversity in recombination-rate
+  bins on a real Vitis map, after gene-density and mutability control,
+  in sexually derived wild or seedling material (not clone-vs-clone).
+What would falsify it: diversity is not reduced in low-recombination
+  bins after gene-density (and mutability) control.
+What we will not claim: that a clone SNP-density track is background
+  selection. That is the Hill-Robertson / hitchhiking caution again.
+```
+
+Same map requirement as Hill-Robertson. Different job: BGS is the
+deleterious-linked null for a diversity dip, not interference among
+selected loci.
+
+---
+
+## Meselson effect (allelic divergence in asexuals)
+
+```
+Theory: Meselson effect (allelic divergence without sex)
+Original paper (year): Mark Welch DB, Meselson M. 2000. Evidence for
+  the evolution of bdelloid rotifers without sexual reproduction or
+  genetic exchange. Science 288(5469):1211-1215.
+  DOI 10.1126/science.288.5469.1211 PMID 10817991.
+  This is the molecular TEST of allelic divergence, not a 1960s
+  original. Do not cite it as the source of asexuality theory.
+One-sentence prediction: After long enough without sex or genetic
+  exchange, formerly allelic haplotypes become highly divergent and
+  the genome lacks pairs of closely similar sequences.
+Assumptions: obligate asexuality for a deep time; no ameiotic
+  homogenization; the two copies started as alleles, not ohnologs.
+Which fail here: grape cultivars are heterozygous diploids with rare
+  sex in the pedigree, not bdelloids. Standing heterozygosity from
+  the last outcross is not Meselson divergence. Roach 2018 reports
+  ancestral inbreeding in Chardonnay, which cuts the opposite way
+  (too little, not too much, haplotype divergence).
+Modern data / statistic: haplotype / allelic divergence in old
+  vegetatively propagated clones versus sexual wild Vitis, after
+  subtracting standing heterozygosity at the last sexual node.
+Caution dataset: Roach MJ et al. 2018. PLoS Genet 14(11):e1007807
+  (DOI 10.1371/journal.pgen.1007807). 15 Chardonnay clones; ancestral
+  inbreeding. Use as a CAUTION, not as a Meselson demonstration.
+What would falsify it: haplotype divergence in old clones is not
+  higher than in sexual wilds after accounting for standing
+  heterozygosity.
+What we will not claim: that a grape clone is an ancient asexual;
+  that Flot 2013 bdelloid genomics is a Vitis result (dropped).
+```
+
+---
+
+## Organelle / plastid Muller ratchet
+
+```
+Theory: Muller ratchet in non-recombining organelles
+Original paper (year): Muller HJ. 1964. The relation of recombination
+  to mutational advance. Mutat Res 1:2-9.
+  DOI 10.1016/0027-5107(64)90047-8 PMID 14195748.
+  Organelle application (locked): Lynch M. 1996. Mutation accumulation
+  in transfer RNAs: molecular evidence for Muller's ratchet in
+  mitochondrial genomes. Mol Biol Evol 13(1):209-220.
+  DOI 10.1093/oxfordjournals.molbev.a025557 PMID 8583893.
+  Lynch 1996 is animal mitochondrial tRNA, not a chloroplast paper
+  and not a grape paper.
+One-sentence prediction: A non-recombining organelle haplotype cannot
+  restore a least-loaded class once it is lost, so mildly deleterious
+  substitutions accumulate relative to a recombining nuclear control.
+Assumptions: no (or rare) organelle recombination / paternal leakage
+  that rebuilds the clean class; a nuclear comparison with a known
+  mutation-rate difference; the organelle sample is not one clone.
+Which fail here: plastid inheritance in Vitis is typically maternal,
+  but biparental leakage and intracellular gene conversion are not
+  ruled out by a haplotype label. A cultivar collection is not Ne.
+  No grape plastid population-genetic paper was locked for this skill.
+Modern data / statistic (dataset type only): complete plastid
+  assemblies or haplotype alignments of Vitis, scored for coding
+  load or tRNA-stem stability versus nuclear genes after a
+  mutation-rate correction.
+What would falsify it: plastid coding / tRNA sites are not
+  excess-deleterious relative to nuclear genes after mutation-rate
+  correction, OR a least-loaded plastid class is continually restored.
+What we will not claim: that Lynch 1996 measured grape plastids;
+  that a published grape chlorotype paper is a ratchet test (none
+  was locked). Do not invent a Vitis plastid popgen citation.
+```
+
+---
+
+## Bateson-Dobzhansky-Muller incompatibilities
+
+```
+Theory: Bateson-Dobzhansky-Muller hybrid incompatibilities
+Original paper (year): Dobzhansky T. 1937. Genetics and the Origin
+  of Species. Columbia University Press. Book. Isolating mechanisms
+  and hybrid incompatibility as two-locus (or multi-locus) products
+  of divergence, not a single substitution that is unfit in the
+  ancestor.
+  Muller 1942 was not locked on a publisher page and is not cited.
+  Bateson 1909 was not locked as the two-locus source and is not cited.
+One-sentence prediction: Hybrid inviability or sterility is caused
+  by incompatible alleles at two or more loci that never co-occurred
+  in either parent lineage.
+Assumptions: the parents are diverged populations / species; the
+  hybrid phenotype is genetic, not graft incompatibility or virus;
+  a single-locus model can be rejected.
+Which fail here: a cultivar x cultivar cross is not a species cross.
+  Rootstock "failure" can be soil, virus, or graft, not BDM.
+  Unreduced gametes and ploidy in Vitis hybrids are not two-locus
+  epistasis.
+Modern data / statistic (dataset type only): Vitis interspecific
+  hybrids (V. vinifera x V. riparia / V. rupestris / V. amurensis)
+  or a mapping family from those crosses, scored for inviability /
+  sterility QTL. No grape BDM mapping paper was locked.
+What would falsify it: hybrid inviability maps to a single locus,
+  not two-locus (or multi-locus) BDM.
+What we will not claim: that every failed vinifera x American
+  rootstock cross is a Dobzhansky incompatibility.
+```
+
+---
+
+## DDC / subfunctionalization
+
+```
+Theory: Duplication-degeneration-complementation (subfunctionalization)
+Original paper (year): Force A, Lynch M, Pickett FB, Amores A,
+  Yan YL, Postlethwait J. 1999. Preservation of duplicate genes by
+  complementary, degenerative mutations. Genetics 151(4):1531-1545.
+  DOI 10.1093/genetics/151.4.1531 PMID 10101175 PMC1460548.
+One-sentence prediction: Complementary degenerative mutations
+  partition ancestral subfunctions so both duplicates are required;
+  preservation need not wait for a new function.
+Assumptions: independently mutable subfunctions (often regulatory);
+  ohnologs can be told from tandem copies; "partitioned" is scored
+  against the ancestral expression / function, not against a
+  present-day singleton.
+Which fail here: Vitis is palaeo-hexaploid; many "ohnologs" are
+  old. Retention by dosage balance (Ohno / Birchler) is a different
+  job. Tandem NLR arrays are not DDC.
+Modern data / statistic: partitioned expression or function in
+  palaeo-hexaploid ohnolog pairs versus randomly retained pairs.
+Dataset: Jaillon O et al. 2007. Nature 449:463-467.
+  DOI 10.1038/nature06148 PMID 17721507. Three ancestral genomes;
+  no recent WGD. Use the ohnolog set. Do not invent a grape
+  expression-atlas paper.
+What would falsify it: ohnolog pairs do not show partitioned
+  expression or function versus randomly retained pairs.
+What we will not claim: that every retained grape duplicate is
+  DDC (gene-balance is the alternative filled note).
+```
+
+---
+
+## Selfish DNA
+
+```
+Theory: Selfish DNA
+Original papers (year): Doolittle WF, Sapienza C. 1980. Selfish
+  genes, the phenotype paradigm and genome evolution. Nature
+  284:601-603. DOI 10.1038/284601a0 PMID 6245369.
+  Orgel LE, Crick FHC. 1980. Selfish DNA: the ultimate parasite.
+  Nature 284:604-607. DOI 10.1038/284604a0 PMID 7366731.
+  Same issue; cite both. Neither is a review of the other.
+One-sentence prediction: Sequences can spread because they replicate
+  inside the genome; no organismal function is required to explain
+  their existence.
+Assumptions: transposition (or other non-phenotypic survival) is
+  demonstrated; "function" is not assumed from presence.
+Which fail here: a few TE insertions are domesticated (promoters,
+  color sports). Domestication of some copies does not make the
+  insertion class adaptive. Scoring only SNPs hides the TE clock.
+Modern data / statistic: clone-private TE insertions versus
+  adaptive / domesticated annotations in the same cultivar.
+Datasets: Carrier et al. 2012 PLoS ONE 7(3):e32973 (147 mobile-
+  element insertion events in Pinot noir; TE the largest scored
+  class). Vondras et al. 2019 BMC Genomics 20:972 (TE insertions
+  among Zinfandel clones).
+What would falsify it: TE insertions are systematically
+  domesticated or adaptive, not mostly insertion-class load.
+What we will not claim: that McClintock 1950 is the selfish-DNA
+  paper (different job: mutable alleles). That every berry-color
+  sport is a TE (Carbonell-Bejerano 2017 is a rearrangement).
+```
+
+---
+
+## Baker's law
+
+```
+Theory: Baker's law (self-compatible colonists)
+Original paper (year): Baker HG. 1955. Self-compatibility and
+  establishment after long-distance dispersal. Evolution
+  9(3):347-349. DOI 10.1111/j.1558-5646.1955.tb01544.x
+  (also 10.2307/2405656). Pages are sometimes listed 347-348.
+One-sentence prediction: After long-distance dispersal, uniparental
+  (self-compatible or hermaphrodite) colonists establish more
+  readily than self-incompatible or obligately outcrossing ones.
+Assumptions: a true colonization step with a mate-finding problem;
+  the self-compatible state is derived in the colonists, not
+  already fixed in the source.
+Which fail here: a nursery or a grafted vineyard is not an oceanic
+  island. Humans move both sexes and cuttings. Wild V. sylvestris
+  is dioecious; cultivated V. vinifera is mostly hermaphrodite,
+  but some wild accessions already carry hermaphrodite haplotypes.
+Modern data / statistic: frequency of hermaphrodite sex-locus
+  genotypes in wild sylvestris versus cultivars, and whether the
+  chromosome-2 sex-determination-region (SDR) sweep survives
+  clone and IBD filters.
+Dataset: Dong Y et al. 2023. Science. DOI 10.1126/science.add8655
+  PMID 36862793. Dual domestications; SDR on chromosome 2;
+  hermaphrodite haplotypes (H1, H2 and rarer H types) from
+  recombination between male (M) and female (f). Some sylvestris
+  accessions in that panel already carry H haplotypes. Use as a
+  caution dataset, not a proof of Baker 1955.
+What would falsify it: wild sylvestris is already hermaphrodite
+  at the same rate as cultivars, OR the sex-locus sweep vanishes
+  after IBD / clone filters.
+What we will not claim: that VviAGL11 is the sex gene (that name
+  is used for seedlessness, not the SDR). That Dong 2023 proved
+  Baker's law.
+```
+
+---
+
+## Isolation by distance
+
+```
+Theory: Isolation by distance
+Original paper (year): Wright S. 1943. Isolation by distance.
+  Genetics 28(2):114-138. DOI 10.1093/genetics/28.2.114
+  PMID 17247074 PMC1209196.
+One-sentence prediction: Under limited dispersal, genetic
+  similarity declines with geographic distance; the slope is set
+  by the neighborhood size.
+Assumptions: isolation-by-distance in a continuous or stepping-
+  stone sexual population; distance is geographic, not river-km
+  or road-km unless you model those as the dispersal kernel;
+  samples are not clones or cultivars.
+Which fail here: humans and rivers move grapevines. A cultivar
+  panel has no geography in the Wright sense. feral vines are
+  not wild sylvestris.
+Modern data / statistic: isolation-by-distance slope (FST or
+  relatedness versus kilometers) in wild V. sylvestris, after
+  dropping cultivars, feral escapes, and clones.
+Dataset: Dong et al. 2023 Science (DOI 10.1126/science.add8655).
+  3525-accession WGS includes wild sylvestris. Use the wild
+  subset as a geography test, not the cultivar cloud.
+What would falsify it: the isolation-by-distance slope is zero
+  after accounting for river and human transport.
+What we will not claim: that a wine-region PCA is Wright 1943.
+```
+
+---
+
+## Diplontic selection (optional extra)
+
+```
+Theory: Diplontic / developmental selection in meristems
+Original paper (year): Klekowski EJ. 1988. Mutation, Developmental
+  Selection, and Plant Evolution. Columbia University Press.
+  DOI 10.7312/klek92068. Book. Cell-lineage competition in
+  meristems can purge or fix somatic mutations before they become
+  the shoot.
+One-sentence prediction: Within a growing plant, cell lineages
+  that carry deleterious somatic mutations lose meristem space, so
+  the transmitted shoot is cleaner than the raw somatic mutation
+  rate.
+Assumptions: a structured meristem (layers, initials); a fitness
+  effect at the cell or sector level; the mutation is visible to
+  that competition (many recessives are not).
+Which fail here: grape shoots are chimeric; a sport can be a
+  layer-restricted mutant that diplontic selection did not purge.
+  Recessive load is invisible in a diploid meristem. Nursery
+  selection on cuttings is not Klekowski's cell-lineage filter.
+Modern data / statistic: clone-private coding mutations versus
+  intergenic / fourfold sites in the same vegetatively propagated
+  cultivar (Vondras 2019; Callipo 2026 reports SNPs/SVs depleted
+  from coding sequence — a test bed, not a proof).
+Companion: Carbonell-Bejerano et al. 2017 (layer-visible
+  rearrangement that survived as a color sport).
+What would falsify it: clone-private coding mutations are not
+  depleted relative to intergenic sites after mutational-
+  opportunity correction, OR chimeric load is freely transmitted.
+What we will not claim: that coding depletion in Callipo 2026
+  proved diplontic selection (constraint and methylation are
+  alternatives). That diplontic selection cancels Muller's ratchet
+  (it is a caveat in that note, not a replacement).
+```
