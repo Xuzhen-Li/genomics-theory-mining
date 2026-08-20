@@ -16,7 +16,8 @@ description: >
   molecular drive, Holliday conversion, quasispecies, serial founder,
   Lande response, endosymbiosis, Vavilov, Price equation, Hamilton, Nei distance, Weir-Cockerham FST,
   Orr adaptation, Y degeneration, Mayr BSC, HKA, Lewontin-Krakauer, Fay-Wu, Fu-Li, Slatkin gene flow, tension zone,
-  Endler clines, Crow load, or a revival paper that
+  Endler clines, Crow load, Haldane cline, Slatkin 1973, Nagylaki, Key tension zone, Barton coupling,
+  Kaplan hitchhiking, Braverman SFS, Berg-Coop, Rockman QTN, or a revival paper that
   is not a methods benchmark.
 ---
 
@@ -184,8 +185,17 @@ heterozygotes in clonal lineages).
 | Hybrid-zone dynamics | Barton 1979 Heredity 43:341-359 | A tension zone sits where dispersal balances selection against hybrids | Nursery hybrid is not a tension zone | Dong 2023 Syl-W gene flow is CAUTION, not a trapped cline (Anderson / reinforcement remain other jobs) |
 | Geographic variation / clines | Endler 1977 Geographic Variation, Speciation and Clines (book) | Steep clines and parapatric split can form despite continuous gene flow | Dual domestication; human transport | Dong 2023: no Endler cline / parapatric split after clone + IBD filters |
 | Mutational / genetic load | Crow 1958 Hum Biol 30:1-13 | Standing fitness is lowered by recurrent mutation (and by segregation / incompatibility) | Grafted clones are not a sexual load equilibrium | Wild coding load not a Crow mutational-load partition after clone filter |
+| Haldane cline | Haldane 1948 J Genet 48:277-284 | Cline slope at a habitat boundary is a function of selection intensity and migration distance | A vineyard is not a habitat boundary; clones fake allele frequency | Dong 2023: no Haldane equilibrium cline after clone + IBD filters |
+| Slatkin cline characteristic length | Slatkin 1973 Genetics 75:733-756 | A population cannot adapt to environmental change shorter than a characteristic length set by gene flow and selection | Human transport is not Slatkin dispersal; clones fake clines | Dong 2023 wilds: no characteristic-length cline after clone filter |
+| Nagylaki cline existence | Nagylaki 1975 Genetics 80:595-615 | If migration is too strong (or selection too weak), a cline cannot exist; the population is monomorphic unless overdominant | Dual domestication is not one habitat; nurseries are not migration | Dong 2023: no Nagylaki cline (too much transport, or two origins) after clone filter |
+| Key tension zone | Key 1968 Syst Zool 17:14-22 | A tension zone is a narrow secondary-intergradation front that acts as a semipermeable membrane | Nursery hybrid is not a tension zone | Dong 2023 Syl-W gene flow is CAUTION, not a Key membrane (Barton 1979 remains the dynamics job) |
+| Barton multilocus clines | Barton 1983 Evolution 37:454-471 | Coupling theta = s/r; when selection exceeds recombination the genome acts as one barrier | A cultivar panel is not a multilocus hybrid zone | Dong 2023: no coupled multilocus barrier after clone + IBD filters |
+| Kaplan coalescent hitchhiking | Kaplan, Hudson and Langley 1989 Genetics 123:887-899 | Recurrent hitchhiking in low recombination substantially reduces the number of polymorphic sites | Clone IBD fakes a diversity trough | Dong 2023 color / sex / flavor: no Kaplan reduction after clone + IBD filters |
+| Braverman hitchhiking SFS | Braverman et al. 1995 Genetics 140:783-796 | Simple hitchhiking predicts a large negative Tajima D (excess of rare variants) | Clone-private SNPs are not rare variants from a sweep | After clone + IBD filters, candidate loci do not show the simple-hitchhiking SFS (Tajima remains another job) |
+| Berg-Coop polygenic adaptation | Berg and Coop 2014 PLoS Genet 10:e1004412 | Adaptation on a polygenic trait is coordinated frequency shifts at many small-effect loci, not a single-locus sweep | Color / sex / flavor are large-effect; clones fake genetic values | Dong 2023 color / sex / flavor peaks are few large-effect loci, not a Berg-Coop coordinated shift |
+| Rockman QTN versus polygenes | Rockman 2012 Evolution 66:1-17 | Discoverable large-effect QTNs are unrepresentative; typical evolution is many undetectable small-effect polygenes | Domestication QTNs are not the typical-evolution sample | Dong 2023 color / sex / flavor are large-effect (QTN-class), not Rockman undetectable polygenes |
 
-Seventy-five filled notes (eight first wave, nine second wave, nine third wave, twelve fourth wave, ten fifth wave, ten sixth wave, nine seventh wave, eight eighth wave). Long form in `theories.md`. One theory per job.
+Eighty-four filled notes (eight first wave, nine second wave, nine third wave, twelve fourth wave, ten fifth wave, ten sixth wave, nine seventh wave, eight eighth wave, nine ninth wave). Long form in `theories.md`. One theory per job.
 
 Kondrashov 1988 (cost of males) is on the door list but was not filled: it does not map onto grafted clones.
 Muller 1942 was not locked on a publisher page and is not cited for BDM.
@@ -286,6 +296,16 @@ centromere / CenH3 paper is locked.
 - Endler 1977 is clines / parapatric differentiation despite gene flow (book). Not Wright 1943 and not Barton 1979.
 - Crow 1958 is the mutational / segregation / incompatibility load partition. Haldane 1957 remains does-not-map (substitution cost). Haldane 1927 remains equilibrium q. Muller 1964 remains the ratchet. Muller 1950 body was not opened.
 
+- Haldane 1948 is the selection-migration slope of an equilibrium cline at a habitat boundary. Endler 1977 remains the parapatric-despite-gene-flow book. Barton 1979 remains tension-zone dynamics. Wright 1943 remains continuous IBD. Fisher 1937 was not opened.
+- Slatkin 1973 is characteristic length: populations cannot track environmental grain shorter than that scale. Distinct from Slatkin 1985 private alleles and Slatkin 1993 pairwise M.
+- Nagylaki 1975 is the existence threshold: too much migration erases the cline (monomorphism unless overdominance). Distinct from Haldane 1948 slope-given-a-cline.
+- Key 1968 names the tension zone as a semipermeable secondary-intergradation membrane. Barton 1979 remains the dynamics original. Barton and Hewitt 1985 remains a review.
+- Barton 1983 is multilocus coupling (theta = s/r) and a genome-wide barrier. Distinct from 1979 single-locus / hybrid-zone dynamics.
+- Kaplan, Hudson and Langley 1989 is coalescent hitchhiking reducing the number of polymorphic sites in low recombination. Maynard Smith and Haigh 1974 remains deterministic collapse. Charlesworth 1993 remains BGS. Fay-Wu 2000 remains derived high-frequency H. Stephan 1992 was not opened.
+- Braverman et al. 1995 is the hitchhiking SFS: simple hitchhiking predicts large negative Tajima D. Tajima 1989 remains the statistic. Kaplan 1989 remains the site-count job. Clone-private SNPs are not rare sweep variants.
+- Berg and Coop 2014 is polygenic adaptation as coordinated frequency shifts. Pritchard, Pickrell and Coop 2010 is a review. Hermisson 2005 remains the soft-sweep original. Fisher 1918 remains infinitesimal inheritance.
+- Rockman 2012 is the claim that mapped large-effect QTNs mislead about typical evolution. Distinct from Fisher 1918. Boyle 2017 omnigenic was a review.
+
 ## Sources to open first (fetched)
 
 - Muller 1964: https://doi.org/10.1016/0027-5107(64)90047-8
@@ -380,6 +400,16 @@ centromere / CenH3 paper is locked.
 - Barton 1979: https://doi.org/10.1038/hdy.1979.87 (Nature / Heredity HTML)
 - Endler 1977 book: https://press.princeton.edu/books/paperback/9780691081922/geographic-variation-speciation-and-clines
 - Crow 1958: EuropePMC REST EXT_ID 13513111; reprint PDF https://freethoughtblogs.com/pharyngula/files/2015/01/crow_selectioninman.pdf (1958 imprint on the reprint)
+
+- Haldane 1948: https://doi.org/10.1007/BF02986626 (EuropePMC MED 18905075; IAS https://www.ias.ac.in/article/fulltext/jgen/048/03/0277-0284)
+- Slatkin 1973: https://doi.org/10.1093/genetics/75.4.733 (PMC1213045; EuropePMC MED 4778791)
+- Nagylaki 1975: https://doi.org/10.1093/genetics/80.3.595 (PMC1213362; EuropePMC MED 1232026)
+- Key 1968: https://doi.org/10.1093/sysbio/17.1.14 (Oxford Academic HTML)
+- Barton 1983: https://doi.org/10.1111/j.1558-5646.1983.tb05563.x (EuropePMC MED 28563316; ISTA https://research-explorer.ista.ac.at/record/3668)
+- Kaplan, Hudson and Langley 1989: https://doi.org/10.1093/genetics/123.4.887 (PMC1203897; EuropePMC MED 2612899)
+- Braverman et al. 1995: https://doi.org/10.1093/genetics/140.2.783 (PMC1206652; EuropePMC MED 7498754)
+- Berg and Coop 2014: https://doi.org/10.1371/journal.pgen.1004412 (PMC4125079; EuropePMC MED 25102153; PLoS HTML)
+- Rockman 2012: https://doi.org/10.1111/j.1558-5646.2011.01486.x (PMC3386609; EuropePMC MED 22220860)
 
 ## Red lines
 
@@ -491,5 +521,39 @@ Barton and Hewitt 1985 Analysis of hybrid zones. Annu Rev Ecol Syst 16:113-148 i
 - Do not write Fu-Li 1993 as Tajima 1989.
 - Do not write Lewontin-Krakauer 1973 as Wright 1931 / 1943 or as Weir-Cockerham 1984.
 - Do not invent a grape FST-outlier, Fay-Wu, Fu-Li, private-allele, pairwise-M, hybrid-zone, cline, or genetic-load paper.
+
+Wright S. 1951. The genetical structure of populations. Ann Eugen 15(4):323-354 (also printed 1949). DOI 10.1111/j.1469-1809.1949.tb02451.x PMID 24540312. Wright 1965 Evolution 19:395-420 DOI 10.1111/j.1558-5646.1965.tb01731.x. Still no claim text. DROP. 1931 remains island math; 1943 remains IBD; 1984 remains the estimator.
+Slatkin M. 1987. Gene flow and the geographic structure of natural populations. Science 236(4803):787-792. DOI 10.1126/science.3576198 PMID 3576198. Review. DROP. 1985 is the lock.
+Mayr E. 1954. Change of genetic environment and evolution. Pp. 157-180 in Huxley J, Hardy AC, Ford EB, eds. Evolution as a Process. Allen and Unwin, London. Chapter PDF still not opened. 1942 remains the BSC lock. Serial founder remains Ramachandran 2005.
+Muller HJ. 1950. Our load of mutations. Am J Hum Genet 2(2):111-176. PMID 14771033 PMC1716299. Body still not opened. Crow 1958 remains the load lock.
+Barton NH, Hewitt GM. 1985. Analysis of hybrid zones. Annu Rev Ecol Syst 16:113-148. Review. 1979 and 1983 are the locks.
+Fisher RA. 1937. The wave of advance of advantageous genes. Ann Eugen 7(4):355-369. DOI 10.1111/j.1469-1809.1937.tb02153.x. Wiley HTML opened as a historical-archive disclaimer only (no scientific abstract). Adelaide digital-library PDF 404. DROP without a quoted wave-of-advance claim from an opened page.
+Kolmogorov AN, Petrovsky IG, Piscounov NS. 1937. KPP travelling-wave equation. Russian original not opened. DROP.
+Stephan W, Wiehe THE, Lenz MW. 1992. The effect of strongly selected substitutions on neutral polymorphism: analytical results based on diffusion theory. Theor Popul Biol 41(2):237-254. DOI 10.1016/0040-5809(92)90045-U. ScienceDirect HTML timed out; no EuropePMC / PMID page opened this wave. DROP. Kaplan 1989 is the coalescent-hitchhiking lock.
+Nielsen R. 2005. Molecular signatures of natural selection. Annu Rev Genet 39:197-218. Methods / review. Skip.
+Voight BF, Kudaravalli S, Wen X, Pritchard JK. 2006. A map of recent positive selection in the human genome. PLoS Biol 4(3):e72. iHS method. Skip.
+Sabeti PC et al. 2002. Detecting recent positive selection in the human genome from haplotype structure. Nature 419:832-837. EHH method. Skip.
+Pritchard JK, Pickrell JK, Coop G. 2010. The genetics of human adaptation: hard sweeps, soft sweeps, and polygenic adaptation. Curr Biol 20(4):R208-R215. DOI 10.1016/j.cub.2009.11.055 PMID 20178769 PMC2994553. Tagged review on publisher / PMC pages. DROP. Hermisson 2005 remains the soft-sweep lock; Berg and Coop 2014 is the polygenic lock.
+Coop G et al. 2009. The role of geography in human adaptation. Not opened as a named original this wave. Not filled.
+Boyle EA, Li YI, Pritchard JK. 2017. An expanded view of complex traits: from polygenic to omnigenic. Cell 169(7):1177-1186. DOI 10.1016/j.cell.2017.05.038 PMID 28622505 PMC5536862. EuropePMC HTML opened and tagged Review. DROP.
+Mackay TFC. 2001. Quantitative trait loci in Drosophila. Nat Rev Genet 2(1):11-20. DOI 10.1038/35047544 PMID 11253063. Review. DROP.
+Falconer DS. Introduction to Quantitative Genetics (book). No specific chapter opened this wave. Not filled. Fisher 1918 remains the infinitesimal lock; Lande 1979 remains the multivariate-response lock.
+Heterosis / hybrid vigor remains unfilled: Shull 1908 / 1914 pages still not opened; Darwin 1876 already filled; standing clone heterozygosity is not hybrid vigor.
+
+- Do not cite Fisher 1937 as the cline source (wave-of-advance claim text not opened).
+- Do not cite Kolmogorov / KPP 1937 as the source (not opened).
+- Do not cite Stephan, Wiehe and Lenz 1992 as the hitchhiking source (page not opened).
+- Do not cite Pritchard, Pickrell and Coop 2010 Curr Biol as the polygenic-adaptation source (review; 2014 is).
+- Do not cite Boyle, Li and Pritchard 2017 as the omnigenic / polygenic source (tagged review).
+- Do not cite Barton and Hewitt 1985 Annu Rev as the tension-zone or multilocus-cline source (review; 1968 / 1979 / 1983 are).
+- Do not write Key 1968 as Barton 1979 dynamics, or Barton 1983 as Barton 1979.
+- Do not write Haldane 1948 as Endler 1977 or as Wright 1943 IBD.
+- Do not write Slatkin 1973 as Slatkin 1985 private alleles or as Slatkin 1993 pairwise M.
+- Do not write Nagylaki 1975 as Haldane 1948 slope.
+- Do not write Kaplan 1989 as Maynard Smith and Haigh 1974 or as Charlesworth 1993 BGS or as Fay-Wu 2000.
+- Do not write Braverman 1995 as Tajima 1989 or as Kaplan 1989.
+- Do not write Berg-Coop 2014 as Hermisson 2005 or as Fisher 1918.
+- Do not write Rockman 2012 as Fisher 1918.
+- Do not invent a grape cline, tension-zone, hitchhiking-SFS, polygenic-adaptation, or QTN-catalog paper.
 
 Related: `plant-lit-review`, `vitis-popgen`, `grapevine-adna`, `vitis-pangenome`.

@@ -3627,3 +3627,585 @@ What we will not claim: that Muller 1950 is the source
 ```
 
 ---
+
+---
+
+## Haldane cline
+
+```
+Theory: Haldane cline (selection-migration slope at a boundary)
+Original paper (year): Haldane JBS. 1948. The theory of a cline.
+  Journal of Genetics 48(3):277-284 (January 1948).
+  DOI 10.1007/BF02986626 PMID 18905075.
+  IAS HTML opened
+  (https://www.ias.ac.in/article/fulltext/jgen/048/03/0277-0284):
+  J. B. S. Haldane, F.R.S.; Journal of Genetics 48 number 3;
+  January 1948; summary. EuropePMC HTML opened (HALDANE JB;
+  01 Jan 1948; Journal of Genetics 48(3):277-284; DOI; PMID; no
+  abstract there). Where one phenotype is favoured in one area
+  and another phenotype in a neighbouring area, the character
+  shows a cline near the boundary. On stated assumptions the
+  relation between selection intensity, mean distance migrated
+  per generation, and the slope of the cline can be calculated.
+  Applied to Peromyscus polionotus; intensities of about 0.1
+  percent. Distinct from filled Endler 1977 (book: parapatric
+  split despite gene flow; not the 1948 slope formula). Distinct
+  from filled Barton 1979 (tension-zone dynamics, hybrid
+  unfitness). Distinct from filled Wright 1943 IBD (similarity
+  declines with distance; no selection-migration cline). Fisher
+  1937 wave of advance was not opened for claim text; not the
+  source.
+One-sentence prediction: At a sharp habitat boundary, cline
+  slope is set by selection versus migration distance; a steep
+  cline implies stronger selection or less dispersal.
+Assumptions: a sexual population at equilibrium across a
+  linear habitat; migration is random, not nursery transport;
+  a vineyard is not the boundary; clones are not demes; dual
+  domestication is not one step-environment.
+Which fail here: humans and nurseries move vines farther
+  than Haldane migration. Dong 2023 dual domestication is two
+  origins, not one habitat step. Syl-W gene flow is CAUTION
+  that isolation is incomplete, not a fitted 1948 cline. A
+  wine-region PCA is not a Haldane transect.
+Modern data / statistic: whether wild-cultivar or wild-patch
+  allele-frequency geography is a Haldane equilibrium cline
+  (slope versus selection / migration) after clone + IBD
+  filters, versus two domestication centres or an IBD slope
+  with no environmental step.
+Dataset: Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655). Dual-domestication geography;
+  Syl-W gene flow. Use as the two-origin / gene-flow contrast,
+  not as a published Haldane-cline analysis. Do not invent a
+  grape cline paper.
+What would falsify it: grape geography is not a Haldane
+  selection-migration cline after clone + IBD filters (two
+  origins, or an IBD slope with no habitat step). Endler 1977
+  remains the parapatric-despite-gene-flow book; Barton 1979
+  remains the tension-zone original; Wright 1943 remains
+  continuous IBD.
+What we will not claim: that Endler 1977 is this paper
+  (already filled). That Barton 1979 is this paper. That
+  Fisher 1937 is the source (claim text not opened). That
+  Dong 2023 fitted a Haldane cline. That a cultivar name is
+  a habitat-boundary phenotype.
+```
+
+---
+
+## Slatkin cline characteristic length
+
+```
+Theory: Slatkin cline (characteristic length of gene flow
+  versus selection)
+Original paper (year): Slatkin M. 1973. Gene flow and
+  selection in a cline. Genetics 75(4):733-756
+  (1 December 1973). DOI 10.1093/genetics/75.4.733
+  PMID 4778791 PMCID PMC1213045. EuropePMC HTML opened
+  (Slatkin M; 01 Dec 1973; Genetics 75(4):733-756; DOI;
+  PMID; PMC; abstract). A continuously distributed infinite
+  population with spatially varying selection: step change,
+  environmental pocket, periodic environment, and a
+  geographic barrier. (1) There is a characteristic length
+  scale of gene-frequency variation; the population cannot
+  respond to environmental change over a shorter distance.
+  The result does not depend on the pattern of selection or
+  the exact dispersal function. (2) Heterozygote unfitness
+  steepens the cline. (3) A barrier shifts frequencies
+  drastically only when almost all would-be migrants are
+  stopped. Distinct from filled Haldane 1948 (this wave; the
+  slope formula at a step, not the characteristic-length
+  scale). Distinct from filled Endler 1977 and filled Barton
+  1979. Distinct from filled Slatkin 1985 private alleles
+  and filled Slatkin 1993 pairwise M.
+One-sentence prediction: Local adaptation fails when the
+  environmental grain is shorter than the characteristic
+  length set by gene flow and selection; only coarser
+  gradients can hold a cline.
+Assumptions: a continuous sexual habitat, not clones or
+  cultivars; dispersal is the paper's kernel, not human
+  transport; a vineyard is not an environmental pocket;
+  dual domestication is not one infinite population.
+Which fail here: humans and rivers move vines farther than
+  the characteristic length. Clone IBD fakes a cline. Dual
+  domestication is two origins. A nursery block is not a
+  Slatkin pocket.
+Modern data / statistic: whether wild-patch allele
+  frequencies track environmental change at a scale longer
+  than Slatkin's characteristic length after clone + IBD
+  filters, versus being swamped or two-centred.
+Dataset: Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655). Wild sylvestris subset
+  after clone + IBD filters. Use as geography, not as a
+  published characteristic-length analysis. Do not invent
+  a grape cline paper.
+What would falsify it: wild-patch frequencies do not show
+  a characteristic-length cline after clone filter (swamped
+  by transport, or two domestication centres). Treating
+  clone IBS as a cline is not the test. Haldane 1948 remains
+  the slope-at-a-boundary original.
+What we will not claim: that Haldane 1948 is this paper.
+  That Slatkin 1985 or 1993 is this paper. That Endler 1977
+  is this paper. That Dong 2023 estimated a characteristic
+  length. That a wine region is an environmental pocket.
+```
+
+---
+
+## Nagylaki cline existence
+
+```
+Theory: Nagylaki conditions for the existence of clines
+Original paper (year): Nagylaki T. 1975. Conditions for
+  the existence of clines. Genetics 80(3):595-615
+  (1 July 1975). DOI 10.1093/genetics/80.3.595
+  PMID 1232026 PMCID PMC1213362. EuropePMC HTML opened
+  (Nagylaki T; 01 Jul 1975; Genetics 80(3):595-615; DOI;
+  PMID; PMC; abstract). PMC HTML opened (Department of
+  Medical Genetics and Mathematics Research Center,
+  University of Wisconsin, Madison; received 16 October
+  1974; same abstract). A diffusion equation for gene
+  frequency in a continuous monoecious habitat reduces to
+  the Fisher-Haldane cline model under isotropic
+  homogeneous migration, uniform density, and local
+  Hardy-Weinberg. If at least one allele is favoured only
+  in a finite region, and migration is too strong or
+  selection too weak, a cline cannot exist at all; unless
+  there is overdominance the population must be
+  monomorphic. A barely existing cline can still show large
+  gene-frequency variation. Distinct from filled Haldane
+  1948 (this wave; slope given that a cline exists).
+  Distinct from filled Slatkin 1973 (this wave;
+  characteristic length, not the existence threshold).
+  Distinct from filled Endler 1977.
+One-sentence prediction: Too much gene flow relative to
+  selection erases a cline entirely (monomorphism), rather
+  than merely flattening it, unless heterozygotes are
+  overdominant.
+Assumptions: one diallelic locus; no mutation or drift in
+  the model; migration independent of genotype; samples are
+  demes, not clones; dual domestication is not one habitat;
+  a vineyard is not an environmental pocket.
+Which fail here: human transport is stronger than the
+  paper's migration. Dual domestication is two origins, not
+  one pocket. Clone IBD fakes polymorphism. Overdominance
+  was not locked as a grape original (already dropped).
+Modern data / statistic: whether a wild environmental
+  pocket holds a Nagylaki cline after clone + IBD filters,
+  versus monomorphism / two domestication centres.
+Dataset: Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655). Wild sylvestris subset
+  after clone + IBD filters. Use as the existence contrast,
+  not as a published Nagylaki analysis. Do not invent a
+  grape cline paper.
+What would falsify it: no cline exists after clone filter
+  because migration / transport is too strong (the
+  monomorphic reading), or because there are two origins
+  rather than one pocket. Slope-given-a-cline is the
+  Haldane 1948 job; characteristic length is the Slatkin
+  1973 job.
+What we will not claim: that Haldane 1948 is this paper.
+  That Slatkin 1973 is this paper. That Dong 2023 tested
+  Nagylaki existence. That a cultivar is an environmental
+  pocket.
+```
+
+---
+
+## Key tension zone
+
+```
+Theory: Key tension zone (secondary intergradation as a
+  semipermeable membrane)
+Original paper (year): Key KHL. 1968. The concept of
+  stasipatric speciation. Systematic Zoology 17(1):14-22
+  (1 March 1968; now hosted as Systematic Biology).
+  DOI 10.1093/sysbio/17.1.14.
+  Oxford Academic HTML opened
+  (https://academic.oup.com/sysbio/article/17/1/14/1622370):
+  K. H. L. Key, Division of Entomology, CSIRO, Canberra;
+  1968/03/01; Systematic Biology / Zoology 17(1):14-22;
+  DOI; abstract beginning: difficulties in stasipatric
+  speciation; allopatric and parapatric components; races
+  of morabine grasshoppers meet along very narrow zones of
+  secondary intergradation, or "tension zones"; these act
+  like semipermeable membranes, allowing free passage to
+  some genetic modifications but holding back others. The
+  tension zone moves as a front toward the less adapted
+  form. Distinct from filled Barton 1979 (dynamics:
+  dispersal versus selection against hybrids; 1968 names
+  the zone). Distinct from filled Anderson 1949
+  introgression and filled Dobzhansky 1940 reinforcement.
+  Barton and Hewitt 1985 Annu Rev is a review; not the
+  source.
+One-sentence prediction: Secondary contact sits in a
+  narrow tension zone that behaves as a semipermeable
+  membrane: some alleles cross, others are held, and the
+  front can move.
+Assumptions: two sexual races meet after expansion from
+  isolation; a cultivar x cultivar cross is not that
+  contact; gene flow without a narrow front is not a
+  tension zone; clones are not hybridizing demes.
+Which fail here: nursery hybrids are not secondary
+  contact. Dong 2023 Syl-W gene flow into CG3-CG6 is
+  CAUTION that isolation is incomplete, not a mapped Key
+  membrane. Treating sylvestris and vinifera as two
+  biological species is the Mayr 1942 job. A vineyard is
+  not a tension zone.
+Modern data / statistic: whether wild-cultivar contact is
+  a narrow semipermeable front after clone + IBD filters,
+  versus diffuse gene flow / a single biological species.
+Dataset: Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655). Syl-W gene flow into
+  CG3-CG6 is CAUTION, not a Key-zone demonstration. Do
+  not invent a grape tension-zone paper.
+What would falsify it: contact is not a narrow
+  semipermeable front (gene flow after clone + IBD filters
+  with no held-back class of alleles). Barton 1979 remains
+  the dynamics original; Anderson 1949 remains
+  introgression; Dobzhansky 1940 remains reinforcement.
+What we will not claim: that Barton 1979 is this paper
+  (already filled). That Barton and Hewitt 1985 is the
+  source (review). That Dong 2023 mapped a tension zone.
+  That a nursery hybrid is a tension zone.
+```
+
+---
+
+## Barton multilocus clines
+
+```
+Theory: Barton multilocus clines (coupling coefficient)
+Original paper (year): Barton NH. 1983. Multilocus clines.
+  Evolution 37(3):454-471 (1 May 1983).
+  DOI 10.1111/j.1558-5646.1983.tb05563.x PMID 28563316.
+  EuropePMC HTML opened (Barton NH, Department of
+  Genetics, University of Cambridge, Downing St.,
+  Cambridge CB2 3EH; 01 May 1983; Evolution 37(3):454-471;
+  DOI; PMID; no abstract there). ISTA research-explorer
+  HTML opened (https://research-explorer.ista.ac.at/record/3668):
+  Barton NH 1983; Evolution 37(3):454-471; DOI 10.2307/2408260;
+  abstract. When two populations that differ at many loci
+  meet, introgression depends on selection per locus s,
+  recombination r, and the number of loci n. Behaviour
+  scales with theta = s/r and with n. When selection is
+  stronger than recombination (theta > 1), effective
+  selection on each locus is comparable to total selection
+  over the genome (s* ~ n s). When theta < 1, effective
+  selection is weaker but still stronger than single-locus
+  s. Even with weak selection, multilocus clines have a
+  sharp central step flanked by independent tails; the
+  barrier to gene flow is strongest when selection is
+  spread over many loci. Distinct from filled Barton 1979
+  (single-locus / hybrid-zone dynamics; this paper is
+  multilocus coupling). Distinct from filled Key 1968
+  (this wave; names the tension zone). Distinct from
+  filled Haldane 1948 / Slatkin 1973 / Nagylaki 1975
+  (single-locus clines). Barton and Hewitt 1985 remains
+  a review.
+One-sentence prediction: If many selected loci are
+  coupled (theta = s/r large), the hybrid zone acts as
+  one genome-wide barrier with a sharp central step; if
+  recombination wins, loci introgress independently.
+Assumptions: two sexual populations differ at many loci;
+  a cultivar panel is not that meeting; clone IBD is not
+  coupling LD; chips are not the selected map; dual
+  domestication is not one hybrid zone.
+Which fail here: nursery crosses are not secondary
+  contact. Clone IBD fakes LD among loci. Dong 2023
+  color / sex / flavor are few large-effect loci, not a
+  many-locus barrier. Syl-W gene flow is CAUTION, not a
+  Barton-1983 coupling estimate.
+Modern data / statistic: whether wild-cultivar contact
+  shows coupled multilocus clines (sharp central step;
+  theta large) after clone + IBD filters, versus
+  independent introgression of a few loci.
+Dataset: Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655). Syl-W gene flow;
+  color / sex / flavor peaks. Use as the coupling
+  contrast, not as a published multilocus-cline
+  analysis. Do not invent a grape hybrid-zone paper.
+What would falsify it: contact is not a coupled
+  multilocus barrier after clone filter (few independent
+  loci, or diffuse gene flow). Single-locus tension-zone
+  dynamics remain the 1979 job. Haldane / Slatkin /
+  Nagylaki remain single-locus cline jobs.
+What we will not claim: that Barton 1979 is this paper
+  (already filled). That Barton and Hewitt 1985 is the
+  source. That Key 1968 is this paper. That Dong 2023
+  estimated theta. That a SNP chip is a selected map.
+```
+
+---
+
+## Kaplan coalescent hitchhiking
+
+```
+Theory: Kaplan-Hudson-Langley coalescent hitchhiking
+Original paper (year): Kaplan NL, Hudson RR, Langley CH.
+  1989. The "hitchhiking effect" revisited. Genetics
+  123(4):887-899 (1 December 1989).
+  DOI 10.1093/genetics/123.4.887 PMID 2612899
+  PMCID PMC1203897. EuropePMC HTML opened (Kaplan NL,
+  Statistics and Biomathematics Branch, National Institute
+  of Environmental Health Sciences, Research Triangle Park,
+  North Carolina 27709; Hudson RR; Langley CH; 01 Dec 1989;
+  Genetics 123(4):887-899; DOI; PMID; PMC; abstract). Using
+  the coalescent for a neutral sample linked to a selected
+  substitution, a stochastic finite-population model gives
+  the steady-state effect of hitchhiking on the number of
+  selectively neutral polymorphic sites. In regions of low
+  crossing over, strongly selected substitutions in the
+  history of the sample can substantially reduce the number
+  of polymorphic sites relative to a neutral model.
+  Distinct from filled Maynard Smith and Haigh 1974
+  (deterministic diversity collapse; no coalescent).
+  Distinct from filled Charlesworth, Morgan and Charlesworth
+  1993 BGS (deleterious mutations, not advantageous
+  substitutions). Distinct from filled Fay and Wu 2000 H
+  (derived high-frequency excess). Distinct from filled
+  Gillespie 2000 draft. Stephan, Wiehe and Lenz 1992 was
+  not opened for claim text; not the source.
+One-sentence prediction: Recurrent hitchhiking in low
+  recombination reduces the number of polymorphic sites
+  in a sample below the neutral coalescent expectation.
+Assumptions: a random sample of sequences from one
+  population; the genealogy is not a clone pedigree;
+  polymorphism is not clone-private SNPs; a cultivar
+  panel is not that sample; chips are not forced-
+  biallelic loci.
+Which fail here: a cultivar panel is not a random sample.
+  Clone IBD fakes a diversity trough. Pedigree repeats
+  are not new mutations. Dual domestication is human
+  choice, not a sweep generation. SNP chips are biallelic.
+Modern data / statistic: number of segregating sites (or
+  pi) at candidate domestication loci versus recombination
+  on Dong-class WGS after clone + IBD filters, against the
+  Kaplan low-recombination reduction. Fay-Wu and Tajima
+  remain other jobs.
+Caution dataset: Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655). Color / sex / flavor
+  peaks. Use as the hitchhiking contrast, not as a
+  published Kaplan analysis. Do not invent a grape
+  coalescent-hitchhiking paper.
+What would falsify it: no reduction of polymorphic sites
+  in low recombination after clone + IBD filters. Treating
+  clone IBS as a trough is not the test. Deterministic
+  diversity collapse is the 1974 hitchhiking job; BGS is
+  the 1993 job; derived high-frequency excess is the
+  Fay-Wu job.
+What we will not claim: that Maynard Smith and Haigh 1974
+  is this paper (already filled). That Charlesworth 1993
+  BGS is this paper. That Fay and Wu 2000 is this paper.
+  That Stephan 1992 is the source (not opened). That Dong
+  2023 fitted a Kaplan coalescent.
+```
+
+---
+
+## Braverman hitchhiking SFS
+
+```
+Theory: Braverman hitchhiking site-frequency spectrum
+Original paper (year): Braverman JM, Hudson RR, Kaplan NL,
+  Langley CH, Stephan W. 1995. The hitchhiking effect on
+  the site frequency spectrum of DNA polymorphisms.
+  Genetics 140(2):783-796 (1 June 1995).
+  DOI 10.1093/genetics/140.2.783 PMID 7498754
+  PMCID PMC1206652. EuropePMC HTML opened (Braverman JM,
+  Center for Population Biology, University of California,
+  Davis; Hudson RR; Kaplan NL; Langley CH; Stephan W;
+  01 Jun 1995; Genetics 140(2):783-796; DOI; PMID; PMC;
+  abstract). Simple hitchhiking (directional selection on
+  rare advantageous mutants sweeping linked neutrals)
+  predicts a skew toward rare variants. Coalescent
+  simulations of recurrent hitchhiking show (1) expected
+  Tajima D is large and negative, (2) Tajima's test has
+  reasonable power for realistic parameters, and (3) some
+  Drosophila datasets with reduced diversity but no SFS
+  skew are very unlikely under simple hitchhiking; that
+  model is then not a sufficient explanation. Distinct
+  from filled Tajima 1989 (the D statistic as a neutrality
+  test; this paper is the hitchhiking prediction for D).
+  Distinct from filled Kaplan, Hudson and Langley 1989
+  (this wave; reduction in the number of sites, not the
+  SFS / D prediction). Distinct from filled Fay and Wu
+  2000 H (derived high-frequency excess). Distinct from
+  filled Maynard Smith and Haigh 1974.
+One-sentence prediction: Simple recurrent hitchhiking
+  leaves a large negative Tajima D (excess of rare
+  variants) at linked sites; reduced diversity without
+  that skew is not simple hitchhiking.
+Assumptions: a random sample of sequences; rare variants
+  are not clone-private SNPs; a cultivar panel is not
+  that sample; chips are not forced-biallelic loci;
+  demography is not a confounder that mimics D.
+Which fail here: a cultivar panel is not a random sample.
+  Clone IBD and clone-private SNPs fake rare variants.
+  Dual domestication is not one equilibrium population.
+  SNP chips are biallelic.
+Modern data / statistic: Tajima D (and the SFS) at
+  candidate domestication loci on Dong-class WGS after
+  clone + IBD filters, versus the large-negative-D
+  hitchhiking prediction. Kaplan site-count and Fay-Wu H
+  remain other jobs.
+Caution dataset: Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655). Color / sex / flavor
+  peaks. Use as the SFS contrast, not as a published
+  Braverman analysis. Do not invent a grape hitchhiking-SFS
+  paper.
+What would falsify it: candidate loci do not show large
+  negative D after clone + IBD filters (simple hitchhiking
+  dies; BGS or demography remain other readings). Treating
+  clone-private SNPs as rare sweep variants is not the
+  test. One-sample Tajima as a generic test is the 1989
+  job; site-count reduction is the Kaplan job.
+What we will not claim: that Tajima 1989 is this paper
+  (already filled). That Kaplan 1989 is this paper. That
+  Fay and Wu 2000 is this paper. That Dong 2023 computed
+  a Braverman SFS. That a nursery sport is a rare variant
+  from a sweep.
+```
+
+---
+
+## Berg-Coop polygenic adaptation
+
+```
+Theory: Berg-Coop polygenic adaptation (coordinated
+  allele-frequency shifts)
+Original paper (year): Berg JJ, Coop G. 2014. A population
+  genetic signal of polygenic adaptation. PLoS Genetics
+  10(8):e1004412 (7 August 2014).
+  DOI 10.1371/journal.pgen.1004412 PMID 25102153
+  PMCID PMC4125079. PLoS HTML opened
+  (https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1004412):
+  Berg JJ, Coop G; published 7 August 2014; received
+  3 August 2013; accepted 17 April 2014; PLoS Genet
+  10(8):e1004412; DOI; abstract and author summary.
+  EuropePMC HTML opened (Berg JJ, UC Davis Population
+  Biology / Center for Population Biology / Evolution and
+  Ecology; Coop G, same; 07 Aug 2014; PMID; PMC; same
+  abstract). Adaptation on a polygenic phenotype may occur
+  via subtle allele-frequency shifts at many loci, too
+  diffuse for single-locus sweep scans. GWAS effect sizes
+  give mean additive genetic values as weighted sums of
+  allele frequencies; tests look for environmental
+  correlation of those values and for overdispersion
+  relative to a drift-and-relatedness null, i.e. positive
+  covariance among like-effect alleles. Distinct from
+  filled Hermisson and Pennings 2005 soft sweep (standing
+  variant at one locus). Distinct from filled Maynard
+  Smith and Haigh 1974 hard hitchhiking. Distinct from
+  filled Fisher 1918 infinitesimal (the trait model, not
+  the population-genetic signal). Pritchard, Pickrell and
+  Coop 2010 Curr Biol 20:R208-R215 is a review; red line;
+  not the source.
+One-sentence prediction: Local adaptation of a polygenic
+  trait shows up as coordinated frequency shifts of many
+  small-effect alleles in the same direction, not as a
+  single-locus sweep.
+Assumptions: GWAS loci are causal-enough tags, not clone
+  IBS; genetic values are not cultivar means; a vineyard
+  is not a Berg-Coop population; color / sex / flavor are
+  not assumed to be highly polygenic; chips are not the
+  whole architecture.
+Which fail here: Dong 2023 color / sex / flavor peaks are
+  few large-effect loci, not a polygenic coordinated
+  shift. Clone IBD fakes genetic values. Dual
+  domestication is human choice, not many-population
+  local adaptation of one trait. A wine-region mean is
+  not a genetic value.
+Modern data / statistic: whether domestication traits
+  show Berg-Coop overdispersion / environmental
+  correlation of genetic values after clone + IBD
+  filters, versus a few large-effect QTNs or a hard /
+  soft sweep at one locus.
+Dataset: Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655). Color / sex / flavor
+  peaks as the large-effect contrast. Use as a polygenic
+  versus oligogenic test, not as a published grape
+  polygenic-adaptation paper. Do not invent a grape GWAS
+  local-adaptation paper.
+What would falsify it: trait differentiation is not a
+  coordinated many-locus shift after clone filter (few
+  large-effect peaks, or a single-locus sweep). Soft
+  sweep remains the Hermisson 2005 job; infinitesimal
+  inheritance remains the Fisher 1918 job; hitchhiking
+  diversity collapse remains 1974.
+What we will not claim: that Pritchard, Pickrell and
+  Coop 2010 is the source (review). That Hermisson 2005
+  is this paper. That Fisher 1918 is this paper. That
+  Dong 2023 ran a Berg-Coop test. That a cultivar mean
+  is a genetic value.
+```
+
+---
+
+## Rockman QTN versus polygenes
+
+```
+Theory: Rockman QTN program versus undetectable polygenes
+Original paper (year): Rockman MV. 2012. The QTN program
+  and the alleles that matter for evolution: all that's
+  gold does not glitter. Evolution 66(1):1-17
+  (print 2012; EuropePMC date 6 November 2011).
+  DOI 10.1111/j.1558-5646.2011.01486.x PMID 22220860
+  PMCID PMC3386609. EuropePMC HTML opened (Rockman MV,
+  Department of Biology and Center for Genomics and
+  Systems Biology, New York University, 12 Waverly Place,
+  New York, NY 10003; Evolution 66(1):1-17; DOI; PMID;
+  PMC; abstract). Large-effect quantitative trait
+  nucleotides accessible to experimentalists may be
+  unrepresentative of the alleles that matter. Neither
+  theory nor data justify treating discoverable
+  large-effect alleles as the primary molecular substrate
+  of evolution; evolution often acts via large numbers of
+  small-effect polygenes, individually undetectable, and
+  those variants differ in kind at the molecular level
+  from large-effect QTNs. Distinct from filled Fisher 1918
+  infinitesimal (the additive many-locus model; 2012 is
+  the argument that mapped QTNs mislead). Distinct from
+  filled Fisher 1930 geometric (large mutations almost
+  never help). Distinct from filled Orr 1998 exponential
+  factors. Distinct from filled Berg and Coop 2014 (this
+  wave; the population-genetic signal of polygenic
+  adaptation). Boyle, Li and Pritchard 2017 omnigenic was
+  tagged Review; not used.
+One-sentence prediction: The large-effect QTNs one can
+  map are not a random sample of the alleles that matter;
+  typical evolution is many undetectable small-effect
+  polygenes.
+Assumptions: the mapped QTN set is being read as the
+  architecture of evolution, not as a few domestication
+  exceptions; clones are not a sexual mapping population;
+  color / sex / flavor may be exactly the unrepresentative
+  large-effect class the paper warns about.
+Which fail here: Dong 2023 color / sex / flavor are few
+  large-effect domestication QTNs (the glittering class).
+  That is a legitimate QTN finding and a caution against
+  reading those loci as typical wild evolution. Grafted
+  clones are not a QTN mapping pedigree. Standing clone
+  heterozygosity is not polygenic standing variation.
+Modern data / statistic: whether wild trait architecture
+  after clone + IBD filters is Rockman undetectable
+  polygenes, versus a few large-effect domestication QTNs
+  (Dong color / sex / flavor) or a Berg-Coop coordinated
+  shift.
+Dataset: Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655). Color / sex / flavor
+  peaks as the large-effect QTN contrast. Use as the
+  architecture caution, not as a published grape QTN
+  paper. Do not invent a grape QTN-catalog paper.
+What would falsify it: wild architecture is not
+  undetectable polygenes after clone filter (few
+  large-effect QTNs explain the traits). Infinitesimal
+  math remains the Fisher 1918 job; polygenic adaptation
+  as a frequency-shift test remains the Berg-Coop job.
+What we will not claim: that Fisher 1918 is this paper
+  (already filled). That Berg and Coop 2014 is this paper.
+  That Boyle 2017 is the source (review). That Dong 2023
+  mapped a representative QTN catalog. That a nursery
+  sport is a typical evolutionary allele.
+```
+
+---
