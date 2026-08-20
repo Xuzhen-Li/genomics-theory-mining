@@ -17,7 +17,8 @@ description: >
   Lande response, endosymbiosis, Vavilov, Price equation, Hamilton, Nei distance, Weir-Cockerham FST,
   Orr adaptation, Y degeneration, Mayr BSC, HKA, Lewontin-Krakauer, Fay-Wu, Fu-Li, Slatkin gene flow, tension zone,
   Endler clines, Crow load, Haldane cline, Slatkin 1973, Nagylaki, Key tension zone, Barton coupling,
-  Kaplan hitchhiking, Braverman SFS, Berg-Coop, Rockman QTN, or a revival paper that
+  Kaplan hitchhiking, Braverman SFS, Berg-Coop, Rockman QTN, Rousset IBD, Excoffier AMOVA, Wade-McCauley, Whitlock FST, Slatkin two-locus cline,
+  Barton-Bengtsson barrier, Barton hybrid-sink, Kimura 1955 drift, or a revival paper that
   is not a methods benchmark.
 ---
 
@@ -194,8 +195,16 @@ heterozygotes in clonal lineages).
 | Braverman hitchhiking SFS | Braverman et al. 1995 Genetics 140:783-796 | Simple hitchhiking predicts a large negative Tajima D (excess of rare variants) | Clone-private SNPs are not rare variants from a sweep | After clone + IBD filters, candidate loci do not show the simple-hitchhiking SFS (Tajima remains another job) |
 | Berg-Coop polygenic adaptation | Berg and Coop 2014 PLoS Genet 10:e1004412 | Adaptation on a polygenic trait is coordinated frequency shifts at many small-effect loci, not a single-locus sweep | Color / sex / flavor are large-effect; clones fake genetic values | Dong 2023 color / sex / flavor peaks are few large-effect loci, not a Berg-Coop coordinated shift |
 | Rockman QTN versus polygenes | Rockman 2012 Evolution 66:1-17 | Discoverable large-effect QTNs are unrepresentative; typical evolution is many undetectable small-effect polygenes | Domestication QTNs are not the typical-evolution sample | Dong 2023 color / sex / flavor are large-effect (QTN-class), not Rockman undetectable polygenes |
+| Rousset IBD from pairwise FST | Rousset 1997 Genetics 145:1219-1228 | Regression of pairwise FST/(1-FST) on distance (linear habitats) or log distance (2D) estimates density times dispersal second moment | Human transport is not Rousset dispersal; clones fake FST | Dong 2023 wilds: no Rousset density-dispersal slope after clone + IBD filters (Wright 1943 remains continuous IBD; Slatkin 1993 remains pairwise M) |
+| Excoffier AMOVA | Excoffier, Smouse and Quattro 1992 Genetics 131:479-491 | Hierarchical molecular variance and phi-statistics from a matrix of haplotype distances; permutation tests significance | Clones fake haplotypes; dual domestication is not one hierarchy | Dong 2023: AMOVA hierarchy is not a biological subdivision after clone + IBD filters (Weir-Cockerham 1984 remains the moment-FST job) |
+| Wade-McCauley extinction-recolonization | Wade and McCauley 1988 Evolution 42:995-1005 | Extinction and recolonization increase or decrease differentiation according as K compared with 2Nm; migrant-pool versus propagule-pool colonization | A vineyard is not a deme; nursery planting is not colonization | Dong 2023 wild patches: no Wade-McCauley extinction-recolonization FST after clone filter (Levins 1969 remains occupancy) |
+| Whitlock fluctuating FST | Whitlock 1992 Evolution 46:608-615 | Temporal and spatial fluctuations in demography increase FST; spatial variation affects FST more than temporal variation | A cultivar panel is not a fluctuating deme | Dong 2023 wilds: FST not inflated by demographic fluctuation after clone filter (Wade 1988 remains extinction-recolonization) |
+| Slatkin two-locus cline | Slatkin 1975 Genetics 81:787-802 | When recombination is of order selection or smaller, linkage shapes two-locus clines and produces substantial LD; linkage can help or hinder tracking the environment | Clone IBD fakes LD; a chip is not the selected map | Dong 2023: no two-locus cline LD after clone + IBD filters (Slatkin 1973 remains characteristic length; Barton 1983 remains many-locus coupling) |
+| Barton-Bengtsson gene-flow barrier | Barton and Bengtsson 1986 Heredity 56:357-376 | A genome-wide barrier at linked neutrals requires substantially unfit hybrids and so many selected genes that most markers are closely linked to a selected locus | A nursery hybrid is not that contact | Dong 2023 Syl-W gene flow is CAUTION, not a Barton-Bengtsson genome-wide barrier (Barton 1979 remains dynamics; Barton 1983 remains coupling) |
+| Barton hybrid-sink barrier | Barton 1986 Heredity 57:415-426 | Barrier strength combines a physical barrier, a hybrid-sink density reduction, and linkage | Vineyard density is not hybrid unfitness | Dong 2023: no hybrid-sink density barrier after clone filter (1979 remains dynamics; 1983 remains coupling; Barton-Bengtsson 1986 remains the genome-wide selected barrier) |
+| Kimura stochastic drift | Kimura 1955 PNAS 41:144-150 | Complete time-dependent diffusion solution for random genetic drift; heterozygosity decays as e^{-t/2N}; the distribution approaches Wright-Fisher steady decay | Clones are not a Wright-Fisher sample; a cultivar panel is not N | Clone / cultivar heterozygosity is not a Kimura-1955 drift trajectory after clone filter (Kimura 1968 remains the substitution-rate null; Kingman 1982 remains the coalescent) |
 
-Eighty-four filled notes (eight first wave, nine second wave, nine third wave, twelve fourth wave, ten fifth wave, ten sixth wave, nine seventh wave, eight eighth wave, nine ninth wave). Long form in `theories.md`. One theory per job.
+Ninety-two filled notes (eight first wave, nine second wave, nine third wave, twelve fourth wave, ten fifth wave, ten sixth wave, nine seventh wave, eight eighth wave, nine ninth wave, eight tenth wave). Long form in `theories.md`. One theory per job.
 
 Kondrashov 1988 (cost of males) is on the door list but was not filled: it does not map onto grafted clones.
 Muller 1942 was not locked on a publisher page and is not cited for BDM.
@@ -306,6 +315,15 @@ centromere / CenH3 paper is locked.
 - Berg and Coop 2014 is polygenic adaptation as coordinated frequency shifts. Pritchard, Pickrell and Coop 2010 is a review. Hermisson 2005 remains the soft-sweep original. Fisher 1918 remains infinitesimal inheritance.
 - Rockman 2012 is the claim that mapped large-effect QTNs mislead about typical evolution. Distinct from Fisher 1918. Boyle 2017 omnigenic was a review.
 
+- Rousset 1997 is pairwise FST/(1-FST) versus distance or log distance as an estimator of density times dispersal second moment. Wright 1943 remains continuous IBD. Slatkin 1993 remains pairwise M. Weir-Cockerham 1984 remains the moment estimator.
+- Excoffier, Smouse and Quattro 1992 is AMOVA: haplotype-distance hierarchical variance and phi-statistics with permutation tests. Distinct from Weir-Cockerham 1984 moment FST and Nei 1972 distance. Dual domestication is not one nested hierarchy. Clones fake haplotypes.
+- Wade and McCauley 1988 is extinction and recolonization: migrant pool versus propagule pool; differentiation depends on K versus 2Nm, not primarily on the extinction rate. Levins 1969 remains occupancy. Pannell and Charlesworth 2000 is a review.
+- Whitlock 1992 is fluctuating demography inflating FST; spatial variation greater than temporal. Distinct from Wade 1988 colonization models. A cultivar panel is not a fluctuating deme.
+- Slatkin 1975 two-locus is linkage and LD in a cline when r is of order s. Distinct from Slatkin 1973 characteristic length and Barton 1983 many-locus coupling. Sex locus is Dong 2023 chromosome-2 SDR, never VviAGL11.
+- Barton and Bengtsson 1986 is the genome-wide barrier at linked neutrals: hybrids must be substantially unfit and selected loci numerous. Distinct from Barton 1979 dynamics and Barton 1983 coupling. Hewitt 1988 TREE is a review.
+- Barton 1986 hybrid-sink paper combines physical barrier, hybrid-sink density, and linkage. Distinct from Barton-Bengtsson 1986. Vineyard density is not hybrid unfitness.
+- Kimura 1955 is the complete time-dependent diffusion solution for panmictic random drift; H decays as e^{-t/2N}. Distinct from Kimura 1968, Kimura-Weiss 1964, Kimura-Crow 1964, Kimura 1969, Kingman 1982. Clone age is not Wright-Fisher t.
+
 ## Sources to open first (fetched)
 
 - Muller 1964: https://doi.org/10.1016/0027-5107(64)90047-8
@@ -410,6 +428,15 @@ centromere / CenH3 paper is locked.
 - Braverman et al. 1995: https://doi.org/10.1093/genetics/140.2.783 (PMC1206652; EuropePMC MED 7498754)
 - Berg and Coop 2014: https://doi.org/10.1371/journal.pgen.1004412 (PMC4125079; EuropePMC MED 25102153; PLoS HTML)
 - Rockman 2012: https://doi.org/10.1111/j.1558-5646.2011.01486.x (PMC3386609; EuropePMC MED 22220860)
+
+- Rousset 1997: https://doi.org/10.1093/genetics/145.4.1219 (PMC1207888; EuropePMC MED 9093870)
+- Excoffier, Smouse and Quattro 1992: https://doi.org/10.1093/genetics/131.2.479 (PMC1205020; EuropePMC MED 1644282)
+- Wade and McCauley 1988: https://doi.org/10.1111/j.1558-5646.1988.tb02518.x (EuropePMC MED 28581169)
+- Whitlock 1992: https://doi.org/10.1111/j.1558-5646.1992.tb02069.x (EuropePMC MED 28568658)
+- Slatkin 1975 two-locus: https://doi.org/10.1093/genetics/81.4.787 (PMC1213435; EuropePMC MED 1213276)
+- Barton and Bengtsson 1986: https://doi.org/10.1038/hdy.1986.135 (EuropePMC MED 3804765; Nature PDF https://www.nature.com/articles/hdy1986135.pdf)
+- Barton 1986 hybrid-sink: https://doi.org/10.1038/hdy.1986.142 (EuropePMC MED 3804768; Nature PDF https://www.nature.com/articles/hdy1986142.pdf)
+- Kimura 1955: https://doi.org/10.1073/pnas.41.3.144 (PMC528040; EuropePMC MED 16589632; PDF https://europepmc.org/articles/PMC528040?pdf=render)
 
 ## Red lines
 
@@ -555,5 +582,34 @@ Heterosis / hybrid vigor remains unfilled: Shull 1908 / 1914 pages still not ope
 - Do not write Berg-Coop 2014 as Hermisson 2005 or as Fisher 1918.
 - Do not write Rockman 2012 as Fisher 1918.
 - Do not invent a grape cline, tension-zone, hitchhiking-SFS, polygenic-adaptation, or QTN-catalog paper.
+
+Fisher RA. 1937. The wave of advance of advantageous genes. Ann Eugen 7(4):355-369. DOI 10.1111/j.1469-1809.1937.tb02153.x. Wiley HTML still a historical-archive disclaimer (no scientific abstract). Adelaide digital-library item page bibliographic (Fisher; 1937; Annals of Eugenics 7:355-369); PDF 404. DROP without a quoted wave-of-advance claim from an opened page.
+Kolmogorov AN, Petrovsky IG, Piscounov NS. 1937. KPP travelling-wave equation. Russian original not opened. DROP.
+Stephan W, Wiehe THE, Lenz MW. 1992. The effect of strongly selected substitutions on neutral polymorphism: analytical results based on diffusion theory. Theor Popul Biol 41(2):237-254. DOI 10.1016/0040-5809(92)90045-U. ScienceDirect HTML 403 / timeout; Semantic Scholar no abstract; no EuropePMC abstract page. DROP. Kaplan 1989 remains the coalescent-hitchhiking lock.
+Barton NH. 2000. Not opened as a named original this wave. 1986 papers are the locks.
+Slatkin M, Maruyama T. 1975. Genetic drift in a cline. Genetics 81(1):209-222. Not opened as the lock; 1975 two-locus paper is the lock.
+Malecot G. 1948. Les mathematiques de l'heredite. Masson. English 1969 Freeman translation (Yermanos). Book; no lockable claim page opened. Wright 1943 remains IBD. DROP.
+Hewitt GM. 1988. Hybrid zones-natural laboratories for evolutionary studies. Trends Ecol Evol 3(7):158-167. DOI 10.1016/0169-5347(88)90033-X PMID 21227192. Review. Skip. 1968 / 1979 / 1983 / 1986 are the locks.
+Haldane JBS. 1932. The Causes of Evolution. Longmans / Princeton reprints. Book; no specific chapter opened this wave. Not filled.
+Pannell JR, Charlesworth B. 2000. Effects of metapopulation processes on measures of genetic diversity. Philos Trans R Soc Lond B. Review. Skip. Wade 1988 is the extinction-recolonization lock.
+Harrison RG. 1993. Hybrid zones and the evolutionary process (book / review). Skip unless a lockable original paper; none opened.
+Wright S. 1951 / 1965 F-statistics. Still no claim text. 1931 remains island math; 1943 remains IBD; 1984 remains the estimator.
+
+- Do not cite Fisher 1937 as the wave-of-advance source (claim text still not opened).
+- Do not cite Kolmogorov / KPP 1937 as the source (not opened).
+- Do not cite Stephan, Wiehe and Lenz 1992 as the hitchhiking source (page not opened; Kaplan 1989 is the lock).
+- Do not cite Hewitt 1988 TREE as the hybrid-zone source (review).
+- Do not cite Pannell and Charlesworth 2000 as the extinction-recolonization source (review; Wade 1988 is).
+- Do not cite Harrison 1993 as a hybrid-zone original (review).
+- Do not cite Malecot 1948 / 1969 as the IBD source (book not opened; Wright 1943 remains).
+- Do not cite Haldane 1932 The Causes of Evolution as a filled original (chapter not opened).
+- Do not write Rousset 1997 as Wright 1943 or as Slatkin 1993.
+- Do not write Excoffier 1992 as Weir-Cockerham 1984.
+- Do not write Wade 1988 as Levins 1969 occupancy, or Whitlock 1992 as Wade 1988.
+- Do not write Slatkin 1975 two-locus as Slatkin 1973 characteristic length or as Barton 1983 coupling.
+- Do not write Barton-Bengtsson 1986 as Barton 1979 or as Barton 1983, or Barton 1986 hybrid-sink as Barton-Bengtsson 1986.
+- Do not write Kimura 1955 as Kimura 1968 or as Kingman 1982 or as Kimura-Weiss 1964.
+- Do not write VviAGL11 as the sex locus (Dong 2023 chromosome-2 SDR).
+- Do not invent a grape IBD, AMOVA, metapopulation-FST, two-locus-cline, hybrid-barrier, or drift-trajectory paper.
 
 Related: `plant-lit-review`, `vitis-popgen`, `grapevine-adna`, `vitis-pangenome`.

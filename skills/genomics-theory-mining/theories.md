@@ -4209,3 +4209,573 @@ What we will not claim: that Fisher 1918 is this paper
 ```
 
 ---
+
+---
+
+## Rousset IBD from pairwise FST
+
+```
+Theory: Rousset isolation by distance (pairwise FST/(1-FST)
+  versus distance)
+Original paper (year): Rousset F. 1997. Genetic differentiation
+  and estimation of gene flow from F-statistics under isolation
+  by distance. Genetics 145(4):1219-1228 (1 April 1997).
+  DOI 10.1093/genetics/145.4.1219 PMID 9093870
+  PMCID PMC1207888. EuropePMC HTML opened
+  (https://europepmc.org/article/MED/9093870): Rousset F,
+  Laboratoire Genetique et Environnement, Universite de
+  Montpellier II, France; 01 Apr 1997; Genetics 145(4):1219-1228;
+  DOI; PMID; PMC; abstract. Isolation-by-distance models as a
+  basis for estimating demographic parameters from subdivision.
+  Results for F-statistics in one-dimensional models and
+  coalescence times in two-dimensional models; earlier
+  two-dimensional F and one-dimensional coalescence results
+  made more precise. Method: regress pairwise FST/(1-FST)
+  estimates on geographic distance for linear habitats, or on
+  logarithm of distance for two-dimensional habitats. The
+  regression estimates the product of population density and
+  the second moment of parental axial dispersal distance. In
+  two cases with direct estimates available, the method is more
+  satisfactory than previous indirect methods. Distinct from
+  filled Wright 1943 (continuous-space similarity decay; not
+  this pairwise FST regression). Distinct from filled Slatkin
+  1993 (pairwise M = (1/FST-1)/4 versus distance). Distinct
+  from filled Weir and Cockerham 1984 (moment estimator, not
+  an IBD regression). Distinct from filled Kimura and Weiss
+  1964 stepping-stone.
+One-sentence prediction: Pairwise FST/(1-FST) rises with
+  distance (linear habitats) or log distance (2D); the slope
+  estimates density times dispersal second moment.
+Assumptions: a sexual array of subpopulations, not clones;
+  dispersal is the paper's kernel, not human / nursery
+  transport; a vineyard is not a subpopulation; dual
+  domestication is not one habitat; chips are not forced-
+  biallelic loci that fake FST.
+Which fail here: humans and nurseries move vines farther than
+  Rousset dispersal. Clone IBD fakes FST. Dual domestication
+  is two origins, not one isolation-by-distance habitat. A
+  wine-region PCA is not a Rousset transect.
+Modern data / statistic: whether wild-patch pairwise
+  FST/(1-FST) versus distance (or log distance) is a Rousset
+  density-dispersal slope after clone + IBD filters, versus
+  two domestication centres or transport.
+Dataset: Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655). Wild sylvestris subset
+  after clone + IBD filters. Use as geography, not as a
+  published Rousset analysis. Do not invent a grape IBD
+  paper.
+What would falsify it: wild-patch FST/(1-FST) is not a
+  Rousset slope after clone filter (swamped by transport, or
+  two origins). Treating clone IBS as FST is not the test.
+  Wright 1943 remains continuous IBD; Slatkin 1993 remains
+  pairwise M; Weir-Cockerham 1984 remains the estimator.
+What we will not claim: that Wright 1943 is this paper
+  (already filled). That Slatkin 1993 is this paper. That
+  Weir and Cockerham 1984 is this paper. That Dong 2023
+  fitted a Rousset regression. That a cultivar name is a
+  subpopulation.
+```
+
+---
+
+## Excoffier AMOVA
+
+```
+Theory: Excoffier AMOVA (hierarchical molecular variance and
+  phi-statistics)
+Original paper (year): Excoffier L, Smouse PE, Quattro JM.
+  1992. Analysis of molecular variance inferred from metric
+  distances among DNA haplotypes: application to human
+  mitochondrial DNA restriction data. Genetics 131(2):479-491
+  (1 June 1992). DOI 10.1093/genetics/131.2.479 PMID 1644282
+  PMCID PMC1205020. EuropePMC HTML opened
+  (https://europepmc.org/article/MED/1644282): Excoffier L,
+  Center for Theoretical and Applied Genetics (CTAG), Cook
+  College, Rutgers University, New Brunswick, New Jersey
+  08903-0231; Smouse PE; Quattro JM; 01 Jun 1992; Genetics
+  131(2):479-491; DOI; PMID; PMC; abstract. DNA haplotype
+  divergence is put into an analysis-of-variance format from
+  a matrix of squared distances among all pairs of haplotypes.
+  AMOVA estimates variance components and F-statistic analogs
+  (phi-statistics) for haplotypic diversity at hierarchical
+  levels of subdivision. Alternative input matrices (data
+  types / evolutionary assumptions) leave the analysis
+  structure unchanged. Significance of variance components
+  and phi-statistics is tested by permutation, dropping the
+  normality assumption that is conventional for ANOVA but
+  inappropriate for molecular data. Human mtDNA: subdivisions
+  resolve better when some molecular difference among
+  haplotypes is used; at the intraspecific level, exact
+  phylogeny or a nonlinear restriction-to-nucleotide map does
+  not much change inferred structure. Distinct from filled
+  Weir and Cockerham 1984 (moment FST from allele-frequency
+  variance; not haplotype-distance hierarchy). Distinct from
+  filled Nei 1972 distance. Distinct from filled Wright 1931
+  island formula as data.
+One-sentence prediction: Hierarchical molecular variance
+  among haplotypes is captured by phi-statistics; permutation
+  tests whether a named hierarchy explains haplotypic
+  distances.
+Assumptions: haplotypes are from a sexual sample, not clone
+  copies; the named hierarchy is biological, not a nursery
+  catalogue; dual domestication is not one nested design;
+  mtDNA-style haplotypes are not SNP-chip genotypes treated
+  as clones.
+Which fail here: clone IBD fakes haplotypes. Dual
+  domestication is two origins, not one nested hierarchy. A
+  vineyard is not a deme. Cultivar groups are human
+  catalogues.
+Modern data / statistic: whether wild / cultivar haplotype
+  distances after clone + IBD filters support an AMOVA
+  hierarchy (phi among named groups), versus two
+  domestication centres or clone copies.
+Dataset: Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655). Use as the hierarchy
+  contrast, not as a published grape AMOVA. Do not invent a
+  grape AMOVA paper.
+What would falsify it: the named hierarchy does not explain
+  haplotypic distances after clone filter (two origins, or
+  clone copies). Treating cultivar names as demes is not the
+  test. Weir-Cockerham 1984 remains the moment-FST job; Nei
+  1972 remains genetic distance.
+What we will not claim: that Weir and Cockerham 1984 is this
+  paper (already filled). That Nei 1972 is this paper. That
+  Dong 2023 ran AMOVA. That a cultivar name is a haplotype
+  deme.
+```
+
+---
+
+## Wade-McCauley extinction-recolonization
+
+```
+Theory: Wade-McCauley extinction and recolonization
+  (migrant pool versus propagule pool; K versus 2Nm)
+Original paper (year): Wade MJ, McCauley DE. 1988. Extinction
+  and recolonization: their effects on the genetic
+  differentiation of local populations. Evolution
+  42(5):995-1005 (1 September 1988).
+  DOI 10.1111/j.1558-5646.1988.tb02518.x PMID 28581169.
+  EuropePMC HTML opened
+  (https://europepmc.org/article/MED/28581169): Wade MJ,
+  Department of Biology, University of Chicago, Chicago, IL
+  60637; McCauley DE, Department of General Biology,
+  Vanderbilt University, Nashville, TN 37235; 01 Sep 1988;
+  Evolution 42(5):995-1005; DOI; PMID; abstract. A Slatkin
+  1977 model for an array of local demes with some migration:
+  when does extinction and recolonization enhance or diminish
+  gene flow, and increase or decrease differentiation,
+  relative to the static case with no extinctions? Age
+  structure among populations is explicit. Two colonization
+  models: migrant pool and propagule pool. Genetic effects
+  depend on K (number of individuals founding new colonies)
+  versus 2Nm (twice the number of migrants into extant
+  populations). Effects are surprisingly insensitive to the
+  extinction rate. The empirical question is ecological: is
+  colonization a behavior distinct from migration? Distinct
+  from filled Levins 1969 (occupancy as colonization-
+  extinction balance; not FST / K versus 2Nm). Distinct from
+  filled Wright 1931 island (static Nem; no extinction).
+  Distinct from filled Whitlock 1992 (this wave; demographic
+  fluctuations in general, not the 1988 colonization models).
+  Pannell and Charlesworth 2000 is a review; not the source.
+One-sentence prediction: Extinction and recolonization raise
+  or lower differentiation according as founders K compare
+  with 2Nm, and according as colonists are a migrant pool or
+  a propagule pool; the extinction rate itself is secondary.
+Assumptions: local demes go extinct and are refounded; a
+  vineyard is not a deme; nursery planting is not
+  colonization; clones are not founders; dual domestication
+  is not a metapopulation of one species.
+Which fail here: nurseries plant cuttings; that is not
+  Wade-McCauley colonization. Clone IBD fakes FST. Dual
+  domestication is two origins. A wine region is not an
+  array of demes with extinction.
+Modern data / statistic: whether wild-patch FST after clone
+  + IBD filters matches a Wade-McCauley extinction-
+  recolonization prediction (K versus 2Nm; migrant versus
+  propagule), versus static island / IBD / two origins.
+Dataset: Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655). Wild sylvestris subset
+  after clone + IBD filters. Use as the metapopulation-FST
+  contrast, not as a published extinction-recolonization
+  analysis. Do not invent a grape metapopulation paper.
+What would falsify it: wild-patch FST is not a Wade-McCauley
+  extinction-recolonization signal after clone filter
+  (static structure, or two origins). Treating nursery
+  plantings as colonization is not the test. Levins 1969
+  remains occupancy; Wright 1931 remains static island.
+What we will not claim: that Levins 1969 is this paper
+  (already filled). That Wright 1931 is this paper. That
+  Pannell and Charlesworth 2000 is the source (review).
+  That Dong 2023 estimated K versus 2Nm. That a nursery
+  block is a founded colony.
+```
+
+---
+
+## Whitlock fluctuating FST
+
+```
+Theory: Whitlock fluctuating demography and FST
+Original paper (year): Whitlock MC. 1992. Temporal
+  fluctuations in demographic parameters and the genetic
+  variance among populations. Evolution 46(3):608-615
+  (1 June 1992). DOI 10.1111/j.1558-5646.1992.tb02069.x
+  PMID 28568658. EuropePMC HTML opened
+  (https://europepmc.org/article/MED/28568658): Whitlock MC,
+  Department of General Biology, Vanderbilt University,
+  Nashville, TN 37235; 01 Jun 1992; Evolution 46(3):608-615;
+  DOI; PMID; abstract. Demographic properties (migration
+  rate, population size, extinction and colonization) are
+  not always constant. The approach to equilibrium after a
+  disturbance of among-population genetic variance is
+  described. Migration rate is critical to how much
+  extinction and recolonization affect differentiation.
+  Equations predict the time-average of genetic
+  differentiation after a single disturbance or under
+  constant fluctuations. In general these fluctuations
+  increase FST. Spatial demographic variation affects FST
+  much more than temporal variation. Such properties make
+  some species unsuitable for estimating migration with
+  indirect genetic measures. Distinct from filled Wade and
+  McCauley 1988 (this wave; migrant / propagule and K versus
+  2Nm, not the 1992 fluctuation / spatial-versus-temporal
+  result). Distinct from filled Levins 1969 occupancy.
+  Distinct from filled Wright 1931 static island. Distinct
+  from filled Weir and Cockerham 1984 (the estimator, not
+  fluctuating demography).
+One-sentence prediction: Fluctuating demography inflates
+  FST relative to a constant-N, constant-m island; spatial
+  variation in demography inflates FST more than purely
+  temporal variation.
+Assumptions: demes have time-varying N, m, or extinction;
+  a cultivar panel is not that array; clones are not demes;
+  dual domestication is not one fluctuating species;
+  indirect Nm from FST assumes the constancy this paper
+  drops.
+Which fail here: a cultivar collection is not a fluctuating
+  deme. Clone IBD fakes FST. Dual domestication is two
+  origins. Human transport is not Whitlock migration.
+Modern data / statistic: whether wild-patch FST after clone
+  + IBD filters is inflated by spatial / temporal
+  demographic fluctuation relative to a static island, versus
+  two origins or transport.
+Dataset: Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655). Wild sylvestris subset
+  after clone + IBD filters. Use as the fluctuating-FST
+  contrast, not as a published Whitlock analysis. Do not
+  invent a grape demographic-fluctuation paper.
+What would falsify it: FST is not inflated by demographic
+  fluctuation after clone filter (static structure, or two
+  origins). Treating clone IBS as FST is not the test.
+  Wade 1988 remains extinction-recolonization; Wright 1931
+  remains static island.
+What we will not claim: that Wade and McCauley 1988 is this
+  paper. That Levins 1969 is this paper. That Wright 1931
+  is this paper. That Dong 2023 fitted a Whitlock
+  fluctuation. That a nursery is a temporal disturbance.
+```
+
+---
+
+## Slatkin two-locus cline
+
+```
+Theory: Slatkin two-locus gene flow and selection (linkage
+  in a cline)
+Original paper (year): Slatkin M. 1975. Gene flow and
+  selection in a two-locus system. Genetics 81(4):787-802
+  (1 December 1975). DOI 10.1093/genetics/81.4.787
+  PMID 1213276 PMCID PMC1213435. EuropePMC HTML opened
+  (https://europepmc.org/article/MED/1213276): Slatkin M;
+  01 Dec 1975; Genetics 81(4):787-802; DOI; PMID; PMC;
+  abstract. A model of gene flow and selection at two linked
+  loci: effects of linkage on the clines at the two loci,
+  and the role of gene flow in producing linkage
+  disequilibrium between the loci; whether linkage lets a
+  population track spatial environmental change. When the
+  recombination fraction is of the same order as the
+  selection coefficients or smaller, linkage is important in
+  determining gene frequencies and a substantial amount of
+  linkage disequilibrium is present in the cline. Depending
+  on the spatial pattern of selection on the two loci,
+  linkage can either decrease or increase a population's
+  response to local selection. Distinct from filled Slatkin
+  1973 (this skill; single-locus characteristic length, not
+  two-locus LD). Distinct from filled Barton 1983 (many-
+  locus coupling theta = s/r, not two-locus cline LD).
+  Distinct from filled Haldane 1948 / Nagylaki 1975 (single-
+  locus clines). Distinct from filled Slatkin 1985 / 1993.
+  Slatkin and Maruyama 1975 Genetics 81:209-222 (drift in a
+  cline) was not opened as the lock; not used.
+One-sentence prediction: If recombination is of order
+  selection or tighter, two selected loci in a cline show
+  substantial LD and linkage can help or hinder tracking
+  the environment.
+Assumptions: two linked selected loci in a continuous
+  sexual habitat; a chip is not that map; clone IBD is not
+  cline LD; dual domestication is not one two-locus
+  environment; a vineyard is not the spatial pattern of
+  selection.
+Which fail here: clone IBD fakes LD among loci. Dong 2023
+  color / sex / flavor are few large-effect loci, not a
+  two-locus environmental cline. Human transport is not
+  Slatkin gene flow. A nursery block is not the spatial
+  pattern of selection.
+Modern data / statistic: whether candidate locus pairs show
+  Slatkin two-locus cline LD (r of order s) after clone +
+  IBD filters, versus independent peaks or clone IBS.
+Dataset: Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655). Color / sex / flavor
+  peaks as the large-effect contrast. Use as the two-locus
+  cline contrast, not as a published grape two-locus-cline
+  paper. Sex locus is chromosome-2 SDR, never VviAGL11.
+  Do not invent a grape two-locus-cline paper.
+What would falsify it: candidate pairs do not show two-
+  locus cline LD after clone filter (independent loci, or
+  clone IBS). Characteristic length remains the 1973 job;
+  many-locus coupling remains Barton 1983.
+What we will not claim: that Slatkin 1973 is this paper
+  (already filled). That Barton 1983 is this paper. That
+  Slatkin and Maruyama 1975 is this paper. That Dong 2023
+  fitted two-locus cline LD. That VviAGL11 is the sex
+  locus (it is seedlessness; sex is Dong 2023 chr-2 SDR).
+```
+
+---
+
+## Barton-Bengtsson gene-flow barrier
+
+```
+Theory: Barton-Bengtsson barrier to genetic exchange
+  (linked neutrals across a multilocus hybrid barrier)
+Original paper (year): Barton N, Bengtsson BO. 1986. The
+  barrier to genetic exchange between hybridising
+  populations. Heredity 56:357-376 (1986; Nature PDF
+  header). EuropePMC HTML lists 57 (Pt 3):357-376
+  (01 Dec 1986). DOI 10.1038/hdy.1986.135 PMID 3804765.
+  Nature PDF opened
+  (https://www.nature.com/articles/hdy1986135.pdf):
+  Heredity 56 (1986) 357-376; The Genetical Society of
+  Great Britain; received 13 February 1986; Nick Barton,
+  Department of Genetics and Biometry, University College
+  London; Bengt Olle Bengtsson, Department of Genetics,
+  University of Lund. EuropePMC HTML opened
+  (https://europepmc.org/article/MED/3804765): Barton N;
+  Bengtsson BO; Heredity; DOI; PMID; same abstract. If
+  selection at one or more loci maintains genetic
+  differences between hybridising populations, flow of
+  alleles at a linked neutral marker is impeded. Measures
+  of the barrier are defined for two distinct demes and
+  across a continuous habitat. In both cases, gene flow is
+  significantly reduced over much of the genome only if
+  hybrids are substantially less fit, and the number of
+  genes building the barrier is so large that the majority
+  of other genes become closely linked to some selected
+  locus. The conclusion is not greatly affected by the
+  pattern of epistasis or the position of the marker along
+  the chromosome. Distinct from filled Barton 1979
+  (tension-zone dynamics; dispersal versus hybrid
+  unfitness; not this genome-wide linked-neutral barrier).
+  Distinct from filled Barton 1983 (coupling theta = s/r
+  among selected clines; not the 1986 barrier-strength
+  result for neutrals). Distinct from filled Key 1968
+  (names the tension zone). Distinct from filled Barton
+  1986 hybrid-sink paper (this wave; density / hybrid sink
+  / linkage formula). Barton and Hewitt 1985 remains a
+  review. Hewitt 1988 TREE is a review; not used.
+One-sentence prediction: A hybrid zone is a genome-wide
+  barrier to linked neutrals only if hybrids are
+  substantially unfit and selected loci are numerous
+  enough that most markers sit close to one of them.
+Assumptions: two sexual populations differ at many
+  selected loci; a cultivar panel is not that meeting;
+  clone IBD is not a barrier; a nursery hybrid is not
+  secondary contact; dual domestication is not one hybrid
+  zone.
+Which fail here: nursery crosses are not secondary
+  contact. Clone IBD fakes LD among loci. Dong 2023 color
+  / sex / flavor are few large-effect loci, not a many-
+  locus barrier. Syl-W gene flow is CAUTION, not a
+  Barton-Bengtsson barrier estimate.
+Modern data / statistic: whether wild-cultivar contact
+  after clone + IBD filters is a genome-wide linked-
+  neutral barrier (hybrids substantially unfit; most
+  markers closely linked to selected loci), versus
+  independent introgression of a few loci.
+Dataset: Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655). Syl-W gene flow;
+  color / sex / flavor peaks. Use as the barrier contrast,
+  not as a published grape hybrid-barrier analysis. Do
+  not invent a grape hybrid-zone paper.
+What would falsify it: contact is not a genome-wide
+  linked-neutral barrier after clone filter (few
+  independent loci, or diffuse gene flow). Single-locus
+  tension-zone dynamics remain the 1979 job. Coupling
+  among selected clines remains the 1983 job. Hybrid-sink
+  density remains the other 1986 job.
+What we will not claim: that Barton 1979 is this paper
+  (already filled). That Barton 1983 is this paper. That
+  Barton and Hewitt 1985 or Hewitt 1988 is the source
+  (reviews). That Dong 2023 estimated barrier strength.
+  That a nursery hybrid is a genome-wide barrier.
+```
+
+---
+
+## Barton hybrid-sink barrier
+
+```
+Theory: Barton hybrid-sink / density / linkage barrier
+Original paper (year): Barton NH. 1986. The effects of
+  linkage and density-dependent regulation on gene flow.
+  Heredity 57:415-426 (1986; Nature PDF header).
+  EuropePMC HTML lists 57 (Pt 3):415-426 (01 Dec 1986).
+  DOI 10.1038/hdy.1986.142 PMID 3804768. Nature PDF opened
+  (https://www.nature.com/articles/hdy1986142.pdf):
+  Heredity 57 (1986) 415-426; The Genetical Society of
+  Great Britain; received 13 March 1986; N. H. Barton,
+  Department of Genetics and Biometry, University College
+  London. EuropePMC HTML opened
+  (https://europepmc.org/article/MED/3804768): Barton NH;
+  Heredity; DOI; PMID; abstract. Gene flow across a hybrid
+  zone may be reduced by a physical barrier, by a reduction
+  of population density caused by reduced hybrid fitness
+  (the hybrid-sink effect), and by linkage. If the
+  reduction in hybrid fitness is not extreme, the combined
+  barrier strength is given (paper's formula) in terms of
+  cline width w, carrying capacity rho, mean fitness W
+  excluding density, strength of density-dependent
+  regulation R, and the harmonic mean recombination rate r
+  between the flowing locus and selected loci; + and 0
+  denote populations outside the zone and at its centre.
+  Illustrated with Bombina and Podisma. Distinct from
+  filled Barton 1979 (dynamics of the tension zone; not
+  this combined barrier formula). Distinct from filled
+  Barton 1983 (coupling of selected clines). Distinct from
+  filled Barton and Bengtsson 1986 (this wave; genome-wide
+  barrier at linked neutrals when hybrids are substantially
+  unfit and selected loci are numerous; not the hybrid-sink
+  density formula). Distinct from filled Key 1968. Barton
+  and Hewitt 1985 remains a review. Wallace 1975 hard /
+  soft selection was not opened as a claim-text original
+  (wave 8 drop); not the source.
+One-sentence prediction: A hybrid zone impedes gene flow
+  by the product of a physical barrier, a hybrid-sink
+  density dip, and linkage to selected loci; density
+  reduction from hybrid unfitness is part of the barrier.
+Assumptions: hybrids are less fit and that unfitness
+  lowers local density; a vineyard stand is not that
+  density; nursery density is not hybrid unfitness; clones
+  are not a hybrid zone; dual domestication is not one
+  cline.
+Which fail here: vineyard density is agronomy, not a
+  hybrid sink. Nursery hybrids are not secondary contact.
+  Dong 2023 Syl-W gene flow is CAUTION, not a fitted
+  hybrid-sink barrier. Clone IBD fakes a density of
+  identical genotypes.
+Modern data / statistic: whether wild-cultivar contact
+  after clone + IBD filters shows a hybrid-sink density
+  barrier (density dip from hybrid unfitness contributing
+  to B), versus diffuse gene flow / two origins.
+Dataset: Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655). Syl-W gene flow. Use as
+  the hybrid-sink contrast, not as a published grape
+  hybrid-sink analysis. Do not invent a grape hybrid-sink
+  paper.
+What would falsify it: contact is not a hybrid-sink
+  density barrier after clone filter (no fitness-driven
+  density dip, or two origins). Tension-zone dynamics
+  remain 1979. Coupling remains 1983. Genome-wide linked-
+  neutral barrier remains Barton-Bengtsson 1986.
+What we will not claim: that Barton 1979 is this paper.
+  That Barton 1983 is this paper. That Barton and
+  Bengtsson 1986 is this paper. That Wallace 1975 is the
+  source. That Dong 2023 fitted a hybrid-sink B. That a
+  vineyard density map is a hybrid sink.
+```
+
+---
+
+## Kimura stochastic drift
+
+```
+Theory: Kimura 1955 stochastic random genetic drift
+  (complete diffusion solution)
+Original paper (year): Kimura M. 1955. Solution of a
+  process of random genetic drift with a continuous
+  model. Proc Natl Acad Sci USA 41(3):144-150
+  (15 March 1955). DOI 10.1073/pnas.41.3.144
+  PMID 16589632 PMCID PMC528040. EuropePMC HTML opened
+  (https://europepmc.org/article/MED/16589632): Kimura M,
+  Department of Genetics, University of Wisconsin;
+  01 Mar 1955; PNAS 41(3):144-150; DOI; PMID; PMC; no
+  abstract there. EuropePMC PDF opened
+  (https://europepmc.org/articles/PMC528040?pdf=render):
+  Motoo Kimura; communicated by Sewall Wright,
+  15 November 1954; Contribution No. 84 of the National
+  Institute of Genetics, Mishima-shi, Japan. Random
+  genetic drift in finite populations from random sampling
+  of gametes. Fisher and Wright had treated the state of
+  steady decay; the complete time-dependent solution
+  showing how the process leads to that state was missing.
+  Under a continuous (diffusion) model, with selection,
+  migration, and mutation absent and non-overlapping
+  generations, the gene-frequency density of unfixed
+  classes is expanded in Gegenbauer polynomials with
+  exponential decay e^{-i(i+1)t/4N}. Heterozygosity
+  decreases exactly at the rate 1/(2N) per generation:
+  H_t = H_0 e^{-t/2N}. The distribution of unfixed classes
+  becomes nearly flat after about 2N generations when the
+  process starts at p = 0.5. Distinct from filled Kimura
+  1968 (neutral substitution rate at the molecular level;
+  not this time-dependent frequency distribution).
+  Distinct from filled Kimura and Weiss 1964 stepping-
+  stone (spatial correlation; not panmictic drift).
+  Distinct from filled Kimura and Crow 1964 infinite-
+  alleles. Distinct from filled Kimura 1969 infinite-
+  sites. Distinct from filled Kingman 1982 coalescent
+  (sample genealogy; not the 1955 forward diffusion).
+  Distinct from filled Wright 1931 (island math; not the
+  complete drift solution). Distinct from filled Ewens
+  1972 sampling formula.
+One-sentence prediction: In a finite panmictic population
+  without selection, mutation, or migration, the gene-
+  frequency distribution of unfixed classes follows
+  Kimura's diffusion solution and heterozygosity decays
+  as e^{-t/2N}.
+Assumptions: a random-mating diploid population of
+  effective size N; clones are not that population; a
+  cultivar panel is not N; dual domestication is not one
+  Wright-Fisher trajectory; somatic clone age is not t
+  in generations of random mating.
+Which fail here: grafted clones skip the random sampling
+  of gametes that generates the 1955 process. A cultivar
+  collection is not N. Clone IBD fakes heterozygosity.
+  Dual domestication is human choice, not drift time.
+Modern data / statistic: whether wild-sample heterozygosity
+  / unfixed-class frequency after clone + IBD filters
+  follows a Kimura-1955 drift trajectory (H_t = H_0
+  e^{-t/2N}), versus clone copies or two domestication
+  centres.
+Caution dataset: Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655). Wild sylvestris after
+  clone + IBD filters. Use as the drift contrast, not as
+  a published Kimura-1955 analysis. Vondras 2019 / Roach
+  2018 as clone-clock companions (somatic age is not
+  Wright-Fisher t). Do not invent a grape drift-trajectory
+  paper.
+What would falsify it: heterozygosity is not a Kimura-1955
+  drift trajectory after clone filter (clone copies, or
+  two origins). Neutral substitution rate remains Kimura
+  1968. Sample genealogies remain Kingman 1982. Spatial
+  correlation remains Kimura-Weiss 1964.
+What we will not claim: that Kimura 1968 is this paper
+  (already filled). That Kimura and Weiss 1964 is this
+  paper. That Kingman 1982 is this paper. That Wright
+  1931 is this paper. That Dong 2023 fitted a 1955
+  diffusion. That clone age is Wright-Fisher t.
+```
+
+---
