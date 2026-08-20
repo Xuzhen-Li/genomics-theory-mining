@@ -2577,3 +2577,546 @@ What we will not claim: that Jaillon 2007 tested
 ```
 
 ---
+
+---
+
+## Vavilov centers of origin
+
+```
+Theory: Vavilov centers of origin (geographical origin of
+  cultivated plants)
+Original paper (year): Vavilov NI. 1932. The process of
+  evolution in cultivated plants. Proceedings of the Sixth
+  International Congress of Genetics (Ithaca, New York, 1932)
+  1:331-342. ESP facsimile PDF opened
+  (http://www.esp.org/books/6th-congress/facsimile/contents/6th-cong-p331-vavilov.pdf);
+  ESP TOC HTML opened (chapter page 331, N. I. Vavilov).
+  Running headers: "INTERNATIONAL CONGRESS OF GENETICS" /
+  "PROCEEDINGS OF THE SIXTH". Author line: N. I. Vavilov,
+  Institute of Plant Industry, Leningrad. Title on the
+  facsimile is "IN cultivated plants" (ESP TOC said "ON").
+  Pages 334-335 lock seven principal world centres of origin
+  of cultivated plants (Southwestern Asia / Transcaucasia;
+  India; Eastern China; Abyssinia; Mediterranean; Southern
+  Mexico and Central America; Peru and Bolivia). Earlier
+  Berlin congress had five; this paper updates to seven.
+  "The geographical principle in evolution" is the named
+  heading (p. 333). Distinct from filled Ramachandran et al.
+  2005 serial founder (heterozygosity declining from one
+  origin). Distinct from filled Dong-class dual
+  domestication as a grape fact; 1932 is the crop-centre
+  original. Homologous series is named here (p. 336) as
+  Vavilov 1922 J Genet; that 1922 paper was not opened and
+  is not this source. Hammer 1984 domestication syndrome
+  was not used.
+One-sentence prediction: The greatest varietal diversity of
+  a cultivated plant, and the keys to its origin, sit in a
+  few geographically small primary centres (mountains and
+  foothills), not uniformly across the crop's present range.
+Assumptions: centres are regions of origin of sexual crop
+  species; samples are landraces and wild relatives, not
+  clones or nursery cultivars; a vineyard block is not a
+  Vavilov centre; dual domestication is not one centre.
+Which fail here: grafted cultivars are not landraces.
+  Humans and nurseries move vines farther than a foothill
+  centre. Dong 2023 dual domestication is two grape origins,
+  not the seven-crop map. Feral escapes and clone IBD fake
+  a diversity centre.
+Modern data / statistic: geographic concentration of wild
+  and landrace diversity after clone + IBD filters, versus
+  a single (or seven-crop) centre-of-origin decline.
+Dataset: Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655). Dual-domestication
+  geography; wild sylvestris after clone + IBD filters.
+  Use as the two-origin contrast, not as a published
+  Vavilov-centre analysis. Do not invent a grape centres-
+  of-origin paper.
+What would falsify it: grape diversity does not sit in one
+  geographically small primary centre after clone + IBD
+  filters (two domestication centres, or an equilibrium
+  IBD slope with no centre). A wine-region PCA is not the
+  test.
+What we will not claim: that Dong 2023 fitted Vavilov's
+  seven centres. That this note is serial founder
+  (Ramachandran 2005, already filled). That Vavilov 1922
+  homologous series is this paper. That Hammer 1984 is
+  the source.
+```
+
+---
+
+## Price equation
+
+```
+Theory: Price equation (selection as covariance)
+Original paper (year): Price GR. 1970. Selection and
+  covariance. Nature 227:520-521 (1 August 1970).
+  DOI 10.1038/227520a0 PMID 5428476.
+  Nature HTML landing opened (George R. Price, Galton
+  Laboratory, University College; title; 227:520-521;
+  01 August 1970; DOI; received 12 November 1969).
+  EuropePMC HTML opened (Price GR, 01 Aug 1970, Nature
+  227(5257):520-521, DOI, PMID). Preliminary communication
+  applying a mathematical treatment of selection in general
+  to genetical selection. Price 1972 Ann Hum Genet
+  35:485-490 (extension of covariance selection mathematics)
+  and Price 1972 Ann Hum Genet 36:129-140 (Fisher's
+  fundamental theorem) were not used as the source; 1970
+  is the named original (same Muller-1964 / Felsenstein-1974
+  split). Distinct from filled Lande 1979 multivariate
+  G beta (response is covariance times a selection
+  gradient in a sexual pedigree). Distinct from filled
+  Fisher 1918 infinitesimal and Fisher 1930 geometric.
+One-sentence prediction: The change in the mean of a
+  character equals its covariance with relative fitness
+  (plus a transmission term); selection is that covariance,
+  not a named force at one locus.
+Assumptions: a well-defined parental and offspring
+  generation; fitness and the character are scored on the
+  same individuals; clones and cuttings are not that
+  generation; a few large-effect substitutions are not a
+  covariance partition across many characters.
+Which fail here: grafted cuttings skip the sexual
+  generation. Berry color, hermaphroditism, and muscat /
+  flavor are few large-effect loci (Dong 2023), not a
+  Price partition. Clone IBD fakes a parent-offspring
+  covariance. Nursery choice of sports is not 1970
+  selection.
+Modern data / statistic: whether domestication-trait
+  change is a fitness-covariance partition after clone +
+  IBD filters, versus one or a few large-effect loci.
+Caution dataset: Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655). Color / sex / flavor
+  peaks. Use as the large-effect contrast, not as a
+  published Price-equation estimate. Do not invent a grape
+  Price-equation paper.
+What would falsify it: a candidate domestication trait is
+  explained by one or a few large-effect loci (the
+  covariance partition dies for that trait). If only a
+  G-matrix / infinitesimal response remains after clone +
+  IBD filters, the single-gene claim dies (that is Lande
+  1979 / Fisher 1918, already filled).
+What we will not claim: that Price 1972 is this paper.
+  That Lande 1979 is this paper (already filled). That
+  Dong 2023 estimated a Price covariance. That a nursery
+  sport is a 1970 generation.
+```
+
+---
+
+## Kin selection / inclusive fitness
+
+```
+Theory: Kin selection / inclusive fitness
+Original paper (year): Hamilton WD. 1964. The genetical
+  evolution of social behaviour. I. Journal of Theoretical
+  Biology 7(1):1-16 (July 1964).
+  DOI 10.1016/0022-5193(64)90038-4 PMID 5875341.
+  EuropePMC HTML opened (Hamilton WD, 01 Jul 1964, J Theor
+  Biol 7(1):1-16, DOI, PMID). Part I PDF opened (J. Theoret.
+  Biol. (1964) 7, 1-16; received 13 May 1963, revised
+  24 February 1964; Galton Laboratory, University College,
+  London). A genetical model for interactions between
+  relatives; Wright's coefficient of relationship measures
+  replica genes; the quantity that incorporates the
+  maximizing property of Darwinian fitness is named
+  "inclusive fitness"; species following the model evolve
+  behaviour that appears to maximize inclusive fitness,
+  implying limited restraint on selfish competition and
+  limited self-sacrifice. Hamilton 1964 part II (J Theor
+  Biol 7:17-52; DOI 10.1016/0022-5193(64)90039-6 PMID
+  5875340) is the biological sequel, not used as the
+  source (same Muller-1964 / Felsenstein-1974 split).
+One-sentence prediction: A social behaviour that lowers
+  the actor's direct fitness can still spread if it raises
+  inclusive fitness, i.e. if benefits to relatives weighted
+  by relatedness outweigh the cost.
+Assumptions: social interactions among sexual relatives;
+  relatedness is IBD, not clone IBS; a grafted cultivar is
+  not a social group; cuttings skip the generation in which
+  altruism is scored.
+Which fail here: this does not map onto grafted clones.
+  A vineyard is not a sibship. Clone IBD is not Hamilton
+  relatedness. Meristem layers and chimeras (Satina /
+  Franks) are not social interactors. Somatic clocks
+  (Vondras / Roach / Carrier) are not inclusive-fitness
+  accounting.
+Modern data / statistic: none that tests Hamilton 1964
+  in grape. Do not invent a grape kin-selection or
+  altruism paper.
+What would falsify it: not applicable as a grape clone
+  test. The note is filled as "does not map onto grafted
+  clones" rather than as an invented social-insect
+  experiment.
+What we will not claim: that Hamilton 1964 part II is the
+  source. That a chimera is kin selection. That Trivers
+  1974 is this paper (not filled; not a genomics job).
+  That Dong 2023 measured inclusive fitness.
+```
+
+---
+
+## Nei genetic distance
+
+```
+Theory: Nei genetic distance
+Original paper (year): Nei M. 1972. Genetic distance
+  between populations. The American Naturalist
+  106(949):283-292 (May 1972).
+  DOI 10.1086/282771.
+  Crossref work JSON opened (Masatoshi Nei; title; The
+  American Naturalist; volume 106; issue 949; pages
+  283-292; published-print 1972-05; DOI 10.1086/282771;
+  publisher University of Chicago Press). CiNii HTML
+  opened (same author, title, journal, 106(949):283-292,
+  1972-05, DOI). Semantic Scholar API opened (M. Nei;
+  American Naturalist; 1972; DOI). Chicago journal HTML
+  was Cloudflare this wave; no PMID on EuropePMC REST.
+  Lock author+year+venue from Crossref + CiNii. Title is
+  the named distance; the paper formulates a genetic
+  distance from the identity of genes between populations.
+  Distinct from filled Wright 1931 island (FST as a
+  function of Nem) and filled Wright 1943 IBD (similarity
+  declining with continuous distance). Distinct from
+  filled Weir and Cockerham 1984 (this wave; the FST
+  estimator). Distinct from filled Nei, Gu and Sitnikova
+  1997 birth-and-death (a gene-family process, not a
+  between-population distance).
+One-sentence prediction: Genetic distance from gene
+  identity between populations accumulates with time under
+  sexual isolation (and with geography in some migration
+  models); clones and forced-biallelic chips are not that
+  identity.
+Assumptions: allele frequencies from random samples of
+  populations, not clones or first-degree cuttings; identity
+  is not clone IBS; dual domestication is not one split;
+  a cultivar PCA is not a Nei tree.
+Which fail here: a cultivar panel is not two random
+  populations. Clone IBD fakes gene identity. SNP chips
+  are biallelic. Dong 2023 dual domestication is two
+  origins, not one clock-linear split. Humans and nurseries
+  move vines farther than isolation.
+Modern data / statistic: Nei D (or a sequence analogue)
+  among wild V. sylvestris patches after clone + IBD
+  filters, versus a single-split clock or a dual-
+  domestication two-cluster pattern.
+Dataset: Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655). Wild sylvestris subset
+  after clone + IBD filters. Use as geography / split
+  structure, not as a published Nei-distance analysis.
+  Do not invent a grape genetic-distance paper.
+What would falsify it: D among wild patches is not a
+  single-split accumulation after clone + IBD filters
+  (two domestication centres, or an IBD slope with no
+  split). Clone IBS treated as gene identity is not the
+  test.
+What we will not claim: that Nei 1997 is this paper
+  (already filled as birth-and-death). That Wright 1931
+  or 1943 is this paper. That Dong 2023 reported Nei D.
+  That a wine-region PCA is a genetic-distance tree.
+```
+
+---
+
+## Weir-Cockerham FST
+
+```
+Theory: Weir-Cockerham FST estimator
+Original paper (year): Weir BS, Cockerham CC. 1984.
+  Estimating F-statistics for the analysis of population
+  structure. Evolution 38(6):1358-1370 (1 November 1984).
+  DOI 10.1111/j.1558-5646.1984.tb05657.x PMID 28563791.
+  EuropePMC HTML opened (Weir BS, Cockerham CC;
+  Department of Statistics, North Carolina State
+  University; 01 Nov 1984; Evolution 38(6):1358-1370;
+  DOI; PMID). Wiley / OUP HTML not used (prior-wave
+  Cloudflare pattern). Wright 1951 / 1965 named FST,
+  FIT, and FIS; 1931 already filled as the island-model
+  math. 1984 is the moment estimator from allele-frequency
+  variance that accounts for sample size, number of
+  populations, and multiple alleles (Cockerham 1969 / 1973
+  parameters extended). Distinct from filled Wright 1931
+  island (the parameter FST = f(Nem), no distance decay).
+  Distinct from filled Wright 1943 IBD and Kimura and
+  Weiss 1964 stepping-stone. Distinct from filled Nei 1972
+  genetic distance (this wave; a between-population
+  identity distance, not an FST estimator).
+One-sentence prediction: Population structure is summarized
+  by moment estimates of FST / FIT / FIS from allele-
+  frequency variance; finite samples and unequal deme
+  sizes are part of the estimator, not nuisances to ignore.
+Assumptions: samples are demes, not clones or cultivars;
+  a vineyard block is not a deme; clone IBS is not
+  coancestry; the island formula is not plugged in as the
+  data function.
+Which fail here: grafted cultivars are not demes. Clone
+  IBD fakes FST. A wine-region PCA is not a Weir-Cockerham
+  analysis. Dual domestication and human transport violate
+  the island reading already filled as Wright 1931.
+Modern data / statistic: Weir-Cockerham FST among wild
+  V. sylvestris patches after clone + IBD filters, versus
+  distance (island: no decay; IBD / stepping-stone: decay).
+Dataset: Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655). Wild sylvestris subset
+  after clone + IBD filters. Use as structure, not as a
+  published WC-FST analysis. Do not invent a grape FST
+  paper.
+What would falsify it: WC FST among wild patches is not
+  independent of distance after clone filter (the island
+  reading dies; that is the Wright 1931 job already
+  filled). Treating clone IBS as FST is not the test.
+What we will not claim: that Wright 1931 is this paper
+  (island math, already filled). That Nei 1972 is this
+  paper. That Dong 2023 reported Weir-Cockerham FST.
+  That a cultivar PCA is an FST table.
+```
+
+---
+
+## Orr exponential factors
+
+```
+Theory: Orr exponential distribution of adaptive factors
+Original paper (year): Orr HA. 1998. The population
+  genetics of adaptation: the distribution of factors
+  fixed during adaptive evolution. Evolution 52(4):935-949
+  (1 August 1998).
+  DOI 10.1111/j.1558-5646.1998.tb01823.x PMID 28565213.
+  EuropePMC HTML opened (Orr HA, Department of Biology,
+  University of Rochester; 01 Aug 1998; Evolution
+  52(4):935-949; DOI; PMID; abstract). Using Fisher's
+  geometric model, the size distribution of factors fixed
+  on a stepwise walk to a phenotypic optimum is
+  approximately exponential; the result is insensitive to
+  the fitness function and to the input distribution of
+  mutational effects. Distinct from filled Fisher 1930
+  geometric (chance a random mutation of size r improves;
+  Clarendon pages 38-41). 1930 is the geometry of one
+  mutation; 1998 is the distribution of factors that
+  actually fix on the walk. Distinct from filled Fisher
+  1918 infinitesimal (many small Mendelian loci for a
+  metric trait) and filled Lande 1979 G beta. Distinct
+  from filled Hermisson and Pennings 2005 soft sweep
+  (standing / recurrent copies, not the size distribution
+  of substitutions). Orr 2005 Nat Rev Genet is a review
+  (red line); not used as the source.
+One-sentence prediction: Factors fixed during adaptation
+  toward a fixed optimum are approximately exponential in
+  phenotypic effect: most are small, a few are large, and
+  the largest is larger than a one-step Fisher reading.
+Assumptions: a walk of sexual substitutions toward an
+  optimum; mutations are drawn, then filtered by fixation;
+  clones are not a walk; a few domestication loci of very
+  large effect are not an exponential series.
+Which fail here: berry color, hermaphroditism, and muscat /
+  flavor in grape are few large-effect domestication
+  substitutions (Dong 2023), not an exponential walk of
+  many factors. A cultivar panel is not Orr's walk.
+  Clone sports are not substitutions. Cuttings skip the
+  stepwise generations.
+Modern data / statistic: effect-size distribution of
+  domestication substitutions after clone + IBD filters,
+  versus an exponential series of fixed factors.
+Caution dataset: Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655). Color / sex / flavor
+  peaks. Use as the large-effect contrast, not as a
+  published Orr-walk fit. Do not invent a grape adaptive-
+  walk paper.
+What would falsify it: a candidate domestication trait is
+  explained by one or a few large-effect loci (the
+  exponential walk dies for that trait). If many small
+  fixed factors remain after clone + IBD filters, the
+  single-gene claim dies (Fisher 1918 / Lande 1979 jobs).
+What we will not claim: that this note is Fisher 1930
+  geometric (already filled). That Orr 2005 is the source
+  (review). That Dong 2023 fitted an exponential series.
+  That a nursery sport is a fixed factor.
+```
+
+---
+
+## Y-chromosome degeneration
+
+```
+Theory: Y-chromosome degeneration (ratchet on a
+  non-recombining sex chromosome)
+Original paper (year): Charlesworth B. 1978. Model for
+  evolution of Y chromosomes and dosage compensation.
+  Proc Natl Acad Sci USA 75(11):5618-5622 (1 November
+  1978). DOI 10.1073/pnas.75.11.5618 PMID 281711
+  PMC393018. EuropePMC HTML opened (Charlesworth B;
+  01 Nov 1978; PNAS 75(11):5618-5622; DOI; PMID; PMC;
+  abstract). An alternative to the classical inverted-Y
+  model: Muller's ratchet in the absence of crossing-over
+  raises the number of mutant loci on an average Y
+  (individual deleterious alleles stay rare); selection
+  then increases X activity in the heterogametic sex at
+  the expense of the Y, yielding an inert Y and dosage
+  compensation. Distinct from filled Muller 1964 (whole-
+  genome ratchet) and filled Haldane 1922 (heterogametic
+  hybrid sterility; does not map onto Vitis SDR). Distinct
+  from filled Baker 1955 (self-compatible colonists; Dong
+  2023 sex haplotypes are that test). Charlesworth 1991
+  Science 251:1030-1033 (PMID 1998119) is tagged Review on
+  EuropePMC; red line; not the source. No 1994
+  Charlesworth paper titled "The evolution of sex
+  chromosomes" was found; do not invent one.
+One-sentence prediction: A non-recombining Y accumulates
+  deleterious load by ratchet and becomes genetically
+  inert, while the X evolves dosage compensation.
+Assumptions: a pair of sex chromosomes with suppressed
+  recombination; finite N; the SDR is old enough for
+  degeneration; grape is not assumed to be XX/XY; a young
+  plant SDR may still recombine.
+Which fail here: Vitis sex is a chromosome-2 SDR, not a
+  degenerated animal Y (Haldane 1922 already filled as
+  does-not-map for heterogametic sterility). Dong 2023
+  hermaphrodite haplotypes H1/H2 from M x f recombination
+  imply recombination is not fully suppressed. Grafted
+  clones skip meiosis between cuttings. Cuttings are not
+  a Y-ratchet generation.
+Modern data / statistic: gene loss / load / recombination
+  suppression on the Dong 2023 chromosome-2 SDR after
+  clone filter, versus a degenerated inert Y plus dosage
+  compensation.
+Dataset: Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655). Chromosome-2 SDR; H1/H2
+  hermaphrodite haplotypes. Use as the young-SDR contrast,
+  not as a published Y-degeneration analysis. Do not
+  invent a grape Y-chromosome paper.
+What would falsify it: the Vitis SDR shows little Y-like
+  degeneration and recombination still present after clone
+  filter (H1/H2 from M x f). Treating Haldane's rule as
+  this paper is not the test (already filled as does-not-
+  map). Whole-genome clone load is the Muller 1964 job.
+What we will not claim: that Charlesworth 1991 is the
+  source (review). That a 1994 sex-chromosome paper is
+  locked. That Haldane 1922 is this paper. That Dong 2023
+  tested Y degeneration. That Baker 1955 is this paper.
+```
+
+---
+
+## Biological species concept
+
+```
+Theory: Biological species concept
+Original paper (year): Mayr E. 1942. Systematics and the
+  Origin of Species from the Viewpoint of a Zoologist.
+  New York: Columbia University Press. Columbia biological
+  series no. 13. 334 pages.
+  Google Books bibliographic page opened
+  (https://books.google.com/books/about/Systematics_and_the_Origin_of_Species_fr.html?id=XxMgAQAAMAAJ):
+  Ernst Mayr; Columbia University Press, 1942; 334 pages;
+  Columbia biological series no. 13; general editor L. C.
+  Dunn. Same book standard as filled Maynard Smith 1978 /
+  Anderson 1949 / Klekowski 1988. Archive.org scan HTML
+  timed out this wave (identifier
+  systematicsorigi0000mayr_p0y7 is a reprint listing);
+  definition page not locked in a 1942 page image. Lock
+  1942 as the named biological-species book. Founder
+  effect / founder principle is not this lock (often Mayr
+  1954; that paper was not opened). Distinct from filled
+  Dobzhansky 1937 BDM book (two-locus hybrid
+  incompatibility as a mechanism) and filled Dobzhansky
+  1940 reinforcement (premating isolation in sympatry).
+  Distinct from filled Ramachandran et al. 2005 serial
+  founder (heterozygosity from one origin).
+One-sentence prediction: Species are groups of
+  interbreeding natural populations that are reproductively
+  isolated from other such groups; rank below that
+  (subspecies, cultivars) is not a species split.
+Assumptions: sexual populations that can be tested for
+  interbreeding and isolation; a cultivar x cultivar cross
+  is not a species test; gene flow is caution, not a
+  species name; clones are not populations.
+Which fail here: V. vinifera ssp. sylvestris and ssp.
+  vinifera interbreed; treating them as two biological
+  species is a rank error. Dong 2023 Syl-W gene flow into
+  cultivar groups is CAUTION that isolation is incomplete.
+  Nursery hybrids are not secondary contact (reinforcement
+  job already filled). A vineyard is not a Mayr population.
+Modern data / statistic: whether wild sylvestris and
+  cultivated vinifera remain reproductively isolated after
+  clone + IBD filters, versus gene flow / a single
+  biological species with dual domestication.
+Dataset: Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655). Dual domestication; Syl-W
+  gene flow into CG3-CG6 is CAUTION, not a BSC
+  demonstration. Do not invent a grape biological-species
+  paper.
+What would falsify it: sylvestris and vinifera are not
+  isolated (gene flow after clone + IBD filters; they are
+  one biological species with subspecies rank). Hybrid
+  inviability mapping to a single locus is the BDM job
+  (already filled), not this definition.
+What we will not claim: that Dobzhansky 1937 is this paper
+  (BDM mechanism, already filled). That Mayr 1954 founder
+  is this paper (not opened). That Dong 2023 applied the
+  biological species concept. That a cultivar name is a
+  species.
+```
+
+---
+
+## HKA test
+
+```
+Theory: HKA test (polymorphism-divergence scaling)
+Original paper (year): Hudson RR, Kreitman M, Aguade M.
+  1987. A test of neutral molecular evolution based on
+  nucleotide data. Genetics 116(1):153-159 (1 May 1987).
+  DOI 10.1093/genetics/116.1.153 PMID 3110004 PMC1203113.
+  EuropePMC HTML opened (Hudson RR, Kreitman M, Aguade M;
+  01 May 1987; Genetics 116(1):153-159; DOI; PMID; PMC;
+  abstract). Neutral theory predicts that regions evolving
+  at high rates in interspecific comparisons also show high
+  polymorphism within species. A conservative test of that
+  prediction from at least two regions compared between
+  species plus intraspecific polymorphism in the same
+  regions; rejected for Adh and 5' flanking sequence in
+  D. melanogaster / D. sechellia in a direction consistent
+  with balanced polymorphism in the coding region.
+  Distinct from filled Kimura 1968 (the neutral null).
+  Distinct from filled McDonald and Kreitman 1991 (Dn/Ds
+  versus Pn/Ps in a coding alignment). Distinct from
+  filled Tajima 1989 (pi versus theta_W in one sample).
+  Hudson 1990 Oxford Surveys in Evolutionary Biology
+  7:1-44 (coalescent survey) was not opened and is not
+  the source. Hudson 2002 Bioinformatics 18:337-338 (ms
+  sampler) is a method; not a named theory; not used.
+One-sentence prediction: Under neutrality, polymorphism
+  and divergence co-vary across loci; a locus with extra
+  polymorphism (or extra divergence) relative to another
+  rejects the constant-rate neutral model.
+Assumptions: comparable loci that are not clones or
+  first-degree cuttings; polymorphism is not clone-private
+  SNPs; divergence is not a cultivar split; chips are not
+  forced-biallelic loci; a real recombination map is not
+  required for the two-region test but clone IBD still
+  fakes polymorphism.
+Which fail here: a cultivar panel is not two species plus
+  a random sample. Clone IBD fakes polymorphism. Pedigree
+  repeats are not new mutations. Dual domestication is
+  human choice, not a species split. SNP chips are
+  biallelic.
+Modern data / statistic: polymorphism versus divergence
+  across loci on Dong-class WGS after clone + IBD filters,
+  versus the HKA null. MK and Tajima remain other jobs.
+Dataset: Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655). Wild versus cultivar /
+  other Vitis as the divergence contrast after clone + IBD
+  filters. Use as an HKA-style test, not as a published
+  grape HKA paper. Do not invent a grape HKA paper.
+What would falsify it: polymorphism does not scale with
+  divergence after clone + IBD filters, OR clone-private
+  SNPs are treated as the polymorphism sample (they are
+  not). Coding MK is the 1991 job; one-sample Tajima D
+  is the 1989 job.
+What we will not claim: that McDonald and Kreitman 1991
+  is this paper (already filled). That Tajima 1989 is this
+  paper. That Hudson 1990 or Hudson 2002 is the source.
+  That Dong 2023 ran HKA.
+```
+
+---

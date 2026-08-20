@@ -14,7 +14,8 @@ description: >
   C-value, concerted evolution, birth-and-death, metapopulation,
   breakage-fusion-bridge, fractionation, Ewens, shifting balance, Fisher geometric, mutation-selection balance,
   molecular drive, Holliday conversion, quasispecies, serial founder,
-  Lande response, endosymbiosis, or a revival paper that
+  Lande response, endosymbiosis, Vavilov, Price equation, Hamilton, Nei distance, Weir-Cockerham FST,
+  Orr adaptation, Y degeneration, Mayr BSC, HKA, or a revival paper that
   is not a methods benchmark.
 ---
 
@@ -165,8 +166,17 @@ heterozygotes in clonal lineages).
 | Serial founder | Ramachandran et al. 2005 PNAS 102:15942-15947 | Heterozygosity falls with distance from a single origin | Dual domestication; human transport | Dong 2023: diversity not a single-origin decline after clone + IBD filters |
 | Multivariate response / breeder's equation | Lande 1979 Evolution 33:402-416 | Mean change is G beta (covariance times selection gradient) | Clones are not a sexual pedigree; few large-effect loci | Dong 2023 color / sex / flavor: not a G-matrix response (few large-effect loci) |
 | Endosymbiosis / organelle origin | Sagan 1967 J Theor Biol 14:225-274 | Mitochondria and plastids were free-living prokaryotes | Eukaryogenesis is not a grape-clone experiment | Does not map onto grafted clones; do not invent a grape organelle-origin paper |
+| Vavilov centers of origin | Vavilov 1932 Proc 6th Int Congr Genet 1:331-342 | Cultivated plants originate in a few geographically small diversity centres | Dual domestication; a vineyard is not a centre | Dong 2023: grape diversity not a single Vavilov-centre decline after clone + IBD filters |
+| Price equation | Price 1970 Nature 227:520-521 | Mean change equals covariance of a character with relative fitness (plus transmission) | Cuttings are not a sexual generation; few large-effect loci | Dong 2023 color / sex / flavor: not a Price covariance partition (few large-effect loci) |
+| Kin selection / inclusive fitness | Hamilton 1964 J Theor Biol 7:1-16 | Altruism spreads when inclusive fitness rises (relatedness times benefit) | Grafted clones are not social interactors | Does not map onto grafted clones; do not invent a grape kin-selection paper |
+| Nei genetic distance | Nei 1972 Am Nat 106:283-292 | Distance from gene identity accumulates with divergence under isolation | Clones fake identity; dual domestication is not one split | Dong 2023 wilds: D not a single-split clock after clone + IBD filters |
+| Weir-Cockerham FST | Weir and Cockerham 1984 Evolution 38:1358-1370 | FST is a moment estimator from allele-frequency variance, not Wright's island formula as data | A vineyard is not a deme; clones fake FST | Dong 2023 wilds: WC FST not independent of distance after clone filter (island dies) |
+| Orr exponential factors | Orr 1998 Evolution 52:935-949 | Factors fixed on a walk to an optimum are approximately exponential in size | Color / sex / flavor are few large-effect; clones are not a walk | Dong 2023 color / sex / flavor peaks are a few large-effect loci, not an exponential walk |
+| Y-chromosome degeneration | Charlesworth 1978 PNAS 75:5618-5622 | A non-recombining Y ratchets load and becomes inert; X dosage rises | Vitis SDR is young, not an XX/XY Y | Dong 2023 chr-2 SDR: little Y-like degeneration / recombination still present after clone filter |
+| Biological species concept | Mayr 1942 Systematics and the Origin of Species (book) | Species are interbreeding populations isolated from other such groups | Cultivar x cultivar is not a species test; gene flow is caution | Dong 2023 Syl-W gene flow: sylvestris and vinifera are not isolated biological species |
+| HKA test | Hudson, Kreitman and Aguade 1987 Genetics 116:153-159 | High-divergence regions are high-polymorphism regions under neutrality | Clone IBD fakes polymorphism; chips are not loci | After clone + IBD filters, polymorphism does not scale with divergence (MK / Tajima remain other jobs) |
 
-Fifty-eight filled notes (eight first wave, nine second wave, nine third wave, twelve fourth wave, ten fifth wave, ten sixth wave). Long form in `theories.md`. One theory per job.
+Sixty-seven filled notes (eight first wave, nine second wave, nine third wave, twelve fourth wave, ten fifth wave, ten sixth wave, nine seventh wave). Long form in `theories.md`. One theory per job.
 
 Kondrashov 1988 (cost of males) is on the door list but was not filled: it does not map onto grafted clones.
 Muller 1942 was not locked on a publisher page and is not cited for BDM.
@@ -248,6 +258,16 @@ centromere / CenH3 paper is locked.
 - Lande 1979 is G beta; Dong 2023 color / sex / flavor are few large-effect loci, not a G-matrix response. Not Fisher 1918 and not Fisher 1930 geometric.
 - Sagan 1967 organelle origin does not map onto grafted clones. Lynch 1996 remains the organelle-ratchet note. Timmis 2004 is a review.
 
+- Vavilov 1932 is seven geographically small crop centres (ESP facsimile pp. 331-342). Homologous series is named there as Vavilov 1922 J Genet; that paper was not opened. Dual domestication is not one centre. Serial founder remains Ramachandran 2005.
+- Price 1970 is selection as covariance; Lande 1979 remains G beta. Cuttings are not a generation. Dong 2023 color / sex / flavor are few large-effect loci.
+- Hamilton 1964 inclusive fitness does not map onto grafted clones. A chimera is not kin selection. Trivers 1974 was not filled.
+- Nei 1972 is between-population distance from gene identity; Wright 1931 island, Wright 1943 IBD, and Nei 1997 birth-and-death remain other jobs. Clone IBS is not identity.
+- Weir and Cockerham 1984 is the FST estimator; Wright 1931 remains the island parameter. A vineyard is not a deme.
+- Orr 1998 is the exponential distribution of factors fixed on a walk; Fisher 1930 geometric is the chance a random mutation improves (already filled). Orr 2005 is a review.
+- Charlesworth 1978 is Y degeneration by ratchet plus dosage compensation. Haldane 1922 remains does-not-map for heterogametic sterility. Charlesworth 1991 Science is a review. Dong 2023 chr-2 SDR is the young-SDR contrast.
+- Mayr 1942 is the biological species book; Dobzhansky 1937 remains BDM and 1940 remains reinforcement. Founder effect (often 1954) was not opened.
+- HKA 1987 is polymorphism-divergence scaling; MK 1991 and Tajima 1989 remain other jobs. Hudson 1990 survey and Hudson 2002 ms were not used as sources.
+
 ## Sources to open first (fetched)
 
 - Muller 1964: https://doi.org/10.1016/0027-5107(64)90047-8
@@ -324,6 +344,16 @@ centromere / CenH3 paper is locked.
 - Lande 1979: https://doi.org/10.1111/j.1558-5646.1979.tb04694.x (EuropePMC MED 28568194)
 - Sagan 1967: https://doi.org/10.1016/0022-5193(67)90079-3 (EuropePMC MED 11541392)
 
+- Vavilov 1932: http://www.esp.org/books/6th-congress/facsimile/contents/6th-cong-p331-vavilov.pdf (TOC: http://www.esp.org/books/6th-congress/facsimile/index.html)
+- Price 1970: https://doi.org/10.1038/227520a0 (EuropePMC MED 5428476)
+- Hamilton 1964: https://doi.org/10.1016/0022-5193(64)90038-4 (EuropePMC MED 5875341)
+- Nei 1972: https://doi.org/10.1086/282771 (Crossref work JSON; CiNii crid 1364233269783061504)
+- Weir and Cockerham 1984: https://doi.org/10.1111/j.1558-5646.1984.tb05657.x (EuropePMC MED 28563791)
+- Orr 1998: https://doi.org/10.1111/j.1558-5646.1998.tb01823.x (EuropePMC MED 28565213)
+- Charlesworth 1978: https://doi.org/10.1073/pnas.75.11.5618 (PMC393018; EuropePMC MED 281711)
+- Mayr 1942 book: https://books.google.com/books/about/Systematics_and_the_Origin_of_Species_fr.html?id=XxMgAQAAMAAJ
+- Hudson, Kreitman and Aguade 1987: https://doi.org/10.1093/genetics/116.1.153 (PMC1203113; EuropePMC MED 3110004)
+
 ## Red lines
 
 - Do not cite a review as the source of the theory.
@@ -378,5 +408,33 @@ Vavilov centers / domestication syndrome is on the candidate list but was not fi
 - Do not write Sagan 1967 as Lynch 1996 organelle ratchet, or as EGT.
 - Do not invent a grape Ewens, peak-shift, FGM, mutation-load-equilibrium, rDNA-drive, conversion-tract, quasispecies, serial-founder, G-matrix, or organelle-origin paper.
 - Do not fill heterosis, EGT, isolation-by-colonization as a second original, soft vs hard selection, outcrossing depression, Avise phylogeography, or Vavilov / domestication syndrome this wave.
+
+Heterosis / hybrid vigor is on the candidate list but was not filled: no single named original distinct from filled Darwin 1876 and dropped overdominance (Hull 1946 vs Dobzhansky 1950); Shull 1908 / 1914 pages were not opened; standing clone heterozygosity is not hybrid vigor.
+Soft vs hard selection (Wallace 1968 chapter / Wallace 1975 Evolution 29:465-473 DOI 10.1111/j.1558-5646.1975.tb00836.x PMID 28563194 / Christiansen 1975 Am Nat 109:11-16 DOI 10.1086/282970) is on the candidate list but was not filled: Wallace 1975 EuropePMC HTML opened for author+year+venue this wave but carried no abstract or claim text; the 1968 Lewontin-volume chapter was not opened; Christiansen 1975 Chicago HTML was Cloudflare. Do not fill without quoting the hard/soft claim from an opened page.
+Phylogeography Avise is on the candidate list but was not filled: Avise et al. 1987 Annu Rev Ecol Syst is a review.
+Trivers 1974 parent-offspring conflict is on the candidate list but was not filled: not a genomics job for this skill.
+Pritchard JK, Stephens M, Donnelly P. 2000. Inference of population structure using multilocus genotype data. Genetics 155(2):945-959. DOI 10.1093/genetics/155.2.945 PMID 10835412 PMC1461096. EuropePMC HTML opened (abstract names a model-based clustering method and software). DROP: method, not a named theory; this skill is not a methods bake-off.
+Li and Durbin 2011 PSMC is on the candidate list but was not filled: too new, and a method, not a named original theory.
+Lewontin 1974 The Genetic Basis of Evolutionary Change (Columbia) is on the candidate list but was not filled: book pages were not opened; the paradox-of-variation job would overlap filled Kimura 1968 / Lewontin-Hubby territory without a locked 1966 page.
+Kimura 1983 The Neutral Theory of Molecular Evolution (book) was skipped: Kimura 1968 is already filled.
+Crow and Kimura 1970 An Introduction to Population Genetics Theory was skipped: intro book, not a named original.
+Gillespie 1991 The Causes of Molecular Evolution was skipped: Gillespie 2000 draft is already filled.
+Charlesworth 1994 evolution of sex chromosomes was skipped: no 1994 paper of that title was found; 1991 Science 251:1030-1033 is a review. 1978 PNAS is the filled original.
+Hudson 1990 Oxford Surveys coalescent chapter was skipped: survey; not opened. Hudson 2002 Bioinformatics ms was skipped: software method.
+Mayr founder effect as a second named original was skipped: 1942 is the BSC lock; the founder-principle paper (often 1954) was not opened. Serial founder remains Ramachandran 2005.
+
+- Do not cite Vavilov 1922 as this paper (homologous series; named in the 1932 facsimile but not opened).
+- Do not cite Hammer 1984 as the centres source.
+- Do not cite Price 1972 as the Price-equation source (1970 is).
+- Do not cite Hamilton 1964 part II as the source (part I is the math).
+- Do not cite Orr 2005 Nat Rev Genet as the adaptation source (review; 1998 is).
+- Do not cite Charlesworth 1991 Science as the Y-degeneration source (review). Do not invent a 1994 Charlesworth sex-chromosome original.
+- Do not write Mayr 1942 as Dobzhansky 1937 BDM or as Ramachandran 2005 serial founder. Do not write it as Mayr 1954 founder (not opened).
+- Do not cite Hudson 1990 or Hudson 2002 as the HKA source.
+- Do not cite Pritchard 2000 as a theory original (clustering method).
+- Do not write Nei 1972 as Nei 1997 birth-and-death, or as Wright 1931 / Weir-Cockerham 1984.
+- Do not write Weir-Cockerham 1984 as Wright 1931 island math.
+- Do not write Orr 1998 as Fisher 1930 geometric or Fisher 1918 infinitesimal.
+- Do not invent a grape Vavilov-centre, Price-equation, kin-selection, Nei-distance, FST-estimator, adaptive-walk, Y-degeneration, biological-species, or HKA paper.
 
 Related: `plant-lit-review`, `vitis-popgen`, `grapevine-adna`, `vitis-pangenome`.
