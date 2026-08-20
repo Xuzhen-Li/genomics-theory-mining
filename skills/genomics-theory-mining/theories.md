@@ -594,3 +594,391 @@ What we will not claim: that coding depletion in Callipo 2026
   alternatives). That diplontic selection cancels Muller's ratchet
   (it is a caveat in that note, not a replacement).
 ```
+
+---
+
+## Coalescent (Kingman)
+
+```
+Theory: Kingman coalescent
+Original paper (year): Kingman JFC. 1982. The coalescent.
+  Stochastic Processes and their Applications 13(3):235-248.
+  DOI 10.1016/0304-4149(82)90011-4. Continuous-time Markov
+  chain on a sample of n members from a large haploid
+  population; binary mergers only.
+One-sentence prediction: Genealogies of a random sample from
+  a large haploid population are binary trees with exponential
+  waiting times (the n-coalescent); they are not multiple-merger
+  or pedigree stars.
+Assumptions: large haploid (or effective-haploid) population;
+  a random sample of unrelated individuals; Kingman (binary)
+  mergers, not Lambda / multiple-merger coalescents.
+Which fail here: Vitis cultivars are grafted clones and close
+  pedigrees. A clone panel is not a random sexual sample.
+  Identity-by-descent among cuttings produces star-like or
+  multiple-merger genealogies that are not Kingman.
+Modern data / statistic: inferred tree shape or multiple-merger
+  signal in clone and first-degree pedigree samples versus a
+  clone-filtered wild sexual sample.
+Datasets: Roach et al. 2018 PLoS Genet 14(11):e1007807
+  (15 Chardonnay clones; ancestral inbreeding). Vondras et al.
+  2019 BMC Genomics 20:972 (15 Zinfandel clones). Dong et al.
+  2023 Science (DOI 10.1126/science.add8655) already dropped
+  IBS clones before population analyses; that filter is the
+  first step, not a Kingman proof.
+What would falsify it: clone / pedigree samples still yield
+  Kingman (binary, unrelated) genealogies after relatedness
+  is scored.
+What we will not claim: that every grape tree that is not
+  binary disproves Kingman in wild sylvestris. State the
+  sample class.
+```
+
+---
+
+## Infinite-alleles
+
+```
+Theory: Infinite-alleles model
+Original paper (year): Kimura M, Crow JF. 1964. The number
+  of alleles that can be maintained in a finite population.
+  Genetics 49(4):725-738. DOI 10.1093/genetics/49.4.725
+  PMID 14156929 PMC1210609.
+One-sentence prediction: Each mutation creates a new allele,
+  so identity-by-state is identity-by-descent; the effective
+  number of alleles is 4Ne u + 1 under neutrality.
+Assumptions: an astronomically large allelic state space;
+  back-mutation / recurrent mutation negligible; a finite
+  sexual population with a meaningful Ne.
+Which fail here: SNP chips ascertain a finite, recurrent
+  state space (mostly biallelic). Same-site SNPs and TE
+  family insertions are recurrent. A cultivar collection
+  is not one Ne. Identity-by-state among clones is not
+  identity-by-descent in the Kimura-Crow sense.
+Modern data / statistic: recurrent same-site or same-element
+  events, and IBS versus IBD, on cultivar chips or WGS
+  after clone filters.
+Datasets: Carrier et al. 2012 PLoS ONE 7(3):e32973 (recurrent
+  TE insertions in Pinot noir). Vondras et al. 2019 BMC
+  Genomics 20:972 (TE plus methylation-driven transitions
+  among Zinfandel clones). Dong et al. 2023 Science (WGS;
+  they already used IBS to collapse clone genotypes).
+  Do not invent a grape chip-ascertainment paper.
+What would falsify it: identity-by-state on Vitis chips
+  (or WGS SNPs) behaves as infinite-alleles after clones
+  are filtered — recurrent SNPs and ascertainment are
+  rare enough not to matter.
+What we will not claim: that infinite-alleles is the same
+  job as infinite-sites (that note is already filled).
+```
+
+---
+
+## Molecular clock
+
+```
+Theory: Molecular clock
+Original paper (year): Zuckerkandl E, Pauling L. 1962.
+  Molecular disease, evolution, and genic heterogeneity.
+  In: Kasha M, Pullman B, eds. Horizons in Biochemistry.
+  Academic Press, New York / London. Chapter begins p. 189
+  (next chapter p. 229 in the 1962 volume table of contents;
+  archive scan of the book). Book chapter.
+  Expanded statement: Zuckerkandl E, Pauling L. 1965.
+  Evolutionary divergence and convergence in proteins.
+  In: Bryson V, Vogel HJ, eds. Evolving Genes and Proteins.
+  Academic Press. pp. 97-166.
+  DOI 10.1016/B978-1-4832-2734-4.50017-6.
+  (Zuckerkandl and Pauling 1965 J. Theor. Biol. 8:357-366,
+  "Molecules as documents of evolutionary history", is a
+  different paper and is not cited as the clock source.)
+One-sentence prediction: Sequence difference between
+  lineages accumulates roughly linearly with elapsed time
+  on a germline / sexual clock, so divergence dates
+  molecules.
+Assumptions: a roughly constant substitution rate on the
+  clock being dated; substitutions, not somatic SNPs;
+  the compared lineages share a sexual / meiotic clock.
+Which fail here: somatic mutation in grafted clones is
+  not the germline clock. Methylation-driven C-to-T in
+  repeats inflates the clone clock. A cultivar panel is
+  not elapsed speciation time.
+Modern data / statistic: somatic SNV / SV rate among
+  vegetatively propagated clones versus divergence among
+  sexual wild sylvestris on the same site classes.
+Datasets: Vondras et al. 2019 BMC Genomics 20:972 and
+  Roach et al. 2018 PLoS Genet 14(11):e1007807 (clone
+  clocks). Wild contrast: Dong et al. 2023 Science
+  (sylvestris subset). Callipo et al. 2026 Genome Biol
+  is a sister clone / methylome clock only, not a
+  germline-clock proof.
+What would falsify it: the somatic clone clock equals
+  the germline / sexual clock (Vondras / Roach versus
+  wild sylvestris) on matched site classes.
+What we will not claim: that a clone tree dated in
+  years since planting is Zuckerkandl-Pauling.
+```
+
+---
+
+## McDonald-Kreitman
+
+```
+Theory: McDonald-Kreitman test
+Original paper (year): McDonald JH, Kreitman M. 1991.
+  Adaptive protein evolution at the Adh locus in
+  Drosophila. Nature 351:652-654.
+  DOI 10.1038/351652a0 PMID 1904993.
+One-sentence prediction: Under neutrality, the ratio of
+  replacement to synonymous differences fixed between
+  species equals the ratio of replacement to synonymous
+  polymorphisms within species; excess fixed replacements
+  reject neutrality (MK alpha).
+Assumptions: "fixed differences" are substitutions
+  between species or diverged populations; polymorphisms
+  are within a sexual population; clones are not a species.
+Which fail here: clone-private variants are not
+  substitutions. A cultivar panel is not Drosophila
+  melanogaster versus simulans. Domestication loci are
+  not automatically between-species fixed differences.
+Modern data / statistic: MK tables at domestication
+  loci after clone and IBD filters, counting only
+  variants that are fixed between wild sylvestris and
+  cultivated groups (not clone-private SNPs).
+Caution dataset: Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655). 3525-accession WGS;
+  domestication-trait peaks exist. Do not invent a
+  published grape MK paper.
+What would falsify it: MK alpha on clone-private
+  variants is treated as meaningful (it is not), OR
+  after clone / IBD filters, grape MK does not reject
+  neutrality at domestication loci.
+What we will not claim: that Dong 2023 computed MK
+  alpha. That clone-private missense SNPs are
+  substitutions.
+```
+
+---
+
+## Tajima's D
+
+```
+Theory: Tajima's D
+Original paper (year): Tajima F. 1989. Statistical
+  method for testing the neutral mutation hypothesis
+  by DNA polymorphism. Genetics 123(3):585-595.
+  DOI 10.1093/genetics/123.3.585 PMID 2513255
+  PMC1203831.
+One-sentence prediction: Under the neutral mutation
+  model, theta from pairwise differences (pi) equals
+  theta from segregating sites (theta_W); D measures
+  that difference and is near zero at equilibrium.
+Assumptions: a random sexual sample; infinite sites;
+  no relatedness structure that inflates rare or
+  shared haplotypes; the sample is one population.
+Which fail here: cultivar panels are clones and
+  pedigrees. Relatedness and recent bottlenecks
+  produce strongly negative D that looks like a
+  sweep. A chip skeleton is not a random sample
+  of sites.
+Modern data / statistic: genome-wide or
+  domestication-locus Tajima's D in cultivar panels
+  before versus after clone and IBD / pedigree
+  filters, versus wild sylvestris.
+Caution dataset: Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655). They already
+  collapsed IBS clones. Use as a relatedness caution,
+  not as a published Tajima result. Do not invent
+  a grape Tajima paper.
+What would falsify it: strongly negative D in
+  cultivar panels vanishes after clone + IBD
+  filters (relatedness, not a sweep).
+What we will not claim: that negative D in wine
+  clones is a selective sweep. That is the
+  hitchhiking caution again.
+```
+
+---
+
+## Mutation accumulation
+
+```
+Theory: Mutation accumulation
+Original paper (year): Mukai T. 1964. The genetic
+  structure of natural populations of Drosophila
+  melanogaster. I. Spontaneous mutation rate of
+  polygenes controlling viability. Genetics
+  50(1):1-19. DOI 10.1093/genetics/50.1.1
+  PMID 14191352 PMC1210633. Chromosomes sheltered
+  from selection accumulate viability-reducing
+  mutations.
+  Plant comparator (not the original): Lovell JT
+  et al. 2017. Mutation accumulation in an asexual
+  relative of Arabidopsis. PLoS Genet 13(1):e1006550.
+  DOI 10.1371/journal.pgen.1006550.
+One-sentence prediction: When selection is relaxed,
+  mildly deleterious mutations accumulate and mean
+  fitness / viability declines; the least-loaded
+  class is not restored.
+Assumptions: a sheltered chromosome or asexual
+  lineage; mutations are mostly deleterious;
+  fitness is scored on the sheltered haplotype,
+  not on a chimeric shoot.
+Which fail here: grape clones are diploid meristems
+  with diplontic selection and chimeras. Somatic
+  load is not a Mukai second-chromosome cage.
+  Nursery selection on cuttings is not relaxed
+  in the Mukai sense.
+Modern data / statistic: clone-private coding
+  load and predicted deleteriousness after
+  diplontic / chimera correction, versus
+  intergenic / fourfold sites.
+Lead test bed (not a proof): Vondras et al. 2019
+  BMC Genomics 20:972. Companion structural load:
+  Carbonell-Bejerano et al. 2017 Plant Physiol
+  175:786-801. Plant asexual comparator: Lovell
+  2017 (Boechera).
+What would falsify it: clone-private load is not
+  enriched for deleterious classes after diplontic
+  / chimera correction, OR the least-loaded class
+  is continually restored.
+What we will not claim: that Vondras proved Mukai
+  in grape. That this note replaces Muller's
+  ratchet (different job: MA is the experiment;
+  the ratchet is the irreversible loss of the
+  least-loaded class).
+```
+
+---
+
+## Genetic draft
+
+```
+Theory: Genetic draft (pseudohitchhiking)
+Original paper (year): Gillespie JH. 2000. Genetic
+  drift in an infinite population. The
+  pseudohitchhiking model. Genetics 155(2):909-919.
+  DOI 10.1093/genetics/155.2.909 PMID 10835409
+  PMC1461093. Names "genetic draft" for the
+  stochastic effects of linked substitutions at
+  a closely linked neutral locus.
+  (Gillespie 2001 Evolution 55:2161-2169 is a
+  later population-size paper, not the naming
+  source.)
+One-sentence prediction: Recurrent selected
+  substitutions induce drift-like stochasticity
+  at linked neutral sites even when N is infinite;
+  the coalescent has a random number of branches
+  at nodes and the frequency spectrum departs
+  from the equilibrium neutral model.
+Assumptions: recurrent sweeps (not one hitchhiking
+  event); a recombination map; the diversity
+  pattern is sexual / meiotic, not clone-IBD.
+Which fail here: a SNP-chip skeleton is not a
+  recombination map. Clone IBD looks like draft.
+  Background selection is the deleterious-linked
+  null for the same diversity dip (already filled).
+  A single domestication sweep is hitchhiking
+  (Maynard Smith and Haigh), not draft.
+Modern data / statistic: diversity versus
+  recombination on a real Vitis map, after gene-
+  density control and clone / IBD filters, in
+  sexually derived wild or seedling material.
+What would falsify it: the linked diversity
+  pattern in Vitis is explained by recombination
+  / background selection, not by recurrent sweeps
+  / draft.
+What we will not claim: that a cultivar diversity
+  dip is Gillespie draft. That draft replaces
+  hitchhiking or BGS (three different jobs).
+```
+
+---
+
+## Introgression / hybrid swarm
+
+```
+Theory: Introgressive hybridization / hybrid swarm
+Original paper (year): Anderson E. 1949.
+  Introgressive Hybridization. John Wiley and
+  Sons, New York. Book. Pp. ix + 109 (locked from
+  the 1950 Nature review of the book). Repeated
+  backcrossing moves genes from one species into
+  another; hybrid swarms are the visible mix.
+One-sentence prediction: After hybridization,
+  repeated backcrossing leaves geographically
+  clinal tracts of heterospecific ancestry, not
+  a one-off F1.
+Assumptions: the parents are distinguishable
+  populations / species; tracts are ancestry,
+  not shared IBD among relatives; geography
+  is the test, not a cultivar PCA.
+Which fail here: humans move vines. Cultivar
+  relatedness and clones fake introgression
+  tracts. A nursery hybrid is not a hybrid
+  swarm. Feral vines are not wild sylvestris.
+Modern data / statistic: putative introgression
+  tracts and their geographic cline in wild
+  sylvestris or in clone-filtered cultivated
+  groups, after IBD / clone filters.
+Caution dataset (not a proof of Anderson 1949):
+  Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655). TreeMix and
+  D-statistics report gene flow from Syl-W into
+  CG3-CG6 after CG1-related Western Asia
+  domesticates entered Europe (~11-18% Syl-W
+  in those groups; a further pulse into CG6).
+  They already collapsed IBS clones. Relatedness
+  among remaining cultivars can still fake
+  tracts. Use as CAUTION.
+What would falsify it: putative introgression
+  tracts vanish after IBD / clone filters, or
+  they are not geographically clinal.
+What we will not claim: that Dong 2023 proved
+  Anderson 1949. That a CG1-to-Syl-W arrow is
+  the paper's TreeMix result (the reported
+  edges run from Syl-W into cultivated groups).
+```
+
+---
+
+## Haldane's rule
+
+```
+Theory: Haldane's rule
+Original paper (year): Haldane JBS. 1922. Sex
+  ratio and unisexual sterility in hybrid animals.
+  Journal of Genetics 12(2):101-109.
+  DOI 10.1007/BF02983075. IAS Journal of Genetics
+  page locked: "When in the F1 offspring of a
+  cross between two animal species or races one
+  sex is absent, rare, or sterile, that sex is
+  always the heterozygous sex."
+One-sentence prediction: In animal interspecific
+  hybrids, the sex that is absent, rare, or
+  sterile is the heterozygous (digametic) sex.
+Assumptions: a heterogametic sex (XX/XY or
+  ZW/ZZ) whose sex chromosomes are unpaired in
+  one sex; the sterility is that sex, not both;
+  the cross is an animal hybrid.
+Which fail here: this does not map onto Vitis
+  SDR. Grape is not XX/XY or ZW in the Haldane
+  sense. Sex is a small sex-determination region
+  on chromosome 2 (Dong 2023); wild sylvestris
+  is dioecious (male M/f, female f/f) and
+  cultivated vines are mostly hermaphrodite.
+  There is no heterogametic sex whose hybrids
+  are the sterile class.
+Modern data / statistic: none that tests
+  Haldane in grape. Interspecific Vitis hybrid
+  sterility, if scored, is not a heterogametic-
+  sex contrast.
+What would falsify it: not applicable as a
+  grape test. The note is filled as "does not
+  map onto Vitis SDR" rather than as an
+  invented sterility experiment.
+What we will not claim: that grape interspecific
+  hybrids show Haldane's rule. That the SDR is
+  a Y chromosome in the animal sense. That
+  VviAGL11 is the sex gene.
+```
