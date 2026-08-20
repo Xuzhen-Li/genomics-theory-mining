@@ -20,7 +20,8 @@ description: >
   Kaplan hitchhiking, Braverman SFS, Berg-Coop, Rockman QTN, Rousset IBD, Excoffier AMOVA, Wade-McCauley, Whitlock FST, Slatkin two-locus cline,
   Barton-Bengtsson barrier, Barton hybrid-sink, Kimura 1955 drift, Nei GST, Slatkin 1981, Slatkin-Maruyama, Nei 1978, Kimura K80,
   Tajima-Nei distance, Begun-Aquadro, Ohta 1972, Barton-de Cara, Rieseberg 2003, Nei-Li pi, Tajima 1983, Kimura-Ohta 1969, Charlesworth 1994 BGS, Hudson-Kaplan 1995,
-  Nordborg 1996, Wiehe-Stephan, Orr snowball, Turelli-Orr, Coyne-Orr 1989, or a revival paper that
+  Nordborg 1996, Wiehe-Stephan, Orr snowball, Turelli-Orr, Coyne-Orr 1989, Kimura 1962, Turelli 1984, Lynch-Hill, Houle CVA, Orr-Turelli 2001,
+  Kondrashov 1995, Masterson 1994, Barton-Turelli 1991, Gavrilets 2000, or a revival paper that
   is not a methods benchmark.
 ---
 
@@ -225,8 +226,17 @@ heterozygotes in clonal lineages).
 | Orr snowball incompatibilities | Orr 1995 Genetics 139:1805-1813 | Complementary-gene incompatibilities accumulate faster than linearly with time; the probability of speciation increases at least as the square of time since separation | A nursery cross is not a diverging pair; clones fake complementary genes | Dong 2023: no snowball of complementary-gene incompatibilities after clone filter (Dobzhansky 1937 remains BDM; Orr 1998 remains exponential factors; Rieseberg 2003 remains hybrid speciation) |
 | Turelli-Orr dominance Haldane | Turelli and Orr 1995 Genetics 140:389-402 | Hybrid-fitness alleles are partially recessive, so the heterogametic sex suffers more (hemizygous X effects) | Grape is not XX/XY; sex is an SDR | Does not map onto Vitis SDR; do not invent a heterogametic-dominance test (Haldane 1922 remains the rule statement) |
 | Coyne-Orr time course of isolation | Coyne and Orr 1989 Evolution 43:362-381 | Mating discrimination and hybrid sterility / inviability increase gradually with time; in sympatry, prezygotic isolation appears well before postzygotic isolation | Nursery hybrid is not a Drosophila pair; grape is not XX/XY | Dong 2023 Syl-W gene flow is CAUTION, not a Coyne-Orr time-course (Dobzhansky 1940 remains reinforcement; Mayr 1942 remains BSC; Haldane 1922 remains the rule) |
+| Kimura 1962 fixation probability | Kimura 1962 Genetics 47:713-719 | Ultimate fixation probability is a function of initial p and of M and V of gene-frequency change; a rare advantageous mutant has u about 2s in a large population; a neutral has u = 1/(2N) | A cultivar panel is not N; clone-private SNPs are not substitutions | Clone / cultivar fixation chance is not Kimura-1962 u after clone filter (Kimura 1968 remains the rate null; Kimura-Ohta 1969 remains 4Ne time) |
+| Turelli 1984 House-of-Cards polygenic MSB | Turelli 1984 Theor Popul Biol 25:138-193 | Equilibrium polygenic VA under mutation and stabilizing selection depends on per-locus mutation rate, mutational effects, and selection intensity, not on allele number per se | Color / sex / flavor are few large-effect loci, not abdominal-bristle polygenes | Dong 2023 color / sex / flavor: not a Turelli-1984 House-of-Cards VA (Haldane 1927 remains single-locus q; Lande 1979 remains G beta) |
+| Lynch-Hill mutational variance | Lynch and Hill 1986 Evolution 40:915-935 | Neutral quantitative VG equilibrates near 2NVm to 4NVm; between-line variance grows at 2Vm per generation | Clone age is not mutational generations; a cultivar panel is not N | Dong 2023 wild vs cultivar: VG not a Lynch-Hill 2NVm after clone filter (Kimura 1968 remains the molecular-rate null) |
+| Houle 1992 evolvability CVA | Houle 1992 Genetics 130:195-204 | Evolvability is compared as mean-standardized CVA, not as narrow-sense h2; fitness traits have higher CVA despite lower h2 | Clone heritability is not CVA; a nursery block is not a sexual pedigree | Dong 2023 traits: not a Houle CVA comparison after clone filter (Lande 1979 remains G beta; Fisher 1918 remains infinitesimal) |
+| Orr-Turelli 2001 DMI waiting time | Orr and Turelli 2001 Evolution 55:1085-1094 | Stochastic pairwise DMI accumulation has a waiting-time distribution; per-site incompatibility probability p is on the order of 10^{-6} | A nursery cross is not an allopatric pair; clones fake complementary genes | Dong 2023 Syl-W is CAUTION, not an Orr-Turelli waiting time (Orr 1995 remains t-squared snowball; Dobzhansky 1937 remains BDM) |
+| Kondrashov 1995 dangerous-range VSD | Kondrashov 1995 J Theor Biol 175:583-594 | Mutations with 1/G < s < 1/4Ne accumulate almost freely yet impose a lethal-equivalent load if they act independently | A cultivar panel is not vertebrate Ne about 10^4; grafted clones skip the load clock | Dong 2023 Ne contrast: coding load not a Kondrashov-1995 dangerous-range total after clone filter (Ohta 1973 remains nearly-neutral rate; Crow 1958 remains the load partition) |
+| Masterson 1994 stomatal polyploidy | Masterson 1994 Science 264:421-424 | Fossil guard-cell size implies primitive angiosperm n = 7-9 and that about 70 percent of angiosperms have polyploidy in their history | A palaeo-hexaploid gene set is not a stomatal C-value series; clones change dose without changing C-value | Jaillon 2007 is the Vitis hexaploidy contrast, not a Masterson stomatal census (Ohno 1972 remains C-value / junk; Stebbins 1947 remains polyploid types) |
+| Barton-Turelli 1991 weak indirect preference | Barton and Turelli 1991 Genetics 127:229-255 | Linkage-disequilibrium-induced selection on preference loci is too weak to dominate preference evolution | Grape is not a preference-trait sexual-selection system; sex is an SDR | Does not map onto Vitis SDR; do not invent a preference-LD test (Lande 1979 remains G beta; Turelli-Orr 1995 remains Haldane dominance) |
+| Gavrilets 2000 parapatric waiting time | Gavrilets 2000 Proc Biol Sci 267:2483-2492 | Waiting time to parapatric isolation can be short if few substitutions suffice; transition duration is much shorter than the wait; local adaptation shortens the wait | Dual domestication is not parapatric speciation; a nursery hybrid is not a resident-immigrant walk | Dong 2023 Syl-W is CAUTION, not a Gavrilets waiting time (Orr 1995 remains snowball; Coyne-Orr 1989 remains the comparative time course; 2004 book is not the source) |
 
-One hundred twelve filled notes (eight first wave, nine second wave, nine third wave, twelve fourth wave, ten fifth wave, ten sixth wave, nine seventh wave, eight eighth wave, nine ninth wave, eight tenth wave, ten eleventh wave, ten twelfth wave). Long form in `theories.md`. One theory per job.
+One hundred twenty-one filled notes (eight first wave, nine second wave, nine third wave, twelve fourth wave, ten fifth wave, ten sixth wave, nine seventh wave, eight eighth wave, nine ninth wave, eight tenth wave, ten eleventh wave, ten twelfth wave, nine thirteenth wave). Long form in `theories.md`. One theory per job.
 
 Kondrashov 1988 (cost of males) is on the door list but was not filled: it does not map onto grafted clones.
 Muller 1942 was not locked on a publisher page and is not cited for BDM.
@@ -368,6 +378,16 @@ centromere / CenH3 paper is locked.
 - Turelli and Orr 1995 is the dominance theory of Haldane's rule (partially recessive hybrid-fitness alleles; hemizygous X). Distinct from Haldane 1922. Does not map onto Vitis SDR. Sex locus is Dong 2023 chromosome-2 SDR, never VviAGL11.
 - Coyne and Orr 1989 is the comparative time course: isolation increases with time; prezygotic isolation appears first in sympatry. Distinct from Dobzhansky 1940 reinforcement and Mayr 1942 BSC. Coyne and Orr 1997 is a revisit. Syl-W gene flow is CAUTION.
 
+- Kimura 1962 is the general fixation probability u(p) from M and V of gene-frequency change; rare advantageous u is about 2s in a large population; neutral u is 1/(2N). Distinct from Kimura 1968 (rate), Kimura-Ohta 1969 (4Ne time), and Kimura 1955 (drift diffusion). A cultivar panel is not N. Clone age is not a fixation walk.
+- Turelli 1984 is House-of-Cards polygenic mutation-selection: equilibrium VA depends on per-locus mutation rate, mutational effects, and selection intensity, not allele number. Distinct from Haldane 1927 single-locus q and Lande 1979 G beta. Color / sex / flavor are few large-effect loci, not abdominal-bristle polygenes. Sex locus is Dong 2023 chromosome-2 SDR, never VviAGL11.
+- Lynch and Hill 1986 is neutral phenotypic VG near 2NVm to 4NVm, with between-line growth at 2Vm. Distinct from Kimura 1968 and from Turelli 1984. Clone age is not 2Vm generations.
+- Houle 1992 is evolvability as CVA, not h2; fitness traits have higher CVA. Distinct from Lande 1979 and Fisher 1918. Clone heritability is not CVA.
+- Orr and Turelli 2001 is the stochastic waiting time and small p (about 10^{-6}) for pairwise DMIs. Distinct from Orr 1995 t-squared snowball and Orr 1998 exponential. A nursery cross is not an allopatric pair. Orr 2005 was not opened.
+- Kondrashov 1995 is the dangerous range 1/G < s < 1/(4Ne) and the independent-action lethal-equivalent paradox. Distinct from dropped Kondrashov 1988, Ohta 1973, Crow 1958, and Haldane 1957. A cultivar panel is not vertebrate Ne about 10^4.
+- Masterson 1994 is fossil guard-cell size as a DNA-content proxy: primitive angiosperm n = 7-9 and about 70 percent polyploid history. Distinct from Ohno 1972 C-value / junk, Stebbins 1947 types, and Thomas-Freeling 2006 fractionation. Jaillon 2007 is the Vitis hexaploidy contrast, not a stomatal census. Adams and Wendel 2005 and Edger and Pires 2009 are reviews.
+- Barton and Turelli 1991 is that LD-induced selection on preference loci is too weak to dominate. Distinct from Lande 1979, Turelli 1984, and Turelli-Orr 1995. Does not map onto Vitis SDR. Sex locus is Dong 2023 chromosome-2 SDR, never VviAGL11.
+- Gavrilets 2000 is waiting time to parapatric isolation as a resident-immigrant walk; duration much shorter than the wait. Distinct from Orr 1995, Orr-Turelli 2001, and Coyne-Orr 1989. The 2004 book is not the source. Syl-W gene flow is CAUTION.
+
 ## Sources to open first (fetched)
 
 - Muller 1964: https://doi.org/10.1016/0027-5107(64)90047-8
@@ -503,6 +523,16 @@ centromere / CenH3 paper is locked.
 - Orr 1995: https://doi.org/10.1093/genetics/139.4.1805 (PMC1206504; EuropePMC MED 7789779)
 - Turelli and Orr 1995: https://doi.org/10.1093/genetics/140.1.389 (PMC1206564; EuropePMC MED 7635302)
 - Coyne and Orr 1989: https://doi.org/10.1111/j.1558-5646.1989.tb04233.x (EuropePMC MED 28568554)
+
+- Kimura 1962: https://doi.org/10.1093/genetics/47.6.713 (PMC1210364; EuropePMC MED 14456043)
+- Turelli 1984: https://doi.org/10.1016/0040-5809(84)90017-0 (EuropePMC MED 6729751)
+- Lynch and Hill 1986: https://doi.org/10.1111/j.1558-5646.1986.tb00561.x (EuropePMC MED 28556213)
+- Houle 1992: https://doi.org/10.1093/genetics/130.1.195 (PMC1204793; EuropePMC MED 1732160)
+- Orr and Turelli 2001: https://doi.org/10.1111/j.0014-3820.2001.tb00628.x (EuropePMC MED 11475044)
+- Kondrashov 1995: https://doi.org/10.1006/jtbi.1995.0167 (EuropePMC MED 7475094)
+- Masterson 1994: https://doi.org/10.1126/science.264.5157.421 (EuropePMC MED 17836906)
+- Barton and Turelli 1991: https://doi.org/10.1093/genetics/127.1.229 (PMC1204308; EuropePMC MED 2016044)
+- Gavrilets 2000: https://doi.org/10.1098/rspb.2000.1309 (PMC1690850; EuropePMC MED 11197123)
 
 ## Red lines
 
@@ -753,5 +783,58 @@ Crow JF, Kimura M. 1970. An Introduction to Population Genetics Theory. Book. Sk
 - Do not write Coyne and Orr 1989 as Dobzhansky 1940 or as Mayr 1942.
 - Do not write VviAGL11 as the sex locus (Dong 2023 chromosome-2 SDR).
 - Do not invent a grape nucleotide-diversity, nucleon-genealogy, 4Ne, BGS-on-selected, BGS-with-recombination, BGS-map, alpha-v hitchhiking, snowball-incompatibility, Haldane-dominance, or isolation-time-course paper.
+
+Coyne JA, Orr HA. 1997. "Patterns of speciation in Drosophila" revisited. Evolution 51(1):295-303. DOI 10.1111/j.1558-5646.1997.tb02412.x PMID 28568795. PubMed / EuropePMC opened this wave; no abstract / no new claim text. Revisit. 1989 is the lock. DROP.
+Orr HA. 2005. The genetic theory of adaptation: a brief history. Nat Rev Genet 6:119-127 (or later speciation review). Not opened as a distinct original this wave. Review risk. 1995 remains snowball; 1998 remains exponential; 2001 is the waiting-time lock. DROP.
+Gavrilets S. 1997. Evolution and speciation on holey adaptive landscapes. Trends Ecol Evol 12(8):307-312. Review. Skip.
+Gavrilets S. 1999. A dynamical theory of speciation on holey adaptive landscapes. Am Nat 154(1):1-22. DOI 10.1086/303217. Chicago HTML Cloudflare-blocked; no claim page opened this wave. DROP. 2000 is the lockable paper.
+Gavrilets S. 2004. Fitness Landscapes and the Origin of Species. Princeton University Press. Book. Skip.
+Kondrashov AS. 1988. Deleterious mutations and the evolution of sexual reproduction. Nature 336:435-440. Already dropped; does not map onto grafted clones. Not this paper. DROP.
+Kondrashov AS. 2003. Accumulation of Dobzhansky-Muller incompatibilities within a spatially structured population. Evolution (or related 2003 paper). Not opened this wave. 1995 is the dangerous-range lock; Orr 1995 / 2001 remain DMI math. DROP.
+Muller HJ. 1942. Isolating mechanisms, evolution and temperature. Biol Symp 6:71-125. Still no lockable claim page. Distinct job from Muller 1964 not established on a page. DROP.
+Wright S. 1938. Size of population and breeding structure in relation to evolution. Science 87:430-431. Short letter; no lockable claim page. Wright 1931 remains. DROP.
+Kimura M, Ohta T. 1971. Protein polymorphism as a phase of molecular evolution. Nature 229(5285):467-469. DOI 10.1038/229467a0 PMID 4925204. EuropePMC HTML reopened this wave; still no abstract / no claim text. DROP.
+Lande R. 1976. Natural selection and random genetic drift in phenotypic evolution. Evolution 30(2):314-334. DOI 10.1111/j.1558-5646.1976.tb00911.x PMID 28563044. EuropePMC HTML opened; no abstract / no claim text. 1979 remains the G-matrix lock. DROP this wave.
+Lande R. 1980. The genetic covariance between characters maintained by pleiotropic mutations. Genetics 94(1):203-215. DOI 10.1093/genetics/94.1.203. Genetics / PMC page not opened with claim text this wave. DROP this wave.
+Barton NH, Turelli M. 2004. Effects of genetic drift on variance components under a general model of epistasis. Evolution 58(10):2111-2132. DOI 10.1111/j.0014-3820.2004.tb01591.x PMID 15562679. Methods dump (variance components after bottlenecks). Not used as a named original. DROP.
+Bulmer MG. 1971. The effect of selection on genetic variability. Am Nat 105(943):201-211. DOI 10.1086/282718. Chicago HTML timed out; no EuropePMC claim page opened. DROP this wave.
+Burger R. 2000. The Mathematical Theory of Selection, Recombination and Mutation. Wiley. Book. Skip.
+Comai L. 2005. The advantages and disadvantages of being polyploid. Nat Rev Genet 6(11):836-846. DOI 10.1038/nrg1711. Tagged Review. DROP.
+Otto SP, Whitton J. 2000. Polyploid incidence and evolution. Annu Rev Genet 34:401-437. Review. Skip.
+Soltis DE / Soltis PS. 2009 / 2015 polyploidy papers. Not opened as a distinct original this wave. Stebbins 1947 and Thomas-Freeling 2006 remain. DROP.
+Bennett MD, Leitch IJ. 2011. Nuclear DNA amounts in angiosperms. Review / compilation. Skip.
+Wendel JF. 2000 / 2015 polyploidy reviews. Skip.
+Adams KL, Wendel JF. 2005. Polyploidy and genome evolution in plants. Curr Opin Plant Biol 8(2):135-141. DOI 10.1016/j.pbi.2005.01.001 PMID 15752992. Tagged Review. DROP.
+Freeling M. 2009. Bias in plant gene content following different sorts of duplication. Annu Rev Plant Biol. Review. Skip.
+Edger PP, Pires JC. 2009. Gene and genome duplications: the impact of dosage-sensitivity on the fate of nuclear genes. Chromosome Res 17(5):699-717. DOI 10.1007/s10577-009-9055-9 PMID 19802709. Tagged Review. Birchler 2007 remains gene balance. DROP.
+Mallet J. 2007. Hybrid speciation. Nature 446:279-283. Review dump. Rieseberg 2003 remains. DROP.
+Abbott R et al. 2013. Hybridization and speciation. J Evol Biol. Review. Skip.
+Arnold ML. 1992 / 1997 hybridization papers / books. Not locked as a distinct original. Skip.
+Grant V. 1981. Plant Speciation. Book. Skip.
+
+- Do not cite Coyne and Orr 1997 as the time-course source (revisit; no claim text; 1989 remains).
+- Do not cite Orr 2005 as the snowball or waiting-time source (not opened; 1995 and 2001 remain).
+- Do not cite Gavrilets 1997 TREE, Gavrilets 1999 Am Nat, or Gavrilets 2004 book as the parapatric-wait source (review / not opened / book; 2000 is the lock).
+- Do not cite Kondrashov 1988 as this paper (already dropped; cost of males).
+- Do not cite Kondrashov 2003 as the dangerous-range source (not opened; 1995 is the lock).
+- Do not cite Muller 1942 as a BDM or ratchet source (still not locked; Dobzhansky 1937 and Muller 1964 remain).
+- Do not cite Wright 1938 as the effective-size source (letter; Wright 1931 remains).
+- Do not cite Kimura and Ohta 1971 Nature as the polymorphism-phase source (still no claim text).
+- Do not cite Lande 1976 as the phenotypic-drift source (no claim text this wave; 1979 remains G-matrix).
+- Do not cite Lande 1980 as the pleiotropic-covariance source (page not opened this wave).
+- Do not cite Barton and Turelli 2004 as a named theory original (methods dump).
+- Do not cite Bulmer 1971 / 1980 as the variance-disequilibrium source (page not opened).
+- Do not cite Comai 2005, Otto and Whitton 2000, Adams and Wendel 2005, Edger and Pires 2009, Bennett and Leitch 2011, Wendel 2000 / 2015, Mallet 2007, Abbott 2013, Grant 1981, or Arnold 1992 / 1997 as theory originals (book or review).
+- Do not write Kimura 1962 as Kimura 1968 or as Kimura-Ohta 1969.
+- Do not write Turelli 1984 as Haldane 1927 or as Lande 1979.
+- Do not write Lynch and Hill 1986 as Kimura 1968 or as Turelli 1984.
+- Do not write Houle 1992 as Lande 1979 or as Fisher 1918.
+- Do not write Orr and Turelli 2001 as Orr 1995 or as Orr 1998.
+- Do not write Kondrashov 1995 as Ohta 1973 or as Crow 1958 or as Kondrashov 1988.
+- Do not write Masterson 1994 as Ohno 1972 or as Stebbins 1947 or as Jaillon 2007.
+- Do not write Barton and Turelli 1991 as Lande 1979 or as Turelli-Orr 1995.
+- Do not write Gavrilets 2000 as Orr 1995 or as Coyne-Orr 1989 or as the 2004 book.
+- Do not write VviAGL11 as the sex locus (Dong 2023 chromosome-2 SDR).
+- Do not invent a grape fixation-probability, House-of-Cards, mutational-variance, evolvability, DMI-waiting-time, VSD-load, stomatal-polyploidy, preference-LD, or parapatric-speciation paper.
 
 Related: `plant-lit-review`, `vitis-popgen`, `grapevine-adna`, `vitis-pangenome`.

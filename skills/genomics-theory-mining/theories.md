@@ -6317,3 +6317,840 @@ What we will not claim: that Dobzhansky 1940 is
 ```
 
 ---
+
+---
+
+## Kimura 1962 fixation probability
+
+```
+Theory: Kimura 1962 probability of fixation
+Original paper (year): Kimura M. 1962. On the
+  probability of fixation of mutant genes in a
+  population. Genetics 47:713-719 (June 1962;
+  EuropePMC 01 Jun 1962).
+  DOI 10.1093/genetics/47.6.713 PMID 14456043
+  PMCID PMC1210364. EuropePMC HTML opened
+  (https://europepmc.org/article/MED/14456043):
+  KIMURA M; 01 Jun 1962; Genetics 47:713-719;
+  DOI; PMID; PMC; no abstract there. Seed-lock
+  PDF (https://europepmc.org/articles/PMC1210364?pdf=render):
+  MOTOO KIMURA, University of Wisconsin, Madison,
+  Wisconsin; on leave from the National Institute
+  of Genetics, Mishima-shi, Japan; received
+  29 January 1962; paper number 391 of NIG;
+  Genetics 47:713-719 June 1962. General formula
+  for the ultimate fixation probability u(p) from
+  the Kolmogorov backward equation, as a function
+  of initial frequency p and of the mean M and
+  variance V of the gene-frequency change per
+  generation. For genic selection,
+  u(p) = (1 - exp(-4Nsp)) / (1 - exp(-4Ns));
+  for a rare mutant p = 1/(2N) and small s,
+  u is about 2s / (1 - exp(-4Ns)); for large N
+  and positive s this is about 2s (Haldane 1927);
+  as s -> 0, u = 1/(2N). Also treats random
+  fluctuation of selection intensity and
+  quasi-fixation. Distinct from filled Kimura
+  1968 (neutral substitution rate equals mutation
+  rate; not the fixation probability). Distinct
+  from filled Kimura and Ohta 1969 (4Ne mean time
+  to fixation excluding loss). Distinct from
+  filled Kimura 1955 (forward drift diffusion /
+  heterozygosity decay). Distinct from filled
+  Kimura 1969 infinite-sites. Distinct from
+  filled Haldane 1927 (mutation-selection
+  equilibrium q, and the 2s remark reused here
+  as a limit). Kimura 1957 Ann Math Stat is the
+  earlier dominance extension; 1962 is the
+  general M,V formula and is the lock.
+One-sentence prediction: The chance a mutant
+  reaches fixation is set by its starting
+  frequency and by the mean and variance of
+  gene-frequency change; a rare advantageous
+  mutant has u about 2s in a large population,
+  and a neutral has u = 1/(2N).
+Assumptions: a finite sexual (or equivalent)
+  population with a meaningful N; a cultivar
+  panel is not that N; clone-private SNPs are
+  not substitutions on their way to fixation;
+  grafted cuttings skip the walk.
+Which fail here: a cultivar collection is not
+  N. Grafted clones skip the fixation walk.
+  Dual domestication is two origins. Human
+  choice is not the paper's u. Clone-private
+  SNPs are not mutants heading to fixation.
+Modern data / statistic: whether a rare
+  variant's fixation chance after clone + IBD
+  filters is Kimura-1962 u (about 2s or 1/(2N)),
+  versus clone age or two origins.
+Caution dataset: Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655). Wild versus
+  cultivar N contrast after clone + IBD
+  filters. Vondras 2019 / Roach 2018 as
+  clone-clock companions (somatic age is not
+  the fixation walk). Use as the fixation-
+  probability contrast, not as a published
+  grape u analysis. Do not invent a grape
+  fixation-probability paper.
+What would falsify it: fixation chance is
+  not Kimura-1962 u after clone filter (clone
+  age, or two origins). Neutral substitution
+  rate remains Kimura 1968. Time to fixation
+  remains Kimura-Ohta 1969. Drift diffusion
+  remains Kimura 1955.
+What we will not claim: that Kimura 1968 is
+  this paper (already filled). That Kimura
+  and Ohta 1969 is this paper. That Kimura
+  1955 is this paper. That Dong 2023 estimated
+  u. That clone age is a fixation walk.
+```
+
+---
+
+## Turelli 1984 House-of-Cards polygenic MSB
+
+```
+Theory: Turelli 1984 House-of-Cards polygenic
+  mutation-selection balance
+Original paper (year): Turelli M. 1984.
+  Heritable genetic variation via mutation-
+  selection balance: Lerch's zeta meets the
+  abdominal bristle. Theor Popul Biol
+  25(2):138-193 (1 April 1984).
+  DOI 10.1016/0040-5809(84)90017-0
+  PMID 6729751. EuropePMC HTML opened
+  (https://europepmc.org/article/MED/6729751):
+  Turelli M; 01 Apr 1984; Theoretical
+  Population Biology 25(2):138-193; DOI;
+  PMID; abstract. Most quantitative traits
+  show heritable variation. Lande proposed
+  that mutation can maintain high VA against
+  stabilizing selection. Continuum-of-alleles
+  (Kimura / Lande / Fleming) and diallelic
+  (Latter / Bulmer) analyses had given
+  different predictions for how equilibrium
+  VA depends on the biological parameters.
+  A new asymptotic analysis of the Kimura
+  model shows the difference is not allele
+  number but the relative sizes of per-locus
+  mutation rate, mutational phenotypic
+  effects, and selection intensity
+  (House-of-Cards regime). A triallelic
+  model agrees. The analysis does not refute
+  Lande's hypothesis that mutation-selection
+  can maintain considerable VA, but says
+  validity needs more data and mathematics.
+  Distinct from filled Haldane 1927 (single-
+  locus deleterious q at mutation-selection
+  equilibrium; not polygenic VA). Distinct
+  from filled Lande 1979 (multivariate mean
+  response G beta; not the maintenance of
+  VA). Distinct from filled Fisher 1918
+  infinitesimal. Distinct from filled Mukai
+  1964 MA. Distinct from filled Lynch and
+  Hill 1986 (this wave; neutral Vm, not
+  stabilizing-selection House of Cards).
+  Lande 1975 / 1976 / 1980 were not opened
+  as the source this wave.
+One-sentence prediction: Equilibrium
+  polygenic VA under mutation and stabilizing
+  selection depends on per-locus mutation
+  rate, mutational effects, and selection
+  intensity, not on how many alleles a locus
+  is assumed to have.
+Assumptions: many additive loci, a sexual
+  population, and stabilizing selection on
+  a metric trait; color / sex / flavor are
+  not that trait; clones are not a sexual
+  House-of-Cards equilibrium.
+Which fail here: Dong 2023 color / sex /
+  flavor are few large-effect loci, not
+  abdominal-bristle polygenes. A cultivar
+  panel is not a sexual equilibrium. Grafted
+  clones skip recombination among the loci.
+  Dual domestication is two origins.
+Modern data / statistic: whether wild-sample
+  polygenic VA after clone + IBD filters is
+  a Turelli-1984 House-of-Cards function of
+  mutation and stabilizing selection, versus
+  a few large-effect loci or two origins.
+Dataset: Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655). Color /
+  sex / flavor peaks as the large-effect
+  contrast. Sex locus is chromosome-2 SDR,
+  never VviAGL11. Use as the House-of-Cards
+  contrast, not as a published grape 1984
+  analysis. Do not invent a grape House-of-
+  Cards paper.
+What would falsify it: VA is not a 1984
+  House-of-Cards function after clone filter
+  (few large-effect loci, or two origins).
+  Single-locus q remains Haldane 1927.
+  G-matrix response remains Lande 1979.
+  Neutral Vm remains Lynch-Hill 1986.
+What we will not claim: that Haldane 1927
+  is this paper (already filled). That Lande
+  1979 is this paper. That Lande 1975 / 1976
+  / 1980 is the source (not opened). That
+  Dong 2023 fitted a House-of-Cards VA.
+  That VviAGL11 is the sex locus.
+```
+
+---
+
+## Lynch-Hill mutational variance
+
+```
+Theory: Lynch-Hill mutational variance (neutral
+  phenotypic VG and 2Vm divergence)
+Original paper (year): Lynch M, Hill WG. 1986.
+  Phenotypic evolution by neutral mutation.
+  Evolution 40(5):915-935 (1 September 1986).
+  DOI 10.1111/j.1558-5646.1986.tb00561.x
+  PMID 28556213. EuropePMC HTML opened
+  (https://europepmc.org/article/MED/28556213):
+  Lynch M, Department of Ecology, Ethology,
+  and Evolution, University of Illinois,
+  Shelford Vivarium, Champaign, IL 61820;
+  Hill WG, Institute of Animal Genetics,
+  University of Edinburgh, Edinburgh EH9 3JN,
+  Scotland; 01 Sep 1986; Evolution 40(5):915-
+  935; DOI; PMID; abstract. A general model
+  for genetic variance within populations and
+  the rate of divergence of mean phenotypes
+  under drift and mutation in the absence of
+  selection. Dominance, linkage, and mating
+  system are included; for small populations
+  additive predictions still hold reasonably.
+  Equilibrium VG is unlikely to be much less
+  than 2NVm or more than 4NVm. Between-line
+  variance ultimately increases at 2Vm per
+  generation regardless of N; time to that
+  rate is proportional to N. A generalization
+  of the neutral theory to the phenotypic
+  level. Distinct from filled Kimura 1968
+  (molecular substitution rate equals mutation
+  rate; not phenotypic Vm). Distinct from
+  filled Lande 1979 (G beta under selection).
+  Distinct from filled Turelli 1984 (this
+  wave; stabilizing-selection House of Cards,
+  not the neutral 2NVm). Distinct from filled
+  Mukai 1964 (viability MA). Distinct from
+  filled Lynch 2011 drift-barrier (mutation-
+  rate evolution, not phenotypic Vm).
+One-sentence prediction: Neutral quantitative
+  VG sits near 2NVm to 4NVm, and isolated
+  lines diverge at 2Vm per generation.
+Assumptions: a finite sexual population with
+  a meaningful N and a mutational input Vm
+  each generation; no selection on the trait;
+  a cultivar panel is not that N; clone age
+  is not mutational generations.
+Which fail here: a cultivar collection is
+  not N. Grafted clones skip the sexual Vm
+  clock. Dual domestication is two origins.
+  Human choice is not the paper's neutrality.
+  Somatic clone age (Vondras / Roach) is not
+  2Vm generations.
+Modern data / statistic: whether wild-sample
+  quantitative VG after clone + IBD filters
+  is near 2NVm to 4NVm, and whether isolated
+  groups diverge at 2Vm, versus clone age or
+  two origins.
+Caution dataset: Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655). Wild versus
+  cultivar N contrast after clone + IBD
+  filters. Vondras 2019 / Roach 2018 as
+  clone-clock companions (somatic age is not
+  2Vm). Use as the mutational-variance
+  contrast, not as a published grape Vm
+  analysis. Do not invent a grape mutational-
+  variance paper.
+What would falsify it: VG is not a Lynch-
+  Hill 2NVm after clone filter (clone age,
+  or two origins, or strong selection).
+  Molecular rate remains Kimura 1968.
+  House-of-Cards VA remains Turelli 1984.
+  G-matrix response remains Lande 1979.
+What we will not claim: that Kimura 1968 is
+  this paper (already filled). That Turelli
+  1984 is this paper. That Lynch 2011 is
+  this paper. That Dong 2023 estimated Vm.
+  That clone age is 2Vm generations.
+```
+
+---
+
+## Houle 1992 evolvability CVA
+
+```
+Theory: Houle 1992 evolvability (additive
+  genetic coefficient of variation)
+Original paper (year): Houle D. 1992.
+  Comparing evolvability and variability of
+  quantitative traits. Genetics 130(1):195-204
+  (1 January 1992).
+  DOI 10.1093/genetics/130.1.195 PMID 1732160
+  PMCID PMC1204793. EuropePMC HTML opened
+  (https://europepmc.org/article/MED/1732160):
+  Houle D, Department of Statistics, North
+  Carolina State University, Raleigh 27695;
+  01 Jan 1992; Genetics 130(1):195-204; DOI;
+  PMID; PMC; abstract. Two reasons to compare
+  genetic variation: evolvability (ability to
+  respond to selection) and inference about
+  forces that maintain variability. Mean-
+  standardized measures such as the additive
+  genetic coefficient of variation are
+  appropriate for both. Narrow-sense
+  heritability is almost always an
+  inappropriate comparative measure. From 842
+  published estimates, traits closely related
+  to fitness have higher additive genetic and
+  nongenetic variability by the CVA criterion
+  than weakly selected characters, the reverse
+  of the heritability conclusion. Low h2 of
+  fitness components is best explained by high
+  residual variation. Received 20 February
+  1991; accepted 12 September 1991 (PMC
+  full-text page). Distinct from filled Lande
+  1979 (G beta; not the comparative measure).
+  Distinct from filled Fisher 1918
+  infinitesimal. Distinct from filled Turelli
+  1984 (this wave; how VA is maintained, not
+  how to compare evolvability). Distinct from
+  filled Lynch and Hill 1986 (this wave;
+  neutral Vm). Distinct from filled Berg-Coop
+  2014 polygenic adaptation.
+One-sentence prediction: Evolvability is
+  compared as mean-standardized CVA, not as
+  narrow-sense h2; fitness traits then show
+  more additive genetic variation, not less.
+Assumptions: sexual pedigrees with reported
+  trait means and additive variances; a
+  clone block is not that pedigree; cultivar
+  heritability from cuttings is not CVA.
+Which fail here: grafted clones are not a
+  sexual half-sib design. Clone IBS fakes
+  heritability. Dual domestication is two
+  origins. Dong 2023 color / sex / flavor
+  are few large-effect loci, not a CVA
+  table of fitness traits.
+Modern data / statistic: whether wild-sample
+  trait CVA after clone + IBD filters is the
+  Houle comparative measure (fitness traits
+  higher CVA), versus clone IBS or a few
+  large-effect loci.
+Dataset: Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655). Color /
+  sex / flavor peaks as the large-effect
+  contrast. Sex locus is chromosome-2 SDR,
+  never VviAGL11. Use as the CVA contrast,
+  not as a published grape Houle analysis.
+  Do not invent a grape evolvability paper.
+What would falsify it: trait variation is
+  not a Houle CVA comparison after clone
+  filter (h2-only, or clone IBS, or a few
+  large-effect loci). G-matrix response
+  remains Lande 1979. House-of-Cards VA
+  remains Turelli 1984. Neutral Vm remains
+  Lynch-Hill 1986.
+What we will not claim: that Lande 1979 is
+  this paper (already filled). That Fisher
+  1918 is this paper. That Dong 2023 computed
+  CVA. That VviAGL11 is the sex locus. That
+  clone heritability is evolvability.
+```
+
+---
+
+## Orr-Turelli 2001 DMI waiting time
+
+```
+Theory: Orr-Turelli stochastic waiting time
+  to Dobzhansky-Muller incompatibilities
+Original paper (year): Orr HA, Turelli M.
+  2001. The evolution of postzygotic
+  isolation: accumulating Dobzhansky-Muller
+  incompatibilities. Evolution 55(6):1085-
+  1094 (1 June 2001).
+  DOI 10.1111/j.0014-3820.2001.tb00628.x
+  PMID 11475044. EuropePMC HTML opened
+  (https://europepmc.org/article/MED/11475044):
+  Orr HA, Department of Biology, University
+  of Rochester, New York 14627, USA;
+  Turelli M; 01 Jun 2001; Evolution
+  55(6):1085-1094; DOI; PMID; abstract.
+  Previous theory: DMIs accumulate at least
+  as the square of the number of substitutions
+  (the snowball). This paper treats the
+  stochastic accumulation as a function of
+  time, with three levels of stochasticity:
+  number of substitutions, number of
+  incompatibilities those substitutions
+  produce, and fitness effects of each
+  incompatibility. Derives the distribution
+  of incompatibility number versus divergence
+  time and the distribution of waiting times
+  to speciation by postzygotic isolation,
+  with simple approximations for the mean
+  and variance. Estimates p, the probability
+  that two diverged sites contribute to
+  hybrid sterility or inviability; Drosophila
+  and Bombina data suggest p is on the order
+  of 10^{-6} or less. Distinct from filled
+  Orr 1995 (t-squared snowball of complementary
+  genes; not the waiting-time distribution
+  or p). Distinct from filled Orr 1998
+  (exponential factors on an adaptive walk).
+  Distinct from filled Dobzhansky 1937 BDM.
+  Distinct from filled Coyne and Orr 1989
+  (comparative time course). Distinct from
+  filled Turelli and Orr 1995 (dominance
+  theory of Haldane's rule). Distinct from
+  filled Rieseberg 2003 hybrid speciation.
+  Distinct from filled Gavrilets 2000 (this
+  wave; parapatric waiting time, not allopatric
+  pairwise p). Orr 2005 was not opened.
+One-sentence prediction: Pairwise DMI
+  accumulation is a stochastic waiting-time
+  process; the chance two diverged sites are
+  incompatible is on the order of 10^{-6}.
+Assumptions: two allopatric sexual lineages
+  accumulate substitutions; a nursery cross
+  is not that pair; clones are not
+  complementary genes; dual domestication
+  is not one split.
+Which fail here: nursery hybrids are not
+  an Orr-Turelli waiting-time test. Dual
+  domestication is two origins. Clone IBD
+  fakes shared complementary segments.
+  Dong 2023 Syl-W gene flow is CAUTION,
+  not a 2001 waiting time.
+Modern data / statistic: whether wild-
+  cultivar or interspecific isolation after
+  clone + IBD filters matches a 2001
+  waiting-time / small-p process, versus
+  one locus or two origins.
+Dataset: Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655). Syl-W
+  gene flow; vinifera x riparia / rupestris
+  / amurensis as the interspecific contrast
+  already used on the BDM / snowball notes.
+  Use as the waiting-time contrast, not as
+  a published grape 2001 analysis. Do not
+  invent a grape DMI-waiting-time paper.
+What would falsify it: isolation is not a
+  2001 waiting-time / small-p process after
+  clone filter (one locus, or two origins).
+  Snowball math remains Orr 1995. BDM
+  remains Dobzhansky 1937. Exponential
+  factors remain Orr 1998. Parapatric wait
+  remains Gavrilets 2000.
+What we will not claim: that Orr 1995 is
+  this paper (already filled). That Orr
+  1998 is this paper. That Orr 2005 is the
+  source (not opened). That Dong 2023
+  estimated p. That a nursery cross is an
+  allopatric pair.
+```
+
+---
+
+## Kondrashov 1995 dangerous-range VSD
+
+```
+Theory: Kondrashov 1995 dangerous range of
+  very slightly deleterious mutations
+Original paper (year): Kondrashov AS. 1995.
+  Contamination of the genome by very
+  slightly deleterious mutations: why have
+  we not died 100 times over? J Theor Biol
+  175(4):583-594 (1 August 1995).
+  DOI 10.1006/jtbi.1995.0167 PMID 7475094.
+  EuropePMC HTML opened
+  (https://europepmc.org/article/MED/7475094):
+  Kondrashov AS, Section of Ecology and
+  Systematics, Cornell University, Ithaca,
+  NY 14853, USA; 01 Aug 1995; Journal of
+  Theoretical Biology 175(4):583-594; DOI;
+  PMID; abstract. When s is below about
+  1/(4Ne), expected mutant frequency is
+  about 0.5 if forward and backward mutation
+  are similar. If genome size G in
+  nucleotides substantially exceeds species
+  Ne, there is a dangerous range
+  1/G < s < 1/(4Ne): mutations are neutral
+  enough to accumulate almost freely, yet
+  deleterious enough to matter genome-wide.
+  In many vertebrates Ne is about 10^4 and
+  G about 10^9, more than four orders of
+  magnitude. If 10 percent of sites have s
+  in that range with mean 10^{-6}, an
+  average individual carries about 100
+  lethal equivalents. Independent action
+  then implies too high a mutation load.
+  Beneficial mutations or environmental
+  fluctuations do not resolve the paradox;
+  soft selection and synergistic epistasis
+  among very slightly deleterious mutations
+  are considered. Distinct from dropped
+  Kondrashov 1988 (cost of males; does not
+  map onto grafted clones). Distinct from
+  filled Ohta 1973 (nearly-neutral
+  substitution rate versus Ne; not the
+  1/G-to-1/(4Ne) lethal-equivalent total).
+  Distinct from filled Ohta 1972 (rate
+  versus population size). Distinct from
+  filled Crow 1958 (load partition:
+  mutational / segregation / incompatibility).
+  Distinct from filled Haldane 1957 (cost
+  of substitution; does-not-map). Distinct
+  from filled Haldane 1927 (single-locus q).
+  Kondrashov 2003 was not opened.
+One-sentence prediction: Mutations in the
+  window 1/G < s < 1/(4Ne) accumulate almost
+  freely and, if they act independently,
+  impose a lethal-equivalent load far too
+  large to ignore.
+Assumptions: a sexual population with a
+  meaningful Ne and a large nucleotide
+  genome; a cultivar panel is not vertebrate
+  Ne about 10^4; grafted clones skip the
+  load clock; clone-private SNPs are not
+  that genome-wide class.
+Which fail here: a cultivar collection is
+  not Ne. Dual domestication is two origins.
+  Grafted clones skip the substitution /
+  load process. Human choice is not the
+  paper's independent VSD load. Do not
+  invent a grape 100-lethal-equivalent
+  census.
+Modern data / statistic: whether wild-
+  sample coding load after clone + IBD
+  filters is a Kondrashov-1995 dangerous-
+  range total (independent VSD lethal
+  equivalents), versus clone IBS or two
+  origins.
+Dataset: Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655). Wild
+  versus cultivar Ne contrast after clone
+  + IBD filters. Use as the dangerous-
+  range contrast, not as a published grape
+  1995 analysis. Do not invent a grape
+  VSD-load paper.
+What would falsify it: load is not a 1995
+  dangerous-range total after clone filter
+  (flat, or clone IBS, or two origins).
+  Nearly-neutral rate-versus-Ne remains
+  Ohta 1973. Load partition remains Crow
+  1958. Cost of substitution remains
+  Haldane 1957. Kondrashov 1988 remains
+  dropped.
+What we will not claim: that Kondrashov
+  1988 is this paper (already dropped).
+  That Ohta 1973 is this paper. That Crow
+  1958 is this paper. That Kondrashov 2003
+  is the source (not opened). That Dong
+  2023 counted 100 lethal equivalents.
+```
+
+---
+
+## Masterson 1994 stomatal polyploidy
+
+```
+Theory: Masterson 1994 fossil-stomata
+  angiosperm polyploidy
+Original paper (year): Masterson J. 1994.
+  Stomatal size in fossil plants: evidence
+  for polyploidy in majority of angiosperms.
+  Science 264(5157):421-424 (15 April 1994;
+  EuropePMC 01 Apr 1994).
+  DOI 10.1126/science.264.5157.421
+  PMID 17836906. EuropePMC HTML opened
+  (https://europepmc.org/article/MED/17836906):
+  Masterson J; 01 Apr 1994; Science
+  264(5157):421-424; DOI; PMID; abstract.
+  Three published estimates of angiosperm
+  polyploidy frequency (30 to 35 percent,
+  47 percent, and 70 to 80 percent) are
+  tested by estimating genome size of
+  extinct woody angiosperms from fossil
+  guard-cell size as a proxy for cellular
+  DNA content. Inferred chromosome numbers
+  of those extinct species suggest that
+  seven to nine is the primitive haploid
+  chromosome number of angiosperms and that
+  most angiosperms (about 70 percent) have
+  polyploidy in their history. Distinct
+  from filled Ohno 1972 (C-value is not
+  gene number; junk as failed-duplication
+  debris; not a stomatal polyploidy
+  census). Distinct from filled Stebbins
+  1947 (auto / allo / segmental
+  classification). Distinct from filled
+  Thomas, Pedersen and Freeling 2006
+  (fractionation after tetraploidy).
+  Distinct from filled Ohno 1970 / Birchler
+  2007 gene balance. Distinct from filled
+  Jaillon 2007 (Vitis palaeo-hexaploid
+  dataset, not the theory original).
+  Bennett and Leitch 2011, Wendel reviews,
+  Adams and Wendel 2005, Comai 2005, Otto
+  and Whitton 2000, Edger and Pires 2009,
+  and Soltis 2009 / 2015 were not used
+  (review or not opened as a distinct
+  original).
+One-sentence prediction: Fossil guard-cell
+  size implies a primitive angiosperm haploid
+  number of 7-9 and that about 70 percent of
+  angiosperms have polyploidy in their
+  history.
+Assumptions: guard-cell size is a proxy
+  for cellular DNA content in extinct woody
+  angiosperms; a palaeo-hexaploid gene set
+  is not that stomatal series; clone
+  hemizygous SVs change dose without
+  changing C-value.
+Which fail here: Vitis is palaeo-hexaploid
+  (Jaillon 2007), not a Masterson fossil-
+  stomata census. Clone SVs (Zhou 2019 /
+  Carbonell-Bejerano 2017) change dose
+  without a new WGD or a new C-value.
+  Tandem NLR arrays are not a stomatal
+  ploidy series.
+Modern data / statistic: whether the Vitis
+  palaeo-hexaploid gene set after clone
+  filters is a Masterson-style majority-
+  polyploid history (primitive n of 7-9),
+  versus gene-number C-value or a recent
+  allo event.
+Dataset: Jaillon et al. 2007 Nature
+  449:463-467 (DOI 10.1038/nature06148).
+  Three ancestral genomes; no recent WGD.
+  Zhou 2019 / Carbonell-Bejerano 2017 as
+  clone-dose companions. Use as the
+  palaeo-polyploid contrast, not as a
+  published grape stomatal-C-value
+  analysis. Do not invent a grape fossil-
+  stomata paper.
+What would falsify it: Vitis history is
+  not a Masterson majority-polyploid
+  reading after clone filter (gene-number
+  C-value, or a recent allo event). Ohno
+  1972 remains C-value / junk. Stebbins
+  1947 remains polyploid types.
+  Fractionation remains Thomas-Freeling
+  2006. Gene balance remains Ohno 1970 /
+  Birchler 2007.
+What we will not claim: that Ohno 1972 is
+  this paper (already filled). That
+  Stebbins 1947 is this paper. That Jaillon
+  2007 is the theory original. That Adams
+  and Wendel 2005 or Edger and Pires 2009
+  is the source (reviews). That a clone SV
+  is a new polyploidy.
+```
+
+---
+
+## Barton-Turelli 1991 weak indirect preference
+
+```
+Theory: Barton-Turelli 1991 weak indirect
+  selection on preference loci
+Original paper (year): Barton NH, Turelli M.
+  1991. Natural and sexual selection on many
+  loci. Genetics 127(1):229-255 (1 January
+  1991). DOI 10.1093/genetics/127.1.229
+  PMID 2016044 PMCID PMC1204308. EuropePMC
+  HTML opened
+  (https://europepmc.org/article/MED/2016044):
+  Barton NH, Department of Genetics and
+  Biometry, University College, London,
+  England; Turelli M; 01 Jan 1991; Genetics
+  127(1):229-255; DOI; PMID; PMC; abstract.
+  A method for an arbitrary number of
+  autosomal loci: selection on haploid and
+  diploid stages, nonrandom mating between
+  haploid individuals, and recombination.
+  Exact recursions for allele frequencies
+  and linkage disequilibria. When selection
+  is weak relative to recombination, simple
+  approximations for LD among arbitrary
+  combinations of loci. New results on
+  coevolution of male traits and female
+  preferences: general expressions for the
+  intensity of LD-induced selection on loci
+  that contribute to female preferences for
+  specific male traits. Those indirect
+  forces are so weak that they are unlikely
+  to dominate the evolution of preference-
+  producing loci. Distinct from filled
+  Lande 1979 (G beta mean response; not
+  preference-trait LD). Distinct from
+  filled Turelli 1984 (this wave; House-of-
+  Cards VA). Distinct from filled Turelli
+  and Orr 1995 (dominance theory of
+  Haldane's rule). Distinct from filled
+  Berg and Coop 2014 polygenic adaptation.
+  Distinct from filled Baker 1955 (self-
+  compatibility after long-distance
+  dispersal; the Vitis sex job). Barton
+  and Turelli 2004 was not used (methods
+  dump).
+One-sentence prediction: Linkage-
+  disequilibrium-induced selection on
+  preference loci is too weak to dominate
+  how those preferences evolve.
+Assumptions: a sexual preference-trait
+  system with recombination among many
+  autosomal loci; grape is not that
+  system; a nursery hybrid is not a
+  preference-trait cross.
+Which fail here: grape is not XX/XY and
+  is not a Lande-style preference-trait
+  sexual-selection system. Sex is a young
+  SDR, not preference-locus LD. Haldane
+  1922 and Turelli-Orr 1995 already do
+  not map onto Vitis SDR. Do not invent
+  a preference-LD test.
+Modern data / statistic: does not map
+  onto the Vitis sex-determination region.
+  No grape preference-trait LD test is
+  defined.
+Dataset: Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655). Sex
+  locus is chromosome-2 SDR, never
+  VviAGL11. Use only as the does-not-map
+  contrast already used on the Haldane
+  1922 and Turelli-Orr 1995 notes. Do
+  not invent a grape preference-LD paper.
+What would falsify it: not applicable as
+  a Vitis mapping; the theory requires a
+  preference-trait sexual-selection
+  system. G-matrix response remains
+  Lande 1979. House-of-Cards VA remains
+  Turelli 1984. Haldane dominance remains
+  Turelli-Orr 1995. Baker 1955 remains
+  the sex-locus job.
+What we will not claim: that Lande 1979
+  is this paper (already filled). That
+  Turelli 1984 is this paper. That Barton
+  and Turelli 2004 is the source. That
+  Dong 2023 tested preference-locus LD.
+  That VviAGL11 is the sex locus.
+```
+
+---
+
+## Gavrilets 2000 parapatric waiting time
+
+```
+Theory: Gavrilets 2000 waiting time to
+  parapatric speciation
+Original paper (year): Gavrilets S. 2000.
+  Waiting time to parapatric speciation.
+  Proc Biol Sci 267(1461):2483-2492
+  (22 December 2000; EuropePMC 01 Dec
+  2000). DOI 10.1098/rspb.2000.1309
+  PMID 11197123 PMCID PMC1690850.
+  EuropePMC HTML opened
+  (https://europepmc.org/article/MED/11197123):
+  Gavrilets S, Department of Ecology and
+  Evolutionary Biology, University of
+  Tennessee, Knoxville 37996, USA;
+  01 Dec 2000; Proceedings. Biological
+  Sciences 267(1461):2483-2492; DOI;
+  PMID; PMC; abstract. Weak-migration and
+  weak-mutation approximation for the
+  average waiting time to parapatric
+  speciation. Reproductive isolation from
+  the classical Dobzhansky model and its
+  multilocus generalizations. Dynamics
+  modelled as a biased random walk of the
+  average genetic distance between
+  residents and immigrants. If a small
+  number of genetic changes suffices for
+  complete isolation, mutation and drift
+  alone can cause speciation on a time-
+  scale of ten to 1,000 times the inverse
+  of the mutation rate over the isolation
+  loci. Even relatively weak selection
+  for local adaptation can dramatically
+  decrease the waiting time. The actual
+  duration of the transition (intermediate
+  forms) is shorter by orders of magnitude
+  than the overall waiting time; for a
+  wide range of parameters the duration
+  is of order one over the mutation rate.
+  In general, parapatric speciation is
+  expected to be triggered by changes in
+  the environment. Distinct from filled
+  Dobzhansky 1937 BDM. Distinct from
+  filled Orr 1995 (t-squared snowball).
+  Distinct from filled Orr and Turelli
+  2001 (this wave; allopatric pairwise p
+  and waiting-time distribution, not the
+  parapatric resident-immigrant walk).
+  Distinct from filled Coyne and Orr 1989
+  (comparative time course / sympatry
+  pattern). Distinct from filled Mayr
+  1942 BSC. Distinct from filled
+  Dobzhansky 1940 reinforcement.
+  Gavrilets 1997 TREE is a review.
+  Gavrilets 1999 Am Nat was not opened
+  (Chicago Cloudflare). Gavrilets 2004
+  Fitness Landscapes and the Origin of
+  Species is a book. 2000 is the lockable
+  paper.
+One-sentence prediction: Waiting time to
+  parapatric isolation can be short if few
+  substitutions suffice; the transition
+  itself is much shorter than the wait,
+  and local adaptation shortens the wait.
+Assumptions: two sexual populations with
+  weak migration and a Dobzhansky-style
+  isolation map; dual domestication is
+  not that walk; a nursery hybrid is not
+  a resident-immigrant pair; clones are
+  not isolation loci.
+Which fail here: dual domestication is
+  two origins, not a parapatric waiting
+  time. Dong 2023 Syl-W gene flow is
+  CAUTION, not a Gavrilets walk. Human
+  transport is not weak migration.
+  Nursery hybrids are not intermediate
+  forms on the walk.
+Modern data / statistic: whether wild-
+  cultivar or interspecific isolation
+  after clone + IBD filters is a
+  Gavrilets parapatric waiting time
+  (short transition; local adaptation
+  speeds it), versus two origins or a
+  single-locus barrier.
+Dataset: Dong et al. 2023 Science
+  (DOI 10.1126/science.add8655). Syl-W
+  gene flow as CAUTION, not a Gavrilets
+  waiting time. Use as the parapatric-
+  wait contrast, not as a published grape
+  2000 analysis. Do not invent a grape
+  parapatric-speciation paper.
+What would falsify it: isolation is not
+  a Gavrilets waiting-time process after
+  clone filter (flat, or two origins, or
+  one locus). Snowball remains Orr 1995.
+  Allopatric p remains Orr-Turelli 2001.
+  Comparative time course remains Coyne-
+  Orr 1989. BSC remains Mayr 1942.
+What we will not claim: that Orr 1995 is
+  this paper (already filled). That Orr
+  and Turelli 2001 is this paper. That
+  Gavrilets 1999 or the 2004 book is the
+  source. That Dong 2023 fitted a
+  parapatric waiting time. That dual
+  domestication is parapatric speciation.
+```
+
+---
