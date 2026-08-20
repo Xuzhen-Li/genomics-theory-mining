@@ -1,7 +1,11 @@
 # genomics-theory-mining
 
 Mine a classic genomics or population-genetic theory and test it on modern data.
-One theory per job. Read the original paper.
+One theory per job. Read the original paper. This is not a literature-review
+clone of `plant-lit-review`.
+
+Skill: [`skills/genomics-theory-mining/SKILL.md`](skills/genomics-theory-mining/SKILL.md)
+Filled notes: [`skills/genomics-theory-mining/theories.md`](skills/genomics-theory-mining/theories.md)
 
 ## Install
 
