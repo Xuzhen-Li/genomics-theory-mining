@@ -8,7 +8,7 @@ clone of `plant-lit-review`.
 
 Skill: [`skills/genomics-theory-mining/SKILL.md`](skills/genomics-theory-mining/SKILL.md)
 Filled notes: one folder per theory under [`skills/genomics-theory-mining/theories/`](skills/genomics-theory-mining/theories/) (each `THEORY.md`). [`SKILL.md`](skills/genomics-theory-mining/SKILL.md) dossier table is the index. Later additions (`reviews/`, `research/`, `scripts/`) go in that theory's folder.
-[[TODO-TEXT]] <!-- T1: short count line (145 notes), no repeated "One theory per job" -->
+There are 145 filled theory notes.
 
 ## Install
 
