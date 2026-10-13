@@ -1,13 +1,14 @@
 # genomics-theory-mining
 
+English | [中文](README.zh.md)
+
 Mine a classic genomics or population-genetic theory and test it on modern data.
 One theory per job. Read the original paper. This is not a literature-review
 clone of `plant-lit-review`.
 
 Skill: [`skills/genomics-theory-mining/SKILL.md`](skills/genomics-theory-mining/SKILL.md)
 Filled notes: one folder per theory under [`skills/genomics-theory-mining/theories/`](skills/genomics-theory-mining/theories/) (each `THEORY.md`). [`SKILL.md`](skills/genomics-theory-mining/SKILL.md) dossier table is the index. Later additions (`reviews/`, `research/`, `scripts/`) go in that theory's folder.
-One hundred forty-five filled theory notes (eight first wave, nine second wave, nine third wave, twelve fourth wave, ten fifth wave, ten sixth wave, nine seventh wave, eight eighth wave, nine ninth wave, eight tenth wave, ten eleventh wave, ten twelfth wave, nine thirteenth wave, eight fourteenth wave, nine fifteenth wave, seven sixteenth wave). Kaplan, Hudson and Langley 1989 was dropped as a duplicate of the filled Kaplan coalescent hitchhiking note.
-One theory per job. This is not a 50-theory catalog.
+There are 145 filled theory notes.
 
 ## Install
 
@@ -18,4 +19,4 @@ cp -R genomics-theory-mining/skills/genomics-theory-mining ~/.cursor/skills/
 
 MIT. Unpublished genotypes and private coordinates do not belong here.
 
-Xuzhen Li — [ORCID 0000-0003-3670-6657](https://orcid.org/0000-0003-3670-6657)
+Xuzhen Li, [ORCID 0000-0003-3670-6657](https://orcid.org/0000-0003-3670-6657)
